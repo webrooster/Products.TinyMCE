@@ -1,10 +1,11 @@
+/* <dtml-call "REQUEST.RESPONSE.setHeader( 'Content-Type', 'text/css' )"> */
 /* <dtml-with base_properties> */
 /* <dtml-let portal_url="context.absolute_url()"> */
 
 html { font-size: &dtml-fontBaseSize;; }
 body.mceForceColors {background:#FFF; color:#000;}
 body#tinymce {
-background: &dtml-backgroundColor; url(input_background.gif) repeat-x scroll 0% 0%}
+background: &dtml-backgroundColor; url(&dtml-portal_url;/input_background.gif) repeat-x scroll 0% 0%}
 }
 
 .mceContentBody {
@@ -25,8 +26,8 @@ h4 {font-size: 1em}
 h5 {font-size: .83em}
 h6 {font-size: .75em}
 .mceItemTable, .mceItemTable td, .mceItemTable th, .mceItemTable caption, .mceItemVisualAid {border: 1px dashed #BBB;}
-a.mceItemAnchor {width:12px; line-height:6px; overflow:hidden; padding-left:12px; background:url(img/items.gif) no-repeat bottom left;}
-img.mceItemAnchor {width:12px; height:12px; background:url(img/items.gif) no-repeat;}
+a.mceItemAnchor {width:12px; line-height:6px; overflow:hidden; padding-left:12px; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/items.gif) no-repeat bottom left;}
+img.mceItemAnchor {width:12px; height:12px; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/items.gif) no-repeat;}
 table {cursor:default}
 table td, table th {cursor:text}
 ins {border-bottom:1px solid green; text-decoration: none; color:green}

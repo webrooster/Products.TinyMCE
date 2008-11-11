@@ -1865,7 +1865,7 @@ tinymce.create('static tinymce.util.XHR', {
 					return;
 
 				t.files[u] = true;
-				t.add(t.select('head')[0], 'link', {rel : 'stylesheet', href : tinymce._addVer(u)});
+				t.add(t.select('head')[0], 'link', {rel : 'stylesheet', href : tinymce._addVer(u), type : 'text/css'});
 			});
 		},
 
@@ -7039,7 +7039,7 @@ var tinyMCE = window.tinyMCE = tinymce.EditorManager;
 				if (s.popup_css)
 					s.popup_css = t.documentBaseURI.toAbsolute(s.popup_css);
 				else
-					s.popup_css = t.baseURI.toAbsolute("themes/" + s.theme + "/skins/" + s.skin + "/dialog.css");
+					s.popup_css = s.portal_url + "/tinymce.stylesheets.themes.advanced.skins." + s.skin + ".dialog.css";
 			}
 
 			if (s.popup_css_add)

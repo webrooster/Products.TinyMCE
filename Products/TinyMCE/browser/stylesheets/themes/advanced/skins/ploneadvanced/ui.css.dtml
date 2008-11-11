@@ -1,4 +1,6 @@
+/* <dtml-call "REQUEST.RESPONSE.setHeader( 'Content-Type', 'text/css' )"> */
 /* <dtml-with base_properties> */
+/* <dtml-let portal_url="context.absolute_url()"> */
 
 /* Reset */
 .ploneadvancedSkin table, .ploneadvancedSkin tbody, .ploneadvancedSkin a, .ploneadvancedSkin img, .ploneadvancedSkin tr, .ploneadvancedSkin div, .ploneadvancedSkin td, .ploneadvancedSkin iframe, .ploneadvancedSkin span, .ploneadvancedSkin *, .ploneadvancedSkin .mceText {border:0; margin:0; padding:0; background:transparent; white-space:nowrap; text-decoration:none; font-weight:normal; cursor:default; color:&dtml-fontColor;; vertical-align:baseline; width:auto; border-collapse:separate; text-align:left}
@@ -17,7 +19,7 @@
 /* External */
 .ploneadvancedSkin .mceExternalToolbar {position:absolute; border-width: 0pt 0pt &dtml-borderWidth; 0pt; border-style: &dtml-borderStyle;; border-color: &dtml-globalBorderColor;; display:none; top: 0px; left: 0px; position: fixed; _position: absolute; _top: expression(eval((document.body.scrollTop)?document.body.scrollTop:document.documentElement.scrollTop)); background-color: &dtml-globalBackgroundColor;; width: 100%; _width: expression(document.body.clientWidth); z-index: 3;}
 .ploneadvancedSkin .mceExternalToolbar td.mceToolbar {padding-right:13px;}
-.ploneadvancedSkin .mceExternalClose {position:absolute; top:1px; right:0px; width:22px; height:17px; background:url(../../plugins/inlinepopups/skins/plonepopup/img/buttons.gif) -66px 0px}
+.ploneadvancedSkin .mceExternalClose {position:absolute; top:1px; right:0px; width:22px; height:17px; background:url(&dtml-portal_url;/++resource++tinymce.images/plugins/inlinepopups/skins/plonepopup/buttons.gif) -66px 0px}
 
 /* Layout */
 .ploneadvancedSkin table.mceLayout {border:0; <dtml-with portal_tinymce><dtml-if "_.string.find(editor_width,'%') != -1">width: <dtml-var editor_width> !important</dtml-if></dtml-with>}
@@ -31,11 +33,11 @@
 .ploneadvancedSkin .mceStatusbar {font-family:<dtml-var fontFamily>; font-size:100%; line-height:16px; overflow:visible; color: &dtml-contentViewBorderColor;; display:block; height:20px}
 .ploneadvancedSkin .mceStatusbar div {float:left; margin:2px; color: &dtml-contentViewBorderColor;}
 .ploneadvancedSkin .mceStatusbar div a {color: &dtml-contentViewBorderColor;}
-.ploneadvancedSkin .mceStatusbar a.mceResize {display:block; float:right; background:url(../../img/icons.gif) -800px 0; width:20px; height:20px; cursor:se-resize}
+.ploneadvancedSkin .mceStatusbar a.mceResize {display:block; float:right; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/icons.gif) -800px 0; width:20px; height:20px; cursor:se-resize}
 .ploneadvancedSkin .mceStatusbar a:hover {text-decoration: &dtml-textTransform;}
 .ploneadvancedSkin table.mceToolbar {margin-left:3px}
 .ploneadvancedSkin span.mceIcon, .ploneadvancedSkin img.mceIcon {display:block; width:20px; height:20px}
-.ploneadvancedSkin .mceIcon {background:url(../../img/icons.gif) no-repeat 20px 20px}
+.ploneadvancedSkin .mceIcon {background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/icons.gif) no-repeat 20px 20px}
 .ploneadvancedSkin td.mceCenter {text-align:center;}
 .ploneadvancedSkin td.mceCenter table {margin:0 auto; text-align:left;}
 .ploneadvancedSkin td.mceRight table {margin:0 0 0 auto;}
@@ -51,13 +53,13 @@
 .ploneadvancedSkin .mceButtonDisabled .mceButtonLabel {color: &dtml-discreetColor;}
 
 /* Separator */
-.ploneadvancedSkin .mceSeparator {display:block; background:url(../../img/icons.gif) -182px 0; width:2px; height:20px; margin:2px 2px 0 4px}
+.ploneadvancedSkin .mceSeparator {display:block; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/icons.gif) -182px 0; width:2px; height:20px; margin:2px 2px 0 4px}
 
 /* ListBox */
 .ploneadvancedSkin table.mceListBox {direction:ltr; margin-bottom: 0px}
 .ploneadvancedSkin table.mceListBox, .ploneadvancedSkin .mceListBox a {display:block}
 .ploneadvancedSkin table.mceListBox .mceText {padding-left:4px; width:131px; text-align:left; border:&dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;; border-right:0; background:&dtml-backgroundColor;; font-family:<dtml-var fontFamily>; font-size:100%; height:20px; line-height:20px; overflow:hidden}
-.ploneadvancedSkin table.mceListBox .mceOpen {width:9px; height:20px; background:url(../../img/icons.gif) -741px 0; margin-right:2px; border:&dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;}
+.ploneadvancedSkin table.mceListBox .mceOpen {width:9px; height:20px; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/icons.gif) -741px 0; margin-right:2px; border:&dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;}
 .ploneadvancedSkin table.mceListBoxEnabled:hover .mceText, .ploneadvancedSkin .mceListBoxHover .mceText, .ploneadvancedSkin .mceListBoxSelected .mceText {border:&dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;; border-right:0; background:&dtml-backgroundColor;}
 .ploneadvancedSkin table.mceListBoxEnabled:hover .mceOpen, .ploneadvancedSkin .mceListBoxHover .mceOpen, .ploneadvancedSkin .mceListBoxSelected .mceOpen {background-color:&dtml-globalBackgroundColor;; border:&dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;}
 .ploneadvancedSkin .mceListBoxDisabled a.mceText {color:&dtml-discreetColor;; background-color:transparent;}
@@ -70,9 +72,9 @@
 .ploneadvancedSkin .mceSplitButton {width:32px; height:20px; direction:ltr}
 .ploneadvancedSkin .mceSplitButton a, .ploneadvancedSkin .mceSplitButton span {height:20px; display:block}
 .ploneadvancedSkin .mceSplitButton a.mceAction {width:20px; border:&dtml-borderWidth; &dtml-borderStyle; &dtml-contentViewBackgroundColor;;border-right:0px}
-.ploneadvancedSkin .mceSplitButton span.mceAction {width:20px; background:url(../../img/icons.gif) 20px 20px;}
+.ploneadvancedSkin .mceSplitButton span.mceAction {width:20px; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/icons.gif) 20px 20px;}
 .ploneadvancedSkin .mceSplitButton a.mceOpen {width:9px; border:&dtml-borderWidth; &dtml-borderStyle; transparent;}
-.ploneadvancedSkin .mceSplitButton span.mceOpen {width:9px; background:url(../../img/icons.gif) -741px 0;}
+.ploneadvancedSkin .mceSplitButton span.mceOpen {width:9px; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/icons.gif) -741px 0;}
 .ploneadvancedSkin table.mceSplitButtonEnabled:hover a.mceAction, .ploneadvancedSkin .mceSplitButtonHover a.mceAction, .ploneadvancedSkin .mceSplitButtonSelected a.mceAction {border:&dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;; border-right:0; background-color: &dtml-globalBackgroundColor;}
 .ploneadvancedSkin table.mceSplitButtonEnabled:hover a.mceOpen, .ploneadvancedSkin .mceSplitButtonHover a.mceOpen, .ploneadvancedSkin .mceSplitButtonSelected a.mceOpen {border:&dtml-borderWidth; &dtml-borderStyle; &dtml-globalBorderColor;;}
 .ploneadvancedSkin table.mceSplitButtonEnabled:hover span.mceOpen, .ploneadvancedSkin .mceSplitButtonHover span.mceOpen, .ploneadvancedSkin .mceSplitButtonSelected span.mceOpen {background-color: &dtml-globalBackgroundColor;}
@@ -109,14 +111,14 @@
 .ploneadvancedSkin .mceFirst .mceMenuItemTitle a {border:0; background:&dtml-globalBackgroundColor;}
 .ploneadvancedSkin .mceMenuItemTitle span.mceText {color:&dtml-fontColor;; font-weight:bold; padding-left:4px}
 .ploneadvancedSkin .mceMenuItemDisabled .mceText {color:&dtml-discreetColor;}
-.ploneadvancedSkin .mceMenuItemSelected .mceIcon {background:url(img/menu_check.gif)}
-.ploneadvancedSkin .mceNoIcons .mceMenuItemSelected a {background:url(img/menu_arrow.gif) no-repeat -6px center}
+.ploneadvancedSkin .mceMenuItemSelected .mceIcon {background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/skins/ploneadvanced/menu_check.gif)}
+.ploneadvancedSkin .mceNoIcons .mceMenuItemSelected a {background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/skins/ploneadvanced/menu_arrow.gif) no-repeat -6px center}
 .ploneadvancedSkin .mceMenu span.mceMenuLine {display:none}
-.ploneadvancedSkin .mceMenuItemSub a {background:url(img/menu_arrow.gif) no-repeat top right;}
+.ploneadvancedSkin .mceMenuItemSub a {background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/skins/ploneadvanced/menu_arrow.gif) no-repeat top right;}
 
 /* Progress,Resize */
 .ploneadvancedSkin .mceBlocker {position:absolute; left:0; top:0; z-index:1000; opacity:0.5; filter:alpha(opacity=50); -ms-filter:'alpha(opacity=50)'; background:&dtml-backgroundColor;}
-.ploneadvancedSkin .mceProgress {position:absolute; left:0; top:0; z-index:1001; background:url(img/progress.gif) no-repeat; width:32px; height:32px; margin:-16px 0 0 -16px}
+.ploneadvancedSkin .mceProgress {position:absolute; left:0; top:0; z-index:1001; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/skins/ploneadvanced/progress.gif) no-repeat; width:32px; height:32px; margin:-16px 0 0 -16px}
 .ploneadvancedSkin .mcePlaceHolder {border:&dtml-borderWidth; dotted &dtml-contentViewBorderColor;}
 
 /* Formats */
@@ -222,4 +224,5 @@
 .ploneadvancedSkin span.mce_pagebreak {background-position:0 -40px}
 .ploneadvancedSkin .mce_spellchecker span.mceAction {background-position:-540px -20px}
 
+/* </dtml-let> */
 /* </dtml-with> */

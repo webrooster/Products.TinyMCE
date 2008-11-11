@@ -36,6 +36,13 @@
 	</browser:pages>
 
 	<browser:pages
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        class=".browser.TinyMCEBrowserView"
+		permission="zope2.View">
+		<browser:page name="tinymce.plugins.advimage.image" template="templates/plugins/advimage/image.pt"/>
+	</browser:pages>
+
+	<browser:pages
         for="*"
         class=".browser.TinyMCEBrowserView"
 		permission="cmf.ModifyPortalContent">
@@ -75,28 +82,28 @@
 		/>
 
 	<browser:page
-		name="stylesheets.themes.advanced.skins.ploneadvanced.content.css"
+		name="tinymce.stylesheets.themes.advanced.skins.ploneadvanced.content.css"
 		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
 		class=".stylesheets.ThemesAdvancedSkinsPloneadvancedContentCSS"
 		permission="zope2.View"
 		/>
 
 	<browser:page
-		name="stylesheets.themes.advanced.skins.ploneadvanced.dialog.css"
+		name="tinymce.stylesheets.themes.advanced.skins.ploneadvanced.dialog.css"
 		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
 		class=".stylesheets.ThemesAdvancedSkinsPloneadvancedDialogCSS"
 		permission="zope2.View"
 		/>
 
 	<browser:page
-		name="stylesheets.themes.advanced.skins.ploneadvanced.ui.css"
+		name="tinymce.stylesheets.themes.advanced.skins.ploneadvanced.ui.css"
 		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
 		class=".stylesheets.ThemesAdvancedSkinsPloneadvancedUICSS"
 		permission="zope2.View"
 		/>
 
 	<browser:page
-		name="stylesheets.plugins.inlinepopups.skins.plonepopup.window.css"
+		name="tinymce.stylesheets.plugins.inlinepopups.skins.plonepopup.window.css"
 		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
 		class=".stylesheets.PluginsInlinepopupsSkinsPlonepopupWindowCSS"
 		permission="zope2.View"

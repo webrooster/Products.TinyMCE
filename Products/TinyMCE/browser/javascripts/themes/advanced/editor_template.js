@@ -124,7 +124,7 @@
 				ed.onNodeChange.add(t._nodeChanged, t);
 
 				if (ed.settings.content_css !== false)
-					ed.dom.loadCSS(ed.settings.portal_url + "/stylesheets.themes." + ed.settings.theme + ".skins." + ed.settings.skin + ".content.css");
+					ed.dom.loadCSS(ed.settings.portal_url + "/tinymce.stylesheets.themes." + ed.settings.theme + ".skins." + ed.settings.skin + ".content.css");
 			});
 
 			ed.onActivate.add(function(ed) {
@@ -153,10 +153,10 @@
 				}
 			});
 
-			DOM.loadCSS(s.portal_url + "/stylesheets.themes.advanced.skins." + ed.settings.skin + ".ui.css");
+			DOM.loadCSS(s.portal_url + "/tinymce.stylesheets.themes.advanced.skins." + ed.settings.skin + ".ui.css");
 
 			if (s.skin_variant)
-				DOM.loadCSS(s.portal_url + "/stylesheets.themes.advanced.skins." + ed.settings.skin + ".ui_" + s.skin_variant + ".css");
+				DOM.loadCSS(s.portal_url + "/tinymce.stylesheets.themes.advanced.skins." + ed.settings.skin + ".ui_" + s.skin_variant + ".css");
 		},
 
 		createControl : function(n, cf) {

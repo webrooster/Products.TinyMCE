@@ -1,8 +1,8 @@
 <!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> -->
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
 <title>Template for dialogs</title>
-<link rel="stylesheet" type="text/css" href="skins/plonepopup/window.css" />
+<link rel="stylesheet" type="text/css" href="" tal:attributes="href string:$portal_url/tinymce.stylesheets.plugins.inlinepopups.skins.plonepopup.window.css" />
 </head>
 <body>
 

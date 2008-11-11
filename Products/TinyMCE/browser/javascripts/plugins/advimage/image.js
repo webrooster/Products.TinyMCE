@@ -7,9 +7,6 @@ var ImageDialog = {
 		var url;
 
 		tinyMCEPopup.requireLangPack();
-
-		if (url = tinyMCEPopup.getParam("external_image_list_url"))
-			document.write('<script language="javascript" type="text/javascript" src="' + tinyMCEPopup.editor.documentBaseURI.toAbsolute(url) + '"></script>');
 	},
 
 	init : function() {
@@ -456,6 +453,10 @@ var ImageDialog = {
 				this.current_path = path;
 			}
 		});	
+	},
+
+	getPortalFolderListing : function() {
+		this.getFolderListing(tinyMCEPopup.editor.settings.portal_url);
 	},
 
 	getCurrentFolderListing : function() {

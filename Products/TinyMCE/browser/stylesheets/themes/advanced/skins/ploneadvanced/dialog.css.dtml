@@ -1,11 +1,12 @@
+/* <dtml-call "REQUEST.RESPONSE.setHeader( 'Content-Type', 'text/css' )"> */
 /* <dtml-with base_properties> */
 /* <dtml-let portal_url="context.absolute_url()"> */
 
-@import "<dtml-var portal_url>/portal_css/base.css";
-@import "<dtml-var portal_url>/portal_css/forms.css";
-@import "<dtml-var portal_url>/portal_css/authoring.css";
-@import "<dtml-var portal_url>/portal_css/public.css";
-@import "<dtml-var portal_url>/portal_css/nuplone.css";
+@import "&dtml-portal_url;/portal_css/base.css";
+@import "&dtml-portal_url;/portal_css/forms.css";
+@import "&dtml-portal_url;/portal_css/authoring.css";
+@import "&dtml-portal_url;/portal_css/public.css";
+@import "&dtml-portal_url;/portal_css/nuplone.css";
 
 body {
 background: transparent;
