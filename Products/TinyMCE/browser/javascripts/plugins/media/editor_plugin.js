@@ -59,7 +59,7 @@
 				ed.selection.onBeforeSetContent.add(t._objectsToSpans, t);
 
 				if (ed.settings.content_css !== false)
-					ed.dom.loadCSS(url + "/css/content.css");
+					ed.dom.loadCSS(ed.settings.portal_url + '/tinymce.stylesheets.plugins.media.content.css');
 
 				if (ed.theme.onResolveName) {
 					ed.theme.onResolveName.add(function(th, o) {

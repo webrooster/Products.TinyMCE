@@ -1,0 +1,11 @@
+/* <dtml-call "REQUEST.RESPONSE.setHeader( 'Content-Type', 'text/css' )"> */
+/* <dtml-let portal_url="context.absolute_url()"> */
+
+.mceItemFlash, .mceItemShockWave, .mceItemQuickTime, .mceItemWindowsMedia, .mceItemRealMedia {border:1px dotted #cc0000; background-position:center; background-repeat:no-repeat; background-color:#ffffcc;}
+.mceItemShockWave {background-image: url(&dtml-portal_url/++resource++tinymce.images/plugins/media/shockwave.gif);}
+.mceItemFlash {background-image:url(&dtml-portal_url/++resource++tinymce.images/plugins/media/flash.gif);}
+.mceItemQuickTime {background-image:url(&dtml-portal_url/++resource++tinymce.images/plugins/media/quicktime.gif);}
+.mceItemWindowsMedia {background-image:url(&dtml-portal_url/++resource++tinymce.images/plugins/media/windowsmedia.gif);}
+.mceItemRealMedia {background-image:url(&dtml-portal_url/++resource++tinymce.images/plugins/media/realmedia.gif);}
+
+/* </dtml-let> */

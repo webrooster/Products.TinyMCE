@@ -138,5 +138,34 @@
 		class=".stylesheets.PluginsInlinepopupsSkinsPlonepopupWindowCSS"
 		permission="zope2.View"
 		/>
+
+	<browser:page
+		name="tinymce.stylesheets.plugins.media.content.css"
+		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+		class=".stylesheets.PluginsMediaContentCSS"
+		permission="zope2.View"
+		/>
+
+	<browser:page
+		name="tinymce.stylesheets.plugins.pagebreak.content.css"
+		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+		class=".stylesheets.PluginsPagebreakContentCSS"
+		permission="zope2.View"
+		/>
+
+	<browser:page
+		name="tinymce.stylesheets.plugins.spellchecker.content.css"
+		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+		class=".stylesheets.PluginsSpellcheckerContentCSS"
+		permission="zope2.View"
+		/>
+
+	<browser:page
+		name="tinymce.stylesheets.plugins.xhtmlxtras.popup.css"
+		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+		class=".stylesheets.PluginsXhtmlxtrasPopupCSS"
+		permission="zope2.View"
+		/>
+
 </configure>
 
