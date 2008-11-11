@@ -1,14 +1,14 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
 	<title>{#xhtmlxtras_dlg.title_ins_element}</title>
-	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
-	<script type="text/javascript" src="../../utils/mctabs.js"></script>
-	<script type="text/javascript" src="../../utils/form_utils.js"></script>
-	<script type="text/javascript" src="../../utils/editable_selects.js"></script>
-	<script type="text/javascript" src="js/element_common.js"></script>
-	<script type="text/javascript" src="js/ins.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/popup.css" />
+	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/mctabs.js"></script>
+	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/form_utils.js"></script>
+	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/editable_selects.js"></script>
+	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/xhtmlxtras/element_common.js"></script>
+	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/xhtmlxtras/ins.js"></script>
+	<link href="" tal:attributes="href string:$portal_url/++resource++tinymce.stylesheets/plugins/xhtmlxtras/popup.css" rel="stylesheet" type="text/css" />
 	<base target="_self" />
 </head>
 <body id="xhtmlxtrasins" style="display: none">

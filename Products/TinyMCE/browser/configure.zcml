@@ -5,14 +5,14 @@
 
     <browser:page
         for="..interfaces.utility.ITinyMCE"
-        name="tinymce-controlpanel"
+        name="tinymce.controlpanel"
         class=".controlpanel.TinyMCEControlPanelForm"
         permission="cmf.ManagePortal"
         />
 
     <browser:page
         for="..interfaces.utility.ITinyMCE"
-        name="tinymce-getstyle"
+        name="tinymce.getstyle"
         class=".style.TinyMCEStyle"
 		attribute="getStyle"
         permission="zope2.View"
@@ -20,7 +20,7 @@
 
     <browser:page
         for="..interfaces.utility.ITinyMCE"
-        name="tinymce-getpathbyuid"
+        name="tinymce.getpathbyuid"
         class=".url.TinyMCEUrl"
 		attribute="getPathByUID"
         permission="zope2.View"
@@ -30,30 +30,65 @@
         for="*"
         class=".browser.TinyMCEBrowserView"
 		permission="zope2.View">
-		<browser:page attribute="jsonLinkableFolderListing" name="tinymce-jsonlinkablefolderlisting" />
-		<browser:page attribute="jsonImageFolderListing" name="tinymce-jsonimagefolderlisting" />
-		<browser:page attribute="jsonDetails" name="tinymce-jsondetails" />
+		<browser:page attribute="jsonLinkableFolderListing" name="tinymce.jsonlinkablefolderlisting" />
+		<browser:page attribute="jsonImageFolderListing" name="tinymce.jsonimagefolderlisting" />
+		<browser:page attribute="jsonDetails" name="tinymce.jsondetails" />
 	</browser:pages>
 
 	<browser:pages
         for="Products.CMFPlone.interfaces.IPloneSiteRoot"
         class=".browser.TinyMCEBrowserView"
 		permission="zope2.View">
+		<browser:page name="tinymce.plugins.advhr.rule" template="templates/plugins/advhr/rule.pt"/>
 		<browser:page name="tinymce.plugins.advimage.image" template="templates/plugins/advimage/image.pt"/>
+		<browser:page name="tinymce.plugins.advlink.link" template="templates/plugins/advlink/link.pt"/>
+		<browser:page name="tinymce.plugins.emotions.emotions" template="templates/plugins/emotions/emotions.pt"/>
+		<browser:page name="tinymce.plugins.example.dialog" template="templates/plugins/example/dialog.pt"/>
+		<browser:page name="tinymce.plugins.fullpage.fullpage" template="templates/plugins/fullpage/fullpage.pt"/>
+		<browser:page name="tinymce.plugins.fullscreen.fullscreen" template="templates/plugins/fullscreen/fullscreen.pt"/>
+		<browser:page name="tinymce.plugins.inlinepopups.template" template="templates/plugins/inlinepopups/template.pt"/>
+		<browser:page name="tinymce.plugins.media.media" template="templates/plugins/media/media.pt"/>
+		<browser:page name="tinymce.plugins.paste.blank" template="templates/plugins/paste/blank.pt"/>
+		<browser:page name="tinymce.plugins.paste.pastetext" template="templates/plugins/paste/pastetext.pt"/>
+		<browser:page name="tinymce.plugins.paste.pasteword" template="templates/plugins/paste/pasteword.pt"/>
+		<browser:page name="tinymce.plugins.preview.example" template="templates/plugins/preview/example.pt"/>
+		<browser:page name="tinymce.plugins.preview.preview" template="templates/plugins/preview/preview.pt"/>
+		<browser:page name="tinymce.plugins.safari.blank" template="templates/plugins/safari/blank.pt"/>
+		<browser:page name="tinymce.plugins.searchreplace.searchreplace" template="templates/plugins/searchreplace/searchreplace.pt"/>
+		<browser:page name="tinymce.plugins.table.cell" template="templates/plugins/table/cell.pt"/>
+		<browser:page name="tinymce.plugins.table.merge_cells" template="templates/plugins/table/merge_cells.pt"/>
+		<browser:page name="tinymce.plugins.table.row" template="templates/plugins/table/row.pt"/>
+		<browser:page name="tinymce.plugins.table.table" template="templates/plugins/table/table.pt"/>
+		<browser:page name="tinymce.plugins.template.blank" template="templates/plugins/template/blank.pt"/>
+		<browser:page name="tinymce.plugins.template.template" template="templates/plugins/template/template.pt"/>
+		<browser:page name="tinymce.plugins.xhtmlxtras.abbr" template="templates/plugins/xhtmlxtras/abbr.pt"/>
+		<browser:page name="tinymce.plugins.xhtmlxtras.acronym" template="templates/plugins/xhtmlxtras/acronym.pt"/>
+		<browser:page name="tinymce.plugins.xhtmlxtras.attributes" template="templates/plugins/xhtmlxtras/attributes.pt"/>
+		<browser:page name="tinymce.plugins.xhtmlxtras.cite" template="templates/plugins/xhtmlxtras/cite.pt"/>
+		<browser:page name="tinymce.plugins.xhtmlxtras.del" template="templates/plugins/xhtmlxtras/del.pt"/>
+		<browser:page name="tinymce.plugins.xhtmlxtras.ins" template="templates/plugins/xhtmlxtras/ins.pt"/>
+
+		<browser:page name="tinymce.themes.advanced.about" template="templates/themes/advanced/about.pt"/>
+		<browser:page name="tinymce.themes.advanced.anchor" template="templates/themes/advanced/anchor.pt"/>
+		<browser:page name="tinymce.themes.advanced.charmap" template="templates/themes/advanced/charmap.pt"/>
+		<browser:page name="tinymce.themes.advanced.color_picker" template="templates/themes/advanced/color_picker.pt"/>
+		<browser:page name="tinymce.themes.advanced.image" template="templates/themes/advanced/image.pt"/>
+		<browser:page name="tinymce.themes.advanced.link" template="templates/themes/advanced/link.pt"/>
+		<browser:page name="tinymce.themes.advanced.source_editor" template="templates/themes/advanced/source_editor.pt"/>
 	</browser:pages>
 
 	<browser:pages
         for="*"
         class=".browser.TinyMCEBrowserView"
 		permission="cmf.ModifyPortalContent">
-		<browser:page attribute="save" name="tinymce-save" /> 
+		<browser:page attribute="save" name="tinymce.save" />
 	</browser:pages>
 
 	<browser:pages
         for="*"
         class=".browser.TinyMCEBrowserView"
 		permission="cmf.AddPortalContent">
-		<browser:page attribute="upload" name="tinymce-upload" /> 
+		<browser:page attribute="upload" name="tinymce.upload" /> 
 	</browser:pages>
 
 	<browser:resourceDirectory
@@ -74,11 +109,6 @@
 	<browser:resourceDirectory
 		name="tinymce.stylesheets"
 		directory="stylesheets"
-		/>
-
-	<browser:resourceDirectory
-		name="tinymce.templates"
-		directory="templates"
 		/>
 
 	<browser:page

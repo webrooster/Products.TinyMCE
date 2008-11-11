@@ -63,7 +63,7 @@ var ImageDialog = {
 			if (href.indexOf('resolveuid') != -1) {
 				current_uid = href.split('resolveuid/')[1];
 				tinymce.util.XHR.send({
-				    url : tinyMCEPopup.editor.settings.portal_url + '/portal_tinymce/tinymce-getpathbyuid?uid=' + current_uid,
+				    url : tinyMCEPopup.editor.settings.portal_url + '/portal_tinymce/@@tinymce.getpathbyuid?uid=' + current_uid,
 					type : 'GET',
 					success : function(text) {
 						ImageDialog.current_url = ImageDialog.getAbsoluteUrl(tinyMCEPopup.editor.settings.document_base_url, text);
@@ -438,7 +438,7 @@ var ImageDialog = {
 	setDetails : function(path) {
 		// Sends a low level Ajax request
 		tinymce.util.XHR.send({
-		    url : path + '/tinymce-jsondetails',
+		    url : path + '/@@tinymce.jsondetails',
 			type : 'POST',
 			success : function(text) {
 				var html = "";
@@ -466,7 +466,7 @@ var ImageDialog = {
 	getFolderListing : function(path) {
 		// Sends a low level Ajax request
 		tinymce.util.XHR.send({
-		    url : path + '/tinymce-jsonimagefolderlisting',
+		    url : path + '/@@tinymce.jsonimagefolderlisting',
 			type : 'POST',
 			success : function(text) {
 				var html = "";
@@ -521,7 +521,7 @@ var ImageDialog = {
 	
 				// Set global path
 				ImageDialog.current_path = path;
-				document.forms[1].action = ImageDialog.current_path + '/tinymce-upload';
+				document.forms[1].action = ImageDialog.current_path + '/@@tinymce.upload';
 				ImageDialog.setRadioValue('internallink', ImageDialog.current_link, 0);
 				if (ImageDialog.current_link != "") {
 					if (ImageDialog.current_link.indexOf('resolveuid') != -1) {

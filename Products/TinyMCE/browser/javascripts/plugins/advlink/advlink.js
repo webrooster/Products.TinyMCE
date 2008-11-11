@@ -86,7 +86,7 @@ function init() {
 			if (href.indexOf('resolveuid') != -1) {
 				current_uid = href.split('resolveuid/')[1];
 				tinymce.util.XHR.send({
-				    url : tinyMCEPopup.editor.settings.portal_url + '/portal_tinymce/tinymce-getpathbyuid?uid=' + current_uid,
+				    url : tinyMCEPopup.editor.settings.portal_url + '/portal_tinymce/@@tinymce.getpathbyuid?uid=' + current_uid,
 					type : 'GET',
 					success : function(text) {
 						current_url = getAbsoluteUrl(tinyMCEPopup.editor.settings.document_base_url, text);
@@ -610,7 +610,7 @@ function displayPanel(elm_id) {
 function setDetails(path, pageanchor) {
 	// Sends a low level Ajax request
 	tinymce.util.XHR.send({
-	    url : path + '/tinymce-jsondetails',
+	    url : path + '/@@tinymce.jsondetails',
 		type : 'POST',
 		success : function(text) {
 			var html = "";
@@ -650,6 +650,10 @@ function setDetails(path, pageanchor) {
 	});	
 }
 
+function getPortalFolderListing() {
+	getFolderListing(tinyMCEPopup.editor.settings.portal_url);
+}
+
 function getCurrentFolderListing() {
 	getFolderListing(tinyMCEPopup.editor.settings.document_base_url); 
 }
@@ -657,7 +661,7 @@ function getCurrentFolderListing() {
 function getFolderListing(path) {
 	// Sends a low level Ajax request
 	tinymce.util.XHR.send({
-	    url : path + '/tinymce-jsonlinkablefolderlisting',
+	    url : path + '/@@tinymce.jsonlinkablefolderlisting',
 		type : 'POST',
 		success : function(text) {
 			var html = "";
@@ -711,7 +715,7 @@ function getFolderListing(path) {
 	
 			// Set global path
 			current_path = path;
-			document.forms[1].action = current_path + '/tinymce-upload';
+			document.forms[1].action = current_path + '/@@tinymce.upload';
 			setRadioValue('internallink', current_link, 0);
 			if (current_link != "") {
 				if (current_link.indexOf('resolveuid') != -1) {

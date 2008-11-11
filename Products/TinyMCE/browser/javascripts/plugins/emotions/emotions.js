@@ -9,7 +9,7 @@ var EmotionsDialog = {
 		var ed = tinyMCEPopup.editor, dom = ed.dom;
 
 		tinyMCEPopup.execCommand('mceInsertContent', false, dom.createHTML('img', {
-			src : tinyMCEPopup.getWindowArg('plugin_url') + '/img/' + file,
+			src : ed.settings.portal_url + '/++resource++tinymce.images/plugins/emotions/' + file,
 			alt : ed.getLang(title),
 			title : ed.getLang(title),
 			border : 0

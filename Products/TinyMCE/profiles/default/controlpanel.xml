@@ -4,7 +4,7 @@
 		action_id="tinymce" appId="TinyMCE"
 		category="Products"
 		condition_expr=""
-		url_expr="string:${portal_url}/portal_tinymce/@@tinymce-controlpanel"
+		url_expr="string:${portal_url}/portal_tinymce/@@tinymce.controlpanel"
 		visible="True">
 		<permission>Manage portal</permission>
 	</configlet>

@@ -651,7 +651,7 @@ class TinyMCE(SimpleItem):
         if self.content_css and self.content_css.strip() != "":
             results['content_css'] = self.content_css
         else:
-            results['content_css'] = self.absolute_url() + """/@@tinymce-getstyle"""
+            results['content_css'] = self.absolute_url() + """/@@tinymce.getstyle"""
 
         if self.link_using_uids:
             results['link_using_uids'] = True

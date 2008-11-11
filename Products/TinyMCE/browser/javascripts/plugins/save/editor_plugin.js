@@ -15,7 +15,7 @@
 			// Register commands
 			ed.addCommand('mceSave', function() {
 				tinymce.util.XHR.send({
-				    url : ed.settings.document_url + '/tinymce-save',
+				    url : ed.settings.document_url + '/@@tinymce.save',
 					content_type : "application/x-www-form-urlencoded",
 					type : "POST",
 					data : "text=" + encodeURIComponent(ed.getContent()) + "&fieldname=" + ed.id,

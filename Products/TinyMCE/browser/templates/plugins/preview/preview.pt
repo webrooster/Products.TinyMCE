@@ -1,7 +1,7 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
-<script language="javascript" src="../../tiny_mce_popup.js"></script>
-<script type="text/javascript" src="jscripts/embed.js"></script>
+<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
+<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/preview/embed.js"></script>
 <script type="text/javascript">
 tinyMCEPopup.onInit.add(function(ed) {
 	var dom = tinyMCEPopup.dom;

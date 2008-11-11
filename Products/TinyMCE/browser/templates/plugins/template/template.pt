@@ -1,9 +1,9 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
 	<title>{#template_dlg.title}</title>
-	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
-	<script type="text/javascript" src="js/template.js"></script>
-	<link href="css/template.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/template/template.js"></script>
+	<link href="" tal:attributes="href string:$portal_url/++resource++tinymce.stylesheets/plugins/template/template.css" rel="stylesheet" type="text/css" />
 	<base target="_self" />
 </head>
 <body onresize="TemplateDialog.resize();"> 
