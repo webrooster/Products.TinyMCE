@@ -55,14 +55,51 @@
 		/>
 
 	<browser:resourceDirectory
-		name="tinymce.js"
-		directory="js"
+		name="tinymce.javascripts"
+		directory="javascripts"
 		/>
 
 	<browser:resourceDirectory
 		name="tinymce.kss"
 		directory="kss"
 		/>
-	
+
+	<browser:resourceDirectory
+		name="tinymce.stylesheets"
+		directory="stylesheets"
+		/>
+
+	<browser:resourceDirectory
+		name="tinymce.templates"
+		directory="templates"
+		/>
+
+	<browser:page
+		name="stylesheets.themes.advanced.skins.ploneadvanced.content.css"
+		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+		class=".stylesheets.ThemesAdvancedSkinsPloneadvancedContentCSS"
+		permission="zope2.View"
+		/>
+
+	<browser:page
+		name="stylesheets.themes.advanced.skins.ploneadvanced.dialog.css"
+		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+		class=".stylesheets.ThemesAdvancedSkinsPloneadvancedDialogCSS"
+		permission="zope2.View"
+		/>
+
+	<browser:page
+		name="stylesheets.themes.advanced.skins.ploneadvanced.ui.css"
+		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+		class=".stylesheets.ThemesAdvancedSkinsPloneadvancedUICSS"
+		permission="zope2.View"
+		/>
+
+	<browser:page
+		name="stylesheets.plugins.inlinepopups.skins.plonepopup.window.css"
+		for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+		class=".stylesheets.PluginsInlinepopupsSkinsPlonepopupWindowCSS"
+		permission="zope2.View"
+		/>
 </configure>
 
