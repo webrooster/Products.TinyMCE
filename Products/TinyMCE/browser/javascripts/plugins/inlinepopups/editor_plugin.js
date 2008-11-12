@@ -13,7 +13,7 @@
 			// Replace window manager
 			ed.onBeforeRenderUI.add(function() {
 				ed.windowManager = new tinymce.InlineWindowManager(ed);
-				DOM.loadCSS(ed.settings.portal_url + "/tinymce.stylesheets.plugins.inlinepopups.skins." + ed.settings.inlinepopups_skin + ".window.css");
+				DOM.loadCSS(ed.settings.portal_url + "/@@tinymce.stylesheets.plugins.inlinepopups.skins." + ed.settings.inlinepopups_skin + ".window.css");
 			});
 		},
 

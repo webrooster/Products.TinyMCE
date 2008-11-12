@@ -17,7 +17,7 @@
 			// Register commands
 			ed.addCommand('mceTemplate', function(ui) {
 				ed.windowManager.open({
-					file : url + '/template.htm',
+					file : ed.settings.portal_url + '/@@tinymce.plugins.template.template',
 					width : ed.getParam('template_popup_width', 750),
 					height : ed.getParam('template_popup_height', 600),
 					inline : 1

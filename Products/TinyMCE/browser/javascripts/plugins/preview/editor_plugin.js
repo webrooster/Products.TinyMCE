@@ -19,7 +19,7 @@
 
 			ed.addCommand('mcePreview', function() {
 				ed.windowManager.open({
-					file : ed.getParam("plugin_preview_pageurl", url + "/preview.html"),
+					file : ed.settings.portal_url + '/@@tinymce.plugins.preview.preview',
 					width : parseInt(ed.getParam("plugin_preview_width", "550")),
 					height : parseInt(ed.getParam("plugin_preview_height", "600")),
 					resizable : "yes",

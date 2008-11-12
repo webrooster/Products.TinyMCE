@@ -491,7 +491,7 @@
 
 					if (user_interface) {
 						inst.windowManager.open({
-							url : url + '/row.htm',
+							url : ed.settings.portal_url + '/@@tinymce.plugins.table.row',
 							width : 293 + parseInt(inst.getLang('table.rowprops_delta_width', 0)),
 							height : 340 + parseInt(inst.getLang('table.rowprops_delta_height', 0)),
 							inline : 1
@@ -508,7 +508,7 @@
 
 					if (user_interface) {
 						inst.windowManager.open({
-							url : url + '/cell.htm',
+							url : ed.settings.portal_url + '/@@tinymce.plugins.table.cell',
 							width : 300 + parseInt(inst.getLang('table.cellprops_delta_width', 0)),
 							height : 380 + parseInt(inst.getLang('table.cellprops_delta_height', 0)),
 							inline : 1
@@ -522,7 +522,7 @@
 				case "mceInsertTable":
 					if (user_interface) {
 						inst.windowManager.open({
-							url : url + '/table.htm',
+							url : ed.settings.portal_url + '/@@tinymce.plugins.table.table',
 							width : 280 + parseInt(inst.getLang('table.table_delta_width', 0)),
 							height : 350 + parseInt(inst.getLang('table.table_delta_height', 0)),
 							inline : 1
@@ -887,7 +887,7 @@
 									var sp = getColRowSpan(tdElm);
 
 									inst.windowManager.open({
-										url : url + '/merge_cells.htm',
+										url : ed.settings.portal_url + '/@@tinymce.plugins.table.merge_cells',
 										width : 300 + parseInt(inst.getLang('table.merge_cells_delta_width', 0)),
 										height : 185 + parseInt(inst.getLang('table.merge_cells_delta_height', 0)),
 										inline : 1

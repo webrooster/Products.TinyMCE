@@ -19,7 +19,7 @@
 				if (ui) {
 					if ((ed.getParam('paste_use_dialog', true)) || (!tinymce.isIE)) {
 						ed.windowManager.open({
-							file : url + '/pastetext.htm',
+							file : ed.settings.portal_url + '/@@tinymce.plugins.paste.pastetext',
 							width : 450,
 							height : 400,
 							inline : 1
@@ -36,7 +36,7 @@
 				if (ui) {
 					if ((ed.getParam('paste_use_dialog', true)) || (!tinymce.isIE)) {
 						ed.windowManager.open({
-							file : url + '/pasteword.htm',
+							file : ed.settings.portal_url + '/@@tinymce.plugins.paste.pasteword',
 							width : 450,
 							height : 400,
 							inline : 1

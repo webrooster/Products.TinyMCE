@@ -15,7 +15,7 @@
 					return;
 
 				ed.windowManager.open({
-					file : ed.settings.portal_url + '/tinymce.plugins.advimage.image',
+					file : ed.settings.portal_url + '/@@tinymce.plugins.advimage.image',
 					width : 780 + parseInt(ed.getLang('advimage.delta_width', 0)),
 					height : 470 + parseInt(ed.getLang('advimage.delta_height', 0)),
 					inline : 1

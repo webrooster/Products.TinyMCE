@@ -19,7 +19,7 @@
 					return;
 
 				ed.windowManager.open({
-					file : url + '/link.htm',
+					file : ed.settings.portal_url + '/@@tinymce.plugins.advlink.link',
 					width : 760 + parseInt(ed.getLang('advlink.delta_width', 0)),
 					height : 470 + parseInt(ed.getLang('advlink.delta_height', 0)),
 					inline : 1

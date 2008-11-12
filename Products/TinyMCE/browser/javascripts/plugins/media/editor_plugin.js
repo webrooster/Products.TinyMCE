@@ -27,7 +27,7 @@
 			// Register commands
 			ed.addCommand('mceMedia', function() {
 				ed.windowManager.open({
-					file : url + '/media.htm',
+					file : ed.settings.portal_url + '/@@tinymce.plugins.media.media',
 					width : 430 + parseInt(ed.getLang('media.delta_width', 0)),
 					height : 470 + parseInt(ed.getLang('media.delta_height', 0)),
 					inline : 1
@@ -59,7 +59,7 @@
 				ed.selection.onBeforeSetContent.add(t._objectsToSpans, t);
 
 				if (ed.settings.content_css !== false)
-					ed.dom.loadCSS(ed.settings.portal_url + '/tinymce.stylesheets.plugins.media.content.css');
+					ed.dom.loadCSS(ed.settings.portal_url + '/@@tinymce.stylesheets.plugins.media.content.css');
 
 				if (ed.theme.onResolveName) {
 					ed.theme.onResolveName.add(function(th, o) {

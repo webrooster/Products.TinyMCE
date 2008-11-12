@@ -10,7 +10,7 @@
 		init : function(ed, url) {
 			function open(m) {
 				ed.windowManager.open({
-					file : url + '/searchreplace.htm',
+					file : ed.settings.portal_url + '/@@tinymce.plugins.searchreplace.searchreplace',
 					width : 320 + parseInt(ed.getLang('searchreplace.delta_width', 0)),
 					height : 282 + parseInt(ed.getLang('searchreplace.delta_height', 0)),
 					inline : 1,

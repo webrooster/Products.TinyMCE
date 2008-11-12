@@ -8,7 +8,7 @@
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/editable_selects.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/xhtmlxtras/element_common.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/xhtmlxtras/cite.js"></script>
-	<link href="" tal:attributes="href string:$portal_url/tinymce.stylesheets.plugins.xhtmlxtras.popup.css" rel="stylesheet" type="text/css" />
+	<link href="" tal:attributes="href string:$portal_url/@@tinymce.stylesheets.plugins.xhtmlxtras.popup.css" rel="stylesheet" type="text/css" />
 	<base target="_self" />
 </head>
 <body style="display: none">

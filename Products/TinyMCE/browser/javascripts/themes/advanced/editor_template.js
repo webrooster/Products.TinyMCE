@@ -124,7 +124,7 @@
 				ed.onNodeChange.add(t._nodeChanged, t);
 
 				if (ed.settings.content_css !== false)
-					ed.dom.loadCSS(ed.settings.portal_url + "/tinymce.stylesheets.themes." + ed.settings.theme + ".skins." + ed.settings.skin + ".content.css");
+					ed.dom.loadCSS(ed.settings.portal_url + "/@@tinymce.stylesheets.themes." + ed.settings.theme + ".skins." + ed.settings.skin + ".content.css");
 			});
 
 			ed.onActivate.add(function(ed) {
@@ -153,10 +153,10 @@
 				}
 			});
 
-			DOM.loadCSS(s.portal_url + "/tinymce.stylesheets.themes.advanced.skins." + ed.settings.skin + ".ui.css");
+			DOM.loadCSS(s.portal_url + "/@@tinymce.stylesheets.themes.advanced.skins." + ed.settings.skin + ".ui.css");
 
 			if (s.skin_variant)
-				DOM.loadCSS(s.portal_url + "/tinymce.stylesheets.themes.advanced.skins." + ed.settings.skin + ".ui_" + s.skin_variant + ".css");
+				DOM.loadCSS(s.portal_url + "/@@tinymce.stylesheets.themes.advanced.skins." + ed.settings.skin + ".ui_" + s.skin_variant + ".css");
 		},
 
 		createControl : function(n, cf) {
@@ -1024,7 +1024,7 @@
 			var ed = this.editor;
 
 			ed.windowManager.open({
-				url : tinymce.baseURL + '/themes/advanced/anchor.htm',
+				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.anchor',
 				width : 320 + parseInt(ed.getLang('advanced.anchor_delta_width', 0)),
 				height : 134 + parseInt(ed.getLang('advanced.anchor_delta_height', 0)),
 				inline : true
@@ -1037,7 +1037,7 @@
 			var ed = this.editor;
 
 			ed.windowManager.open({
-				url : tinymce.baseURL + '/themes/advanced/charmap.htm',
+				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.charmap',
 				width : 549 + parseInt(ed.getLang('advanced.charmap_delta_width', 0)),
 				height : 242 + parseInt(ed.getLang('advanced.charmap_delta_height', 0)),
 				inline : true
@@ -1050,7 +1050,7 @@
 			var ed = this.editor;
 
 			ed.windowManager.open({
-				url : tinymce.baseURL + '/themes/advanced/about.htm',
+				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.about',
 				width : 480,
 				height : 380,
 				inline : true
@@ -1065,7 +1065,7 @@
 			v = v || {};
 
 			ed.windowManager.open({
-				url : tinymce.baseURL + '/themes/advanced/color_picker.htm',
+				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.color_picker',
 				width : 410 + parseInt(ed.getLang('advanced.colorpicker_delta_width', 0)),
 				height : 322 + parseInt(ed.getLang('advanced.colorpicker_delta_height', 0)),
 				close_previous : false,
@@ -1081,7 +1081,7 @@
 			var ed = this.editor;
 
 			ed.windowManager.open({
-				url : tinymce.baseURL + '/themes/advanced/source_editor.htm',
+				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.source_editor',
 				width : 760,
 				height : 460,
 				inline : true,
@@ -1099,7 +1099,7 @@
 				return;
 
 			ed.windowManager.open({
-				url : tinymce.baseURL + '/themes/advanced/image.htm',
+				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.image',
 				width : 355 + parseInt(ed.getLang('advanced.image_delta_width', 0)),
 				height : 275 + parseInt(ed.getLang('advanced.image_delta_height', 0)),
 				inline : true
@@ -1112,7 +1112,7 @@
 			var ed = this.editor;
 
 			ed.windowManager.open({
-				url : tinymce.baseURL + '/themes/advanced/link.htm',
+				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.link',
 				width : 310 + parseInt(ed.getLang('advanced.link_delta_width', 0)),
 				height : 200 + parseInt(ed.getLang('advanced.link_delta_height', 0)),
 				inline : true

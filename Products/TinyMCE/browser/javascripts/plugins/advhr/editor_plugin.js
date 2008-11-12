@@ -11,7 +11,7 @@
 			// Register commands
 			ed.addCommand('mceAdvancedHr', function() {
 				ed.windowManager.open({
-					file : url + '/rule.htm',
+					file : ed.settings.portal_url + '/@@tinymce.plugins.advhr.rule',
 					width : 220 + parseInt(ed.getLang('advhr.delta_width', 0)),
 					height : 219 + parseInt(ed.getLang('advhr.delta_height', 0)),
 					inline : 1

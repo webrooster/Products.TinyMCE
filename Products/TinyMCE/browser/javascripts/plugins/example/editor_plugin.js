@@ -22,7 +22,7 @@
 			// Register the command so that it can be invoked by using tinyMCE.activeEditor.execCommand('mceExample');
 			ed.addCommand('mceExample', function() {
 				ed.windowManager.open({
-					file : url + '/dialog.htm',
+					file : ed.settings.portal_url + '/@@tinymce.plugins.dialog.dialog',
 					width : 320 + parseInt(ed.getLang('example.delta_width', 0)),
 					height : 120 + parseInt(ed.getLang('example.delta_height', 0)),
 					inline : 1
