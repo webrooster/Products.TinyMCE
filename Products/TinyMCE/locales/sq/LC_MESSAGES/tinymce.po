@@ -1,0 +1,2261 @@
+# Ky është versioni Shqip i TinyMCE.
+# Version 1.3
+#
+# Fadion Dashi
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-06 00:00+0000\n"
+"Last-Translator: Fadion Dashi\n"
+"Language-Team: Fadion Dashi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: sq\n"
+"Language-Name: Shqip\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Doni të përdorni mënyrën WYSIWYG për këtë tekst?"
+
+msgid "tinymce_common_apply"
+msgstr "Zbato"
+
+msgid "tinymce_common_insert"
+msgstr "Fut"
+
+msgid "tinymce_common_update"
+msgstr "Rifresko"
+
+msgid "tinymce_common_cancel"
+msgstr "Anulo"
+
+msgid "tinymce_common_close"
+msgstr "Mbyll"
+
+msgid "tinymce_common_browse"
+msgstr "Shfleto"
+
+msgid "tinymce_common_class_name"
+msgstr "Klasa"
+
+msgid "tinymce_common_not_set"
+msgstr "-- pa vënë --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Kopja/Prerja/Ngjitja nuk suportohen në Mozilla dhe Firefox.\nDëshironi më shumë informacione për këtë çështje?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Aktualisht nuk suportohet nga Shfletuesi juaj, përdorni tastjerën."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "Ju kërkojmë ndjesë, por bllokuesi i popup-eve ka bllokuar një dritare që ofron funksjonalitet për programin. Duhet t'a çaktivizoni bllokuesin e popup-eve në mënyrë që t'i përdorni opsionet."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Gabim: Keni futur vlera të pavlefshme, të cilat janë shënuar me të kuqe."
+
+msgid "tinymce_common_more_colors"
+msgstr "Më shumë ngjyra"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "I Trashë (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "I Pjerrët (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "I Nënvizuar (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Vijë në mes"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Listë e parregullt"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Listë e rregullt"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Çbëj (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Ribëj (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Pastro kodin"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Stilet"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Madhësia e tekstit"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Familja e tekstit"
+
+msgid "tinymce_advanced_block"
+msgstr "Formati"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Paragraf"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "Adresë"
+
+msgid "tinymce_advanced_pre"
+msgstr "Para formatuar"
+
+msgid "tinymce_advanced_h1"
+msgstr "Kokë 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Kokë 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Kokë 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Kokë 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Kokë 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Kokë 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Bllok"
+
+msgid "tinymce_advanced_code"
+msgstr "Kod"
+
+msgid "tinymce_advanced_samp"
+msgstr "Shembull kodi"
+
+msgid "tinymce_advanced_dt"
+msgstr "Terma e përcaktimit "
+
+msgid "tinymce_advanced_dd"
+msgstr "Përshkrimi i përcaktimit"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "I Trashë (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "I Pjerrët (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "I Nënvizuar (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Vijë në mes"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Drejtimi majtas"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Drejtimi qendër"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Drejtimi djathtas"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Drejtim i plotë"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Listë e parregullt"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Listë e rregullt"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Hiq kryerradhë"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Vendos kryerradhë"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Çbëj (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Ribëj (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Fut/edito lidhje"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Hiq lidhje"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Fut/edito foto"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Pastro kodin"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "Edito kodin HTML"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Nën shkrim"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Mbi shkrim"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Fut linjë horizontale"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Fshi formatimin"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Pëshkrimi i personalizuar këtu"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Zgjidh ngjyrën e tekstit"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Zgjidh ngjyrën e fushës"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Fut karakter të personalizuar"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Shfaq/Fshih vijat ndihmëse dhe elementët e padukshëm"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Fut/edito lidhje"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Prit"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Kopjo"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Ngjit"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Opsionet e fotos"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Dokument i Ri"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Ndihmë"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Bllok"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Kopja/Prerja/Ngjitja nuk suportohen në Mozilla dhe Firefox.\nDëshironi më shumë informacione për këtë çështje?"
+
+msgid "tinymce_advanced_path"
+msgstr "Rruga"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Jeni të sigurt që doni t'a fshini përmbajtjen?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Shko tek butonat - Alt+Q, Shko tek editori - Alt+Z, Shko tek rruga e elementit - Alt+X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Më shumë ngjyra"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "Rreth TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "Rreth"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Ndihmë"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Liçenca"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Shtesa"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Shtesë"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Autori"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Versioni"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Shtesa të ngarkuara"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Fut/edito lidhje"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Emri i lidhjes"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "Edituesi i kodit HTML"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Word wrap"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Zgjidh një ngjyrë"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Zgjedhësi"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Zgjedhësi i ngjyrës"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Librari"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Ngjyrat e Librarisë"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Emëruar"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Ngjyrat e emëruara"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Ngjyra:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Emri:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Zgjidh karakter të personalizuar"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Fut/edio foto"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "URL e fotos"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Përshkrimi i fotos"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Lista e fotove"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Korniza"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Përmasat"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Hapësira Vertikale"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Hapësira Horizontale"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Drejtimi"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Vijë fundore"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Krye"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Mes"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Fund"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Në krye të tekstit"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Në fund të tekstit"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Majtas"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Djathtas"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Fut/edito lidhje"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "URL e lidhjes"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Shënjestra"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Hape lidhjen në të njëjtën dritare"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Hape lidhjen në dritare të re"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Titulli"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "Lidhja që keni futur duket si adresë emaili. Doni të shtoni prefiksin mailto:?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "Lidhja që keni futur duket si lidhje e jashtëme. Doni të shtoni prefiksin http://?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Lista e lidhjeve"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Drejtimi"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Majtas"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Qendër"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Djathtas"
+
+msgid "tinymce_contextmenu_full"
+msgstr "I Plotë"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%d-%m-%y"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Fut datën"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Fut orën"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "Janar,Shkurt,Mars,Prill,Maj,Qershor,Korrik,Gusht,Shtator,Tetor,Nëntor,Dhjetor"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Jan,Shk,Mar,Pri,Maj,Qer,Kor,Gus,Sht,Tet,Nën,Dhj"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "E Djelë,E Hënë,E Martë,E Mërkurë,E Enjte,E Premte,E Shtunë,E Djelë"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "Dje,Hën,Mar,Mër,Enj,Pre,Sht,Dje"
+
+msgid "tinymce_print_print_desc"
+msgstr "Printo"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Paraqitje"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Drejtimi majtas-djathtas"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Drejtimi djathtas-majtas"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Fut shtresë të re"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Lëviz para"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Lëviz prapa"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Aktivizo/çaktivizo pozicionimin absolut"
+
+msgid "tinymce_layer_content"
+msgstr "Shtresë e re..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Ruaj"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Anuloji të gjitha ndryshimet"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Fut hapësirë"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Kontrollo për gabime drejtëshkrimore"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell nuk u detektua. Dëshironi ta instaloni?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Linjë horizontale"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Gjerësia"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Gjatësia"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Pa hije"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Emocionet"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Fut emocion"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Emocionet"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "I/e lezetshëm"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Qaj"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Turp"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Këmba në gojë"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Rrudh vetullat"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "I/e pafajshëm"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Puth"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Qesh"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Lekë në gojë"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Dhëmbët e mbyllur"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Buzëqesh"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "I/e çuditur"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Gjuha jashtë"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "I/e pavendosur"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Shkel syrin"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Bërtit"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Kërko"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Kërko/Zëvendëso"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Kërko përsëri"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "Kërkimi përfundoi dhe nuk ktheu asnjë rezultat."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Kërko"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Kërko/Zëvendëso"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Të gjitha tekstet e gjetura u zëvendësuan."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Kërko për"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Zëvendëso me"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Drejtimi"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Lart"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Poshtë"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Përshtat madhësinë e gërmës"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Kërko tjetrën"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Zëvendëso"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Zëv. të gjitha"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Fut/edito foto"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "Të Përgjithshme"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Pamja"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Të Avancuara"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "Të Përgjithshme"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Titulli"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Paraqitje"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Ruaj raportet"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Drejtimi i gjuhës"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Kodi i gjuhës"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Lidhja e përshkrimit të gjatë"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Stili"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Klasat"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "Majtas-Djathtas"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "Djathtas-Majtas"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Harta e fotos"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Ndërro foto"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Përshkrimi alternativ"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "në mouse-in sipër"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "në mouse-in jashtë"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Të Ndryshme"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Paraqitje e fotos"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Jeni të sigurt që doni të vazhdoni pa përfshirë një përshkrim alternativ? Pa të, foto mund të jetë e pa aksesueshme nga njerëz me shikim të kufizuar, që përdorin shfletues që nuk i shfaqin fotot apo i kanë çaktivizuar ato."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Fut/edito foto"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "URL e fotos"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Përshkrimi i fotos"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Lista e fotove"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Korniza"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Përmasat"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Hapësira vertikale"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Hapësira horizontale"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Drejtimi"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Vijë fundore"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Krye"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Mes"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Fund"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Sipër tekstit"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Poshtë tekstit"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Majtas"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Djathtas"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Lista e fotove"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Fut/edito lidhje"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Fut/edito lidhje"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "URL e lidhjes"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Shënjestra"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Titulli"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "Adresa që keni futur duket si email. Dëshironi të shtoni prefiksin mailto:?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "Adresa që keni futur duket si lidhje e jashtme. Dëshironi të shtoni prefiksin http://?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Lista e lidhjeve"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "Të Përgjithshme"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Popup"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Ngjarjet"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Të Avancuara"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Tipare të përgjithshme"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Tiparet e popup"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Ngjarjet"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Tipare të avancuara"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Opsionet"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Lidhjet"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Hape në këtë dritare / frame"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Hape në dritaren mëmë / frame"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Hape në frame-in e mësipërm"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Hape në dritare të re"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Popup me Javascript"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "URL e popup"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Emri i dritares"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "Fut 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Shfaq ashensorët"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Shfaq shiritin e statusit"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Shfaq butonat"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Shfaq menunë"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Shfaq shiritin e adresës"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Bëje dritaren të zmadhueshme"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "I varur (vetëm Mozilla/Firefox)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Madhësia"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Pozicioni (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Stili"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Klasat"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Emri"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Drejtimi i gjuhës"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Gjuha e shënjestrës"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Kodi i gjuhës"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Kodimi i karaktereve të shënjestrës"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "Tipi MIME i shënjestrës"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Marrëdhënia faqe-shënjestër"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Marrëdhënia shënjestër-faqe"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Indeksi i Tab"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Butoni i aksesit"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Majtas-Djathtas"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Djathtas-Majtas"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Lista e lidhjeve"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Citat"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Shkurtim"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Akronim"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Fshirje"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Futje"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Fut/Edito Tipare"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Titulli"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Klasa"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Stili"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Citati"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Data/Ora"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Drejtimi i tekstit"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "Majtas-Djathtas"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "Djathtas-Majtas"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Gjuha"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "Indeksi i Tab"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "Butoni i aksesit"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Ngjarjet"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Tiparet"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "Të Përgjithshme"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Tiparet"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Ngjarjet"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Opsionet e Përgjithshme"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Tiparet e elementit"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Ngjarjet e elementit"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Element Futës"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Element Fshirës"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Element Akronim"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Element Shkurtimi"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Element Citat"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Fshi"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Fut datën/orën aktuale"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "Majtas-Djathtas"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "Djathtas-Majtas"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Fut/Edito Tipare"
+
+msgid "tinymce_style_desc"
+msgstr "Edito Stilet CSS"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "Edito të gjitha stilet"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Apliko"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Teksti"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Fusha"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Bllok"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Kuti"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Korniza"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "Lista"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Pozicionimi"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Teksti"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Teksti"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Madhësia"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Pesha"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Stili"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Varianti"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Gjatësia e linjës"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Madhësia e gërmës"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Ngjyra"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Zbukurimi"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "mbi linjë"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "nën linjë"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "në mes"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "fik-ndiz"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "asnjë"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Ngjyra e fushës"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Foto e fushës"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Përsëritja"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Bashkëngjitja"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Pozicionimi horizontal"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Pozicionimi vertikal"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Hapësira e fjalëve"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Hapësira e gërmave"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Drejtimi vertikal"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Drejtimi i tekstit"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Kryerradha"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Hapësira bosh"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Shfaqja"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Gjerësia"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Gjatësia"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Pluskimi"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Pastro"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Hapësira e brëndshme"
+
+msgid "tinymce_style_dlg_same"
+msgstr "E njëjtë për të gjitha"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Krye"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Djathtas"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Fund"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Majtas"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Hapësira"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Stili"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Gjerësia"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Gjatësia"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Ngjyra"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Tipi"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Foto ndarëse"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Pozicioni"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Tipi"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Shikueshmëria"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Indeksi Z"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Mbivendosja"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Vendosja"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Prerja"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Ngjit si Tekst"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Ngjit nga Word"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Zgjidhi të gjitha"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Përdor CTRL+V për të ngjitur tekstin."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Ruaj linjat e reja"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Përdor CTRL+V për të ngjitur tekstin."
+
+msgid "tinymce_table_desc"
+msgstr "Fut një tabelë të re"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Fut rresht përpara"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Fut rresht pas"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Fshi rreshtin"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Fut kolonë përpara"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Fut kolonë pas"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Fshi kolonën"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Ndaji qelizat e bashkuara"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Bashkoji qelizat"
+
+msgid "tinymce_table_row_desc"
+msgstr "Tiparet e rreshtit"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Tiparet e qelizës"
+
+msgid "tinymce_table_props_desc"
+msgstr "Tiparet e tabelës"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Ngjite rreshtin përpara"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Ngjite rreshtin pas"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Prit rreshtin"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Kopjo rreshtin"
+
+msgid "tinymce_table_del"
+msgstr "Fshi tabelën"
+
+msgid "tinymce_table_row"
+msgstr "Rresht"
+
+msgid "tinymce_table_col"
+msgstr "Kolonë"
+
+msgid "tinymce_table_cell"
+msgstr "Qelizë"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "Të përgjithshme"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Të avancuara"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Tipare të përgjithshme"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Tipare të avancuara"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Rresht në"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Fut/Edito tabelë"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Gjerësia"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Gjatësia"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Kolona"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Rreshta"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Hapësira midis qelizave"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Hapësira e brëndshme"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Korniza"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Drejtimi"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "Paracaktuar"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Majtas"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Djathtas"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Qendër"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Tiparet e rreshtit"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Tiparet e qelizës"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Tipi i qelizës"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Drejtimi vertikal"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Krye"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Fund"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Ngjyra e kornizës"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Ngjyra e fushës"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Bashko qelizat"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Stili"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Drejtimi i gjuhës"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Kodi i gjuhës"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "Tipi MIME i shënjestrës"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "Majtas-Djathtas"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "Djathtas-Majtas"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Foto e fushës"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Përmbledhja"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Të dhëna"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Kokë"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Rifresko qelizën aktuale"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Rifresko të gjitha qelizat në rresht"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Rifresko të gjitha qelizat"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Rifresko rreshtin aktual"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Rifresko rreshtat tek"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Rifresko rreshtat çift"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Rifresko të gjitha rreshtat në tabelë"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Kokën e Tabelës"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Trupin e Tabelës"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Këmbët e Tabelës"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Objektivi"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Grup Rreshtash"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Grup Kolonash"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "Keni kaluar numrin maksimal të kolonave: {$cols}."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "Keni kaluar numrin maksimal të rreshtave: {$rows}."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "Keni kaluar numrin maksimal të qelizave {$cells}."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Jeni të sigurt që nuk doni të vendosni objektiv për këtë qelizë të kokës. Pa të mund të jetë e vështirë për disa përdorues me aftësi të kufizuara të lexojnë përmbajtjen e tabelës."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Krijo hapësirë për titull"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Korniza"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "asnjë"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "grupe"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "rreshta"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "kolona"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "të gjitha"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Rregullat"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "zbrazur"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "sipër"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "poshtë"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hsides"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vsides"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "kuti"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "kornizë"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "Ndryshimet që keni bërë do të humbasin nëse largoheni nga kjo faqe."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Aktivizo/çaktivizo pamjen e plotë"
+
+msgid "tinymce_media_desc"
+msgstr "Fut / edito media"
+
+msgid "tinymce_media_edit"
+msgstr "Edito media"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Fut / edito media"
+
+msgid "tinymce_media_dlg_general"
+msgstr "Të Përgjithshme"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Të Avancuara"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Skedari/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Lista"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Përmasat"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Paraqitje"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Ruaj raportet"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Tipi"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Emri"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Klasa"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "Hapësira-V"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "Hapësira-H"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Luaj automatikisht"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Lak"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Shfaq menu"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Cilësia"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Shkalla"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Drejtimi"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "Drejtimi S"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Fusha"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Baza"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flashvars"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Cache"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Fshehur"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Kontrollues"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Mënyra Kiosk"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Luaj çdo kuader"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Cache shënjestrën"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "Pa rregullime"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "Aktivizo JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Koha e nisjes"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "Koha e përfundimit"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Choke speed"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Shënjestra"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Volumi"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Nisje automatike"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Aktivizuar"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Pamje e plotë"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Thërrit URL"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Mbyll zërin"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Zmadho me përshtatje"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Video pa dritare"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Balanci"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "URL bazë"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Id e titullit"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Shënjuesi aktual"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Pozicioni aktual"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Kuadri fillestar"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Numri i luajtjeve"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Raporti"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "Mënyra UI"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Opsionet e Flash"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Opsionet e Quicktime"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Opsionet e Windows media player"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Opsionet e Real media player"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Opsionet e Shockwave"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Shko në URL automatikisht"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Qendër"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Statusi fotos"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Ruaj raportet"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "Pa Java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Para ngarko"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Shuffle"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Konsola"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Numri lakëve"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Kontrollet"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Script Callbacks"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Stili i zmadhimit"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Zmadho Drejtim-H"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Zmadho Drejtim-V"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Zëri"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Progresi"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Risurset rtsp duhet të shtohen në fushën QT Src në opsionet e avancuara.\nDuhet të shtoni gjithashtu një version jo stream në fushën src.."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Krye"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Djathtas"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Fund"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Majtas"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Qendër"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Krye-majtas"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Krye-djathtas"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Fund-majtas"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Fund-djathtas"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Opsionet e videos Flash"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Mënyra e shkallës"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Buffer"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Foto fillestare"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Foto përfundimtare"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Volumi fillestar"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "GUI e fshehur"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Nis automatikisht"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Lak"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Trego shkallët"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Video pa ngecje"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Tiparet e dokumentit"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Tiparet e dokumentit"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "Të Përgjithshme"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Pamja"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Të Avancuara"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Informacioni Meta"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Gjuha dhe kodimi"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Titulli"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Fjalët kyçe"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Përshkrimi"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Robotët"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Kodi i gjuhës"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Drejtimi i gjuhës"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "Majtas-djathtas"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "Djathtas-majtas"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "Deklarimi XML"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Kodimi i karakterëve"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Tiparet e fushës"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Hapësirat e trupit"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Ngjyra e lidhjeve"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Tiparet e tekstit"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Ngjyra e fushës"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Foto e fushës"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Hapësira majtas"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Hapësira djathtas"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Hapësira në krye"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Hapësira në fund"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Ngjyra e tekstit"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Madhësia e gërmave"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Tipi i gërmës"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Ngjyra e lidhjes"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Ngjyra e hover"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Ngjyra e vizituar"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Ngjyra aktive"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Ngjyra"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Madhësia e gërmave"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Tipi i gërmës"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Indekso dhe ndiq lidhjet"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Indekso por mos ndiq lidhjet"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Mos indekso por ndiq lidhjet"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Mos indekso e as mos ndiq lidhjet"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Faqja e stileve dhe tiparete tyre"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Faqja e stileve"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Stili"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Autori"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Të drejtat e kopjes"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Shto një element të ri"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Fshi elementin e zgjedhur"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Lëviz elementin sipër"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Lëviz elementin poshtë"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Elementët e kokës"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Informacion"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Element titull"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Element meta"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Element script"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Element stil"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Element lidhej"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Element bazë"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Komento"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Element titull"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Element script"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Element stil"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Element bazë"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Element lidhje"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Element meta"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Komento"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Src"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Gjuha"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Shënjestra"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Tipi"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Charset"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Tiparet"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Emri"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Vlera"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Përmbajtja"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "Të Përgjithshme"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Të Avancuara"
+
+msgid "tinymce_template_desc"
+msgstr "Fut përmbajtje shabllon"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Shabllonet"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Shabllon"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Përshkrimi"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Fut përmbajtje shabllon"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Zgjidh një shabllon"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Paraqitje"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Kujdes: Nëse rifreskoni një shabllon me një tjeter, mund të humbisni të dhënat."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%d-%m-%Y %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%d-%m-%Y %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "Janar,Shkurt,Mars,Prill,Maj,Qershor,Korrik,Gusht,Shtator,Tetor,Nëntor,Dhjetor"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Jan,Shk,Mar,Pri,Maj,Qer,Kor,Gus,Sht,Tet,Nën,Dhj"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "E Djelë,E Hënë,E Martë,E Mërkurë,E Enjte,E Premte,E Shtunë,E Djelë"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "Dje,Hën,Mar,Mër,Enj,Pre,Sht,Dje"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Karakteret e kontrollit vizual: on/off."
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Aktivizo/çaktivizo kontrolluesin e gabimeve"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Tiparet e kontrolluesit të gabimeve"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Injoro fjalën"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Injoroji të gjitha"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Gjuhët"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Ju lutem prisni..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Sygjerimet"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Asnjë sygjerim"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Nuk u gjet asnjë gabim."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Fut thyerje faqeje."
+

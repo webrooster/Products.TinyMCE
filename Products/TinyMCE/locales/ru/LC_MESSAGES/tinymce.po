@@ -1,0 +1,2261 @@
+# Это пакет русской локализации для TinyMCE.
+# Version 23.5
+#
+# Danila J. Balabaev
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-13 00:00+0000\n"
+"Last-Translator: Danila J. Balabaev\n"
+"Language-Team: Danila J. Balabaev\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: ru\n"
+"Language-Name: Russian\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Вы хотите использовать для этой текстовой области режим WYSIWYG?"
+
+msgid "tinymce_common_apply"
+msgstr "Применить"
+
+msgid "tinymce_common_insert"
+msgstr "Вставить"
+
+msgid "tinymce_common_update"
+msgstr "Обновить"
+
+msgid "tinymce_common_cancel"
+msgstr "Отменить"
+
+msgid "tinymce_common_close"
+msgstr "Закрыть"
+
+msgid "tinymce_common_browse"
+msgstr "Просмотреть"
+
+msgid "tinymce_common_class_name"
+msgstr "Класс"
+
+msgid "tinymce_common_not_set"
+msgstr "-- Не установлено --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Копирование/Вставка не работает в Mozilla и Firefox.\nХотите подробнее узнать, в чём дело?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Не поддерживается вашим браузером в настоящий момент, используйте клавиатурные сокращения."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "Извините, но ваш блокировщик всплывающих окон заблокировал окно, предоставляющее функции приложения. Вам нужно отключить блокироку всплывающих окон на этом сайте, чтобы наполную воспользоваться этим инструментом."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Ошибка: Отмеченные красным значения введены неправильно."
+
+msgid "tinymce_common_more_colors"
+msgstr "Больше цветов"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Полужирный (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Курсив (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Подчёркнутый (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Перечёркнутый"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Маркированный список"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Нумерованный список"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Отменить (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Повторить (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Почистить кривой код"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Стили"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Размер шрифта"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Шрифт"
+
+msgid "tinymce_advanced_block"
+msgstr "Формат"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Абзац"
+
+msgid "tinymce_advanced_div"
+msgstr "Раздел"
+
+msgid "tinymce_advanced_address"
+msgstr "Адрес"
+
+msgid "tinymce_advanced_pre"
+msgstr "Отформатированный текст"
+
+msgid "tinymce_advanced_h1"
+msgstr "Заголовок 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Заголовок 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Заголовок 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Заголовок 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Заголовок 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Заголовок 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Блок цитаты"
+
+msgid "tinymce_advanced_code"
+msgstr "Код"
+
+msgid "tinymce_advanced_samp"
+msgstr "Пример кода"
+
+msgid "tinymce_advanced_dt"
+msgstr "Определяемый термин"
+
+msgid "tinymce_advanced_dd"
+msgstr "Определение термина"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Полужирный (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Курсив (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Подчёркнутый (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Перечёркнутый"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Выравнивание влево"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Выравнивание по центру"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Выравнивание вправо"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Выравнивание по ширине"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Маркированный список"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Нумерованный список"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Уменьшить отступ"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Увеличить отступ"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Отменить (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Повторить (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Вставить/редактировать ссылку"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Удалить ссылку"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Вставить/редактировать изображение"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Почистить кривой код"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "Редактировать HTML-исходник"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Нижний индекс"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Верхний индекс"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Вставить горизонтальную линию"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Убрать форматирование"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Введите ваше описание"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Выбрать цвет текста"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Выбрать цвет фона"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Вставить специальный символ"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Включить/выключить направляющие/невидимые элементы"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Вставить/редактировать якорь"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Вырезать"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Копировать"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Вставить"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Свойства изображения"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Новый документ"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Помощь"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Блок цитаты"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Копирование/Вставка не работает в Mozilla и Firefox.\nХотите подробнее узнать, в чём дело?"
+
+msgid "tinymce_advanced_path"
+msgstr "Путь"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Вы уверены, что хотите очистить всё содержимое?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Перейти к кнопкам инструментов - Alt+Q, Перейти к редактору - Alt-Z, Перейти к пути элемента - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Ещё цвета"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr "65"
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "О TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "О программе"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Помощь"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Лицензия"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Плагины"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Плагин"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Автор"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Версия"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Загруженные плагины"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Вставить/редактировать якорь"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Имя якоря"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "Редактор HTML-исходника"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Перенос слов"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Выберите цвет"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Выбор"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Выбор цвета"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Палитра"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Цвета палитры"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Именованный"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Именованные цвета"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Цвет:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Название:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Выберите специальный символ"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Вставить/редактировать изображение"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "Адрес изображения"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Описание изображения"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Список изображений"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Граница"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Размеры"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Вертикальное пространство"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Горизонтальное пространство"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Выравнивание"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "По базисной линии"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "По верху"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "По центру"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "По низу"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "По верху текста"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "По низу текста"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Влево"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Вправо"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Вставить/редактировать ссылку"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "Адрес ссылки"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Цель"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Открыть ссылку в том же окне"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Открыть ссылку в новом окне"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Название"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "Введённый адрес похож на email, вы хотите добавить префикс mailto:?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "Введённый адрес похож на внешнюю ссылку, вы хотите добавить префикс http://?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Список ссылок"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Выравнивание"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Влево"
+
+msgid "tinymce_contextmenu_center"
+msgstr "По центру"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Вправо"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Полностью"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%d.%m.%Y"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Вставить дату"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Вставить время"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "Январь,Февраль,Март,Апрель,Май,Июнь,Июль,Август,Сентябрь,Октябрь,Ноябрь,Декабрь"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Янв,Фев,Мар,Апр,Май,Июн,Июл,Авг,Сеп,Окт,Нов,Дек"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "Воскресенье,Понедельник,Вторник,Среда,Четверг,Пятница,Суббота,Воскресенье"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "Вс,Пн,Вт,Ср,Чт,Пт,Сб,Вс"
+
+msgid "tinymce_print_print_desc"
+msgstr "Печать"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Предварительный просмотр"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Направление слева направо"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Направление справа налево"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Вставить новый слой"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Перенести вперёд"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Перенести назад"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Включить/выключить абсолютное позиционирование"
+
+msgid "tinymce_layer_content"
+msgstr "Новый слой…"
+
+msgid "tinymce_save_save_desc"
+msgstr "Сохранить"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Отменить все изменения"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Вставить неразрывный пробел"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Проверить орфографию"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell не обнаружен. Установить?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Горизонтальная линия"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Ширина"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Высота"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Нет тени"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Смайлики"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Вставить смайлик"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Смайлики"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Клёвый"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Плачет"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Обалдел"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "В_рот_мне_ноги!"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Хмурый"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Невинность"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Поцелуй"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Смеётся"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Много денег"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Запечатано"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Улыбается"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Удивлён"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Показывает язык"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "В нерешительности"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Подмигивает"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Вопит"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Найти"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Найти/Заменить"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Найти снова"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "Поиск закончен. Строка не найдена."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Найти"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Найти/Заменить"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Все встречающиеся строки были заменены."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Что найти"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Заменить на"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Направление"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Вверх"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Вниз"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Учитывать регистр"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Найти следующую"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Заменить"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Заменить все"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Вставить/редактировать изображение"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "Общие"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Внешний вид"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Дополнительные"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "Общие"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Название"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Предварительный просмотр"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Сохранять пропорции"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Направление языка"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Код языка"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Ссылка на подробное описание"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Стиль"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Классы"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "Слева направо"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "Справа налево"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Идентификатор"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Изображение-карта"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Поменять изображение"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Альтернативное изображение"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "при наведении мыши"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "при уведении мыши"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Разное"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Предварительный просмотр внешнего вида"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Вы уверены, что хотите продолжить без описания изображения? Без него изображение может быть недоступно пользователям с ограниченной трудоспособностью, или использующим текстовый браузер, или просматривающим страницы с отключёнными изображениями."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Вставить/редактировать изображение"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "Адрес изображения"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Описание изображения"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Список изображений"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Граница"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Размеры"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Вертикальное пространство"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Горизонтальное пространство"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Выравнивание"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "По основанию"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "По верху"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "По центру"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "По низу"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "По верху текста"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "По низу текста"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Влево"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Вправо"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Список изображений"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Вставить/редактировать ссылку"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Вставить/редактировать ссылку"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "Адрес ссылки"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Цель"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Название"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "Введённый адрес похож на email, вы хотите добавить префикс mailto:?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "Введённый адрес похож на внешнюю ссылку, вы хотите добавить префикс http://?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Список ссылок"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "Общие"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Всплывающее окно"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "События"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Дополнительные"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Общие свойства"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Свойства всплывающего окна"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "События"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Дополнительные свойства"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Параметры"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Якоря"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Открыть в этом окне / фрейме"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Открыть в родительском окне / фрейме"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Открыть в верхнем фрейме (замещает все остальные)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Открыть в новом окне"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Всплывающее Javascript-окно"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "Адрес всплывающего окна"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Название окна"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "Вставить 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Показать полосы прокрутки"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Показать строку состояния"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Показать панели инструментов"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Показать строку меню"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Показать строку адреса"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Сделать размер окна изменяемым"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Зависимые (только Mozilla/Firefox)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Размер"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Позиция (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Идентификатор"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Стиль"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Классы"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Название цели"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Направление языка"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Целевой язык"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Код языка"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Целевая кодировка"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "Целевой MIME-тип"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Отношение страница к цели"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Отношение цель к странице"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Индекс табуляции"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Клавиша доступа"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Слева направо"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Справа налево"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Список ссылок"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Цитата"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Аббревиатура"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Акроним"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Удаленный текст"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Добавленный текст"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Вставить/редактировать атрибуты"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Название"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "Идентификатор"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Класс"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Стиль"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Цитата"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Дата/время"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Направление текста"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "Слева направо"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "Справа налево"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Язык"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "Индекс табуляции"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "Клавиша доступа"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "События"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Атрибуты"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "Общие"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Атрибуты"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "События"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Общие настройки"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Атрибуты элемента"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "События элемента"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Элемент добавленного текста"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Элемент удалённого текста"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Элемент акронима"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Элемент аббревиатуры"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Элемент цитаты"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Убрать"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Вставить текущую дату/время"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "Слева направо"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "Справа налево"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Вставить/редактировать атрибуты"
+
+msgid "tinymce_style_desc"
+msgstr "Редактировать стиль CSS"
+
+msgid "tinymce_style_delta_width"
+msgstr "35"
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "Редактировать стиль CSS"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Применить"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Текст"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Фон"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Блок"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Контейнер"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Граница"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "Список"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Позиционирование"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Текст"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Шрифт"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Размер"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Вес"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Стиль"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Начертание"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Высота строки"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Регистр"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Цвет"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Украшение"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "надчёркнутый"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "подчёркнутый"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "перечёркнутый"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "мигающий"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "никакого"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Цвет фона"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Фоновое изображение"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Повтор"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Прикрепление"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Горизонтальная позиция"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Вертикальная позиция"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Промежутки между словами"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Промежутки между символами"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Вертикальное выравнивание"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Выравнивание текста"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Отступ текста"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Пробел"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Отображение"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Ширина"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Высота"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Плавающее"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Очистить"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Набивка"
+
+msgid "tinymce_style_dlg_same"
+msgstr "Одинаково для всех"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Сверху"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Справа"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Снизу"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Слева"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Поля"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Стиль"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Ширина"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Высота"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Цвет"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Тип"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Изображение маркера"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Позиция"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Тип"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Видимость"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-индекс"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Обтекание"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Размещение"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Обрезывание"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Вставить как простой текст"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Вставить из Word"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Выделить всё"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Используйте сочетание клавиш CTRL+V чтобы вставить текст в окно."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Сохранять разрывы строк"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Используйте сочетание клавиш CTRL+V чтобы вставить текст в окно."
+
+msgid "tinymce_table_desc"
+msgstr "Вставляет новую таблицу"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Вставить строку перед"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Вставить строку после"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Удалить строку"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Вставить столбец перед"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Вставить столбец после"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Удалить столбец"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Разделить слитые ячейки"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Слить ячейки"
+
+msgid "tinymce_table_row_desc"
+msgstr "Свойства строки"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Свойства ячейки"
+
+msgid "tinymce_table_props_desc"
+msgstr "Свойства таблицы"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Вставить строку таблицы перед"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Вставить строку таблицы после"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Вырезать строку"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Копировать строку"
+
+msgid "tinymce_table_del"
+msgstr "Удалить таблицу"
+
+msgid "tinymce_table_row"
+msgstr "Строка"
+
+msgid "tinymce_table_col"
+msgstr "Столбец"
+
+msgid "tinymce_table_cell"
+msgstr "Ячейка"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "Общие"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Дополнительные"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Общие свойства"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Дополнительные свойства"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Строка в части таблицы"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Вставить/изменить таблицу"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Ширина"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Высота"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Столбцы"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Строки"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Расстояние между ячейками"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Набивка в ячейках"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Граница"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Выравнивание"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "По умолчанию"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Влево"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Вправо"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "По центру"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Свойства строки"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Свойства ячейки"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Тип ячейки"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Вертикальное выравнивание"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "По верху"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "По низу"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Цвет границы"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Цвет фона"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Слить ячейки"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Идентификатор"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Стиль"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Направление языка"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Код языка"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "Целевой MIME-тип"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "Слева направо"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "Справа налево"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Фоновое изображение"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Сводка"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Данные"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Заголовок"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Обновить текущую ячейку"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Обновить все ячейки в строке"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Обновить все ячейки в таблице"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Обновить текущую строку"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Обновить нечётные строки в таблице"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Обновить чётные строки в таблице"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Обновить все строки в таблице"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Верхняя часть таблицы"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Основная часть таблицы"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Нижняя часть таблицы"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Пределы"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Группа строк"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Группа столбцов"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "Вы превысили максимальное количество в {$cols} столбцов."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "Вы превысили максимальное количество в {$rows} строк."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "Вы превысили максимальное количество в {$cells} ячеек."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Вы действительно хотите продолжить без указания пределов этой ячейки заголовка? Без этого некоторым пользователям с ограниченной трудоспособностью может быть трудно понять содержание или данные таблицы."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Заголовок таблицы"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Рамка"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "ничего"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "группы"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "строки"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "столбцы"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "всё"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Линейки"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "ничто"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "сверху"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "снизу"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "горизонтальные стороны"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "левые горизонтальные стороны"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "правые горизонтальные стороны"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "вертикальные стороны"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "контейнер"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "граница"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "Внесённые изменения будут потеряны, если вы уйдёте с этой страницы."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Включить/выключить полноэкранный режим"
+
+msgid "tinymce_media_desc"
+msgstr "Вставить/редактировать медиа-объект"
+
+msgid "tinymce_media_edit"
+msgstr "Редактировать медиа-объект"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Вставить/редактировать медиа-объект"
+
+msgid "tinymce_media_dlg_general"
+msgstr "Общие"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Дополнительные"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Файл/адрес"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Список"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Размеры"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Предварительный просмотр"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Сохранять пропорции"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Тип"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Идентификатор"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Название"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Класс"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "Вертикальное пространство"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "Горизонтальное пространство"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Проигрывать автоматически"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Зациклить"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Отобразить меню"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Качество"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Масштаб"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Выравнивание"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SAlign"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Фон"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Основа"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flashvars"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Кэш"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Скрытое"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Controller"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kiosk mode"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Play every frame"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Target cache"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "No correction"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "Enable JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Start time"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "End time"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Choke speed"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Target"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Volume"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Auto start"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Enabled"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Fullscreen"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Invoke URLs"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Mute"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Stretch to fit"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Windowless video"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Balance"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "Base URL"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Captioning id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Current marker"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Current position"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Default frame"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Play count"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Rate"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI Mode"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Flash options"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Quicktime options"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Windows media player options"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Real media player options"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Shockwave options"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Auto goto URL"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Center"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Image status"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Maintain aspect"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "No java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Prefetch"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Shuffle"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Console"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Num loops"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Controls"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Script callbacks"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Stretch style"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Stretch H-Align"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Stretch V-Align"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Sound"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Progress"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Streamed rtsp resources should be added to the QT Src field under the advanced tab.\nYou should also add a non streamed version to the Src field.."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Top"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Right"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Bottom"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Left"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Center"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Top left"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Top right"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Bottom left"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Bottom right"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Flash video options"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Scale mode"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Buffer"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Start image"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Start time"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Default volumne"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "Hidden GUI"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Auto start"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Loop"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Show scale modes"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Smooth video"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Document properties"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Document properties"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "General"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Appearance"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Advanced"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Meta information"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Language and encoding"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Title"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Keywords"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Description"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Robots"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Language code"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Language direction"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "Left to right"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "Right to left"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "XML declaration"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Character encoding"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Background properties"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Body margins"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Link colors"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Text properties"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Background color"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Background image"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Left margin"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Right margin"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Top margin"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Bottom margin"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Text color"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Font size"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Font face"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Link color"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Hover color"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Visited color"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Active color"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Color"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Font size"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Font family"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Index and follow the links"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Index and don't follow the links"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Do not index but follow the links"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Do not index and don't follow the links"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Stylesheet and style properties"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Stylesheet"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Author"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Copyright"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Add new element"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Remove selected element"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Move selected element up"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Move selected element down"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Head elements"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Information"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Title element"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta element"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Script element"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Style element"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Link element"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Base element"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Comment node"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Title element"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Script element"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Style element"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Base element"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Link element"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta element"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Comment"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Src"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Language"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Target"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Charset"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Properties"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Name"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Value"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Content"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "General"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Advanced"
+
+msgid "tinymce_template_desc"
+msgstr "Insert predefined template content"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Templates"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Template"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Description"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Insert predefined template content"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Select a template"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Preview"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Warning: Updating a template with a different one may cause data loss."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "January,February,March,April,May,June,July,August,September,October,November,December"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Visual control characters on/off."
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Toggle spellchecker"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Spellchecker settings"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Ignore word"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Ignore all"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Languages"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Please wait..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Suggestions"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "No suggestions"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "No misspellings found."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Insert page break."
+

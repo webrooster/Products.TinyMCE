@@ -1,0 +1,2261 @@
+# Tai yra lietuvių kalbos vertimas TinyMCE redaktoriui.
+# Version 2.8
+#
+# made.By - Laurynas Karvelis - www.by.lt
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-08 00:00+0000\n"
+"Last-Translator: made.By - Laurynas Karvelis - www.by.lt\n"
+"Language-Team: made.By - Laurynas Karvelis - www.by.lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: lt\n"
+"Language-Name: lietuvių kalba\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Ar norite naudoti tekstų redaktoriaus režimą šiam teksto redagavimo langui?"
+
+msgid "tinymce_common_apply"
+msgstr "Taikyti"
+
+msgid "tinymce_common_insert"
+msgstr "Įterpti"
+
+msgid "tinymce_common_update"
+msgstr "Atnaujinti"
+
+msgid "tinymce_common_cancel"
+msgstr "Atšaukti"
+
+msgid "tinymce_common_close"
+msgstr "Uždaryti"
+
+msgid "tinymce_common_browse"
+msgstr "Naršyti"
+
+msgid "tinymce_common_class_name"
+msgstr "Klasė"
+
+msgid "tinymce_common_not_set"
+msgstr "-- Nenurodyta --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Kopijavimas/iškirpimas/įklijavimas paspaudus šį mygtuką negalimas Mozilla ir Firefox naršyklėse.\nNukopijuoti galima paspaudus: Ctrl + c, iškirpti: Ctrl + x, priklijuoti: Ctrl + v.\nAr norite daugiau informacijos apie šią problemą?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Ši naršyklė nepalaiko šio veikimo, todėl naudokite klaviatūros sparčiuosius klavišus."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "Atsiprašome, tačiau pastebėjome, kad jūsų iššokančių langų blokuotojas išjungė langą, kuris teikia aplikacijai funkcionalumą. Turėtumėte atjungti iššokančių langų blokavimą šiam tinklapiui, kad pilnai išnaudoti visas galimybes."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Klaida: Blogai įvestos reikšmės, kurios pažymėtos raudonai."
+
+msgid "tinymce_common_more_colors"
+msgstr "Daugiau spalvų"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Storas (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Pasviręs (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Pabrauktas (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Perbrauktas"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Nerūšiuotas sąrašas"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Rūšiuotas skaičiais sąrašas"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Atstatyti (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Perdaryti (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Išvalyti netvarkingą kodą"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Stiliai"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Šrifto dydis"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Šrifto šeima"
+
+msgid "tinymce_advanced_block"
+msgstr "Formatas"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Paragrafas"
+
+msgid "tinymce_advanced_div"
+msgstr "Div žymė"
+
+msgid "tinymce_advanced_address"
+msgstr "Adresas"
+
+msgid "tinymce_advanced_pre"
+msgstr "Preformatuotas tekstas"
+
+msgid "tinymce_advanced_h1"
+msgstr "Antraštė 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Antraštė 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Antraštė 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Antraštė 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Antraštė 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Antraštė 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Citatos blokas"
+
+msgid "tinymce_advanced_code"
+msgstr "Kodas"
+
+msgid "tinymce_advanced_samp"
+msgstr "Kodo pavyzdys"
+
+msgid "tinymce_advanced_dt"
+msgstr "Apibrėžimo terminas"
+
+msgid "tinymce_advanced_dd"
+msgstr "Apibrėžimo aprašymas"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Storas (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Pasviręs (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Pabrauktas (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Perbrauktas"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Lygiuoti pagal kairę"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Centruoti"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Lygiuoti pagal dešinę"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Lygiuoti pagal abu kraštus"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Nerūšuotas sąrašas"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Rūšuotas skaičiais sąrašas"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Stumti prie kairiojo krašto"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Stumti nuo kairiojo krašto"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Atstatyti (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Perdaryti (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Įterpti/redaguoti nuorodą"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Pašalinti nuorodą"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Įterpti/redaguoti paveikslėlį"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Išvalyti netvarkingą kodą"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "Redaguoti HTML išeities kodą"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Apatinis indeksas"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Viršutinis indeksas"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Įterpti horizontalią liniją"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Pašalinti formatavimą"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Jūsų aprašymas čia"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Parinkti teksto spalvą"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Parinkti fono spalvą"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Įterpti nestandartinį simbolį"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Kaitalioti gaires/nematomų elementų rodymą"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Įterpti/redaguoti inkarą"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Iškirpti"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Kopijuoti"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Įklijuoti"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Paveikslėlio nustatymai"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Naujas dokumentas"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Pagalba"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Citatos blokas"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Kopijavimas/Iškirpimas/Įklijavimas negalimas Mozilla ir Firefox naršyklėse.\nAr norite daugiau informacijos apie šią problemą?"
+
+msgid "tinymce_advanced_path"
+msgstr "Kelias"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Ar tikrai norite ištrinti visą turinį?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Peršokimas prie įrankių juostos mygtukų - Alt+Q, Peršokimas prie redaktoriaus - Alt-Z, Peršokimas prie elementų kelio - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Daugiau spalvų"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr "70"
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "Apie TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "Apie"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Pagalba"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Licenzija"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Įskiepiai"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Įskiepis"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Autorius"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Versija"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Užkrauti įskiepiai"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Įterpti/redaguoti inkarą"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Inkaro vardas"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "HTML išeities kodo redaktorius"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Žodžio laužymas"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Pasirinkti spalvą"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Parinkėjas"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Spalvos parinkėjas"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Paletė"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Paletinės spalvos"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Įvardintosios"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Įvardintosios spalvos"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Spalva:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Pavadinimas:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Pasirinkti nestandartinį simbolį"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Įterpti/redaguoti paveikslėlį"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "Paveikslėlio URL adresas"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Paveikslėlio aprašymas"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Paveikslėlių sąrašas"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Rėmelis"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Išmatavimai"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Vertikalus tarpas"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Horizontalus tarpas"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Lygiavimas"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Pradiniame taške"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Viršuje"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Viduryje"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Apačioje"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Teksto viršuje"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Teksto apačioje"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Kairėje"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Dešinėje"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Įterpti/redaguoti nuorodą"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "Nuorodos URL adresas"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Taikinys"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Atidaryti tame pačiame lange"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Atidaryti naujame lange"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Pavadinimas"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "URL adresas, kurį įvedėte yra e-pašto adresas, ar norite pridėti reikalingą mailto: prefiksą?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "URL adresas, kurį įvedėte yra išorinė nuoroda, ar norite pridėti reikalingą http:// prefiksą?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Nuorodų sąrašas"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Lygiavimas"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Kairėje"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Centre"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Dešinėje"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Iš abiejų pusių"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%Y-%m-%d"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Įterpti datą"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Įterpti laiką"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "Sausis,Vasaris,Kovas,Balandis,Gegužė,Birželis,Liepa,Rugpjūtis,Rugsėjis,Spalis,Lapkritis,Gruodis"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Sau,Vas,Kov,Bal,Geg,Bir,Lie,Rugpj,Rugs,Spa,Lapkr,Gruo"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "Sekmadienis,Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "Sekm,Pirm,Antr,Treč,Ketv,Penk,Šešt,Sekm"
+
+msgid "tinymce_print_print_desc"
+msgstr "Spausdinti"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Peržiūra"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Kryptis iš kairės į dešinę"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Kryptis iš dešinės į kairę"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Įterpti naują sluoksnį"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Pastumti į priekį"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Pastumpti atgal"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Kaitalioti absoliutų pozicionavimą"
+
+msgid "tinymce_layer_content"
+msgstr "Naujas sluoksnis..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Išsaugoti"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Atšaukti visus pakeitimus"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Įterpti nelaužiamą tarpo simbolį"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Įjungti klaidų tikrinimą"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell neaptiktas. Ar norite dabar jį įdiegti?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Horizontali linija"
+
+msgid "tinymce_advhr_delta_width"
+msgstr "10"
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Ilgis"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Aukštis"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Be šešėlio"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Emotikonai"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Įterpti emotikoną"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Emotikonai"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Jėga"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Verksmas"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Susigėdęs"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Koja burnoje"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Susiraukęs"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Nekaltas"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Bučinys"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Juokimasis"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Piniginga burna"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Sandarus"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Šypsena"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Nustebęs"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Iškištas liežuvis"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Neapsisprendęs"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Mirkčiojimas"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Klyksmas"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Ieškoti"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Ieškoti/Pakeisti"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr "10"
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr "20"
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Ieškoti dar kartą"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "Paieška baigta. Paieškos frazė nerasta."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Ieškoti"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Ieškoti/Pakeisti"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Visi paieškos frazės pasikartojimai pakeisti."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Ko ieškoti"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Kuo pakeisti"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Kryptis"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Į viršų"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Į apačią"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Visiškas atitikimas"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Ieškoti sek."
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Pakeisti"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Pakeisti visus"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Įterpti/Redaguoti paveikslėlį"
+
+msgid "tinymce_advimage_delta_width"
+msgstr "10"
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "Bendra"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Išvaizda"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Išplėsta"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "Bendra"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Pavadinimas"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Peržiūra"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Priverstinės proporcijos"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Kalbos teksto kryptis"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Kalbos kodas"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Ilgo aprašymo nuoroda"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Stilius"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Klasės"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "Iš kairės į dešinę"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "Iš dešinės į kairę"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Paveikslėlio \"žemėlapis\""
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Sukeisti paveikslėlį"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Arternatyvus paveikslėlis"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "užvedant pele"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "nuvedant pelę"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Įvairūs"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Išvaizdos peržiūros paveikslėlis"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Ar norite tęsti neįvedus paveikslėlio aprašo? Be aprašo jo neatpažins žmonės su negalia, tie kurie naudoja tekstines naršykles, arba tie, kurie naršo internetą išjungę paveikslėlių rodymą."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Įterpti/redaguoti paveikslėlį"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "Paveikslėlio URL adresas"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Paveikslėlio aprašymas"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Paveikslėlių sąrašas"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Rėmelis"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Išmatavimai"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Vertikalus tarpas"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Horizontalus tarpas"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Lygiavimas"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Pradiniame taške"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Viršuje"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Viduryje"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Apačioje"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Teksto viršuje"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Teksto apačioje"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Kairėje"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Dešinėje"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Paveikslėlių sąrašas"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Įterpti/Redaguoti nuorodą"
+
+msgid "tinymce_advlink_delta_width"
+msgstr "10"
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Įterpti/Redaguoti nuorodą"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "Nuorodos URL adresas"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Taikinys"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Pavadinimas"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "URL adresas, kurį įvedėte yra e-pašto adresas, ar norite pridėti reikalingą mailto: prefiksą?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "URL adresas, kurį įvedėte yra išorinė nuoroda, ar norite pridėti reikalingą http:// prefiksą?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Nuorodų sąrašas"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "Bendra"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Iššokantis langas"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Įvykiai"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Išplėsta"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Bendri nustatymai"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Iššokančio lango nustatymai"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Įvykiai"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Išplėstiniai nustatymai"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Nustatymai"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Inkarai"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Atidaryti tame pačiame lange"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Atidaryti tėviniame lange"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Atidaryti virštiniame lange (pakeičia visus langus)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Atidaryti naujame lange"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Javascript iššokantis langas"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "Iššokančio lango URL adresas"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Lango vardas"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "Įterpti 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Rodyti slankiojimo juostas"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Rodyti statuso juostą"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Rodyti įrankių juostą"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Rodyti meniu juostą"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Rodyti lokacijos juostą"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Galima koreguoti lango išmatavimus"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Proporcionaliai (tik Mozilla/Firefox)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Dydis"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Pozicija (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Stilius"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Klasės"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Taikinio vardas"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Kalbos kryptis"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Taikinio kalba"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Kalbos kodas"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Kalbos koduotė"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "Taikinio MIME tipas"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Santykis puslapio su taikiniu"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Santykis taikinio su puslapiu"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Tabuliacijos indeksas"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Prieities klavišas"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Iš kairės į dešinę"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Iš dešinės į kairę"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Nuorodų sąrašas"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Citavimas"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Santrumpa"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Akronimas"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Panaikinimas"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Įterpimas"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Įterpti/Redaguoti atributus"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr "10"
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr "10"
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr "10"
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr "10"
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr "10"
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr "10"
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Pavadinimas"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Klasė"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Stilius"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Citata"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Data/Laikas"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Kalbos teksto kryptis"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "Iš kairės į dešinę"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "Iš dešinės į kairę"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Kalba"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "Tabuliacijos indeksas"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "Prieities klavišas"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Įvykiai"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Atributai"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "Bendra"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Atributai"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Įvykiai"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Bendri nustatymai"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Elemento atributai"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Elemento įvykiai"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Įterpimo elementas"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Pašalinimo elementas"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Akronimo elementas"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Santrumpos elementas"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Citatos elementas"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Pašalinti"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Įterpti esamą datą/laiką"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "Iš kairės į dešinę"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "Iš dešinės į kairę"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Įterpti/Redaguoti atributus"
+
+msgid "tinymce_style_desc"
+msgstr "Redaguoti CSS stilių"
+
+msgid "tinymce_style_delta_width"
+msgstr "40"
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "Redaguoti CSS stilių"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Taikyti"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Tekstas"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Fonas"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Blokas"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Dėžutė"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Rėmelis"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "Sąrašas"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Pozicionavimas"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Tekstas"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Štriftas"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Dydis"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Storis"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Stilius"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Variantas"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Eilutės auštis"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Mažosios/didžiosios raidės"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Spalva"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Dekoracija"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "pabraukta viršuje"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "pabraukta apačioje"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "perbraukta"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "mirgėjimas"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "joks"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Fono spalva"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Fono paveikslėlis"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Kartoti"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Prisegtukas"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Horizontali pozicija"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Vertikali pozicija"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Tarpai tarp žodžių"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Tarpai tarp raidžių"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Vertikalus lygiavimas"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Teksto lygiavimas"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Teksto atitraukimas"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Tarpai"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Rodymas"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Ilgis"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Aukštis"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Plaukiojimas"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Išvalyti"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Užpildymas"
+
+msgid "tinymce_style_dlg_same"
+msgstr "Tas pats visiems"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Viršuje"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Dešinėje"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Apačioje"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Kairėje"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Paraštė"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Stilius"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Ilgis"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Aukštis"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Spalva"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Tipas"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Kulkos paveikslėlis"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Pozicija"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Tipas"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Matomumas"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-indeksas"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Perpildymas"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Talpinimas"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Įrašas"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Įklijuoti kaip paprastą tekstą"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Įklijuoti iš Word"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Viską pažymėti"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Naudokite CTRL+V, kad įklijuoti tekstą į šį langą."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Palikti eilučių lūžius"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Naudokite CTRL+V, kad įklijuoti tekstą į šį langą."
+
+msgid "tinymce_table_desc"
+msgstr "Įterpia naują lentelę"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Įterpti eilutę prieš"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Įterpti eilutę po"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Ištrinti eilutę"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Įterpti stulpelį prieš"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Įterpti stulpelį po"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Ištrinti stulpelį"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Išskaidyti sulietas lentelės ląsteles"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Sulieti lentelės ląsteles"
+
+msgid "tinymce_table_row_desc"
+msgstr "Lentelės eilutės nustatymai"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Lentelės ląstelės nustatymai"
+
+msgid "tinymce_table_props_desc"
+msgstr "Lentelės nustatymai"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Įklijuoti lentelės eilutę prieš"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Įklijuoti lentelės eilutę po"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Iškirpti lentelės eilutę"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Kopijuoti lentelės eilutę"
+
+msgid "tinymce_table_del"
+msgstr "Ištrinti lentelę"
+
+msgid "tinymce_table_row"
+msgstr "Eilutė"
+
+msgid "tinymce_table_col"
+msgstr "Stulpelis"
+
+msgid "tinymce_table_cell"
+msgstr "Ląstelė"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr "10"
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr "10"
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr "10"
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr "10"
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "Bendra"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Išplėsta"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Bendri nustatymai"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Išplėstiniai nustatymai"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Eilutė lentelės dalyje"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Įterpti/modifikuoti lentelę"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Ilgis"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Aukštis"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Stulpeliai"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Eilutės"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Tarpas tarp ląstelių"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Tarpas ląstelės viduje"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Rėmelis"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Lygiavimas"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "Standartinis"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Lygiuoti kairėje"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Lygiuoti dešinėje"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Centruoti"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Lentelės eilutės nustatymai"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Lentelės ląstelės nustatymai"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Ląstelės tipas"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Vertikalus lygiavimas"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Viršuje"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Apačioje"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Rėmelio spalva"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Fono spalva"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Sulieti lentelės ląsteles"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Stilius"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Kalbos kryptis"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Kalbos kodas"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "Taikinio MIME tipas"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "Iš kairės į dešinę"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "Iš dešinės į kairę"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Fono paveikslėlis"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Apibendrinimas"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Duomenys"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Antraštė"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Atnaujinti esamą ląstelę"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Atnaujinti visas eilutės ląsteles"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Atnaujinti visas lentelės ląsteles"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Atnaujinti esamą eilutę"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Atnaujinti nelygines lentelės eilutes"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Atnaujinti lygines lentelės eilutes"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Atnaujinti visas lentelės eilutes"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Lentelės Viršus"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Lentelės Vidus"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Lentelės Apačia"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Galiojimo sritis"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Eilučių grupė"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Stulpelių grupė"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "Viršijote didžiausia stulpelių kiekį iš {$cols}."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "Viršijote didžiausia eilučių kiekį iš {$rows}."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "Viršijote didžiausia ląstelių kiekį iš {$cells}."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Ar norite tęsti nenurodę galiojimo srities šiai lentelės viršutinei ląstelei. Be nurodymo, gali būti sunku kai kuriems vartotojams su negalia lentelėje atvaizduojamų duomenų turinį."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Lentelės antraštė"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Freimas"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "joks"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "grupės"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "eilutės"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "stulpeliai"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "visi"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Taisyklės"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "negaliojantis"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "viršutinis"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "apatinis"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hor. pusės"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vert. pusės"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "dėžutė"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "rėmelis"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "Visi pakeitimai bus prarasti jei išeisite šiuo langu iš esamo puslapio."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Kaitalioti viso ekrano režimą"
+
+msgid "tinymce_media_desc"
+msgstr "Įterpti/redaguoti integruotą daugialypę terpę"
+
+msgid "tinymce_media_edit"
+msgstr "Redaguoti integruotą daugialypę terpę"
+
+msgid "tinymce_media_delta_width"
+msgstr "10"
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Įterpti/redaguoti integruotą daugialypę terpę"
+
+msgid "tinymce_media_dlg_general"
+msgstr "Bendra"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Išplėsta"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Byla/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Sąrašas"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Išmatavimai"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Peržiūra"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Priverstinės proporcijos"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Tipas"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Vardas"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Klasė"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "Vertikalus tarpas"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "Horizontalus tarpas"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Automatinis paleidimas"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Groti cikliškai"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Rodyti meniu"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Kokybė"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Mastelis"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Lygiavimas"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "S-Lygiavimas"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "W-Režimas"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Fono spalva"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Bazė"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flash kinamieji"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Laikinoji talpykla"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Paslėpta"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Valdiklis"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kiosko režimas"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Paleisti kiekvieną freimą"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Taikinio laikinoji talpykla"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "Jokių korekcijų"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "Įgalinti JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Pradžios laikas"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "Pabaigos laikas"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Dusinimo greitis"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Taikinys"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Garsas"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Automatinis paleidimas"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Įjungta"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Pilno ekrano režimas"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Iškviesti URL adresus"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Nutildyti"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Ištempti iki atitikimo"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Belangis vaizdas"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Balancas"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "Pradžios URL adresas"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Nuorodinės antraštės id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Esamas žymeklis"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Esama pozicija"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Standartinis freimas"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Groti kartų"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Dažnis"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI režimas"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Flash nustatymai"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Quicktime nustatymai"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Windows media player nustatymai"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Real media player nustatymai"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Shockwave nustatymai"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Atomatinis ėjimas URL adresu"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Centre"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Paveikslėlio būsena"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Išlaikyti aspektą"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "Be java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Išankstinis duom. išrinkimas"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Atsitiktinis maišymasis"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Konsolė"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Ciklų kiekis"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Valdikliai"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Scenarijaus atgalinis atsakas"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Ištempti stilių"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Ištempti H-Lygiavimas"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Ištempti V-Lygiavimas"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Garsas"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Progresas"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Transliuojami rtsp resursai turėtų būti pridėti prie QT Src lauko Papildomų nustatymų tabuliacijoje.\nTaip pat reiktų pridėti ir netransliuojamąją Src lauko versiją."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Viršuje"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Dešinėje"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Apačioje"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Kairėje"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Centre"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Viršaus kairėje"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Viršaus dešinėje"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Apačios kairėje"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Apačios dešinėje"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Flash vaizdo nustatymai"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Mastelio režimas"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Buferis"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Startavimo paveikslėlis"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Startavimo laikas"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Pradinis garso lygis"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "Paslėptas GUI"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Auto grojimas"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Groti cikliškai"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Rodyti mastelio režimus"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Tolygus vaizdas"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS atgalinis atsakas"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Dokumento nustatymai"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr "10"
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Dokumento nustatymai"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "Bendra"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Išvaizda"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Išplėsta"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Meta informacija"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Kalba ir koduotė"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Pavadinimas"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Raktažodžiai"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Aprašymas"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Robotai"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Kalbos kodas"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Kalbos kryptis"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "Iš kairės į dešinę"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "Iš dešinės į kairę"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "XML deklaracijos"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Simbolių koduotė"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Fono nustatymai"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Kūno paraštės"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Nuorodų spalvos"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Teksto nustatymai"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Fono spalva"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Fono paveikslėlis"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Kairė paraštė"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Dešinė paraštė"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Viršutinė paraštė"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Apatinė paraštė"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Teksto spalva"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Šrifto dydis"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Šriftas"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Nuorodos spalva"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Užvedus pele spalva"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Aplankytos spalva"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Aktyvios spalva"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Spalva"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Šrifto dydis"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Šrifto šeima"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Indeksuoti ir sekti nuorodomis"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Indeksuoti ir nesekti nuorodomis"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Neindeksuoti, bet sekti nuorodomis"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Neindeksuoti ir nesekti nuorodomis"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Stilių lapo ir stiliaus nustatymai"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Stilių lapas"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Stilius"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Autorius"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Kopijavimo teisės"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Pridėti naują elementą"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Pašalinti pažymėtą elementą"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Perkelti pažymėtą elementą į viršų"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Perkelti pažymėtą elementą į apačią"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Galvos elementai"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Informacija"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Pavadinimo elementas"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta elementas"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Skripto elementas"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Stiliaus elementas"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Nuorodos elementas"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Bazinis elementas"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Komentaro mazgas"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Pavadinimo elementas"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Skripto elementas"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Stiliaus elementas"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Bazinis elementas"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Nuorodos elementas"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta elementas"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Komentaras"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Šaltinis"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Kalba"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Taikinys"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Tipas"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Koduotė"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Nustatymai"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Vardas"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Reikšmė"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Turinys"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href kalba"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "Bendra"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Išplėsta"
+
+msgid "tinymce_template_desc"
+msgstr "Įterpti jau nustatytą šabloninį turinį"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Šablonai"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Šablonas"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Aprašymas"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Įterpti jau nustatytą šabloninį turinį"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Pasirinkti šabloną"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Peržiūra"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Perspėjimas: Šablono pakeitimas kitu gali sukelti duomenų praradimą."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "Sausis,Vasaris,Kovas,Balandis,Gegužė,Birželis,Liepa,Rugpjūtis,Rugsėjis,Spalis,Lapkritis,Gruodis"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Sau,Vas,Kov,Bal,Geg,Bir,Lie,Rugpj,Rugs,Spa,Lapkr,Gruo"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "Sekmadienis,Pirmadienis,Antradienis,Trečiadienis,Ketvirtadienis,Penktadienis,Šeštadienis,Sekmadienis"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "Sekm,Pirm,Antr,Treč,Ketv,Penk,Šešt,Sekm"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Visualiniai valdymo simboliai įjungti/išjungti."
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Kaitalioti klaidų tikrinimą"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Klaidų tikrinimo nustatymai"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Ignoruoti žodį"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Ignoruoti viską"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Kalbos"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Prašome palaukti..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Pasiūlymai"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Pasiūlymų nerasta"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Klaidų nerasta."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Įterpti puslapio pabaigos žymę."
+

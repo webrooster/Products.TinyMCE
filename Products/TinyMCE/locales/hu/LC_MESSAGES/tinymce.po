@@ -1,0 +1,2261 @@
+# Magyar fordítás a TinyMCE-hez.
+# Version 5.9
+#
+# Kovács Zsolt
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-13 00:00+0000\n"
+"Last-Translator: Kovács Zsolt\n"
+"Language-Team: Kovács Zsolt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: hu\n"
+"Language-Name: Hungarian\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Használni akarja a WYSIWYG módot ebben a szövegdobozban?"
+
+msgid "tinymce_common_apply"
+msgstr "Alkalmaz"
+
+msgid "tinymce_common_insert"
+msgstr "Beszúr"
+
+msgid "tinymce_common_update"
+msgstr "Frissít"
+
+msgid "tinymce_common_cancel"
+msgstr "Mégse"
+
+msgid "tinymce_common_close"
+msgstr "Bezár"
+
+msgid "tinymce_common_browse"
+msgstr "Tallóz"
+
+msgid "tinymce_common_class_name"
+msgstr "Osztály"
+
+msgid "tinymce_common_not_set"
+msgstr "-- Nincs megadva --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "A Másolás/Kivágás/Beszúrás funkciók nem elérhetők Mozilla és Firefox alatt.\nKíván többet tudni erről a témáról?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Jelenleg nem támogatja a böngészője, használja a billentyűkombinációkat helyette."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "A felugró ablakok tiltása miatt nem tudtunk megjeleníteni egy, az alkalmazáshoz szükséges ablakot. Engedélyezze a böngészőjében a felugró ablakokat, hogy minden funkciót használhasson."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Hiba: Érvénytelen adatok, pirossal jelölve."
+
+msgid "tinymce_common_more_colors"
+msgstr "Több szín"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Félkövér (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Dőlt (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Aláhúzott (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Áthúzott"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Felsorolásos lista"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Sorrendezett lista"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Visszavon (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Mégis végrehajt (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Rendetlen kód tisztítása"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Stílusok"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Betűméret"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Betűtípus"
+
+msgid "tinymce_advanced_block"
+msgstr "Formátum"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Bekezdés"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "Cím"
+
+msgid "tinymce_advanced_pre"
+msgstr "Előformázott"
+
+msgid "tinymce_advanced_h1"
+msgstr "Címsor 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Címsor 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Címsor 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Címsor 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Címsor 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Címsor 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Idézet"
+
+msgid "tinymce_advanced_code"
+msgstr "Kód"
+
+msgid "tinymce_advanced_samp"
+msgstr "Kód minta"
+
+msgid "tinymce_advanced_dt"
+msgstr "Definiált kifejezés a definíciós listában"
+
+msgid "tinymce_advanced_dd"
+msgstr "Definíció a definíciós listában"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Félkövér (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Dőlt (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Aláhúzott (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Áthúzott"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Balra zárt"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Középre zárt"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Jobbra zárt"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Sorkizárt"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Rendezetlen lista"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Rendezett lista"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Behúzás csökkentése"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Behúzás növelése"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Visszavon (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Mégis végrehajt (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Link beszúrása/szerkesztése"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Link megszüntetése"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Kép beszúrása/szerkesztése"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Rendetlen kód takarítása"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "HTML forrás szerkesztése"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Alsó index"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Felső index"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Vízszintes elválasztó beszúrása"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Formázás eltávolítása"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Az ön egyedi leírása"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Szövegszín választása"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Háttérszín választása"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Speciális karakter beszúrása"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Vezetővonalak/nem látható elemek ki-/bekapcsolása"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Horgony beszúrása/szerkesztése"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Kivágás"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Másolás"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Beszúrás"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Kép tulajdonságai"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Új dokumentum"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Segítség"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Idézet"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "A Másolás/Kivágás/Beszúrás funkciók nem elérhetők Mozilla és Firefox alatt. Kíván többet tudni erről a témáról?"
+
+msgid "tinymce_advanced_path"
+msgstr "Útvonal"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Biztosan törli az eddigi tartalmat?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Eszközgombokra ugrás - Alt+Q, Szerkesztőhöz ugrás - Alt-Z, Elemútvonalhoz ugrás - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Több szín"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "A TinyMCE-ről"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "Rólunk"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Segítség"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Licensz"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Pluginok"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Plugin"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Szerző"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Verzió"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Betöltött pluginok"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Horgony beszúrása/szerkesztése"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Horgonynév"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "HTML forrás szerkesztése"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Szöveg tördelése"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Színválasztás"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Választó"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Színválasztó"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Paletta"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Paletta színek"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Elnevezettek"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Elnevezett színek"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Szín:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Név:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Egyedi karakter választása"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Kép beszúrása/szerkesztése"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "Kép URL"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Kép leírás"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Kép lista"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Keret"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Dimenziók"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Függőleges táv"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Vízszintes táv"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Igazítás"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Alapvonalhoz"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Fentre"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Középre"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Lentre"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Szöveg tetejéhez"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Szöveg aljához"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Balra"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Jobbra"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Link beszúrása/szerkesztése"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "Link URL"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Target"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Link azonos ablakba nyitása"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Link új ablakba nyitása"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Cím"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "A beírt URL e-mail címnek tűnik, kívánja a szükséges mailto:-t elé tenni?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "A beírt URL külső hivatkozásnak tűnik, kívánja a szükséges http://-t elé tenni?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Link lista"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Igazítás"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Balra"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Középre"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Jobbra"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Sorkizárás"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%Y.%m.%d."
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Dátum beszúrása"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Idő beszúrása"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "január,február,március,április,május,június,július,augusztus,szeptember,október,november,december"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "jan,feb,már,ápr,máj,jún,júl,aug,szep,okt,nov,dec"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "vasárnap,hétfő,kedd,szerda,csütörtök,péntek,szombat,vasárnap"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "V,H,K,Sze,Cs,P,Szo,V"
+
+msgid "tinymce_print_print_desc"
+msgstr "Nyomtatás"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Előnézet"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Balról jobbra"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Jobbról balra"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Új réteg beszúrása"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Mozgatás előre"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Mozgatás hátra"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Abszolút pozíció ki-/bekapcsolása"
+
+msgid "tinymce_layer_content"
+msgstr "Új réteg..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Mentés"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Összes változás visszavonása"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Nemsortörő szóköz beszúrása"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Helyesírás-ellenőrzés futtatása"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell nem található. Telepíti most?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Vízszintes vonal"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Szélesség"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Magasság"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Árnyék nélkül"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Hangulatjelek"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Hangulatjel beszúrása"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Hangulatjelek"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Király"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Sírós"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Zavarban van"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Láb a szájban"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Rosszall"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Ártatlan"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Csók"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Nevetés"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Pénz beszél"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Lakat a száján"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Vigyor"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Meglepett"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Nyelvöltés"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Határozatlan"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Kacsintás"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Üvöltés"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Keresés"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Keresés/Csere"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Keresés megint"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "A keresés véget ért. A keresett szövegrész nem található."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Keresés"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Keresés/Csere"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "A keresett részszöveg minden előfordulása cserélve lett."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Mit cserél"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Mire cserél"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Irány"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Fel"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Le"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Kis- és nagybetűk megkülönböztetése"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Keresés"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Csere"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Minden találat cseréje"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Kép beszúrása/szerkesztése"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "Általános"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Megjelenés"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Haladó"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "Általános"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Cím"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Előnézet"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Aránytartás"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Nyelv írás irány"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Nyelv kód"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Bővebb leírás link"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Class-ok"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "Balról jobbra"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "Jobbról balra"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Kép térkép"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Képcsere"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Alternatív kép"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "Kép az egérkurzor fölévitelekor"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "Kép az egérkurzor levételekor"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Vegyes"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Előnézeti kép"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Biztosan folytatja helyettesítő szöveg nélkül? Enélkül a korlátozással élők, szöveges böngészőt használók és a képek megjelenítését letiltó felhasználók hátrányban lesznek."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Kép beszúrás/szerkesztés"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "Kép URL"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Kép helyettesítő szövege"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Képlista"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Keret"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Dimenziók"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Függőleges távolság"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Vízszintes távolság"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Igazítás"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Alapvonalhoz"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Fentre"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Középre"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Lentre"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Szöveg tetejéhez"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Szöveg aljához"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Balra"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Jobbra"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Képlista"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Link beszúrása/szerkesztés"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Link beszúrás/szerkesztés"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "Link URL"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Target"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Cím"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "A beírt URL e-mail címnek tűnik, kívánja a szükséges mailto:-t elé tenni?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "A beírt URL külső hivatkozásnak tűnik, kívánja a szükséges http://-t elé tenni?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Link lista"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "Általános"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Felugró ablak"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Események"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Haladó"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Általános tulajdonságok"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Felugró ablak tulajdonságai"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Események"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Haladó tulajdonságok"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Beállítások"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Horgonyok"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Azonos ablakban/keretben megnyitás"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Szülő ablakban/keretben megnyitás"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Azonos ablakban/keretben megnyitás legfelül"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Új ablakban megnyitás"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "JavaScript felugró ablak"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "Felugró ablak URL"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Ablaknév"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "'return false' beszúrása"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Görgetősávok mutatása"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Státuszsor mutatása"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Eszközsor mutatása"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Menüsor mutatása"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Cím mező mutatása"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Átméretezhető ablak"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Függő (csak Mozilla/Firefox)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Méret"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Pozíció (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Class-ok"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Cél neve"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Nyelv írás irány"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Cél nyelv"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Nyelv kód"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Cél karakterkódolás"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "Cél MIME típus"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Oldal kapcsolata a céllal"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Cél kapcsolata az oldallal"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Tabindex"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Gyorsgomb"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Balról jobbra"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Jobbról balra"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Link lista"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Idézet"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Rövidítés"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Betűszó"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Törölt"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Beszúrt"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Tulajdonságok beszúrása/szerkesztése"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Cím"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Class"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Style"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Idézet"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Dátum/Idő"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Szöveg iránya"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "Balról jobbra"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "Jobbról balra"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Nyelv"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "TabIndex"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "Gyorsbilentyű"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Események"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Tulajdonságok"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "Általános"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Tulajdonságok"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Események"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Általános beállítások"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Elem tulajdonságok"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Elem események"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Beszúrt elem"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Törölt elem"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Betűszó elem"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Rövidítés elem"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Idézet elem"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Eltávolítás"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Aktuális dátum/idő beszúrása"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "Balról jobra"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "Jobbról balra"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Tulajdonságok beszúrása/szerkesztése"
+
+msgid "tinymce_style_desc"
+msgstr "CSS stílus szerkesztése"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "CSS stílus szerkestése"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Alkalmaz"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Szöveg"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Háttér"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Blokk"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Doboz"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Keret"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "Lista"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Pozíció"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Szöveg"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Betűtípus"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Méret"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Szélesség"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Stílus"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Változat"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Sormagasság"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "eset"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "szín"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "dekoráció"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "felülhúzás"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "alulhúzás"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "áthúzás"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "villogás"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "egyik sem"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Háttérszín"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Háttérkép"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Ismétlés"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Csatolmány"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Vízszintes hely"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Függőleges hely"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Szótávolság"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Betűtávolság"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Függőleges igazítás"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Szöveg igazítása"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Szöveg behúzása"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Üres helyek"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Megjelenítés"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Szélesség"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Magasság"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Lebegés (float)"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Lebegés (float) törlése"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Belső margó"
+
+msgid "tinymce_style_dlg_same"
+msgstr "Mindenhol ugyanaz"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Felül"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Jobbra"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Lent"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Balra"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Margó"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Stílus"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Szélesség"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Magasság"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Szín"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Típus"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Elemkép"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Pozíció"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Típus"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Láthatóság"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-index"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Kifutás"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Elhelyezés"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Levágás"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Beszúrás szövegként"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Beszúrás Wordből"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Mindent kijelöl"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Használja a Ctrl+V-t a billentyűzetén a beillesztéshez."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Sortörések megtartása"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Használja a Ctrl+V-t a billentyűzetén a beillesztéshez."
+
+msgid "tinymce_table_desc"
+msgstr "Táblázat beszúrása/szerkesztése"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Sor beszúrása elé"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Sor beszúrása utána"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Sor törlése"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Oszlop beszúrása elé"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Oszlop beszúrása utána"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Oszlop törlése"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Cellák felosztása"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Cellák összevonása"
+
+msgid "tinymce_table_row_desc"
+msgstr "Sor tulajdonságai"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Cella tulajdonságai"
+
+msgid "tinymce_table_props_desc"
+msgstr "Táblázat tulajdonságai"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Sor bemásolása elé"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Sor bemásolása utána"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Sor kivágása"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Sor másolása"
+
+msgid "tinymce_table_del"
+msgstr "Táblázat törlése"
+
+msgid "tinymce_table_row"
+msgstr "Sor"
+
+msgid "tinymce_table_col"
+msgstr "Oszlop"
+
+msgid "tinymce_table_cell"
+msgstr "Cella"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "Általános"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Haladó"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Általános tulajdonságok"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Haladó tulajdonságok"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Sor a táblában"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Táblázat beszúrása/szerkesztése"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Szélesség"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Magasság"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Oszlopok"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Sorok"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Cellaköz"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Cella belsőköz"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Keret"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Igazítás"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "Alapértelmezett"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Balra"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Jobbra"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Középre"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Sor tulajdonságai"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Cella tulajdonságai"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Cellatípus"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Függőleges igazítás"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Fel"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Le"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Keretszín"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Háttérszín"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Cellák összevonása"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Stílus"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Írás irány"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Nyelvkód"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "Cél MIME típus"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "Balról jobbra"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "Jobbról balra"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Háttérkép"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Összegzés"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Adat"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Fejléc"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Cella frissítése"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Sor összes cellájának frissítése"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Táblázat összes cellájának frissítése"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Sor frissítése"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Páratlan sorok frissítése"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Páros sorok frissítése"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Minden sor frissítése"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Táblázat fej"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Táblázat test"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Táblázat láb"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Hatókör"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Sor csoport"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Oszlop csoport"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "Túllépte a maximális oszlopszámot, ami {$cols}."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "Túllépte a maximális sorszámot, ami {$rows}."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "Túllépte a maximális cellaszámot, ami {$cells}."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Biztosan folytatni akarja anélkül, hogy hatókört adna ennek a fejléccellának? Korlátozásokkal élők számára nehéz lesz megérteni a táblázat tartalmát."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Címsor"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Keret"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "nincs"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "csoportok"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "sorok"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "oszlopok"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "mind"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Vonalak"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "sehol"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "fölötte"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "alatta"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "v. oldalak"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "f. oldalak"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "doboz"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "keret"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "A módosítások nem lesznek mentve, ha elhagyja az oldalt."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Teljesképernyős mód ki-/bekapcsolása"
+
+msgid "tinymce_media_desc"
+msgstr "Beágyazott média beszúrása/szerkesztése"
+
+msgid "tinymce_media_edit"
+msgstr "Beágyazott média szerkesztése"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Beágyazott média beszúrása/szerkesztése"
+
+msgid "tinymce_media_dlg_general"
+msgstr "Általános"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Haladó"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Fájl/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Lista"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Dimenziók"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Előnézet"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Aránytartás"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Típus"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Név"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Osztály"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "F-táv"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "V-táv"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Automatikus lejátszás"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Ismétlés"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Menü mutatása"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Minőség"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Nagyítás"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Elrendezés"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SElrendezés"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMód"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Háttér"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Base"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flashvars"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Cache"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Rejtett"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Vezérlő"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kiosk mód"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Minden kocka lejátszása"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Cél cache"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "Nincs javítás"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "JavaScript engedése"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Kezdési idő"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "Záró idő"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Folytás sebessége"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Cél"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Hangerő"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Automatikus kezdés"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Engedélyezve"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Teljes képernyő"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "URL-ek bevonása"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Néma"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Nyújtva igazítás"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Ablak nélküli videó"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Balance"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "Base URL"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Captioning id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Aktuális marker"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Aktuális pozíció"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Alapértelmezett frame"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Lejátszásszám"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Rate"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI Mód"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Flash beállításai"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Quicktime beállításai"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Windows media player beállításai"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Real media player beállításai"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Shockwave beállításai"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Automatikus URL-re ugrás"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Középre"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Kép állapot"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Aránytartás"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "Nincs java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Előtöltés"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Véletlenszerű"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Console"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Ismétlésszám"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Kezelők"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Script callbacks"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Nyújtás stílus"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Nyújtás V-igazítás"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Nyújtás F-igazítás"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Hang"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Folymat"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Streamelt rtsp források a QT Src mezőbe valók a haladó lapon.\nHozzá kellene adnia egy nem streamelt verziót a Src mezőben."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Fent"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Jobbra"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Lent"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Balra"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Középen"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Bal-fent"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Jobb-fent"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Bal-lent"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Bal-jobbra"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Flash videó beállításai"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Nagyítás mód"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Buffer"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Start kép"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Start idő"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Alapértelmezett hangerő"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "Rejtett GUI"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Autó start"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Ismétlés"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Nagyítási módok mutatása"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Videó simítása"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Dokumentum tulajdonságai"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Dokumentum tulajdonságai"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "Általános"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Megjelenés"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Haladó"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Meta információ"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Nyelv és kódolás"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Cím"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Kulcsszavak"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Leírás"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Robotok"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Nyelvkód"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Írás iránya"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "Balról jobra"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "Jobbról balra"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "XML deklaráció"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Karakterkódolás"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Háttér tulajdonságai"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Test keret"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Link színek"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Szöveg tulajdonságai"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Háttérszín"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Háttérkép"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Bal margó"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Jobb margó"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Felső margó"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Alsó margó"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Szövegszín"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Betűméret"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Betűtípus"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Link szín"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Fölévitt szín"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Látogatva szín"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Aktív szín"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Szín"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Betűméret"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Betűtípus"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Indexel és követi a linkeket"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Indexel, de nem követi a linkeket"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Nem indexel, de követi a linkeket"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Nem indexel és nem követi a linkeket"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Stylesheet és style tulajdonságok"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Stylesheet"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Szerző"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Copyright"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Új elem hozzáadása"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Kijelölt elem törlése"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Kijelölt elem felfelé mozgatása"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Kijelölt elem lefelé mozgatása"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Fej elemek"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Információ"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Cím elem"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta elem"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Script elem"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Style elem"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Link elem"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Base elem"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Comment elem"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Title elem"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Script elem"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Style elem"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Base elem"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Link elem"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta elem"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Megjegyzés"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Src"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Language"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Target"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Charset"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Properties"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Name"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Value"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Content"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "Általános"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Haladó"
+
+msgid "tinymce_template_desc"
+msgstr "Sablon beillesztése"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Sablon beillesztése"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Sablon"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Leírás"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Sablon beillesztése"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Sablon választása"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Előnézet"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Figyelem: Egy már alkalmazott sablon frissítése másikkal adatvesztéssel járhat."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y.%m.%d. %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y.%m.%d. %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "január,február,március,április,május,június,július,augusztus,szeptember,október,november,december"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "jan,feb,már,ápr,máj,jún,júl,aug,szep,okt,nov,dec"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "vasárnap,hétfő,kedd,szerda,csütörtök,péntek,szombat,vasárnap"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "V,H,K,Sze,Cs,P,Szo,V"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Vizuális vezérlőkarakterek be/ki."
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Helyesírás-ellenőrző ki-/bekapcsolása"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Helyesírás-ellenőrző tulajdonságai"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Szó kihagyása"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Mindet kihagy"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Nyelvek"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Kérem, várjon..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Ajánlások"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Nincs ajánlás"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Nem találtam helyesírási hibát."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Oldaltörés beszúrása."
+

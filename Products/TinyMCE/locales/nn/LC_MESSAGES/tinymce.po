@@ -1,0 +1,2261 @@
+# This is the Norwegian nynorsk language pack for TinyMCE.
+# Version 1.6
+#
+# Terje Dahl
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-01 00:00+0000\n"
+"Last-Translator: Terje Dahl\n"
+"Language-Team: Terje Dahl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: nn\n"
+"Language-Name: Norwegian nynorsk\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Vil du bruke WYSIWYG-editoren for dette tekstfeltet?"
+
+msgid "tinymce_common_apply"
+msgstr "Legg til"
+
+msgid "tinymce_common_insert"
+msgstr "Set inn"
+
+msgid "tinymce_common_update"
+msgstr "Oppdater"
+
+msgid "tinymce_common_cancel"
+msgstr "Avbryt"
+
+msgid "tinymce_common_close"
+msgstr "Stopp"
+
+msgid "tinymce_common_browse"
+msgstr "Bla gjennom"
+
+msgid "tinymce_common_class_name"
+msgstr "Klasse"
+
+msgid "tinymce_common_not_set"
+msgstr "--ikkje sett--"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Klipp ut / Kopier /Lim inn fungerer ikkje i Mozilla og Firefox. Vil du vite meir om dette?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "For tida ikkje støtta av nettlesaren din, bruk tastatursnarveger i staden."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "Orsak, det er registrert at du har popup-sperre aktivert i nettlesaren. Du må oppheve popup-sperra for nettstaden for å få tilgang til dette verktyet"
+
+msgid "tinymce_common_invalid_data"
+msgstr "Feil: Ugyldige verdiar er skrivne inn, desse er merka med raudt"
+
+msgid "tinymce_common_more_colors"
+msgstr "Fleire fargar"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Feit"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Kursiv"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Understreking"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Gjennomstreking"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Punktliste"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Nummerliste"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Angre"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Gjer om"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Rens grisete kode"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Stilar"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Skriftstorleik"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Skriftfamilie"
+
+msgid "tinymce_advanced_block"
+msgstr "Format"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Avsnitt"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "Adresse"
+
+msgid "tinymce_advanced_pre"
+msgstr "Pre-formatert"
+
+msgid "tinymce_advanced_h1"
+msgstr "Overskrift 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Overskrift 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Overskrift 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Overskrift 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Overskrift 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Overskrift 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Innrykk"
+
+msgid "tinymce_advanced_code"
+msgstr "Kode"
+
+msgid "tinymce_advanced_samp"
+msgstr "Kodeeksempel"
+
+msgid "tinymce_advanced_dt"
+msgstr "Definisjonsuttrykk"
+
+msgid "tinymce_advanced_dd"
+msgstr "Definisjonsbeskrivelse"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Feit"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Kursiv"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Understreking"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Gjennomstreking"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Venstrejustert"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Midtstilt"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Høgrejustert"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Blokkjustert"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Punktliste"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Nummerliste"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Reduser innrykk"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Auk innrykk"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Angre"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Gjer om"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Set inn / endre lenkje"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Fjern lenkje"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Set inn / endre bilete"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Rens grisete kode"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "Redigere HTML-koden"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Senka skrift"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Heva skrift"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Set inn horisontal linje"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Fjern formatering"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Din spesialfunksjondefinisjon her"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Vel skriftfarge"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Vel bakgrunnsfarge"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Set inn spesialteikn"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Slå av/på usynlige element"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Set inn / endre anker"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Klipp ut"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Kopier"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Lim inn"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Eigenskaper for bilete"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Nytt dokument"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Hjelp"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Innrykk"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Klipp ut / Kopier /Lim inn fungerer ikkje i Mozilla og Firefox. \n  Vil du vite meir om dette?"
+
+msgid "tinymce_advanced_path"
+msgstr "Sti"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Er du sikker på at du vil slette alt innhald?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Skift til verktyknappar - Alt+Q, Skift til editor - Alt-Z, Skift til elementsti - Alt-"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Fleire fargar"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "Om TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "Om"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Hjelp"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Lisens"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Programtillegg"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Programtillegg"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Utviklar"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Versjon"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Lasta programtillegg"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Set inn / endre anker"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Ankernamn"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "HTML-editor"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Tekstbryting"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Vel ein farge"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Vel farge"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Fargeval"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Palett"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Palettfargar"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Namneval"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Fargenamn"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Farge:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Namn:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Vel spesialteikn"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Set inn / endre bilete"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "Bilete-URL"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Bileteomtale"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Liste med bilete"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Ramme"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Dimensjonar"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Vertikal avstand"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Horisontal avstand"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Justering"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Botnlinje"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Topp"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Midtstilt"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Botn"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Teksttopp"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Tekstbotn"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Venstre"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Høgre"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Set inn / endre lenkje"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "Lenkje-URL"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Vindauge"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Opne i dette vindauget"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Opne i nytt vindauget"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Tittel"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "Nettadressa du skreiv inn ser ut til å vere ein e-postadresse. Ønskjer du å leggje til det obligatoriske mailto:-prefikset?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "Nettadressa du skreiv inn ser ut til å vere ein ekstern nettadresse. Ønskjer du å leggje til det obligatoriske http://-prefikset?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Lenkjeliste"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Justering"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Venstre"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Midtstill"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Høgre"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Full"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%Y-%m-%d"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Lim inn dato"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Lim inn tid"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "januar,februar,mars,april,mai,juni,juli,august,september,oktober,november,desember"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "jan,feb,mar,apr,mai,jun,jul,aug,sep,oct,nov,des"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "sundag,mandag,tirsdag,onsdag,torsdag,fredag,laurdag,sundag"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "sun,man,tir,ons,tor,fre,lau,sun"
+
+msgid "tinymce_print_print_desc"
+msgstr "Skriv u"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Førehandsvisni"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Retning venstre mot høgre"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Retning høgre mot venstre"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Set inn nytt lag"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Flytt framover"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Flytt bakover"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Slå på/av absolutt plassering"
+
+msgid "tinymce_layer_content"
+msgstr "Nytt lag..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Lagre"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Kanseller alle endringar"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Set inn hardt mellomrom"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Køyrer kontroll av rettskriving"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell ikkje funnen. Ønskjer du å installere ieSpell no?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Horisontal linje"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Breidd"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Storleik"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Inga skugge"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Humørfjes"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Set inn humørfjes"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Humørfjes"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Cool"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Gret"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Flau"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Fot i munnen"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Skuffa"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Uskyldig"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Kyss"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Ler"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Pengar i munnen"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Hemmeleg"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Glad"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Overraska"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Rekkje tunge"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Skeptisk"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Blunke"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Skri"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Søk"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Søk/Erstatt"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Søk igjen"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "Søket avslutta. Fann ikkje søkjestrengen."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Søk"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Søk/Erstatt"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Alle førekomstar av søkjestrengen er erstatta."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Finn kva"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Erstatt med"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Retning"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Oppover"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Nedover"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Skill mellom store og små teikn"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Finn neste"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Erstatt"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Erstatt alt"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Set inn / endre bilete"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "Generelt"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Utsjånad"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Avansert"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "Generelt"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Tittel"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Sjå førebels utkast"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Behald proporsjonar"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Skriftretning"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Språkkode"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Lang omtale"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Klasser"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "Venstre mot høgre"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "Høgre mot venstre"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Biletekart"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Byt bilete"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Alternativt bilete"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "for musepeikar over"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "for musepeikar utanfor"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Anna"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Sjå førebels utkast av bilete"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Er du sikker på at du vil fortsetje utan å setje inn ei omtale av biletet? Utan omtale vil biletet ikkje gje meining for enkelte funksjonshemma eller for personar som bruker ein nettlesar med biletvisinga avslått."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Set inn / endre bilete"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "Bilete-URL"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Bileteomtale"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Bileteliste"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Ramme"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Dimensjonar"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Vertikal avstand"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Horisontal avstand"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Justering"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Basislinje"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Topp"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Midtstilt"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Botn"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Tekst topp"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Tekst botn"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Venstre"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Høgre"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Liste med bilete"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Set inn / endre lenkje"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Set inn / rediger lenkje"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "Lenkje-URL"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Mål"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Tittel"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "URL-en du skreiv inn ser ut til å vere ei e-postadresse. Ønskjer du å leggje til det obligatoriske mailto:-prefikset?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "URL-en du skreiv inn ser ut til å vere ei eksern lenkje. Ønskjer du å leggje til det obligatoriske http://-prefikset?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Lenkjeliste"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "Generelt"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Popup"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Hendingar"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Avansert"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Generelt"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Popup-eigenskapar"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Hendingar"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Generelle eigenskapar"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Innstillingar"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Anker"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Opne i same vindauge/ramme"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Opne i overordna vindauge/ramme"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Opne i toppvindauge (erstattar alle rammer)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Opne i nytt vindauge"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Javascript-popup"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "Popup URL"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Namn på vindauge"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "Set inn 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Vis rullefelt"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Vis statusline"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Vis verktyliner"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Vis menyline"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Vis plasseringsline"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Gjer vindauget skalerbart"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Avhengig vindu (berre i Mozilla/Firefox)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Storleik"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Posisjon (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Klasser"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Målnamn"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Skriftretning"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Målspråk"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Språkkode"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Teiknkonvertering"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "Målet sin MIME-type"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Sida sitt forhold til målet"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Målet sitt forhold til sida"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Tabulatorindeks"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Hurtigtast"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Venstre mot høgre"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Høgre mot venstre"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Lenkjeliste"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Sitat"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Forkorting"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Akronym"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Sletting"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Innsetjing"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Set inn / Endre eigenskapar"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Tittel"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Klasse"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Stil"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Stad"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Dato/tid"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Tekstretning"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "Venstre mot høgre"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "Høgre mot venstre"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Språk"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "Tabuleringsindeks"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "Tilgangsnøkkel"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Hendingar"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Attributt"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "Generelt"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Attributtar"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Hendingar"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Generelle innstillingar"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Elementattributtar"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Elementhendingar"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Innsetjingselement"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Sletteelement"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Akronymelement"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Forkortingselement"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Sitatelement"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Fjern"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Set inn dato/ti"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "Venstre mot høgre"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "Høgre mot venstre"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Set inn / endre attributt"
+
+msgid "tinymce_style_desc"
+msgstr "Rediger CSS-stil"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "Rediger CSS-stil"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Legg til"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Tekst"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Bakgrunn"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Blokk"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Boks"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Ramme"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "Liste"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Posisjon"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Eigenskapar for skrift"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Skrifttype"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Skriftstorleik"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Skriftvekt"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Skriftstil"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Variant"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Linjehøgd"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Kapitelar/minusklar"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Farge"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Dekorasjon"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "Heva skrift"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "Senka skrift"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "Gjennomstreking"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "Blink"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "Ingen"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Bakgrunnsfarge"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Bakgrunnsbilete"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Gjenta"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Vedlegg"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Horisontal posisjon"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Vertikal posisjon"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Ordmellomrom"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Bokstavmellomrom"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Vertikal justering"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Justering"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Innrykk"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Mellomrom"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Framsyning"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Breidd"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Høgd"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Flyt"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Slett"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Utfylling"
+
+msgid "tinymce_style_dlg_same"
+msgstr "Likt i alle"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Topp"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Høgre"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Bunn"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Venstre"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Marg"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Breidd"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Høgd"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Farge"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Kulepunktbilete"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Posisjon"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Synlegheit"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-indeks"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Overfylt"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Plassering"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Klipp"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Lim inn som vanleg tekst"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Lim inn frå Word"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Marker al"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Bruk CTRL+V på tastaturet for å lime inn i dette vindauget."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Behald tekstbryting"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Bruk CTRL+V på tastaturet for å lime inn i dette vindauget."
+
+msgid "tinymce_table_desc"
+msgstr "Set inn ein ny tabell"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Set inn rad framfor"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Set inn rad etter"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Fjern rad"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Set inn kolonne framfor"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Set inn kolonne etter"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Fjern kolonne"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Del celler"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Slå saman celler"
+
+msgid "tinymce_table_row_desc"
+msgstr "Radeigenskapar"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Celleegenskapar"
+
+msgid "tinymce_table_props_desc"
+msgstr "Tabelleigenskapar"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Lim inn rad framfor"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Lim inn rad etter"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Fjern rad"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Kopier rad"
+
+msgid "tinymce_table_del"
+msgstr "Slett tabell"
+
+msgid "tinymce_table_row"
+msgstr "Rad"
+
+msgid "tinymce_table_col"
+msgstr "Kolonne"
+
+msgid "tinymce_table_cell"
+msgstr "Celle"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "Generelt"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Avansert"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Generelt"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Generelle eigenskapar"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Rad i tabell"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Set inn / rediger tabell"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Breidd"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Høgd"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Kolonner"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Rader"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Celleavstand"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Cellefylling"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Ramme"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Justering"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "Standard"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Venstre"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Høgre"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Midtstilt"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Radeigenskapar"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Celleeigenskapar"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Celletype"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Vertikal justering"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Topp"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Botn"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Rammefarge"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Bakgrunn"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Slå saman celler"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Skriftretning"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Språkkode"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "Målet sin MIME-type"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "Venstre mot høgre"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "Høgre mot venstre"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Bakgrunnsbilete"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Samandrag"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Data"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Overskrift"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Oppdater aktuell celle"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Oppdater alle celler i rada"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Oppdater alle celler i tabellen"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Oppdater aktuell rad"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Oppdater oddetallrader"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Oppdater partallrader"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Oppdater alle rader"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Tabellhovud"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Tabellkropp"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Tabellfot"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Område"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Radgruppe"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Kolonnegruppe"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "Du har fleire enn maksimalt tal kolonner på {$cols}."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "Du har fleire enn maksimalt tal rader på {$rows}."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "Du har fleire enn maksimalt tal celler på {$cells}."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Er du sikker på at du vil fortsetje utan å angi eit område for denne overskrifscella? Utan dette kan det bli vanskeleg for enkelte funksjonshemma brukarar å forstå innhaldet eller dataane som blir presenterte i tabellen."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Tabelloverskrift"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Ramme"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "ingen"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "grupper"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "rader"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "kolonnar"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "alle"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Strekar"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "ingen"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "over"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "under"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hsides"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vsides"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "boks"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "ramme"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "Endringane du gjorde går tapt om du forlèt denne sida!"
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Skift til/frå fullskjermmodus"
+
+msgid "tinymce_media_desc"
+msgstr "Set inn / rediger inkludert objekt"
+
+msgid "tinymce_media_edit"
+msgstr "Endre innsett objekt"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Set inn / rediger inkludert objekt"
+
+msgid "tinymce_media_dlg_general"
+msgstr "Generelt"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Avansert"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Fil/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Liste"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Storleik"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Sjå førebels utkast"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Behald proporsjonar"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Namn"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Klasse"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "Vertikal avstand"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "Horisontal avstand"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Autostart"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Lykkje"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Vis meny"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Kvalitet"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Skalering"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Justering"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "S-justering"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "W-modus"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Bakgrunn"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Base"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flash-variablar"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Cache"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Skjult"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Kontroller"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kiosk-modus"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Spel kvar ramme"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Mål-cache"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "Ingen korreksjon"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "Tillat Javaskript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Starttid"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "Stopptid"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Choke speed"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Mål"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Volum"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Autostart"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Køyrbar"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Fullskjerm"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Aktiviser URL-ar"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Demp"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Strekk for å passe inn"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Video utan vindauge"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Balanse"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "Base URL"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Fange opp id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Aktiv markør"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Aktiv posisjon"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Standardramme"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Tellar"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Rate"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI-modus"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Flash-eigenskapar"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Quicktime-innstillingar"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Windows mediaplayer-innstillingar"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Real mediaplayer-innstillingar"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Shockwave-innstillinger"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Auto-gå-til-URL"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Midtstill"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Status for bilete"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Behald proporsjonar"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "Ikke Java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Registrer på førehand"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Miks"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Konsoll"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Antal gjennomløp"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Kontroller"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Skript-referanser"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Strekkstil"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Strekk H-justering"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Strekk V-justering"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Lyd"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Framdrift"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Streama rtsp-ressursar bør leggsst til QT Src field i avansert-fana.\nDu bør også leggje til ein ikkje-streama versjon i src field"
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Topp"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Høgre"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Botn"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Venstre"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Midt"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Topp venstre"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Top høgre"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Botn venste"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Botn høgre"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Flash video-val"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Skalering"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Buffer"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Startbilde"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Starttid"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Standardvolum"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "Skjult GUI"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Autostart"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Løkke"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Vis skalering"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Jamn video"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Dokumenteigenskapar"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Dokumenteigenskapar"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "Generelt"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Utsjånad"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Avansert"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Metainformasjon"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Språk og koding"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Tittel"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Nøkkelord"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Omtale"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Roboter"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Språkkode"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Skriftretning"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "Venstre mot høgre"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "Høgre mot venstre"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "XML-deklarasjon"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Teiknkonvertering"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Bakgrunnseigenskapar"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Body-marg"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Lenkjefargar"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Teksteigenskapar"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Bakgrunn"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Bakgrunnsbilete"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Venstre marg"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Høgre marg"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Toppmarg"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Botnmarg"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Farge"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Skriftstorleik"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Skrifttype"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Lenkjefarge"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Mus-over-farge"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Besøkt-farge"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Aktiv farge"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Farge"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Skriftstorleik"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Skriftfamile"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Indekser, og følg lenkjene"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Indekser, men ikkje følg lenkjene"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Ikkje indekser, men følg lenkjene"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Ikkje indekser, og ikkje følg lenkjene"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Stilark og stileigenskapar"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Stilark"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Forfattar"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Copyright"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Legg til nytt element"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Fjern"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Flytt markert element opp"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Flytt markert element ned"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Overskriftselement"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Informasjon"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Tittelelement"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Metaelement"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Skriptelement"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Stilelement"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Lenkjeelement"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Basiselement"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Kommentarnode"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Tittelelement"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Skriptelement"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Stilelement"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Basiselement"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Lenkjeelement"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Metaelement"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Kommentar"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Skjerm"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Språk"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Mål"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Teiknsett"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Objekt"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Eigenskapar"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Namn"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Verdi"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Nytt lag..."
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Sida sitt tilhøve til målet"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Målet sitt tilhøve til sida"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "Generelt"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Generelle eigenskapar"
+
+msgid "tinymce_template_desc"
+msgstr "Set inn førehandsdefinert malinnhald"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Malar"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Mal"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Omtale"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Set inn førehandsdefinert malinnhald"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Vel ein mal"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Sjå førebels utkast"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Åtvaring: Utskifting av ein mal med ein annen kan føre til at data går tapt."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "januar,februar,mars,april,mai,juni,juli,august,september,oktober,november,desember"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "jan,feb,mar,apr,mai,jun,jul,aug,sep,okt,nov,des"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "sundag,mandag,tirsdag,onsdag,torsdag,fredag,laurdag,sundag"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "sun,man,tir,ons,tor,fre,lør,sun"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Visuelle konktrollteikn på/av"
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Stavekontroll på/av"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Vis meny"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Ignorer ord"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Ignorer alt"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Språk"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Ver venleg og vent..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Framlegg"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Inga framlegg"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Inga stavefeil funne."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Set inn sideskift"
+

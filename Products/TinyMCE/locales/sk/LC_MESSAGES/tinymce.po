@@ -1,0 +1,2261 @@
+# Toto je slovenský jazykový balík pro TinyMCE.
+# Version 2.4
+#
+# Gabriel Schwardy (caleydon@gmail.com)
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-05 00:00+0000\n"
+"Last-Translator: Gabriel Schwardy (caleydon@gmail.com)\n"
+"Language-Team: Gabriel Schwardy (caleydon@gmail.com)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: sk\n"
+"Language-Name: Slovak\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Chceš použiť WYSIWYG mód pre tento text?"
+
+msgid "tinymce_common_apply"
+msgstr "Použiť"
+
+msgid "tinymce_common_insert"
+msgstr "Vložiť"
+
+msgid "tinymce_common_update"
+msgstr "Aktualizovať"
+
+msgid "tinymce_common_cancel"
+msgstr "Zrušiť"
+
+msgid "tinymce_common_close"
+msgstr "Zavrieť"
+
+msgid "tinymce_common_browse"
+msgstr "Prechádzať"
+
+msgid "tinymce_common_class_name"
+msgstr "Trieda"
+
+msgid "tinymce_common_not_set"
+msgstr "-- Nezadané --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Funkcie Kopírovať/vysrihnúť/vložiť nie su podporované prehliadačmi Mozilla a Firefox.\nChceš viac informácií o tomto probléme?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Momentálne nie je podporované tvojím prehliadačom. Miesto toho použi klávesovú skratku."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "Ospravedlňujeme sa, ale blokovač vyskakovacích okien neumožnil otvoriť okno, ktoré zprostredkováva funkčnosť aplikáce. Musíš vypnuť blokovanie vyskakovacích okien na tomto webe, aby bolo možné využiť jeho plnú funkčnosť."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Chyba: Zadané neplatné hodnoty (zvýraznené červenou)"
+
+msgid "tinymce_common_more_colors"
+msgstr "Viac farieb"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Tučný text (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Šikmý text (kurzivá) (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Podčiarknutý text (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Preškrtnutý text"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Zoznam s odrážkami"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Číslovaný zoznam"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Späť (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Znovu (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Vyčistiť neupravený kód"
+
+msgid "tinymce_advanced_style_select"
+msgstr "- Štýly -"
+
+msgid "tinymce_advanced_font_size"
+msgstr "- Veľkosť písma  -"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "- Typ písma -"
+
+msgid "tinymce_advanced_block"
+msgstr "- Formát -"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Odstavec [p]"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "Adresa [address]"
+
+msgid "tinymce_advanced_pre"
+msgstr "Predformát [pre]"
+
+msgid "tinymce_advanced_h1"
+msgstr "Nadpis 1 [h1]"
+
+msgid "tinymce_advanced_h2"
+msgstr "Nadpis 2 [h2]"
+
+msgid "tinymce_advanced_h3"
+msgstr "Nadpis 3 [h3]"
+
+msgid "tinymce_advanced_h4"
+msgstr "Nadpis 4 [h4]"
+
+msgid "tinymce_advanced_h5"
+msgstr "Nadpis 5 [h5]"
+
+msgid "tinymce_advanced_h6"
+msgstr "Nadpis 6 [h6]"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Odsadenie"
+
+msgid "tinymce_advanced_code"
+msgstr "Kód"
+
+msgid "tinymce_advanced_samp"
+msgstr "Ukážka kódu"
+
+msgid "tinymce_advanced_dt"
+msgstr "Definícia podmienky"
+
+msgid "tinymce_advanced_dd"
+msgstr "Definícia popisu"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Tučný text (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Šikmý text (kurzivá) (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Podčiarknutý text (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Preškrtnutý text"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Zarovnať vľavo"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Zarovnať na stred"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Zarovnať vpravo"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Zarovnať do bloku"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Zoznam s odrážkami"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Číslovaný zoznam"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Zmenšiť odsadenie"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Zväčšiť odsadenie"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Späť (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Znovu (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Vložiť/upraviť odkaz"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Zrušiť odkaz"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Vložiť/upraviť obrázok"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Vyčistiť neusporiadaný kód"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "Zobraziť HTML zdroj"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Dolný index"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Horný index"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Vložiť vodorovný oddeľovač"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Odstrániť formátovanie"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Ľubovolný popisok"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Vyber farbu textu"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Vyber farbu pozadia"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Vložiť vlastný znak"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Zobraziť pomocné/skryté prvky"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Vložiť/upraviť názov kotvy"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Vystrihnúť"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Kopírovať"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Vložiť"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Vlastnosti obrázka"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Nový dokument"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Nápoveda"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Citovaný text"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Funkcie Kopírovať/vysrihnúť/vložiť nie su podporované prehliadačmi Mozilla a Firefox. Chceš viac informácií o tomto probléme?"
+
+msgid "tinymce_advanced_path"
+msgstr "Cesta"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Naozaj chceš vyčistiť všetok obsah?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Prejdi na nástrojové tlačidlá - Alt+Q, Prejdi na editor - Alt-Z, Prejdi na cestu elementov - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Viac farieb"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "O TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "O Programe"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Nápoveda"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Licencia"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Pluginy"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Plugin"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Autor"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Verzia"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Načítané pluginy"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Vložiť/upraviť názov kotvy"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Názov kotvy"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "Editor HTML kódu"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Zalamovať riadky"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Vyber farbu"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Miešač"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Miešač farieb"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Paleta"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Paleta farieb"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Názvoslovia"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Názvy farieb"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Farba:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Názov:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Vyber špeciálny znak"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Vložiť/editovať obrázok"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "URL obrázka"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Popis obrázka"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Zoznam obrázkov"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Okraj"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Rozmery"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Vertikálna medzera"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Horizontálna medzera"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Usporiadanie"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Základňa"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Hore"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Uprostred"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Dolu"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Text hore"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Text dolu"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Vľavo"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Vpravo"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Vložiť/editovať odkaz"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "URL odkazu"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Cieľ odkazu"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Otvoriť odkaz v rovnakom okne"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Otvoriť odkaz v novom okne"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Názov"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "Zdá sa, že zadaná URL je emailová adresa. Chceš vložiť povinný prefix mailto: ?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "Zdá sa, že zadaná URL je externý odkaz. Chceš vložiť povinný prefix http:// ?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Zoznam odkazov"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Umietnenie"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Vľavo"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Na stred"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Vpravo"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Do bloku"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%Y-%m-%d"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Vložiť dátum"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Vložiť čas"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "Január,Február,Marec,Apríl,Máj,Jún,Júl,August,September,Október,November,December"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Jan,Feb,Mar,Apr,Máj,Jún,Júl,Aug,Sep,Okt,Nov,Dec"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "Nedeľa,Pondelok,Utorok,Streda,Štvrtok,Piatok,Sobota,Nedeľa"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "Ned,Pon,Ut,Str,Štvr,Pia,Sob,Ned"
+
+msgid "tinymce_print_print_desc"
+msgstr "Vytlačiť"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Náhľad"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Smer z ľava do prava"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Smer z prava do ľava"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Vložiť novú vrstvu"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Posunúť dopredu"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Posunúť dozadu"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Prepnúť na absolútne poziciovanie"
+
+msgid "tinymce_layer_content"
+msgstr "Nová vrstva..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Uložiť"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Zrušiť všetky zmeny"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Vložiť znak non-breaking space"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Spustiť kontrolu pravopisu"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell nebol nájdený. Chceš ho nainštalovať?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Horizontálny oddeľovač"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Šírka"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Výška"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Bez tieňa"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Emotikony"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Vložiť emotikon"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Emotikony"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Cool"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Cry"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Embarassed"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Foot in mouth"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Frown"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Innocent"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Kiss"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Laughing"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Money mouth"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Sealed"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Smile"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Surprised"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Tongue out"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Undecided"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Wink"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Yell"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Nájdi"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Nájdi/Nahraď"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Nájdi znova"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "Vyhľadávanie ukončené. Reťazec nemusel byť nájdený."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Nájdi"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Nájdi/Nahraď"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Všetky výskyty reťazca boly zmenené."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Nájdi výraz"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Nahraď s"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Smer"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Nahor"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Dolu"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Presná zhoda"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Nájdi ďalší"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Nahraď"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Nahradiť všetko"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Vložiť/editovať obrázok"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "Hlavné"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Vzhľad"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Rozšírené"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "Hlavné nastavenia"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Titulok"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Náhľad"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Zachovať pomer strán"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Smer textu"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Kód jazyka"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Dlhý popis obrázka"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "CSS Štýl"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "CSS Trieda"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "Z ľava do prava"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "Z prava do ľava"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Obrázková mapa"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Zmena obrázka"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Alternatívny obrázok"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "ak je kurzor nad obrázkom"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "ak kurzor odíde z obrázka"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Rôzne"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Vzhľad náhľad obrázka"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Naozaj chceš pokračovať bez vloženého popisu obrázka? Bez popisu sa bude obrázok nesprávne zobrazovať v textových prehliadačoch. Rovnako ak má užívateľ vypnuté zobrazenie obrázkov alebo ak je užívateľ nevidiaci, bude mať problémy rozpoznať obrázok."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Vložiť/editovať obrázok"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "URL obrázka"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Popis obrázku"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Zoznam obrázkov"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Okraj"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Rozmery"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Vertikálna medzera"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Horizontálna medzera"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Usporiadanie"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Základňa"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Hore"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Uprostred"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Dolu"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Text hore"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Text dolu"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Vľavo"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Vpravo"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Zoznam obrázkov"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Vložiť/editovať odkaz"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Vložiť/editovať odkaz"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "URL odkazu"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Cieľ"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Názov"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "Zdá sa, že zadaná URL je emailová adresa. Chceš vložiť povinný prefix mailto: ?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "Zdá sa, že zadaná URL je externý odkaz. Chceš vložiť povinný prefix http:// ?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Zoznam odkazov"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "Hlavné"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Popup"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Akcie"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Rozšírené"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Hlavné nastavenia"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Vlastnosti popup okna"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Akcie"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Rozšírené vlastnosti"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Vlastnosti"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Kotvy"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Otvoríť v rovnakom okne/ráme"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Otvoríť v rodičovském okne/ráme"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Otvoriť v najvyššom ráme (prepíše všetky rámy)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Otvoríť v novom okne"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "JavaScript popup"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "Popup URL"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Názov okna"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "Vložiť 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Zobrazovať posúvníky"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Zobrazovať stavový riadok"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Zobrazovať ovládaciu lištu"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Zobrazovať menu"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Zobrazovať lištu umiestnení"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Povoliť zmenu veľksoti okna"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Závislosť (iba Mozilla/Firefox)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Veľkosť"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Pozícia (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "CSS štýl"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Trieda"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Názov cieľa"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Smer textu"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Jazyk cieľa"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Kód jazyka cieľa"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Znakové kódovanie cieľa"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "MIME typ cieľa"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Vzťah stránky k cieľu"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Vzťah cieľa k stránke"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Poradie pre tabulátor"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Klávesová skratka"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Z ľava do prava"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Z prava do ľava"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Zoznam odkazov"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Citácia"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Skratka"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Acronym"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Zrušenie"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Vloženie"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Vložiť/editovať atribúty"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Názov"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Trieda"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Štýl"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Citácia"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Dátum/čas"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Smer textu"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "Z ľava do prava"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "Z prava do ľava"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Jazyk"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "TabIndex"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "AccessKey"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Akcie"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Atribúty"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "Hlavné"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Attribúty"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Akcie"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Hlavné nastavenia"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Prvok atribútov"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Prvok akcií"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Prvok vloženia"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Prvok zrušenia"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Prvok acronymu"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Prvok skratky"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Prvok citácie"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Odstrániť"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Vložiť aktuálny dátum/čas"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "Z ľava do prava"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "Z prava do ľava"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Vložiť/editovať atribúty"
+
+msgid "tinymce_style_desc"
+msgstr "Editovať CSS Štýl"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "Editovať CSS štýl"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Aplikovať"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Text"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Pozadie"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Block"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Box"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Border"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "List"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Positioning"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Text"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Font"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Veľkosť"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Weight"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Style"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Variant"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Line height"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Case"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Farba"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Decoration"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "overline"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "underline"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "strikethrough"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "blink"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "none"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Background color"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Background image"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Repeat"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Attachment"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Horizontal position"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Vertical position"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Word spacing"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Letter spacing"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Vertical alignment"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Text align"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Text indent"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Whitespace"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Display"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Šírka"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Výška"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Float"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Clear"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Padding"
+
+msgid "tinymce_style_dlg_same"
+msgstr "Same for all"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Top"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Right"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Bottom"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Left"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Margin"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Šírka"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Výška"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Farba"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Bullet image"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Position"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Visibility"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-index"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Overflow"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Placement"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Clip"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Vložiť ako neformatovaný text"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Vložiť text z aplikáce Word"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Označiť všetko"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Použi CTRL+V na klávesnici pre vloženie textu do okna."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Zachovať zalamovanie riadkov"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Použi CTRL+V na klávesnici pre vloženie textu do okna."
+
+msgid "tinymce_table_desc"
+msgstr "Vložiť novú tabuľku"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Vložiť riadok pred"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Vložiť riadok za"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Odstrániť riadok"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Vložiť stĺpec pred"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Vložiť stĺpec za"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Odstrániť stĺpec"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Rozdeliť zlúcené bunky"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Zlúčiť bunky"
+
+msgid "tinymce_table_row_desc"
+msgstr "Vlastnosti riadky tabuľky"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Vlastnosti bunky tabuľky"
+
+msgid "tinymce_table_props_desc"
+msgstr "Vlastnosti tabuľky"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Vložiť riadok pred"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Vložiť riadok za"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Vystrihnúť riadok"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Kopírovať riadok"
+
+msgid "tinymce_table_del"
+msgstr "Zmazať tabuľku"
+
+msgid "tinymce_table_row"
+msgstr "Riadok"
+
+msgid "tinymce_table_col"
+msgstr "Stĺpec"
+
+msgid "tinymce_table_cell"
+msgstr "Bunka"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "Hlavné"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Rozšírené"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Hlavné vlastnosti"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Rozšírené vlastnosti"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Row in table part"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Vložiť/Upraviť tabuľku"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Šírka"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Výška"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Stĺpce"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Riadky"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Cellspacing"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Cellpadding"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Rámček"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Poloha"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "Predvolene"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Vľavo"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Vpravo"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Na stred"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Vlastnosti riadkov tabuľky"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Vlastnosti buniek tabuľky"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Tyb bunky"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Vertikálna poloha"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Hore"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Dolu"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Farba orámovania"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Farba pozadia"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Zlúčiť bunky tabuľky"
+
+msgid "tinymce_table_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_table_dlg_style"
+msgstr "CSS Štýl"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Smer textu"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Kód jazyka"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "Cieľový typ MIME"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "Z ľava do prava"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "Z prava do ľava"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Obrázok pozadia"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Popis tabuľky"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Dáta"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Hlavčka"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Aktualizovať aktuálnu bunku"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Aktualizovať všetky bunky v riadku"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Aktualizovať všetky bunky v tebuľke"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Aktualizovať aktuálny riadok"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Aktualizovať odd rows in table"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Aktualizovať nepárne riadky v tabuľke"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Aktualizovať všetky riadky v tabuľke"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Hlavička tabuľky"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Telo tabuľky"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Päta tabuľky"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Scope"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Skupina riadkov"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Skupina stĺpcov"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "Bol presiahnutý maximálny počet stĺpcov {$cols}."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "Bol presiahnutý maximálny počet riadkov {$rows}."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "Bol presiahnutý maximálny počet buniek {$cells}."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Are you sure you want to continue without specifying a scope for this table header cell. Without it, it may be difficult for some users with disabilities to understand the content or data displayed of the table."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Table caption"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Rámček"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "žiadne"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "groups"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "riadky"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "stĺpce"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "všetky"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Pravidlá"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "void"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "above"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "below"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hsides"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vsides"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "box"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "okraj"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "Vykonané zmeny budú stratené, ak opustíš túto stránku."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Prepnúť zobrazenie na celej obrazovke"
+
+msgid "tinymce_media_desc"
+msgstr "Vložiť / editovať vnorené médiá"
+
+msgid "tinymce_media_edit"
+msgstr "Editovať vnorené médiá"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Vloženie / editovanie vnorených médií"
+
+msgid "tinymce_media_dlg_general"
+msgstr "Základné"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Pokročilé"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Súbor/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Zoznam"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Rozmery"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Náhľad"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Zachovať proporcie"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Typ"
+
+msgid "tinymce_media_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Názov"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Trieda"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "Ver. medzera"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "Hor. medzera"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Samospúšťanie"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Slučka"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Zobraziť menu"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Kvalita"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Mierka"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Zarovnať"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SAlign"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Pozadie"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Základ"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flashvars"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Záloha"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Skrytý"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Controller"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kiosk mode"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Prehrať každý frame"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Target cache"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "Bez opravy"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "Povoliť JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Počiatočný čas"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "Konečný čas"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Choke speed"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Cieľ"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Hlasitosť zvuku"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Samospúšťanie"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Povoliť"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Celá obrazovka"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Invoke URLs"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Umlčať"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Stretch to fit"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Windowless video"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Rovnováha"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "Základná URL"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Captioning id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Current marker"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Current position"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Predvolený rámec"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Počítadlo prehratí"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Pomer"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI Mode"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Vlastnosti Flash"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Vlastnosti Quicktime"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Vlastnosti Windows media player"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Vlastnosti Real media player"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Vlastnosti Shockwave"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Auto goto URL"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Center"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Image status"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Maintain aspect"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "No java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Prefetch"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Shuffle"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Konzola"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Num loops"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Controls"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Script callbacks"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Stretch style"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Stretch H-Align"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Stretch V-Align"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Zvuk"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Progress"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Streamed rtsp resources should be added to the QT Src field under the advanced tab.\nYou should also add a non streamed version to the Src field.."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Top"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Right"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Bottom"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Left"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Center"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Top left"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Top right"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Bottom left"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Bottom right"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Flash video options"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Scale mode"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Buffer"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Start image"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Start time"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Default volumne"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "Hidden GUI"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Samospúšťanie"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Slučka"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Show scale modes"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Smooth video"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Vlastnosti dokumentu"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Vlastnosti dokumentu"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "Hlavné"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Vzhľad"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Rozšírené"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Meta informácie"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Jazyk a kódovanie"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Nádpis"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Kľúč. slová"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Popis"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Roboty"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Kód jazyka"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Smer textu"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "Z ľava do prava"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "Z prava do ľava"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "Deklarácia XML"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Znaková sada"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Vlastnosti pozadia"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Odsadenie tela"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Farba odkazov"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Vlastnosti textu"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Farba pozadia"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Obrázok pozadia"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Odsadenie z ľava"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Odsadenie z prava"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Odsadenie z hora"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Odsadenie zo spodu"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Farba textu"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Veľkosť fontu"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Tvar fontu"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Farba odkazu"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Farba pri nabehnutí na odkaz"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Farba navštíveného odkazu"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Farba aktívneho odkazu"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Farba"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Veľkosť fontu"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Rodina fontov"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Index and follow the links"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Index and don't follow the links"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Do not index but follow the links"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Do not index and don't follow the links"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Stylesheet and style properties"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "CSS Štýl"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Štýl"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Autor"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Autorské práva"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Pridať nový prvok"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Odstrániť označený prvok"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Move selected element up"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Move selected element down"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Prvky hlavičky"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Informácie"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Title element"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta element"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Script element"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Style element"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Link element"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Base element"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Comment node"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Title element"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Script element"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Style element"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Base element"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Link element"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta element"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Poznámka"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Src"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Jazyk"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Cieľ"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Typ"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Kódovanie"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Vlastnosti"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Názov"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Hodnota"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Content"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "Hlavné"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Rozšírené"
+
+msgid "tinymce_template_desc"
+msgstr "Vložiť obsah z preddefinovanej šablóny"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Šablóny"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Šablóna"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Popis"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Vložiť obsah z preddefinovanej šablóny"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Vyber šablónu"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Náhľad"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Upozornenie: Aktualizáciou šablóny inou, sa spôsobí strata dát."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "Január,Február,Marec,Apríl,Máj,Jún,Júl,August,September,Október,November,December"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Jan,Feb,Mar,Apr,Máj,Jún,Júl,Aug,Sep,Okt,Nov,Dec"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "Nedeľa,Pondelok,Utorok,Streda,Štvrtok,Piatok,Sobota,Nedeľa"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "Ned,Pon,Ut,Str,Štvr,Pia,Sob,Ned"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Vizuálne ovládacie znaky zap/vyp."
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Prepnúť na kontrolu pravopisu"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Nastavenia kontroly pravopisu"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Vynechať slovo"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Vynechať všetky"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Jazyky"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Čakaj prosím..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Ponuky"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Žiadne ponuky"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Bez pravopisných chýb."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Vložiť zalomenie stránky."
+

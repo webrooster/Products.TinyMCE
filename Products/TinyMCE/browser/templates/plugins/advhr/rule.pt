@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html id="region-content" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
+<html i18n:domain="tinymce" id="region-content" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
-	<title>{#advhr.advhr_desc}</title>
+	<title i18n:translate="tinymce_advhr_advhr_desc">Horizontal rule</title>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/mctabs.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/form_utils.js"></script>
@@ -12,9 +12,9 @@
 	<div class="dialog-wrapper">
 		<form onsubmit="AdvHRDialog.update();return false;" action="#">
 			<fieldset>
-				<legend>{#advhr.advhr_desc}</legend>
+				<legend i18n:translate="tinymce_advhr_advhr_desc">Horiontal rule</legend>
 				<div class="field">
-					<label for="anchorName">{#advhr_dlg.width}</label>
+					<label for="anchorName" i18n:translate="tinymce_advhr_dlg_width">Width</label>
 					<div class="widget">
 						<input id="width" name="width" type="text" class="mceFocus" value="" size="10"/>
 						<select name="width2" id="width2" size="1">
@@ -25,7 +25,7 @@
 				</div>
 
 				<div class="field">
-					<label for="anchorName">{#advhr_dlg.size}</label>
+					<label for="anchorName" i18n:translate="tinymce_advhr_dlg_size">Height</label>
 					<div class="widget">
 						<select id="size" name="size">
 							<option value="">Normal</option>
@@ -40,8 +40,8 @@
 	
 				<div class="field">
 					<div class="widget">
-						<input type="checkbox" name="noshade" id="noshade"/></td>
-						<label for="noshade">{#advhr_dlg.noshade}</label>
+						<input type="checkbox" name="noshade" id="noshade"/>
+						<label for="noshade" i18n:translate="tinymce_advhr_dlg_noshade">No shadow</label>
 					</div>
 				</div>
 			</fieldset>
@@ -50,8 +50,8 @@
 		
 			<div class="mceActionPanel formControls">
 				<span class="actionButtons">
-					<input type="submit" id="insert" class="context" name="insert" value="{#insert}" />
-					<input type="button" id="cancel" class="context" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+					<input type="submit" id="insert" class="context" name="insert" value="Insert" i18n:attributes="value tinymce_common_insert" />
+					<input type="button" id="cancel" class="context" name="cancel" value="Cancel" i18n:attributes="cancel tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
 				</span>
 			</div>
 		</form>

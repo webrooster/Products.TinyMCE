@@ -1,0 +1,2261 @@
+# This is the Persian language pack for TinyMCE.
+# Version 1.6
+#
+# Farhad Sakhaei (www.farsicms.com - farhad0@gmail.com)
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-13 00:00+0000\n"
+"Last-Translator: Farhad Sakhaei (www.farsicms.com - farhad0@gmail.com)\n"
+"Language-Team: Farhad Sakhaei (www.farsicms.com - farhad0@gmail.com)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: fa\n"
+"Language-Name: Persian\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "آیا شما مایلید تا از حالت ویرایشگر WYSIWYG برای این ناحیه متنی استفاده نمائید؟"
+
+msgid "tinymce_common_apply"
+msgstr "بكارگیری"
+
+msgid "tinymce_common_insert"
+msgstr "درج"
+
+msgid "tinymce_common_update"
+msgstr "بروزرسانی"
+
+msgid "tinymce_common_cancel"
+msgstr "انصراف"
+
+msgid "tinymce_common_close"
+msgstr "بستن"
+
+msgid "tinymce_common_browse"
+msgstr "مرور"
+
+msgid "tinymce_common_class_name"
+msgstr "كلاس"
+
+msgid "tinymce_common_not_set"
+msgstr "-- تنظیم نشده --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "كپی/برش (Cut)/چسباندن (Paste) در Mozilla و Firefox قابل دسترس نمی باشد.\nآیا شما اطلاعات بیشتری درباره این موضوع می خواهید؟"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "در حال حاضر توسط مرورگر شما پشتیبانی نمی شود ، به جای آن از میانبرهای (Shortcut) صفحه كلید استفاده نمائید."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "با عرض پوزش ، ما اطلاع داده بودیم كه مدافع پنجره باز شوی (Popup) شما ، پنجره ای را كه قابلیت برنامه كاربردی را ارائه می كرد ، غیر فعال كرده است. شما نیاز به غیر فعال كردن مدافع پنجره باز شو (Popup) در این سایت را دارید تا از این ابزار به صورت كامل استفاده نمائید."
+
+msgid "tinymce_common_invalid_data"
+msgstr "خطا: مقادیر نامعتبر وارد شد ، آنها به رنگ قرمز علامت خورده اند."
+
+msgid "tinymce_common_more_colors"
+msgstr "رنگ های بیشتر"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "ضخیم (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "كج (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "زیر خط (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "خط وسط"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "لیست نامرتب"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "لیست مرتب"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "انجام عمل قبل (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "انجام عمل بعد (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "پاك سازی كد های بهم خورده"
+
+msgid "tinymce_advanced_style_select"
+msgstr "استیل ها"
+
+msgid "tinymce_advanced_font_size"
+msgstr "اندازه قلم"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "خانواده قلم"
+
+msgid "tinymce_advanced_block"
+msgstr "قالب"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "پاراگراف"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "آدرس"
+
+msgid "tinymce_advanced_pre"
+msgstr "قالب بندی شده از قبل"
+
+msgid "tinymce_advanced_h1"
+msgstr "عنوان گذاری ۱"
+
+msgid "tinymce_advanced_h2"
+msgstr "عنوان گذاری 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "عنوان گذاری 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "عنوان گذاری 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "عنوان گذاری 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "عنوان گذاری 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "بلوك نقل قول"
+
+msgid "tinymce_advanced_code"
+msgstr "كد"
+
+msgid "tinymce_advanced_samp"
+msgstr "نمونه كد"
+
+msgid "tinymce_advanced_dt"
+msgstr "تعریف واژه "
+
+msgid "tinymce_advanced_dd"
+msgstr "تعریف توضیح"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "ضخیم (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "كج (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "زیر خط (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "خط وسط"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "تراز چپ"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "تراز وسط"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "تراز راست"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "تراز كامل"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "لیست نامرتب"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "لیست مرتب"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "بیرون آمدگی"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "تورفتگی"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "انجام عمل قبل (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "انجام عمل بعد (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "درج/ویرایش لینك"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "غیر لینك كردن"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "درج/ویرایش تصویر"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "پاك سازی كد های بهم خورده"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "ویرایش سورس HTML"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "پایین نویس"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "بالا نویس"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "درج خط افقی"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "حذف قالب بندی"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "توضیح سفارشی شما در اینجا"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "انتخاب رنگ متن"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "انتخاب رنگ زمینه"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "درج كاراكتر سفارشی"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "تعویض عناصر خطوط راهنما/غیر قابل نمایان"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "درج/ویرایش لنگر"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "برش (Cut)"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "كپی"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "چسباندن (Paste)"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "مشخصات تصویر"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "سند جدید"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "راهنمایی"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "بلوك نقل قول"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "كپی/برش (Cut)/چسباندن (Paste) در Mozilla و Firefox قابل دسترس نمی باشد.\r\nآیا شما اطلاعات بیشتری درباره این موضوع می خواهید؟"
+
+msgid "tinymce_advanced_path"
+msgstr "مسیر"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "آیا شما می خواهید تا تمامی محتوا را پاك كنید؟"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "پرش به دكمه های ابزار - Alt+Q ، پرش به ویرایشگر - Alt-Z ، پرش به مسیر عنصر - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "رنگهای بیشتر"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "درباره TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "درباره"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "راهنمایی"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "لیسانس"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "الحاقات"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "الحاقه"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "مؤلف"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "نسخه"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "الحاقات بارگذاری شده"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "درج/ویرایش لنگر (Anchor)"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "نام لنگر (Anchor)"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "ویرایش سورس HTML"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "شكستن خطوط"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "انتخاب یك رنگ"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "انتخاب كننده"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "انتخاب كننده رنگ"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "الگو"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "رنگ های الگو"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "نام دار"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "رنگ های نام دار"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "رنگ:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "نام:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "انتخاب كاراكتر سفارشی"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "درج/ویرایش تصویر"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "URL تصویر"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "توضیح تصویر"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "لیست تصویر"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "حاشیه"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "ابعاد"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "فاصله عمودی"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "فاصله افقی"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "تراز"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "خط پایه"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "بالا"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "وسط"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "پایین"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "بالا متن"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "پایین متن"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "چپ"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "راست"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "درج/ویرایش لینك"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "URL لینك"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "مقصد (Target)"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "بازشدن لینك در همان پنجره"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "باز شدن لینك در یك پنجره جدید"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "عنوان"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "URL ی كه شما وارد نموده اید به نظر می آید كه یك آدرس ایمیل می باشد ، آیا مایلید تا پیشوند اجباری لازمه :mailto را اضافه نمائید؟"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "URL ی كه شما وارد نموده اید به نظر می آید كه لینك خارجی می باشد ، آیا مایلید تا پیشوند لازمه //:http را اضافه نمائید؟"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "لیست لینك"
+
+msgid "tinymce_contextmenu_align"
+msgstr "تراز"
+
+msgid "tinymce_contextmenu_left"
+msgstr "چپ"
+
+msgid "tinymce_contextmenu_center"
+msgstr "وسط"
+
+msgid "tinymce_contextmenu_right"
+msgstr "راست"
+
+msgid "tinymce_contextmenu_full"
+msgstr "كامل"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%Y-%m-%d"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "درج تاریخ"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "درج زمان"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "ژانویه,فوریه,مارس,آوریل,مه,ژوئن,ژوئیه,اوت,سپتامبر,اكتبر,نوامبر,دسامبر"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "ژانویه,فوریه,مارس,آوریل,مه,ژوئن,ژوئیه,اوت,سپتامبر,اكتبر,نوامبر,دسامبر"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "یكشنبه,دوشنبه,سه شنبه,چهارشنبه,پنج شنبه,جمعه,شنبه,یكشنبه"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "یكشنبه,دوشنبه,سه شنبه,چهارشنبه,پنج شنبه,جمعه,شنبه,یكشنبه"
+
+msgid "tinymce_print_print_desc"
+msgstr "چاپ"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "پیش نمایش"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "جهت چپ به راست"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "جهت راست به چپ"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "درج لایه جدید"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "انتقال به جلو"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "انتقال به پشت"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "تعویض موقعیت مطلق"
+
+msgid "tinymce_layer_content"
+msgstr "لایه جدید..."
+
+msgid "tinymce_save_save_desc"
+msgstr "ذخیره"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "لغو تمامی تغییرات"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "درج كاراكتر فاصله بدون قطع شدگی"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "اجرای بررسی املاء"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell تشخیص داده نشد. آیا شما مایل به نصب آن هستید؟"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "خط افقی"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "پهنا"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "ارتفاع"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "بدون سایه"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "شكلك"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "درج شكلك"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "شكلك ها"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "آرام"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "گریه"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "خجالتی"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "پا در دهان"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "اخم"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "بی تقصیر"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "بوسه"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "خنده"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "پول در دهان"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "مهر شده"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "لبخند"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "متعجب"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "زبان درازی"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "مردد"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "چشمك"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "فریاد"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "جستجو"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "جستجو/تعویض"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "جستجوی مجدد"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "جستجو كامل شد. رشته جستجو یافته نشد."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "جستجو"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "جستجو/تعویض"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "تمامی رشته جستجو های رخداده تعویض شدند."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "جستجوی چه چیزی"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "تعویض با"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "جهت"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "بالا"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "پایین"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "همسان بودن حروف"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "جستجوی بعدی"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "تعویض"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "تعویض همه"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "درج/ویرایش تصویر"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "عمومی"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "ظاهر"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "پیشرفته"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "عمومی"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "عنوان"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "پیش نمایش"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "حفظ تناسب"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "جهت زبان"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "كد زبان"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "لینك توضیح طولانی"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "استیل"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "كلاس ها"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "چپ به راست"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "راست به چپ"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "شناسه"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "نقشه تصویر"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "تعویض تصویر"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "تصویر جایگزین"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "برای آمدن موس"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "برای رفتن موس"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "متفرقه"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "تصویر پیش نمایش ظاهر"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "آیا شما از ادامه بدون شامل كردن یك توضیح تصویر اطمینان دارید؟ بدون آن ممكن نیست تصاویر برای برخی كاربرانی كه قبلیت مرور تصاویر را ندارند ، یا آنهایی كه از یك مرورگر متنی استفاده می كنند ، یا در حال مرور وب بدون تصویر می باشند ، قابل دستیابی باشد."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "درج/ویرایش تصویر"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "URL تصویر"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "توضیح تصویر"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "لیست تصویر"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "حاشیه"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "ابعاد"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "فاصله عمودی"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "فاصله افقی"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "تراز"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "خط پایه"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "بالا"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "وسط"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "پایین"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "متن بالا"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "متن پایین"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "چپ"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "راست"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "لیست تصویر"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "درج/ویرایش لینك"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "درج/ویرایش لینك"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "URL لینك"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "مقصد (Target)"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "عنوان"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "URL ی كه وارد كرده اید به نظر می آید كه یك آدرس ایمیل می باشد ، آیا مایلید تا پیشوند لازمه :mailto را اضافه نمائید؟"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "URL ی كه وارد كرده اید به نظر می آید كه یك لینك خارجی می باشد ، آیا مایلید تا پیشوند لازمه //:http را اضافه نمائید؟"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "لیست لینك"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "عمومی"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "پنجره بازشو (Popup)"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "رویدادها"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "پیشرفته"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "مشخصات عمومی"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "مشخصات پنجره بازشو (Popup)"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "رویدادها"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "مشخصات پیشرفته"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "گزینه ها"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "لنگرها (Anchor)"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "بازشدن در این پنجره / قاب (Frame)"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "بازشدن در پنجره / قاب والد (Parent Frame)"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "بازشدن در قاب بالا (Top Frame) (تمامی قاب ها را تعویض می كند)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "بازشدن در پنجره جدید"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "پنجره بازشوی Javascript"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "URL پنجره بازشو (Popup)"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "نام پنجره"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "درج 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "نمایش نوار پیمایش ها"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "نمایش نوار وضعیت"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "نمایش نوار ابزار"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "نمایش نوار منو"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "نمایش نوار مكان"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "ایجاد پنجره قابل اندازه بندی مجدد"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "وابسته (فقط Mozilla/Firefox)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "اندازه"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "موقعیت (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "شناسه"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "استیل"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "كلاس ها"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "نام مقصد (Target)"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "جهت زبان"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "زبان مقصد (Target)"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "كد زبان"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "رمزگذاری كاراكتر مقصد (Target)"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "نوع MIME مقصد (Target)"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "رابطه صفحه با مقصد (Target)"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "رابطه مقصد (Target) با صفحه"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Tabindex"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Accesskey"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "چپ به راست"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "راست به چپ"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "لیست لینك"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "نقل قول"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "اختصار"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "مخفف"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "حذف"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "درج"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "درج/ویرایش صفات"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "عنوان"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "شناسه"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "كلاس"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "استیل"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "اعلامیه"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "تاریخ/زمان"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "جهت متن"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "چپ به راست"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "راست به چپ"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "زبان"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "TabIndex"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "AccessKey"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "رویدادها"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "صفات"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "عمومی"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "صفات"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "رویدادها"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "تنظیمات عمومی"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "صفات عنصر"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "رویدادهای عنصر"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "عنصر درج"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "عنصر حذف"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "عنصر مخفف"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "عنصر اختصار"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "عنصر نقل قول"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "حذف"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "درج تاریخ/زمان فعلی"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "چپ به راست"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "راست به چپ"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "درج/ویرایش صفات"
+
+msgid "tinymce_style_desc"
+msgstr "ویرایش استیل CSS"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "ویرایش استیل CSS"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "بكارگیری"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "متن"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "زمینه"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "بلوك"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "جعبه"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "حاشیه"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "لیست"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "موقعیت"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "متن"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "قلم"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "اندازه"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "حالت"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "استیل"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "نوع تغییر"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "بلندی خط"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "حالت"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "رنگ"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "آرایش"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "بالا خط"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "زیر خط"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "خط وسط"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "چشمك زن"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "هیچ كدام"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "رنگ زمینه"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "تصویر زمینه"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "تكرار"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "زمیمه"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "موقعیت افقی"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "موقعیت عمودی"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "فاصله كلمات"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "فاصله حروف"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "تراز عمودی"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "تراز متن"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "تورفتگی متن"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "فاصله سفید"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "نمایش"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "پهنا"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "ارتفاع"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "شناور"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "پاك سازی"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "لایه گذاری"
+
+msgid "tinymce_style_dlg_same"
+msgstr "همسان برای همه"
+
+msgid "tinymce_style_dlg_top"
+msgstr "بالا"
+
+msgid "tinymce_style_dlg_right"
+msgstr "راست"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "پایین"
+
+msgid "tinymce_style_dlg_left"
+msgstr "چپ"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "حاشیه"
+
+msgid "tinymce_style_dlg_style"
+msgstr "استیل"
+
+msgid "tinymce_style_dlg_width"
+msgstr "پهنا"
+
+msgid "tinymce_style_dlg_height"
+msgstr "ارتفاع"
+
+msgid "tinymce_style_dlg_color"
+msgstr "رنگ"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "نوع"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "تصویر گلوله"
+
+msgid "tinymce_style_dlg_position"
+msgstr "موقعیت"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "نوع"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "قابلیت رویت"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "محور Z"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "سر ریز"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "موقعیت مكانی"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "برش (Clip)"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "چسباندن (Paste) به عنوان متن ساده"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "چسباندن (Paste) از Word"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "انتخاب همه"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "جهت چسباندن (Paste) كردن متن در پنجره از CTRL+V بر روی صفحه كلید خود استفاده نمائید."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "حفظ قطع خطوط"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "جهت چسباندن (Paste) كردن متن در پنجره از CTRL+V بر روی صفحه كلید خود استفاده نمائید."
+
+msgid "tinymce_table_desc"
+msgstr "یك جدول جدید درج می كند"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "درج سطر در قبل"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "درج سطر در بعد"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "حذف سطر"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "درج ستون در قبل"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "درج ستون در بعد"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "حذف ستون"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "تقسیم سلول های جدول ادغام شده"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "ادغام سلول های جدول"
+
+msgid "tinymce_table_row_desc"
+msgstr "مشخصات سطر جدول"
+
+msgid "tinymce_table_cell_desc"
+msgstr "مشخصات سلول جدول"
+
+msgid "tinymce_table_props_desc"
+msgstr "مشخصات جدول"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "چسباندن (Paste) سطر جدول در قبل"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "چسباندن (Paste) سطر جدول در بعد"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "برش (Cut) سطر جدول"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "كپی  سطر جدول"
+
+msgid "tinymce_table_del"
+msgstr "حذف جدول"
+
+msgid "tinymce_table_row"
+msgstr "سطر"
+
+msgid "tinymce_table_col"
+msgstr "ستون"
+
+msgid "tinymce_table_cell"
+msgstr "سلول"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "عمومی"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "پیشرفته"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "مشخصات عمومی"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "مشخصات پیشرفته"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "سطر در بخش جدول"
+
+msgid "tinymce_table_dlg_title"
+msgstr "درج/اصلاح جدول"
+
+msgid "tinymce_table_dlg_width"
+msgstr "پهنا"
+
+msgid "tinymce_table_dlg_height"
+msgstr "ارتفاع"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "ستون ها"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "سطرها"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "فاصله سلول ها"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "لایه گذاری سلول ها"
+
+msgid "tinymce_table_dlg_border"
+msgstr "حاشیه"
+
+msgid "tinymce_table_dlg_align"
+msgstr "تراز"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "پیشفرض"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "چپ"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "راست"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "وسط"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "مشخصات سطر جدول"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "مشخصات سلول جدول"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "نوع سلول"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "تراز عمودی"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "بالا"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "پایین"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "رنگ حاشیه"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "رنگ زمینه"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "ادغام سلول های جدول"
+
+msgid "tinymce_table_dlg_id"
+msgstr "شناسه"
+
+msgid "tinymce_table_dlg_style"
+msgstr "استیل"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "جهت زبان"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "كد زبان"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "نوع MIME مقصد (Target)"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "چپ به راست"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "راست به چپ"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "تصویر زمینه"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "خلاصه"
+
+msgid "tinymce_table_dlg_td"
+msgstr "داده"
+
+msgid "tinymce_table_dlg_th"
+msgstr "سر جدول"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "بروزرسانی سلول فعلی"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "بروزرسانی تمامی سلول های سطر"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "بروزرسانی تمامی سلول های جدول"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "بروزرسانی سطر فعلی"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "بروزرسانی سطرهای فرد در جدول"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "بروزرسانی سطرهای زوج در جدول"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "بروزرسانی تمامی سطرها در جدول"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "بالای جدول"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "بدنه جدول"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "پایین جدول"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "محدوده"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "گروه سطر"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "گروه ستون"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "شما از تعداد حداكثر {$cols} ستون تجاوز كردید."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "شما از تعداد حداكثر {$rows} سطر تجاوز كردید."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "شما از تعداد حداكثر {$cells} سلول تجاوز كردید."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "آیا شما از ادامه دادن بدون تعیین محدوده برای این سلول بالای جدول اطمینان دارید؟. بدون آن ، ممكن است برای برخی كاربران عاجز از فهم محتوا یا در داده های نمایش داده شده جدول مشكلی پیش آید."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "عنوان جدول"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "قاب (Frame)"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "هیچ كدام"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "گروه ها"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "سطرها"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "ستون ها"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "همه"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "خط ها"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "خالی"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "بالا"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "پایین"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hsides"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vsides"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "جعبه"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "حاشیه"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "در صورتی كه شما از این صفحه به جای دیگری ناوبری (Navigate) كنید ، تغییراتی كه ایجاد نموده اید از دست خواهد رفت."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "تعویض به حالت صفحه كامل"
+
+msgid "tinymce_media_desc"
+msgstr "درج / ویرایش رسانه جاسازی شده (Embeded Media)"
+
+msgid "tinymce_media_edit"
+msgstr "ویرایش رسانه جاسازی شده (Embeded Media)"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "درج / ویرایش رسانه جاسازی شده (Embeded Media)"
+
+msgid "tinymce_media_dlg_general"
+msgstr "عمومی"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "پیشرفته"
+
+msgid "tinymce_media_dlg_file"
+msgstr "فایل/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "لیست"
+
+msgid "tinymce_media_dlg_size"
+msgstr "ابعاد"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "پیش نمایش"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "حفظ تناسب"
+
+msgid "tinymce_media_dlg_type"
+msgstr "نوع"
+
+msgid "tinymce_media_dlg_id"
+msgstr "شناسه"
+
+msgid "tinymce_media_dlg_name"
+msgstr "نام"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "كلاس"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "فاصله عمودی"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "فاصله افقی"
+
+msgid "tinymce_media_dlg_play"
+msgstr "پخش اتوماتیك"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "حلقه (Loop)"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "نمایش منو"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "كیفیت"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "مقیاس"
+
+msgid "tinymce_media_dlg_align"
+msgstr "تراز"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SAlign"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "زمینه"
+
+msgid "tinymce_media_dlg_base"
+msgstr "پایه (Base)"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "متغیرهای Flash"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "ارتباط SWLive"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "HREF اتوماتیك"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "كش"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "مخفی"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "كنترل كننده"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "حالت Kiosk"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "پخش هر فریم (Frame)"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "كش مقصد (Target Cache)"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "بدون تصحیح"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "فعال بودن JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "زمان شروع"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "زمان پایان"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "سرعت Choke"
+
+msgid "tinymce_media_dlg_target"
+msgstr "مقصد (Target)"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "بلندی صدا"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "شروع اتوماتیك"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "فعال شده"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "تمام صفحه"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Invoke URLs"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "بی صدا"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "كشیدن جهت گنجاندن كامل"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "ویدئوی كم پنجره"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "توازن (Balance)"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "URL پایه"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "شناسه عنوان"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "نشانگر فعلی"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "موقعیت فعلی"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "فریم پیشفرض"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "تعداد پخش"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "نرخ"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "حالت UI"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "تنظیمات فلش"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "تنظیمات Quicktime"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "تنظیمات Windows media player"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "تنظیمات Real media player"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "تنظیمات Shockwave"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "رفتن اتوماتیك به URL"
+
+msgid "tinymce_media_dlg_center"
+msgstr "وسط"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "وضعیت تصویر"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "حفظ تناسب وجوه"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "بدون java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "پیش واكشی"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "در هم آمیختن"
+
+msgid "tinymce_media_dlg_console"
+msgstr "كنسول"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "تعداد حلقه ها"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "كنترل ها"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "اسكریپت Callbacks"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "كشیدن استیل"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "كشیدن تراز افقی"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "كشیدن تراز عمودی"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "صدا"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "پیشرفت"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "منبع QT"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "منابع Streamed rtsp باید در برگه (Tab) پیشرفته در فیلد منبع QT اضافه شود.\nشما باید همچنین یك نسخه غیر streamed را در فیلد منبع اضافه نمائید.."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "بالا"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "راست"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "پایین"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "چپ"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "وسط"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "بالا چپ"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "بالا راست"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "پایین چپ"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "پایین راست"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "تنظیمات ویدئوی فلش"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "حالت مقیاس"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "بافر (Buffer)"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "تصویر شروع"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "زمان شروع"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "بلندی صدای پیشفرض"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "GUI مخفی"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "شروع اتوماتیك"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "حلقه (Loop)"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "نمایش حالت های مقیاس"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "ویدئوی صاف"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "مشخصات سند"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "مشخصات سند"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "عمومی"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "ظاهر"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "پیشرفته"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "اطلاعات متا (Meta)"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "زبان و رمزگذاری (Encoding)"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "عنوان"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "كلمات كلیدی"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "توضیح"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "روبات ها (Robots)"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "نوع سند"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "كد زبان"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "جهت زبان"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "چپ به راست"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "راست به چپ"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "اعلان XML"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "رمزگذاری (Encoding) كاراكتر"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "مشخصات زمینه"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "حاشیه های بدنه (Body)"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "رنگ های لینك"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "مشخصات متن"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "رنگ زمینه"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "تصویر زمینه"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "حاشیه چپ"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "حاشیه راست"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "حاشیه بالا"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "حاشیه پایین"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "رنگ متن"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "اندازه قلم"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "ظاهر قلم"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "رنگ قلم"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "رنگ در حالت قرارگیری موس"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "رنگ در حالت بازدید شده"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "رنگ در حالت فعال"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "رنگ"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "اندازه قلم"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "خانواده قلم"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "فهرست و دنباله روی لینك ها"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "فهرست و عدم دنباله روی لینك ها"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "عدم فهرست اما دنباله روی لینك ها"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "عدم فهرست و عدم دنباله روی لینك ها"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "ورقه استیل و مشخصات استیل"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "ورقه استیل"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "استیل"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "مؤلف"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "حق انحصاری"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "افزودن عنصر جدید"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "حذف عنصر انتخاب شده"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "انتقال عنصر انتخاب شده به بالا"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "انتقال عنصر انتخاب شده به پایین"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "عناصر سر (Head)"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "اطلاعات"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "عنصر عنوان"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "عنصر متا (Meta)"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "عنصر اسكریپت (Script)"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "عنصر استیل (Style)"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "عنصر لینك (Link)"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "عنصر پایه (Base)"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "گره توضیح"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "عنصر عنوان (Title)"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "عنصر اسكریپت (Script)"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "عنصر استیل (Style)"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "عنصر پایه"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "عنصر لینك"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "عنصر متا (Meta)"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "توضیح"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "منبع (Src)"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "زبان"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "آدرس (Href)"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "مقصد (Target)"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "نوع"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "مجموعه كاراكتر (Charset)"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "رسانه (Media)"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "مشخصات"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "نام"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "مقدار"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "محتوا"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "زبان Href"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "عمومی"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "پیشرفته"
+
+msgid "tinymce_template_desc"
+msgstr "درج محتوای قالب از پیش تعریف شده"
+
+msgid "tinymce_template_dlg_title"
+msgstr "قالب ها"
+
+msgid "tinymce_template_dlg_label"
+msgstr "قالب"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "توضیح"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "درج محتوای قالب از پیش تعیین شده"
+
+msgid "tinymce_template_dlg_select"
+msgstr "انتخاب یك قالب"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "پیش نمایش"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "هشدار: بروزرسانی یك قالب با یك نوع متفاوت دیگر ممكن است باعث از دست رفتن داده ها شود."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "ژانویه,فوریه,مارس,آوریل,مه,ژوئن,ژوئیه,اوت,سپتامبر,اكتبر,نوامبر,دسامبر"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "ژانویه,فوریه,مارس,آوریل,مه,ژوئن,ژوئیه,اوت,سپتامبر,اكتبر,نوامبر,دسامبر"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "یكشنبه,دوشنبه,سه شنبه,چهارشنبه,پنج شنبه,جمعه,شنبه,یكشنبه"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "یكشنبه,دوشنبه,سه شنبه,چهارشنبه,پنج شنبه,جمعه,شنبه,یكشنبه"
+
+msgid "tinymce_visualchars_desc"
+msgstr "روشن/خاموش كردن كاراكتر های كنترل بصری (Visual)."
+
+msgid "tinymce_spellchecker_desc"
+msgstr "تعویض بررسی كننده املاء"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "تنظیمات بررسی كننده املاء"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "چشم پوشی از كلمه"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "چشم پوشی از همه"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "زبان ها"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "لطفا منتظر بمانید..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "پیشنهادات"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "بدون پیشنهاد"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "هیچ خطای املائی یافته نشد."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "درج قطع صفحه."
+

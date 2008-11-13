@@ -1,0 +1,2261 @@
+# Ceci est le package en français pour TinyMCE.
+# Version 10.8
+#
+# personne
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-05 00:00+0000\n"
+"Last-Translator: personne\n"
+"Language-Team: personne\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: fr\n"
+"Language-Name: Français\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Voulez-vous utiliser le mode WYSIWYG pour cette zone de texte ?"
+
+msgid "tinymce_common_apply"
+msgstr "Appliquer"
+
+msgid "tinymce_common_insert"
+msgstr "Insérer"
+
+msgid "tinymce_common_update"
+msgstr "Mettre à jour"
+
+msgid "tinymce_common_cancel"
+msgstr "Annuler"
+
+msgid "tinymce_common_close"
+msgstr "Fermer"
+
+msgid "tinymce_common_browse"
+msgstr "Naviguer"
+
+msgid "tinymce_common_class_name"
+msgstr "Classe"
+
+msgid "tinymce_common_not_set"
+msgstr "-- Non init. --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Copier/Couper/Coller n'est pas disponible sous Mozilla et sous Firefox.\nVoulez-vous plus d'information sur ce problème ?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Actuellement non supporté par votre navigateur, utilisez les raccourcis clavier à ma place."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "Désolé, nous avons détecté que votre bloqueur de popup a bloqué une fenêtre dont l'application a besoin. Vous devez désactiver votre bloqueur de popup pour pouvoir utiliser cet outil."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Erreur : Valeurs incorrectes entrées, elles sont marquées en rouge."
+
+msgid "tinymce_common_more_colors"
+msgstr "Plus de couleurs"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Gras (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Italique (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Souligné (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Barré"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Liste non-numérotée"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Liste numérotée"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Défaire (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Refaire (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Nettoyer le code non propre"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Styles"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Taille de la police"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Famille de police"
+
+msgid "tinymce_advanced_block"
+msgstr "Format"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Paragraphe"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "Adresse"
+
+msgid "tinymce_advanced_pre"
+msgstr "Preformatté"
+
+msgid "tinymce_advanced_h1"
+msgstr "Titre 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Titre 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Titre 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Titre 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Titre 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Titre 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Citation"
+
+msgid "tinymce_advanced_code"
+msgstr "Code"
+
+msgid "tinymce_advanced_samp"
+msgstr "Exemple de code"
+
+msgid "tinymce_advanced_dt"
+msgstr "Terme à définir"
+
+msgid "tinymce_advanced_dd"
+msgstr "Définition du terme"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Gras (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Italique (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Souligné (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Barré"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Aligné à gauche"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Centré"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Aligné à droite"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Justifié"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Liste non-numérotée"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Liste numérotée"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Retirer l'indentation"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Indenter"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Défaire (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Refaire (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Insérer/Éditer le lien"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Délier"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Insérer/Éditer l'image"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Nettoyer le code non propre"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "Éditer source HTML"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Indice"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Exposant"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Insérer trait horizontal"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Enlever formattage"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Votre description personnalisée ici"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Choisir la couleur du texte"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Choisir la couleur de surlignage"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Insérer caractères spéciaux"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Activer/désactiver les guides et les éléments invisibles"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Insérer/Éditer ancre"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Couper"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Copier"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Coller"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Propriétés de l'image"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Nouveau document"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Aide"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Citation"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Copier/Couper/Coller n'est pas disponible sous Mozilla et sous Firefox.\n\n      Voulez-vous plus d'information sur ce problème ?"
+
+msgid "tinymce_advanced_path"
+msgstr "Chemin"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Êtes-vous sûr de vouloir effacer l'entièreté du document ?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Aller aux boutons de l'éditeur - Alt+Q, Aller à l'éditeur - Alt-Z, Aller au chemin de l'élément - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Plus de couleurs"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "À propos de TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "À propos"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Aide"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Licence"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Plugins"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Plugin"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Auteur"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Version"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Plugins chargés"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Insérer/Éditer ancre"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Nom de l'ancre"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "Éditeur de la source HTML"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Rupture de ligne"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Choisir une couleur"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Nuancier"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Nuancier"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Palette"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Couleurs de la palette"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Noms"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Couleurs nommées"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Couleur :"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Nom :"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Choisir le caractère à insérer"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Insérer/Éditer image"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "URL de l'image"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Description de l'image"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Liste d'images"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Bordure"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Dimensions"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Espacement vertical"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Espacement horizontal"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Alignement"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Base"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Sommet"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Milieu"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Bas"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Haut du texte"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Bas du texte"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Gauche"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Droite"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Insérer/Éditer lien"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "URL du lien"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Cible"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Ouvrir dans la même fenêtre"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Ouvrir dans une nouvelle fenêtre"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Titre"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "L'url que vous avez entré semble être une adresse e-mail, voulez-vous ajouter le préfixe mailto: ?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "L'url que vous avez entré semble être une adresse web externe, voulez-vous ajouter le préfixe http:// ?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Liste de liens"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Alignement"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Gauche"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Centré"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Droite"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Justifié"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%d-%m-%Y"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Insérer date"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Insérer heure"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "Janvier,Février,Mars,Avril,Mai,Juin,Juillet,Août,Septembre,Octobre,Novembre,Décembre"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Jan,Fév,Mar,Avr,Mai,Juin,Juil,Août,Sep,Oct,Nov,Déc"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "Dimanche,Lundi,Mardi,Mercredi,Jeudi,Vendredi,Samedi,Dimanche"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "Dim,Lun,Mar,Mer,Jeu,Ven,Sam,Dim"
+
+msgid "tinymce_print_print_desc"
+msgstr "Imprimer"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Prévisualiser"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Écriture de gauche à droite"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Écriture de droite à gauche"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Insérer une nouvelle couche"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Déplacer vers l'avant"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Déplacer vers l'arrière"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Activer le positionnement absolu"
+
+msgid "tinymce_layer_content"
+msgstr "Nouvelle couche..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Sauver"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Annuler tous les changements"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Insérer un espace insécable"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Lancer le vérificateur d'orthographe"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell non installé, voulez-vous l'installer maintenant ?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Insérer trait horizontal"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Largeur"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Hauteur"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Pas d'ombre"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Émotions"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Insérer émotion"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Émotions"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Cool"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "En pleurs"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Embarassé"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Pied de nez"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Déçu"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Innocent"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Bisou"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Rigolant"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Avare"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Bouche cousue"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Sourire"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Surpris"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Langue tirée"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Non décidé"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Clin d'oeil"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Criant"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Chercher"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Chercher/Remplacer"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Suivant"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "La recherche est terminée. La chaîne recherchée n'a pas été trouvée."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Chercher"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Chercher/Remplacer"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Toutes les occurences de la chaîne recherchée ont été remplacées."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Chercher"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Remplacer par"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Direction"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Haut"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Bas"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Prendre la casse en compte"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Chercher suivant"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Remplacer"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Rempl. tous"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Insérer/Éditer image"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "Général"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Apparence"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Avancé"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "Général"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Titre"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Prévisualiser"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Conserver les proportions"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Sens de lecture"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Code de la langue"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Description longue du lien"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Classes"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "De gauche à droite"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "De droite à gauche"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Carte image"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Alterner image"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Image alternative"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "au passage de la souris"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "à la sortie de la souris"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Divers"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Apparence de l'image"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Êtes-vous sûr de vouloir continuer sans inclure de description de l'image ? Sans description, l'image peut ne pas être accessible à certains utilisateurs handicapés visuellement, ceux utilisant un navigateur texte, ou ceux qui naviguent sans affichage des images."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Insérer/Éditer image"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "URL de l'image"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Description de l'image"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Liste d'images"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Bordure"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Dimensions"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Espacement vertical"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Espacement horizontal"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Alignement"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Base"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Haut"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Milieu"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Bas"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Haut du texte"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Bas du texte"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Gauche"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Droite"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Liste d'images"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Insérer/Éditer lien"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Insérer/Éditer lien"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "URL du lien"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Cible"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Titre"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "L'url que vous avez entré semble être une adresse e-mail, voulez-vous ajouter le préfixe mailto: ?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "L'url que vous avez entré semble être une adresse web externe, voulez-vous ajouter le préfixe http:// ?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Liste de liens"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "Général"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Popup"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Événements"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Advancé"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Propriétés générales"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Propriétés du popup"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Événements"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Propriétés avancées"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Options"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Ancres"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Ouvrir dans cette fenêtre / dans ce cadre"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Ouvrir dans la fenêtre / le cadre parent"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Ouvrir dans le cadre principal (Remplace tous les cadres)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Ouvrir dans une nouvelle fenêtre"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Popup en Javascript"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "URL du popup"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Nom de la fenêtre"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "Insérer 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Afficher les ascenseurs"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Afficher la barre de status"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Afficher la barre d'outils"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Afficher la barre de menu"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Afficher la barre d'adresse"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Rendre la fenêtre redimensionable"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Dépendent (Seulement sous Mozilla/Firefox)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Taille"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Position (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Classes"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Nom de la cible"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Sens de lecture"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Langue de la cible"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Code de la langue"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Encodage de la cible"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "Type MIME de la cible"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Relation de la page à la cible"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Relation de la cible à la page"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Tabindex"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Touche d'accès rapide"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Gauche à droite"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Droite à gauche"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Liste des liens"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Citation"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Abréviation"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Acronyme"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Effacement"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Insertion"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Insérer/Éditer les attributs"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Titre"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Classe"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Style"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Citation"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Date/Heure"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Sens de lecture"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "De gauche à droite"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "De droite à gauche"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Langue"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "TabIndex"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "Touche d'accès"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Événements"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Attributs"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "Général"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Attributs"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Événements"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Paramètres généraux"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Attributs"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Événements"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Ajout"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Suppression"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Acronyme"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Abbréviation"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Citation"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Enlever"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Insérer la date et l'heure actuels"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "De gauche à droite"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "De droite à gauche"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Insérer/Éditer attributs"
+
+msgid "tinymce_style_desc"
+msgstr "Éditer la feuille de style CSS"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "Éditer la feuille de style CSS"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Appliquer"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Texte"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Fond"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Bloc"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Boîte"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Bordure"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "Liste"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Positionement"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Texte"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Police"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Taille"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Poids"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Style"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Variante"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Hauteur de ligne"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Casse"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Couleur"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Décoration"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "surligné"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "souligné"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "barré"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "clignotant"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "aucun"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Couleur de fond"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Image de fond"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Répéter"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Attachement"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Position horizontale"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Position verticale"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Espacement des mots "
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Espacement des lettres"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Alignement vertical"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Alignement du texte"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Indentation du texte"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Fin de ligne"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Affichage"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Largeur"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Hauteur"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Flottant"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Vider"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Espacement"
+
+msgid "tinymce_style_dlg_same"
+msgstr "Identique pour tous"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Haut"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Droit"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Bas"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Gauche"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Marge"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Largeur"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Hauter"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Couleur"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Image de puce"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Position"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Visibilité"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-index"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Débordement"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Placement"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Clip"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Coller en tant que texte brut"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Coller au départ d'un texte créé sous Word"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Selectioner tout"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Utilisez CTRL+V sur votre clavier pour coller le texte dans la fenêtre."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Conserver les sauts de ligne"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Utilisez CTRL+V sur votre clavier pour coller le texte dans la fenêtre."
+
+msgid "tinymce_table_desc"
+msgstr "Insérer un nouveau tableau"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Insérer ligne avant"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Insérer ligne après"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Effacer ligne"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Insérer colonne avant"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Insérer colonne après"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Effacer colonne"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Scinder les cellules fusionnées"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Fusionner les cellules"
+
+msgid "tinymce_table_row_desc"
+msgstr "Propriétés de la ligne"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Propriétés de la cellule"
+
+msgid "tinymce_table_props_desc"
+msgstr "Propriétés du tableau"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Coller la ligne avant"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Coller la ligne après"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Couper la ligne"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Copier la ligne"
+
+msgid "tinymce_table_del"
+msgstr "Effacer tableau"
+
+msgid "tinymce_table_row"
+msgstr "Ligne"
+
+msgid "tinymce_table_col"
+msgstr "Colonne"
+
+msgid "tinymce_table_cell"
+msgstr "Cellule"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "Général"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Avancé"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Propriétés générales"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Propriétés avancées"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Type de ligne"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Insérer/Modifier tableau"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Largeur"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Hauteur"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Colonnes"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Lignes"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Espacement des cellules"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Espacement dans les cellules"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Bordure"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Alignement"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "Par defaut"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Gauche"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Droit"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Centré"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Propriétés de la ligne"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Propriétés de la cellule"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Type de cellule"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Alignement vertical"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Haut"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Bas"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Couleur de la bordure"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Couleur du fond"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Fusioner les cellules"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Sens de lecture"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Code de la langue"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "Type MIME de la cible"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "De gauche à droite"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "de droite à gauche"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Image de fond"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Résumé"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Données"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Titre"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Mettre à jour la cellule courante"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Mettre à jour toutes les cellules de la ligne"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Mettre à jour toutes les celluls du tableau"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Mettre à jour la ligne courante"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Mettre à jour les lignes impaires"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Mettre à jour les lignes paires"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Mettre à jout toutes les lignes du tableau"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Tête de tableau"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Corps de tableau"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Pied de tableau"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Portée"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Groupe de lignes"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Groupe de colonnes"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "Vous avez dépassé le nombre maximum de colonnes ({$cols})."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "Vous avez dépassé le nombre maximum de lignes ({$rows})."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "Vous avez dépassé le nombre maximum de cellules ({$cells})."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Êtes-vous sûr de vouloir continuer sans spéficier de portée pour cette cellule de titre ? Sans portée, cela peut être difficile pour certains usagers à problèmes de comprendre le contenu ou les données affichées dans le tableau."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Afficher la légende du tableau"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Cadre"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "aucun"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "groupe"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "lignes"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "colonnes"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "tous"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Règles"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "nul"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "au dessus"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "au dessous"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hsides"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vsides"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "box"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "border"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "Les changements que vous avez faits seront perdus si vous changez de page."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Passer en mode plein écran"
+
+msgid "tinymce_media_desc"
+msgstr "Insérer/Éditer un fichier média"
+
+msgid "tinymce_media_edit"
+msgstr "Éditer un fichier média"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Insérer/Éditer un fichier média"
+
+msgid "tinymce_media_dlg_general"
+msgstr "Général"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Avancé"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Fichier / URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Liste"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Dimensions"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Prévisualiser"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Conserver les proportions"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Nom"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Classe"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "Espacement vertical"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "Espacement horizontal"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Lecture automatique"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Lire en boucle"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Afficher le menu"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Qualité"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Échelle"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Alignement"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SAlign"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Fond"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Base"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Variables flash"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Cache"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Caché"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Controlleur"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Mode kiosque"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Jouer toutes les images"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Cache cible"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "Pas de correction"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "Activer le JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Temps de début"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "Temps de fin"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Choke speed"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Cible"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Volume"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Lire automatiquement"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Activé"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Plein écran"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Invoquer URLs"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Silence"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Étendre pour adapter la taille"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Vidéo sans fenêtre"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Balance"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "Adresse de base"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Captioning id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Marqueur actuel"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Position actuelle"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Image par défaut"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Compteur"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Taux"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "Mode UI"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Options Flash"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Options Quicktime"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Windows media player options"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Options Real media player"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Options Shockwave"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Aller automatiquement à l'URL"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Centrer"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Statut de l'image"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Maintenir l'aspect"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "Pas java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Prefetch"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Aléatoire"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Console"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Nombre de tours"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Contrôles"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Callback de script"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Stretch style"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Stretch horizontal"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Stretch vertical"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Son"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Progrès"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Les ressources streamées rtsp doivent être ajoutées au champs QT Src dans l'onglet avancé.\nVous devriez aussi ajouter une version non streamée au QT src."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Haut"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Droit"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Bas"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Gauche"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Centré"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Haut gauche"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "haut droit"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Bas gauche"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Bas droite"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Options de la vidéo Flash"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Mode à l'échelle"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Tampon"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Image de début"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Temps au début"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Volume par défaut"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "Interface utilisateur cachée"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Démarage automatique"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "En boucle"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Montrer les différentes échelles"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Vidéo adoucie"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "Callback JavaScript"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Propriétés du document"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Propriétés du document"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "Général"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Apparence"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Avancé"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Meta information"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Langue et encodage"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Titre"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Mots-clés"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Description"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Robots"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Code de la langue"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Sens de lecture"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "De gauche à droite"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "De droite à gauche"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "Déclaration XML"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Encodage des caractères"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Propriétés du fond"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Marge du corps de la page"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Couleurs des liens"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Propriétés du texte"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Couleur de fond"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Image de fond"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Marge de gauche"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Marge de droite"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Marge du haut"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Marge du bas"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Couleur du texte"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Taille de la police"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Nom de la police"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Couleur des liens"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Couleur au survol"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Couleur des liens visités"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Couleur du lien actif"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Couleur"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Taille de police"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Nom de la police"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Indexer et suivre les liens"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Indexer et ne pas suivre les liens"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Ne pas indexer et suivre les liens"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Ne pas indexer et ne pas suivre les liens"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Propriétés de la feuille de style et du style"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Feuille de style"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Auteur"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Copyright"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Ajouter nouvel élément"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Enlever l'élément sélectionné"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Déplacer l'élément sélectionné vers le haut"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Déplacer l'élément sélectionné vers le bas"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Éléments de tête"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Information"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Élément de titre"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Élément Meta"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Élément de script"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Élément de style"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Élément de lien"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Élément de base"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Commentaire"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Élément de titre"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Élément de script"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Élément de style"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Élément de base"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Élément de lien"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Élément Meta"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Commentaire"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Source"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Langue"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Cible"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Charset"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Deférer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Média"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Propriétés"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Nom"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Valeur"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Contenu"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "Général"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Avancé"
+
+msgid "tinymce_template_desc"
+msgstr "Insérer un modèle prédéfini."
+
+msgid "tinymce_template_dlg_title"
+msgstr "Modèles"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Modèle"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Description"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Insérer un modèle prédéfini"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Choisir un modèle"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Prévisualiser"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Attention : Changer un modèle pour un autre peut entraîner une perte de données !"
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%d-%m-%Y %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%d-%m-%Y %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "Janvier,Février,Mars,Avril,Mai,Juin,Juillet,Août,Septembre,Octobre,Novembre,Décembre"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Jan,Fév,Mar,Avr,Mai,Juin,Juil,Août,Sep,Oct,Nov,Déc"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "Dimanche,Lundi,Mardi,Mercredi,Jeudi,Vendredi,Samedi,Dimanche"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "Dim,Lun,Mar,Mer,Jeu,Ven,Sam,Dim"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Activer les caractères de mise en page."
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Activer le vérificateur d'orthographe"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Paramètres du vérificateur d'orthographe"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Ignorer mot"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Ignorer tout"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Langues"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Patientez svp..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Suggestions"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Aucune suggestions"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Aucune erreur trouvée."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Insérer saut de page."
+

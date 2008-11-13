@@ -1,0 +1,2261 @@
+# This is the Japanese language pack for TinyMCE.
+# Version 8.1
+#
+# Hisaya Nishide
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-12 00:00+0000\n"
+"Last-Translator: Hisaya Nishide\n"
+"Language-Team: Hisaya Nishide\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: ja\n"
+"Language-Name: Japanese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "WYSIWYGモードに切り替えますか？"
+
+msgid "tinymce_common_apply"
+msgstr "適用"
+
+msgid "tinymce_common_insert"
+msgstr "挿入"
+
+msgid "tinymce_common_update"
+msgstr "更新"
+
+msgid "tinymce_common_cancel"
+msgstr "キャンセル"
+
+msgid "tinymce_common_close"
+msgstr "閉じる"
+
+msgid "tinymce_common_browse"
+msgstr "参照"
+
+msgid "tinymce_common_class_name"
+msgstr "クラス"
+
+msgid "tinymce_common_not_set"
+msgstr "-- 未設定 --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "コピー/切り取り/貼り付けはMozilla及びFirefoxでは使用できません。\n詳細はこちら"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "クリップボード操作はお使いのブラウザには対応しておりません。代わりにキーボードのショートカットキーをお使い下さい。"
+
+msgid "tinymce_common_popup_blocked"
+msgstr "ポップアップがブロックされました。すべての機能をご利用になるにはポップアップを許可して下さい。"
+
+msgid "tinymce_common_invalid_data"
+msgstr "エラー: 入力に誤りがあります。（赤字の項目）"
+
+msgid "tinymce_common_more_colors"
+msgstr "その他の色"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "太字 (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "斜体 (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "下線 (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "打消し線"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "番号なしリスト"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "番号つきリスト"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "元に戻す (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "やり直す (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "コード整形"
+
+msgid "tinymce_advanced_style_select"
+msgstr "スタイル"
+
+msgid "tinymce_advanced_font_size"
+msgstr "フォントサイズ"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "フォント"
+
+msgid "tinymce_advanced_block"
+msgstr "フォーマット"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "段落"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "住所"
+
+msgid "tinymce_advanced_pre"
+msgstr "整形済み"
+
+msgid "tinymce_advanced_h1"
+msgstr "見出し1"
+
+msgid "tinymce_advanced_h2"
+msgstr "見出し2"
+
+msgid "tinymce_advanced_h3"
+msgstr "見出し3"
+
+msgid "tinymce_advanced_h4"
+msgstr "見出し4"
+
+msgid "tinymce_advanced_h5"
+msgstr "見出し5"
+
+msgid "tinymce_advanced_h6"
+msgstr "見出し6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "引用"
+
+msgid "tinymce_advanced_code"
+msgstr "ソースコード"
+
+msgid "tinymce_advanced_samp"
+msgstr "コードサンプル"
+
+msgid "tinymce_advanced_dt"
+msgstr "語句定義"
+
+msgid "tinymce_advanced_dd"
+msgstr "語句説明"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "太字 (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "斜体 (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "下線 (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "打消し線"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "左揃え"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "中央揃え"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "右揃え"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "均等割付"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "番号なしリスト"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "番号つきリスト"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "インデント解除"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "インデント"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "元に戻す (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "やり直す (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "リンクの挿入/編集"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "リンク解除"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "画像の挿入/編集"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "コード整形"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "HTMLソース編集"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "下付き"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "上付き"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "水平線"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "フォーマット解除"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "説明文を入力してください。"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "文字色"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "背景色"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "特殊文字"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "ガイドラインと非表示項目の表示切替"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "アンカーの挿入/編集"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "切り取り"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "コピー"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "貼り付け"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "画像のプロパティ"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "新規作成"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "ヘルプ"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "引用"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "コピー/切り取り/貼り付けはMozilla及びFirefoxでは使用できません。\n詳細はこちら"
+
+msgid "tinymce_advanced_path"
+msgstr "パス"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "編集中のデータを破棄してもよろしいですか？"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "ツールボタンへジャンプ - Alt+Q, エディタにジャンプ - Alt-Z, エレメントパスへジャンプ - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "その他の色"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "TinyMCEについて"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "詳細"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "ヘルプ"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "ライセンス"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "プラグイン"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "プラグイン"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "作者"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "バージョン"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "読込済みプラグイン"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "アンカーの挿入/編集"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "アンカー名"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "HTMLソースエディタ"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "折り返し"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "色の選択"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "カラーピッカー"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "カラーピッカー"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "パレット"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "パレット"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "既定色"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "既定色"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "カラー:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "名前:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "特殊文字"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "画像の挿入/編集"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "画像URL"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "画像の説明"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "一覧から選ぶ"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "枠線"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "サイズ"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "上下余白"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "左右余白"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "配置"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Baseline"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Top"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Middle"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Bottom"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Text top"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Text bottom"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Left"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Right"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "リンクの挿入/編集"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "リンクURL"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "ターゲット"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "同じウインドウで開く"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "新しいウインドウで開く"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "タイトル"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "メールアドレスが入力されました。リンクにmailto:を付加しますか？"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "リンクにhttp://を付加しますか？"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "一覧から選ぶ"
+
+msgid "tinymce_contextmenu_align"
+msgstr "配置"
+
+msgid "tinymce_contextmenu_left"
+msgstr "左揃え"
+
+msgid "tinymce_contextmenu_center"
+msgstr "中央揃え"
+
+msgid "tinymce_contextmenu_right"
+msgstr "右揃え"
+
+msgid "tinymce_contextmenu_full"
+msgstr "均等割付"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%Y-%m-%d"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "日付の挿入"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "時刻の挿入"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "January,February,March,April,May,June,July,August,September,October,November,December"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日,日曜日"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "(日),(月),(火),(水),(木),(金),(土),(日)"
+
+msgid "tinymce_print_print_desc"
+msgstr "印刷"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "プレビュー"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "左から右"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "右から左"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "新規レイヤーの挿入"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "前面へ移動"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "背面へ移動"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "絶対位置指定の切替"
+
+msgid "tinymce_layer_content"
+msgstr "新規レイヤー"
+
+msgid "tinymce_save_save_desc"
+msgstr "保存"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "全ての変更を破棄"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "改行なしスペースの挿入"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "スペルチェック"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpellが見つかりません。今すぐインストールしますか？"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "水平線"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "幅"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "高さ"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "影なし"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "表情アイコン"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "表情アイコンの挿入"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "表情アイコン"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Cool"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Cry"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Embarassed"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Foot in mouth"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Frown"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Innocent"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Kiss"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Laughing"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Money mouth"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Sealed"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Smile"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Surprised"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Tongue out"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Undecided"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Wink"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Yell"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "検索"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "検索/置換"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "再検索"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "最後まで検索しましたが、検索文字列が見つかりませんでした。"
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "検索"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "検索/置換"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "全て置換されました。"
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "検索文字列"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "置換文字列"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "方向"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "上へ"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "下へ"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "大文字/小文字を区別する"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "次へ"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "置換"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "全て置換"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "画像の挿入/編集"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "一般"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "表示"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "上級者向け"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "一般"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "タイトル"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "プレビュー"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "縦横比の保存"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "文章の方向"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "言語コード"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "詳細説明リンク"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "スタイル"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "クラス"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "左から右"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "右から左"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "イメージマップ"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "ロールオーバー効果"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "画像切替を行う"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "マウスオーバー時"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "マウスアウト時"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "その他"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Appearance preview image"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "画像の説明文が入力されていません。目の不自由な方やテキストブラウザを利用されている方へ配慮し、画像説明を入力することをお薦めします。"
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "画像の挿入/編集"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "画像URL"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "画像の説明"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "一覧から選ぶ"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "枠線"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "サイズ"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "上下余白"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "左右余白"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "配置"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Baseline"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Top"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Middle"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Bottom"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Text top"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Text bottom"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Left"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Right"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "一覧から選ぶ"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "リンクの挿入/編集"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "リンクの挿入/編集"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "リンクURL"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "ターゲット"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "タイトル"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "メールアドレスが入力されました。リンクにmailto:を付加しますか？"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "リンクにhttp://を付加しますか？"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "一覧から選ぶ"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "一般"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "ポップアップ"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "イベント"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "上級者向け"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "一般"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "ポップアップ"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "イベント"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "上級者向け"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "オプション"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "アンカー"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "このウインドウ/フレームで開く"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "親ウインドウ/親フレームで開く"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "トップのフレームで開く"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "新しいウインドウで開く"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Javascriptポップアップ"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "ポップアップURL"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "ウインドウ名"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "'return false'を挿入する"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "スクロールバーを表示"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "ステータスバーを表示"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "ツールバーを表示"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "メニューバーを表示"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "アドレスバーを表示"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "ウインドウのサイズ変更を許可する"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Dependent (Mozilla/Firefoxのみ)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "サイズ"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "位置 (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "スタイル"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "クラス"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "ターゲット名"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "文章の方向"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "ターゲットの言語"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "言語コード"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "ターゲットの文字エンコーディング"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "ターゲットのMIMEタイプ"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "このページのターゲットに対する関係"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "ターゲットのこのページに対する関係"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "タブインデックス"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "アクセスキー"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "左から右"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "右から左"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "一覧から選ぶ"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "引用"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "略語"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "頭字語"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "削除"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "挿入"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "属性の挿入/編集"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "タイトル"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "クラス"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "スタイル"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "引用"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "日付/時刻"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "文章の方向"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "左から右"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "右から左"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "言語"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "タブインデックス"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "アクセスキー"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "イベント"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "属性"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "一般"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "属性"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "イベント"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "一般"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "エレメントの属性"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "エレメントのイベント"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "エレメントを挿入"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "エレメントを削除"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "頭字語エレメント"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "略語エレメント"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "引用エレメント"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Remove"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "現在の日付/時刻を挿入"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "左から右"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "右から左"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "属性の挿入/削除"
+
+msgid "tinymce_style_desc"
+msgstr "CSS編集"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "CSS編集"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "適用"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "文字"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "背景"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "ブロック"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "ボックス"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "枠線"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "リスト"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "ポジション"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Text"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "フォント"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "サイズ"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "太さ"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "スタイル"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "変形"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "行高さ"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "大文字/小文字"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "色"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "装飾"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "上線"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "下線"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "打消し線"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "点滅"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "なし"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "背景色"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "背景画像"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "繰り返し"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Attachment"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "水平位置"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "垂直位置"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "単語感覚"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "文字間隔"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "垂直配置"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "水平配置"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "インデント"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "空白文字"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "ディスプレイ"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "幅"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "高さ"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "回り込み"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "回り込み解除"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "パディング"
+
+msgid "tinymce_style_dlg_same"
+msgstr "全て同じにする"
+
+msgid "tinymce_style_dlg_top"
+msgstr "上"
+
+msgid "tinymce_style_dlg_right"
+msgstr "右"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "下"
+
+msgid "tinymce_style_dlg_left"
+msgstr "左"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "マージン"
+
+msgid "tinymce_style_dlg_style"
+msgstr "スタイル"
+
+msgid "tinymce_style_dlg_width"
+msgstr "幅"
+
+msgid "tinymce_style_dlg_height"
+msgstr "高さ"
+
+msgid "tinymce_style_dlg_color"
+msgstr "色"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "マーカー種類"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "マーカー画像"
+
+msgid "tinymce_style_dlg_position"
+msgstr "マーカー表示位置"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "配置方法"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "表示"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-Index"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "オーバーフロー"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "位置"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "切り抜き"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "テキストとして貼り付け"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Wordから貼り付け"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "全て選択"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "キーボードでCTRL+Vと入力しテキストを貼り付けてください。"
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "改行を保持する"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "キーボードでCTRL+Vと入力しテキストを貼り付けてください。"
+
+msgid "tinymce_table_desc"
+msgstr "表を挿入"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "行を上に挿入"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "行を下に挿入"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "行を削除"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "列を左に挿入"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "列を右に挿入"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "列を削除"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "セルの結合を解除"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "セルを結合"
+
+msgid "tinymce_table_row_desc"
+msgstr "行のプロパティ"
+
+msgid "tinymce_table_cell_desc"
+msgstr "セルのプロパティ"
+
+msgid "tinymce_table_props_desc"
+msgstr "表のプロパティ"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "行を上に貼り付け"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "行を下に貼り付け"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "行の切り取り"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "行のコピー"
+
+msgid "tinymce_table_del"
+msgstr "表を削除"
+
+msgid "tinymce_table_row"
+msgstr "行"
+
+msgid "tinymce_table_col"
+msgstr "列"
+
+msgid "tinymce_table_cell"
+msgstr "セル"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "一般"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "上級者向け"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "一般"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "上級者向け"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "行"
+
+msgid "tinymce_table_dlg_title"
+msgstr "表の挿入/編集"
+
+msgid "tinymce_table_dlg_width"
+msgstr "幅"
+
+msgid "tinymce_table_dlg_height"
+msgstr "高さ"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "列"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "行"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Cellspacing"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Cellpadding"
+
+msgid "tinymce_table_dlg_border"
+msgstr "枠線"
+
+msgid "tinymce_table_dlg_align"
+msgstr "配置"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "デフォルト"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "左揃え"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "右揃え"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "中央揃え"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "行のプロパティ"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "セルのプロパティ"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "セル種別"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "垂直方向の配置"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "上揃え"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "下揃え"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "枠線の色"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "背景色"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "セルの結合"
+
+msgid "tinymce_table_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_table_dlg_style"
+msgstr "スタイル"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "文章の方向"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "言語コード"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "ターゲットのMIMEタイプ"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "左から右"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "右から左"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "背景画像"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "サマリー"
+
+msgid "tinymce_table_dlg_td"
+msgstr "日付"
+
+msgid "tinymce_table_dlg_th"
+msgstr "ヘッダ"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "選択セルの更新"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "行内のセルの更新"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "全てのセルの更新"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "選択行の更新"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "奇数行の更新"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "偶数行の更新"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "全ての行の更新"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "表ヘッダ"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "表ボディ"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "表フッタ"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "スコープ"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "行グループ"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "列グループ"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "列の最大数を超えました。"
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "行の最大数を超えました。"
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "セルの最大数を超えました。"
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "表のスコープ属性を設定していませんがよろしいですか？"
+
+msgid "tinymce_table_dlg_caption"
+msgstr "表に見出しを付ける"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "セル枠線"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "なし"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "グループ毎"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "行"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "列"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "全て"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "表の外枠"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "なし"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "上"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "下"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "上下"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "左"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "右"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "左右"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "上下左右(box)"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "上下左右(border)"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "他のページへ移動すると編集データはすべて破棄されます。"
+
+msgid "tinymce_fullscreen_desc"
+msgstr "フルスクリーン"
+
+msgid "tinymce_media_desc"
+msgstr "埋め込みメディアの挿入/編集"
+
+msgid "tinymce_media_edit"
+msgstr "埋め込みメディアの編集"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "埋め込みメディアの挿入/編集"
+
+msgid "tinymce_media_dlg_general"
+msgstr "一般"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "上級者向け"
+
+msgid "tinymce_media_dlg_file"
+msgstr "ファイル/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "一覧から選ぶ"
+
+msgid "tinymce_media_dlg_size"
+msgstr "サイズ"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "プレビュー"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "縦横比を保存"
+
+msgid "tinymce_media_dlg_type"
+msgstr "タイプ"
+
+msgid "tinymce_media_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_media_dlg_name"
+msgstr "名前"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "クラス"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "上下余白"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "左右余白"
+
+msgid "tinymce_media_dlg_play"
+msgstr "自動再生"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "繰り返し再生"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "メニューを表示"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "品質"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "伸縮"
+
+msgid "tinymce_media_dlg_align"
+msgstr "配置"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SAlign"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "背景色"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Base"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flashvars"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "自動読込"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "キャッシュ"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "非表示"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "コントローラ表示"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kioskモード"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "全フレーム再生"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "ターゲットキャッシュ"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "No correction"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "JavaScriptを有効にする"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "開始フレーム"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "終了フレーム"
+
+msgid "tinymce_media_dlg_href"
+msgstr "リンク先URL"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "再生データレート"
+
+msgid "tinymce_media_dlg_target"
+msgstr "ターゲット"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "音量"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "自動再生"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "有効にする"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "フルスクリーン"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "URLを開く"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "ミュート"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "自動サイズ変更"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "windowlessモード"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "ステレオのバランス"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "Base URL"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "キャプション表示要素ID"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "マーカー番号"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "再生位置（秒単位）"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "デフォルトフレーム"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "再生回数"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "再生レート"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI表示モード"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Flashオプション"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Quicktimeオプション"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Windows media playerオプション"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Real media playerオプション"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Shockwaveオプション"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "autogotourl"
+
+msgid "tinymce_media_dlg_center"
+msgstr "センタリング"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "ステータス表示"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "縦横比保存"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "Javaを禁止"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "プリフェッチ"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "シャッフル"
+
+msgid "tinymce_media_dlg_console"
+msgstr "コンソール"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "繰り返し回数"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "コントローラ表示"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "コールバックイベント"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "伸縮"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "水平位置"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "垂直位置"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "サウンド"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Progress"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "rtspストリーミングリソースを「上級者向け」タブの「QT Src」欄に入力してください。\nまた、「Src」欄にはストリーミングではないバージョーンを入力してください。"
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "上"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "右"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "下"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "左"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "中央"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "左上"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "右上"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "左下"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "右下"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Flash videoオプション"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "伸縮モード"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "バッファ秒数"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "初期画像URL"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "開始フレーム"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "音量"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "コントローラ非表示"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "自動再生"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "繰り返し再生"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "伸縮切替ボタン表示"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "スムージング"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JSコールバック"
+
+msgid "tinymce_fullpage_desc"
+msgstr "ページ設定"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "ページ設定"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "一般"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "表示"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "上級者向け"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "メタ情報"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "言語とエンコーディング"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "タイトル"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "キーワード"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "説明"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "検索ロボット制御"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "DOCTYPE"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "言語コード"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "文章の方向"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "左から右"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "右から左"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "XML宣言"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "文字エンコーディング"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "背景のプロパティ"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "余白"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "リンク色"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "文字もプロパティ"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "背景色"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "背景画像"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "左余白"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "右余白"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "上余白"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "下余白"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "文字色"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "文字サイズ"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "フォント"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "リンク色"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "リンク色(hover)"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "リンク色(visited)"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "リンク色(active)"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "色"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "文字サイズ"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "フォント"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "このページとリンク先の巡回を許可"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "このページの巡回を許可、リンク先の巡回を禁止"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "このページの巡回を禁止、リンク先の巡回を許可"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "このページとリンク先の巡回を禁止"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "スタイル設定"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "スタイルシート"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "スタイル"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "作者"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "コピーライト"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "エレメント追加"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "選択要素の削除"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "選択要素を上へ移動"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "選択要素を下へ移動"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Head要素"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "インフォメーション"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Title要素"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta要素"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Script要素"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Style要素"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Link要素"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Base要素"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Commentノード"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Title要素"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Script要素"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Style要素"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Base要素"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Link要素"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta要素"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Comment"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "src"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Language"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Target"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Charset"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Properties"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Name"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Value"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Content"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "一般"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "上級者向け"
+
+msgid "tinymce_template_desc"
+msgstr "テンプレートの挿入"
+
+msgid "tinymce_template_dlg_title"
+msgstr "テンプレート"
+
+msgid "tinymce_template_dlg_label"
+msgstr "テンプレート"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "説明"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "テンプレートの挿入"
+
+msgid "tinymce_template_dlg_select"
+msgstr "テンプレートを選択"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "プレビュー"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "警告：テンプレートを上書きすると以前のデータは失われます。"
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "January,February,March,April,May,June,July,August,September,October,November,December"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日,日曜日"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "(日),(月),(火),(水),(木),(金),(土),(日)"
+
+msgid "tinymce_visualchars_desc"
+msgstr "制御文字の表示"
+
+msgid "tinymce_spellchecker_desc"
+msgstr "スペルチェックOn/Off"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "スペルチェック設定"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "この単語を無視"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "全て無視"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "言語"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "しばらくお待ちください..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "候補"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "候補は有りません。"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "スペルミスは見つかりませんでした。"
+
+msgid "tinymce_pagebreak_desc"
+msgstr "改ページ挿入"
+

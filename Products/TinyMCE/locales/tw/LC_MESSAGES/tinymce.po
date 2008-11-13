@@ -1,0 +1,2261 @@
+# TinyMCE 3.1繁體中文語言包
+# Version 2.6
+#
+# zh-TW
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-02 00:00+0000\n"
+"Last-Translator: zh-TW\n"
+"Language-Team: zh-TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: tw\n"
+"Language-Name: Traditional Chinese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "是否在此區域啟用所見即所得的編輯模式?"
+
+msgid "tinymce_common_apply"
+msgstr "應用"
+
+msgid "tinymce_common_insert"
+msgstr "插入"
+
+msgid "tinymce_common_update"
+msgstr "更新"
+
+msgid "tinymce_common_cancel"
+msgstr "取消"
+
+msgid "tinymce_common_close"
+msgstr "關閉"
+
+msgid "tinymce_common_browse"
+msgstr "預覽"
+
+msgid "tinymce_common_class_name"
+msgstr "CSS類別"
+
+msgid "tinymce_common_not_set"
+msgstr "尚未設定"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "複製、剪切和粘貼功能在Mozilla和Firefox中無法正常使用.  \n你需要瞭解更多資訊嗎?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "剪貼功能無法使用,請您改用鍵盤快捷鍵.  "
+
+msgid "tinymce_common_popup_blocked"
+msgstr "您的流覽器封鎖了該快捷鍵功能, 此功能無法正常使用! "
+
+msgid "tinymce_common_invalid_data"
+msgstr "錯誤: 輸入值無效, 已經用紅色標記.  "
+
+msgid "tinymce_common_more_colors"
+msgstr "更多顏色.."
+
+msgid "tinymce_simple_bold_desc"
+msgstr "粗體(Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "斜體(Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "下劃線(Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "刪除線"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "項目列表"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "編號列表"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "撤銷(Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "重做(Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "清除標籤"
+
+msgid "tinymce_advanced_style_select"
+msgstr "樣式"
+
+msgid "tinymce_advanced_font_size"
+msgstr "字型大小"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "字體"
+
+msgid "tinymce_advanced_block"
+msgstr "格式"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "段落"
+
+msgid "tinymce_advanced_div"
+msgstr "圖層"
+
+msgid "tinymce_advanced_address"
+msgstr "地址"
+
+msgid "tinymce_advanced_pre"
+msgstr "預定義格式"
+
+msgid "tinymce_advanced_h1"
+msgstr "標題1"
+
+msgid "tinymce_advanced_h2"
+msgstr "標題2"
+
+msgid "tinymce_advanced_h3"
+msgstr "標題3"
+
+msgid "tinymce_advanced_h4"
+msgstr "標題4"
+
+msgid "tinymce_advanced_h5"
+msgstr "標題5"
+
+msgid "tinymce_advanced_h6"
+msgstr "標題6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "引用"
+
+msgid "tinymce_advanced_code"
+msgstr "代碼"
+
+msgid "tinymce_advanced_samp"
+msgstr "代碼範例"
+
+msgid "tinymce_advanced_dt"
+msgstr "名詞定義"
+
+msgid "tinymce_advanced_dd"
+msgstr "名詞解釋"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "粗體(Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "斜體(Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "下劃線(Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "刪除線"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "居左"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "居中"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "居右"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "左右對齊"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "專案符號清單"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "編號列表"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "減少縮排"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "增加縮排"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "撤銷(Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "重做(Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "插入/編輯鏈結"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "刪除鏈結"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "插入/編輯圖片"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "清除標籤"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "代碼視圖"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "下標"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "上標"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "插入水平線"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "清除樣式"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "在此輸入描述"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "字體顏色"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "背景顏色"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "插入特殊符號"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "顯示/隱藏物件"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "插入/編輯錨點"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "剪切(Ctrl+X)"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "複製(Ctrl+C)"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "粘貼(Ctrl+V)"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "圖片屬性"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "新建"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "説明"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "引用"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "複製、剪切和粘貼功能在Mozilla和Firefox中無法使用.  \n你需要瞭解更多資訊嗎? "
+
+msgid "tinymce_advanced_path"
+msgstr "路徑"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "確定要刪除所有內容並建立一個空白檔嗎? "
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "定位到工具列- Alt+Q, 定位到編輯區- Alt-Z, 定位到元素路徑- Alt-X.  "
+
+msgid "tinymce_advanced_more_colors"
+msgstr "更多顏色.."
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "關於TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "關於"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "說明"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "授權"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "外掛程式列表"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "外掛程式"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "作者"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "版本"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "已載入外掛程式"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "插入/編輯錨點"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "錨點名稱"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "代碼視圖"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "自動換行"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "選擇顏色"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "調色盤"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "調色盤"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "安全色"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "網頁安全色"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "命名色彩"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "命名色彩"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "顏色："
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "名稱："
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "插入特殊符號"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "插入/編輯圖片"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "圖片位址"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "圖片說明"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "圖片清單"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "邊框"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "尺寸"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "垂直間距"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "水準間距"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "對齊方式"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "基準線"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "頂部對齊"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "置中對齊"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "底部對齊"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "文字上方"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "文字下方"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "居左"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "居右"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "插入/編輯鏈結"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "鏈結"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "目標"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "當前視窗打開鏈結"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "新視窗打開鏈結"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "標題"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "你輸入的網址似乎是一個電子郵箱位址, 是否要加幫它加上鏈結? "
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "你輸入的網址似乎是一個網站鏈結, 是否要加幫它加上鏈結? "
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "鏈結清單"
+
+msgid "tinymce_contextmenu_align"
+msgstr "對齊方式"
+
+msgid "tinymce_contextmenu_left"
+msgstr "居左"
+
+msgid "tinymce_contextmenu_center"
+msgstr "居中"
+
+msgid "tinymce_contextmenu_right"
+msgstr "居右"
+
+msgid "tinymce_contextmenu_full"
+msgstr "左右對齊"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%Y-%m-%d"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "插入當前日期"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "插入當前時間"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "星期日,星期一,星期二,星期三,星期四,星期五,星期六,星期日"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "周日,週一,週二,週三,週四,週五,週六,周日"
+
+msgid "tinymce_print_print_desc"
+msgstr "列印"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "預覽"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "文字從左到右"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "文字從右到左"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "插入圖層"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "前移"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "後移"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "切換到絕對位址"
+
+msgid "tinymce_layer_content"
+msgstr "建立圖層.."
+
+msgid "tinymce_save_save_desc"
+msgstr "保存"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "取消所有更改"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "插入非換行空格"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "執行拼寫檢查"
+
+msgid "tinymce_iespell_download"
+msgstr "檢測不到ieSpell元件, 是否立即安裝? "
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "水平線"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "寬度"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "高度"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "無陰影"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "表情"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "插入表情"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "表情清單"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "酷"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "哭泣"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "尷尬"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "咧嘴"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "皺眉"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "天真"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "吻"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "大笑"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "發財"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "保密"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "微笑"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "驚嚇"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "吐舌頭"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "思考"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "眨眼"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "叫嚷"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "查找"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "查找/替換"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "繼續查找"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "查找完畢, 沒有找到符合的字串.  "
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "查找"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "查找/替換"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "所有符合的字串均已替換.  "
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "查找目標"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "替換為"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "方向"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "向上"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "向下"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "區分大小寫"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "查找下一個"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "替換"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "全部替換"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "插入/編輯圖片"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "一般"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "外觀"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "高級"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "一般"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "標題"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "預覽"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "鎖定比例"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "語言書寫方向"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "語言編碼"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "長描述鏈結"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "樣式"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "CSS類別"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "從左到右"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "從右到左"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "圖片Map"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "圖片切換"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "替換圖片"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "滑鼠經過"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "滑鼠移出"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "其他"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "圖片預覽外觀"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "確定不為圖片加上說明嗎?如果圖片沒有設置說明的話, 在文本流覽器或不支援圖片的流覽器中會無法被流覽者注意到.  "
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "插入/編輯圖片"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "圖片網址"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "圖片說明"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "圖片清單"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "邊框"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "尺寸"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "垂直間距"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "水準間距"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "對齊方式"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "基準線"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "頂部"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "置中對齊"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "底部"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "文字上方"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "文字下方"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "居左"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "居右"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "圖片清單"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "插入/編輯鏈結"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "插入/編輯鏈結"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "鏈結網址"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "目標"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "標題"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "你輸入的網址似乎是一個EMail位址, 是否要加上首碼\"mailto:\" ? "
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "你輸入的網址似乎是一個外部鏈結, 是否要加上首碼\"http://\" ? "
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "鏈結列表"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "詳細設定"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "快顯窗口"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "事件"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "高級"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "一般屬性"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "快顯視窗屬性"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "事件"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "高級屬性"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "選項"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "錨點"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "在目前視窗/框架打開"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "在父視窗/框架打開"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "在頂層視窗打開（替換所有打開框架）"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "在新視窗打開"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "JavaScript快顯窗口"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "快顯窗口網址"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "窗口名稱"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "插入\"return false\""
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "顯示捲軸"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "顯示狀態欄"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "顯示工具列"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "顯示功能表列"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "顯示位址欄"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "視窗可調整大小"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "流覽器限制(僅對Mozilla/Firefox有效)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "大小"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "位置(X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "樣式"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "CSS類別"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "目標名稱"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "語言書寫方向"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "目的語言"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "語言編碼"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "目的語言編碼"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "目標MIME類型"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "網頁到目標的關聯"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "目標到網頁的關聯"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Tab索引"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "快捷鍵"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "從左到右"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "從右到左"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "鏈結列表"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "引用"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "縮寫"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "首字母縮寫"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "刪除"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "插入"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "插入/編輯屬性"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "標題"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "CSS類別"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "樣式"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "引用"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "日期/時間"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "文字書寫方向"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "從左到右"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "從右到左"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "語言"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "Tab索引"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "快捷鍵"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "事件"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "屬性"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "一般"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "屬性"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "事件"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "一般設定"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "元素屬性"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "元素事件"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "插入元素"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "刪除元素"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "首字母縮寫元素"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "縮寫元素"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "引用元素"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "移除"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "插入當前日期/時間"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "從左到右"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "從右到左"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "插入/編輯屬性"
+
+msgid "tinymce_style_desc"
+msgstr "編輯CSS樣式表"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "編輯CSS樣式表"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "應用"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "文字"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "背景"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "區塊"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "方塊"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "邊框"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "表列"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "位置"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "文字"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "字體"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "字型大小"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "寬"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "樣式"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "變體"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "行高"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "字型"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "顏色"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "裝飾"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "頂線"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "下劃線"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "刪除線"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "閃爍"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "無"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "背景顏色"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "背景圖片"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "重複"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "附件"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "水準位置"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "垂直位置"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "詞間距"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "字母間距"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "垂直對齊方式"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "文字對齊"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "文字縮排"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "空格"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "顯示"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "寬"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "高"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "浮動"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "清除"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "內邊距"
+
+msgid "tinymce_style_dlg_same"
+msgstr "全部相同"
+
+msgid "tinymce_style_dlg_top"
+msgstr "頂部"
+
+msgid "tinymce_style_dlg_right"
+msgstr "右側"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "底部"
+
+msgid "tinymce_style_dlg_left"
+msgstr "左側"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "邊界"
+
+msgid "tinymce_style_dlg_style"
+msgstr "樣式"
+
+msgid "tinymce_style_dlg_width"
+msgstr "寬"
+
+msgid "tinymce_style_dlg_height"
+msgstr "高"
+
+msgid "tinymce_style_dlg_color"
+msgstr "顏色"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "類型"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "列單圖片"
+
+msgid "tinymce_style_dlg_position"
+msgstr "位置"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "類型"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "可見"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-座標"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "溢出"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "佈置"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "剪切"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "粘貼為純文本"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "粘貼為Word格式"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "全選"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "用Ctrl+V複合鍵將內容貼入視窗中.  "
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "保留分行符號號"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "用Ctrl+V複合鍵將內容貼入視窗中.  "
+
+msgid "tinymce_table_desc"
+msgstr "插入新表格"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "在前面插入列"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "在後面插入列"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "刪除本列"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "在前面插入行"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "在後面插入行"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "刪除本行"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "分割單格"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "合併單格"
+
+msgid "tinymce_table_row_desc"
+msgstr "表格列屬性"
+
+msgid "tinymce_table_cell_desc"
+msgstr "單格屬性"
+
+msgid "tinymce_table_props_desc"
+msgstr "表格屬性"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "在前面貼入列"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "在後面貼入列"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "剪切此列"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "複製此列"
+
+msgid "tinymce_table_del"
+msgstr "刪除表格"
+
+msgid "tinymce_table_row"
+msgstr "列"
+
+msgid "tinymce_table_col"
+msgstr "行"
+
+msgid "tinymce_table_cell"
+msgstr "單格"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "詳細設定"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "高級"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "標準選項"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "高級選項"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "列所在的表格位置"
+
+msgid "tinymce_table_dlg_title"
+msgstr "插入/編輯表格"
+
+msgid "tinymce_table_dlg_width"
+msgstr "寬"
+
+msgid "tinymce_table_dlg_height"
+msgstr "高"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "行數"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "列數"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "單格間距"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "單格內距"
+
+msgid "tinymce_table_dlg_border"
+msgstr "邊框"
+
+msgid "tinymce_table_dlg_align"
+msgstr "對齊方式"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "預設"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "置左"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "置右"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "置中對齊"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "列標題"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "單格標題"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "單格類型"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "垂直對齊方式"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "頂部"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "底部"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "邊框顏色"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "背景顏色"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "合併單格"
+
+msgid "tinymce_table_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_table_dlg_style"
+msgstr "樣式"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "語言書寫方向"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "語言編碼"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "目標MIME類型"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "從左到右"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "從右到左"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "背景圖片"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "摘要"
+
+msgid "tinymce_table_dlg_td"
+msgstr "資料"
+
+msgid "tinymce_table_dlg_th"
+msgstr "表頭"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "更新當前單格"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "更新當前列的單格"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "更新所有單格"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "更新當前列"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "更新表格的奇數列"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "更新表格的偶數列"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "更新表格的所有列"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "表頭"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "表格主體"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "表格腳註"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "範圍"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "列群組"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "行群組"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "已超過最大行數限制{$cols}行.  "
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "已超過最大列數限制{$rows}列.  "
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "已超過最大單格限制{$cells}單格.  "
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "您確定不指定表頭單格的範圍嗎?如果不指定, 部分使用者將很難查看表格內容.  "
+
+msgid "tinymce_table_dlg_caption"
+msgstr "表格標題"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "框架"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "無"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "群組"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "列"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "行"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "全部"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "詳細設定"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "void"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "above"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "below"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hsides"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vsides"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "box"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "border"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "如果離開該頁, 將導致所有更改全部消失.  "
+
+msgid "tinymce_fullscreen_desc"
+msgstr "全屏切換"
+
+msgid "tinymce_media_desc"
+msgstr "插入/編輯影片"
+
+msgid "tinymce_media_edit"
+msgstr "編輯影片"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "插入/編輯影片"
+
+msgid "tinymce_media_dlg_general"
+msgstr "一般"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "高級"
+
+msgid "tinymce_media_dlg_file"
+msgstr "文件網址"
+
+msgid "tinymce_media_dlg_list"
+msgstr "列表"
+
+msgid "tinymce_media_dlg_size"
+msgstr "大小"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "預覽"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "鎖定比例"
+
+msgid "tinymce_media_dlg_type"
+msgstr "類型"
+
+msgid "tinymce_media_dlg_id"
+msgstr "ID"
+
+msgid "tinymce_media_dlg_name"
+msgstr "名稱"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "CSS類別"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "垂直間距"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "水準間距"
+
+msgid "tinymce_media_dlg_play"
+msgstr "自動播放"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "迴圈"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "顯示選項"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "品質"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "縮放"
+
+msgid "tinymce_media_dlg_align"
+msgstr "對齊"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SAlign"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "背景顏色"
+
+msgid "tinymce_media_dlg_base"
+msgstr "基底"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flash變數"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "緩衝"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "隱藏"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "控制臺"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kiosk模式"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "隨格播放"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "目標暫存"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "修正"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "啟用JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "開始時間"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "結束時間"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Choke速度"
+
+msgid "tinymce_media_dlg_target"
+msgstr "目標"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "音量"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "自動播放"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "可用"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "全屏"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "調用的網址s"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "靜音"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "縮放至合適大小"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "無窗口播放"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "平衡"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "基底網址"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "字幕編號"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "當前標記"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "當前位置"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "預設格"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "播放次數"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "碼率"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI模式"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Flash選項"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Quicktime選項"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Windows Media Player選項"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Real Media Player選項"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Shockwave選項"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "自動轉至網址"
+
+msgid "tinymce_media_dlg_center"
+msgstr "置中對齊"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "圖片狀態"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "鎖定比例"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "No Java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "預讀"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "隨動機"
+
+msgid "tinymce_media_dlg_console"
+msgstr "控制臺"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "迴圈次數"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "控制"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Script回檔"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "縮放樣式"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "縮放至水準對齊"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "縮放至垂直對齊"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "聲音"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "進度"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Streamed rtsp resources should be added to the QT Src field under the advanced tab.\nYou should also add a non streamed version to the Src field."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "置頂"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "置右"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "置底"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "置左"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "置中對齊"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "置頂左"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "置頂右"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "置底左"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "置底右"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Flash影片選項"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "縮放模式"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "緩衝"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "啟動圖片"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "啟動時間"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "預設音量"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "隱藏GUI"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "自動播放"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "迴圈"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "顯示縮放模式"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "平滑視圖"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS回檔"
+
+msgid "tinymce_fullpage_desc"
+msgstr "檔案屬性"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "檔案屬性"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "一般"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "外觀"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "高級"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Mata信息"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "語言和編碼"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "標題"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "關鍵字"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "說明"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Robots"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "DocType"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "文字編碼"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "文字書寫方向"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "從左到右"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "從右到左"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "XML聲明"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "編碼"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "背景顏色"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "邊距"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "鏈結顏色"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "文字屬性"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "背景顏色"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "背景圖片"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "左邊距"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "右邊距"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "上邊距"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "下邊距"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "文字顏色"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "文字大小"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "字體"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "鏈結顏色"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Hover顏色"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Visited顏色"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Active顏色"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "顏色"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "文字大小"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "字體"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "索引並鏈結"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "索引但不鏈結"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "不索引但鏈結"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "不索引也不鏈結"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "樣式表和樣式屬性"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "樣式表"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "樣式"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "作者"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "版權聲明"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "新增元素"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "刪除選定元素"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "上移選定元素"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "下移選定元素"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Head元素"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "信息"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Title元素"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta元素"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Script元素"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Style元素"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Link元素"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Base元素"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "注釋"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Title元素"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Script元素"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Style元素"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Base元素"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Link元素"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta元素"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "注釋"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Src"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "語言"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "目標"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "類型"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "字元集"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "影片"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "屬性"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "名稱"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "值"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "內容"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "標準"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "高級"
+
+msgid "tinymce_template_desc"
+msgstr "插入預定義樣板"
+
+msgid "tinymce_template_dlg_title"
+msgstr "樣板"
+
+msgid "tinymce_template_dlg_label"
+msgstr "樣板"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "說明"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "插入預先定義的樣板內容"
+
+msgid "tinymce_template_dlg_select"
+msgstr "選擇樣板"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "預覽"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "警告:更新不同的樣板有可能導致資料消失.  "
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "星期日,星期一,星期二,星期三,星期四,星期五,星期六,星期日"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "周日,週一,週二,週三,週四,週五,週六,周日"
+
+msgid "tinymce_visualchars_desc"
+msgstr "可見控制字元開/關"
+
+msgid "tinymce_spellchecker_desc"
+msgstr "切換拼寫檢查"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "拼寫檢查設定"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "忽略字"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "全部忽略"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "語言"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "請稍候.."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "建議"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "無建議"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "無拼寫錯誤.  "
+
+msgid "tinymce_pagebreak_desc"
+msgstr "插入分頁符號"
+

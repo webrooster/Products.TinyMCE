@@ -1,0 +1,2261 @@
+# This is the Estonian language pack for TinyMCE. Feel free to make corrections and updates
+# Version 1.2
+#
+# kaupov - kaupov3@hot.ee
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-05-26 00:00+0000\n"
+"Last-Translator: kaupov - kaupov3@hot.ee\n"
+"Language-Team: kaupov - kaupov3@hot.ee\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: et\n"
+"Language-Name: Estonian\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Kas soovite kasutada WYSIWYG režiimi sellel tekstialal?"
+
+msgid "tinymce_common_apply"
+msgstr "Rakenda"
+
+msgid "tinymce_common_insert"
+msgstr "Sisesta"
+
+msgid "tinymce_common_update"
+msgstr "Uuenda"
+
+msgid "tinymce_common_cancel"
+msgstr "Tühista"
+
+msgid "tinymce_common_close"
+msgstr "Sule"
+
+msgid "tinymce_common_browse"
+msgstr "Sirvi"
+
+msgid "tinymce_common_class_name"
+msgstr "Klass"
+
+msgid "tinymce_common_not_set"
+msgstr "-- Seadmata --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Kopeeri/Lõika/Kleebi ei ole saadaval Mozillas ja Firefoxis.\nKas soovite rohkem infot selle probleemi kohta?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Hetkel ei ole toetatud Teie lehitseja poolt, kasutage klaviatuuri otseteid selle asemel."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "Vabandust, aga Teie hüpikakna tõkestaja on blokeerinud akna, mis varustab rakenduse funktsionaalsust. Palun lubage hüpikaknad sellel kodulehel, et täielikult kasutada seda vahendit."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Viga: Kehtetud väärtused sisestatud, need on märgitud punasega."
+
+msgid "tinymce_common_more_colors"
+msgstr "Rohkem värve"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Rasvane (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Kursiiv (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Allajoonitud (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Läbijoonitud"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Ebakorrapärane loetelu"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Korrapärane loetelu"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Võta tagasi (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Tee uuesti (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Puhasta segane kood"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Styles"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Font size"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Font family"
+
+msgid "tinymce_advanced_block"
+msgstr "Format"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Paragraph"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "Address"
+
+msgid "tinymce_advanced_pre"
+msgstr "Preformatted"
+
+msgid "tinymce_advanced_h1"
+msgstr "Heading 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Heading 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Heading 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Heading 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Heading 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Heading 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Blockquote"
+
+msgid "tinymce_advanced_code"
+msgstr "Code"
+
+msgid "tinymce_advanced_samp"
+msgstr "Code sample"
+
+msgid "tinymce_advanced_dt"
+msgstr "Definition term "
+
+msgid "tinymce_advanced_dd"
+msgstr "Definition description"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Rasvane (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Kursiiv (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Allajoonitud (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Läbijoonitud"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Vasak joondus"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Keskjoondus"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Parem joondus"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Täisjoondus"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Ebakorrapärane loetelu"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Korrapärane loetelu"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Taanda välja"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Taanda sisse"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Võta tagasi (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Tee uuesti (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Sisesta/redigeeri link"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Eemalda link"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Sisesta/redigeeri pilt"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Puhasta segane kood"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "Redigeeri HTML lähtekoodi"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Alaindeks"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Ülaindeks"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Sisesta horisontaalne joonlaud"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Eemalda vormindus"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Teie kohandatud kirjeldus siia"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Vali teksti värv"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Vali tausta värv"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Sisesta kohandatud kirjamärk"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Lülita ümber juhtjooned/nähtamatud elemendid"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Sisesta/redigeeri ankur"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Lõika"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Kopeeri"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Kleebi"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Pildi kirjeldus"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Uus dokument"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Abi"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Plokkviide"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Kopeeri/Lõika/Kleebi ei ole Mozillas ja Firefoxis saadaval.\nKas soovid rohkem infot selle probleemi kohta?"
+
+msgid "tinymce_advanced_path"
+msgstr "Tee"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Oled sa kindel, et tahad kustutada kõik sisud?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Hüppa tööriista nuppudele - Alt+Q, Hüppa redigeerijale - Alt-Z, Hüppa elemendi teele - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Rohkem värve"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "About TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "About"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Help"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "License"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Plugins"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Plugin"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Author"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Version"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Loaded plugins"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Sisesta/redigeeri ankur"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Ankru nimi"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "HTML Source Editor"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Word wrap"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Vali värv"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Korjaja"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Värvi korjaja"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Palett"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Palett värvid"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Nimetatud"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Nimetatud värvid"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Värv:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Nimi:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Vali kohandatud tähemärk"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Sisestal/redigeeri pilt"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "Pildi URL"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Pildi kirjeldus"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Pildi loend"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Raam"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Dimensioonid"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Vertikaalne vahe"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Horisontaalne vahe"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Reastus"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Kirjajoondus"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Ülemine"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Keskmine"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Alumine"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Teksti tipp"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Teksti põhi"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Vasak"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Parem"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Sisesta/redigeeri link"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "Link URL"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Sihtala"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Ava link samas aknas"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Ava link uues aknas"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Tiitel"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "URL, mille te sisestasite, tundub olevat emaili aadress, kas soovite, et lisataks mailto: eesliite?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "URL, mille sisestasite, tundub olevat väline link, kas soovite, et lisataks http:// eesliite?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Lingi loetelu"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Joondus"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Vasak"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Kesk"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Parem"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Täis"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%A-%k-%p"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%T:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Sisesta kuupäev"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Sisesta aeg"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "Jaanuar,Veebruar,Märts,Aprill,Mai,Juuni,Juuli,August,September,Oktoober,November,Detsember"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Jaan,Veeb,Märts,Apr,Mai,Juuni,Juuli,Aug,Sept,Okt,Nov,Dets"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "Pühapäev,Esmaspäev,Teisipäev,Kolmapäev,Neljapäev,Reede,Laupäev,Pühapäev"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "P,E,T,K,N,R,L,P"
+
+msgid "tinymce_print_print_desc"
+msgstr "Print"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Eelvaade"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Suund vasakult paremale"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Suund paremalt vasakule"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Sisesta uus kiht"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Liiguta edasi"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Liiguta tagasi"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Lülita ümber absoluutne positsioneerimine"
+
+msgid "tinymce_layer_content"
+msgstr "Uus kiht..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Salvesta"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Tühista kõik muudatused"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Sisesta mittekatkestav tühik"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Õigekirja kontroll"
+
+msgid "tinymce_iespell_download"
+msgstr "ieÕigekiri tuvastamata. Kas soovite paigaldada nüüd?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Horisontaalne joonlaud"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Laius"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Kõrgus"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Ilma varjuta"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Emotsioonid"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Sisesta emotsioon"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Emotsioonid"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Lahe"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Nutt"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Häbitunne"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Jalg suus"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Kulmu kortsutamine"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Süütu"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Suudlus"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Naermine"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Rahasuu"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Suletud"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Naeratus"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Üllatunud"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Keel väljas"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Kõhklev"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Silmapilgutus"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Karje"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Otsi"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Otsi/Asenda"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Otsi uuesti"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "Otsing on lõpetatud. Otsisõna ei leitud."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Otsi"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Otsi/Asenda"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Kõik otsisõna ilmingud on asendatud."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Otsi mida"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Asenda millega"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Suund"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Üles"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Alla"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Vasta suurusele"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Otsi järgmine"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Asenda"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Asenda kõik"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Sisesta/redigeeri pilt"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "General"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Appearance"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Advanced"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "General"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Title"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Preview"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Constrain proportions"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Language direction"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Language code"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Long description link"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Classes"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "Left to right"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "Right to left"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Image map"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Swap image"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Alternative image"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "for mouse over"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "for mouse out"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Miscellaneous"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Appearance preview image"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Are you sure you want to continue without including an Image Description? Without it the image may not be accessible to some users with disabilities, or to those using a text browser, or browsing the Web with images turned off."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Insert/edit image"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "Image URL"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Image description"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Image list"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Border"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Dimensions"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Vertical space"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Horizontal space"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Alignment"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Baseline"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Top"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Middle"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Bottom"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Text top"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Text bottom"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Left"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Right"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Image list"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Sisesta/redigeeri link"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Insert/edit link"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "Link URL"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Target"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Title"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "The URL you entered seems to be an email address, do you want to add the required mailto: prefix?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "The URL you entered seems to external link, do you want to add the required http:// prefix?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Link list"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "General"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Popup"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Events"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Advanced"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "General properties"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Popup properties"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Events"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Advanced properties"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Options"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Anchors"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Open in this window / frame"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Open in parent window / frame"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Open in top frame (replaces all frames)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Open in new window"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Javascript popup"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "Popup URL"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Window name"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "Insert 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Show scrollbars"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Show status bar"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Show toolbars"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Show menu bar"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Show location bar"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Make window resizable"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Dependent (Mozilla/Firefox only)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Size"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Position (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Classes"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Target name"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Language direction"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Target language"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Language code"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Target character encoding"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "Target MIME type"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Relationship page to target"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Relationship target to page"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Tabindex"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Accesskey"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Left to right"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Right to left"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Link list"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Citation"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Abbreviation"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Acronym"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Deletion"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Insertion"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Insert/Edit Attributes"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Title"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Class"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Style"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Cite"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Date/Time"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Text Direction"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "Left to right"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "Right to left"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Language"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "TabIndex"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "AccessKey"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Events"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Attributes"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "General"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Attributes"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Events"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "General Settings"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Element Attributes"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Element Events"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Insertion Element"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Deletion Element"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Acronym Element"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Abbreviation Element"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Citation Element"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Remove"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Insert current date/time"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "Left to right"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "Right to left"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Insert/Edit Attributes"
+
+msgid "tinymce_style_desc"
+msgstr "Redigeeri CSS stiili"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "Edit CSS Style"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Apply"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Text"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Background"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Block"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Box"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Border"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "List"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Positioning"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Text"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Font"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Size"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Weight"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Style"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Variant"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Line height"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Case"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Color"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Decoration"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "overline"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "underline"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "strikethrough"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "blink"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "none"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Background color"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Background image"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Repeat"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Attachment"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Horizontal position"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Vertical position"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Word spacing"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Letter spacing"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Vertical alignment"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Text align"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Text indent"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Whitespace"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Display"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Width"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Height"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Float"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Clear"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Padding"
+
+msgid "tinymce_style_dlg_same"
+msgstr "Same for all"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Top"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Right"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Bottom"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Left"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Margin"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Width"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Height"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Color"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Bullet image"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Position"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Visibility"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-index"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Overflow"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Placement"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Clip"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Kleebi tavalise tekstina"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Kleebi Wordist"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Vali kõik"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Vajuta CTRL+V oma klaviatuuril teksti aknasse kleepimiseks."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Jäta reavahetused"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Vajuta CTRL+V oma klaviatuuril teksti aknasse kleepimiseks."
+
+msgid "tinymce_table_desc"
+msgstr "Sisestab uue tabeli"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Sisesta rida ette"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Sisesta rida järgi"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Kustuta rida"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Sisesta veerg ette"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Sisesta veerg järgi"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Kustuta veerg"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Eralda ühendatud tabeli lahtrid"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Ühenda tabeli lahtrid"
+
+msgid "tinymce_table_row_desc"
+msgstr "Tabeli rea omadused"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Tabeli lahtri omadused"
+
+msgid "tinymce_table_props_desc"
+msgstr "Tabeli omadused"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Kleebi tabeli rida ette"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Kleebi tabeli rida järgi"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Lõika tabeli rida"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Kopeeri tabeli rida"
+
+msgid "tinymce_table_del"
+msgstr "Kustuta tabel"
+
+msgid "tinymce_table_row"
+msgstr "Rida"
+
+msgid "tinymce_table_col"
+msgstr "Veerg"
+
+msgid "tinymce_table_cell"
+msgstr "Lahter"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "General"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Advanced"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "General properties"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Advanced properties"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Row in table part"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Insert/Modify table"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Width"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Height"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Cols"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Rows"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Cellspacing"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Cellpadding"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Border"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Alignment"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "Default"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Left"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Right"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Center"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Table row properties"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Table cell properties"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Cell type"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Vertical alignment"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Top"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Bottom"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Border color"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Background color"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Merge table cells"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Language direction"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Language code"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "Target MIME type"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "Left to right"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "Right to left"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Background image"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Summary"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Data"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Header"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Update current cell"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Update all cells in row"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Update all cells in table"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Update current row"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Update odd rows in table"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Update even rows in table"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Update all rows in table"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Table Head"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Table Body"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Table Foot"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Scope"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Row Group"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Col Group"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "You've exceeded the maximum number of columns of {$cols}."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "You've exceeded the maximum number of rows of {$rows}."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "You've exceeded the maximum number of cells of {$cells}."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Are you sure you want to continue without specifying a scope for this table header cell. Without it, it may be difficult for some users with disabilities to understand the content or data displayed of the table."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Table caption"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Frame"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "none"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "groups"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "rows"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "cols"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "all"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Rules"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "void"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "above"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "below"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hsides"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vsides"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "box"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "border"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "Tehtud muudatused kaovad, kui lahkute siit lehelt."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Lülita ümber täisekraani režiim"
+
+msgid "tinymce_media_desc"
+msgstr "Sisesta / redigeeri manustatud meedia"
+
+msgid "tinymce_media_edit"
+msgstr "Redigeeri manustatud meedia"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Insert / edit embedded media"
+
+msgid "tinymce_media_dlg_general"
+msgstr "General"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Advanced"
+
+msgid "tinymce_media_dlg_file"
+msgstr "File/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "List"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Dimensions"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Preview"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Constrain proportions"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Name"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Class"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "V-Space"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "H-Space"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Auto play"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Loop"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Show menu"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Quality"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Scale"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Align"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SAlign"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Background"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Base"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flashvars"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Cache"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Hidden"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Controller"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kiosk mode"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Play every frame"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Target cache"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "No correction"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "Enable JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Start time"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "End time"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Choke speed"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Target"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Volume"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Auto start"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Enabled"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Fullscreen"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Invoke URLs"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Mute"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Stretch to fit"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Windowless video"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Balance"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "Base URL"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Captioning id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Current marker"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Current position"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Default frame"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Play count"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Rate"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI Mode"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Flash options"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Quicktime options"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Windows media player options"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Real media player options"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Shockwave options"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Auto goto URL"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Center"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Image status"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Maintain aspect"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "No java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Prefetch"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Shuffle"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Console"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Num loops"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Controls"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Script callbacks"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Stretch style"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Stretch H-Align"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Stretch V-Align"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Sound"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Progress"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Streamed rtsp resources should be added to the QT Src field under the advanced tab.\nYou should also add a non streamed version to the Src field.."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Top"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Right"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Bottom"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Left"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Center"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Top left"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Top right"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Bottom left"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Bottom right"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Flash video options"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Scale mode"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Buffer"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Start image"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Start time"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Default volumne"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "Hidden GUI"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Auto start"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Loop"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Show scale modes"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Smooth video"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Dokumendi omadused"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Document properties"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "General"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Appearance"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Advanced"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Meta information"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Language and encoding"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Title"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Keywords"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Description"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Robots"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Language code"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Language direction"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "Left to right"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "Right to left"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "XML declaration"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Character encoding"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Background properties"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Body margins"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Link colors"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Text properties"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Background color"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Background image"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Left margin"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Right margin"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Top margin"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Bottom margin"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Text color"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Font size"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Font face"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Link color"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Hover color"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Visited color"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Active color"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Color"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Font size"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Font family"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Index and follow the links"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Index and don't follow the links"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Do not index but follow the links"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Do not index and don't follow the links"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Stylesheet and style properties"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Stylesheet"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Style"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Author"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Copyright"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Add new element"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Remove selected element"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Move selected element up"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Move selected element down"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Head elements"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Information"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Title element"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta element"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Script element"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Style element"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Link element"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Base element"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Comment node"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Title element"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Script element"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Style element"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Base element"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Link element"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta element"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Comment"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Src"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Language"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Target"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Charset"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Properties"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Name"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Value"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Content"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "General"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Advanced"
+
+msgid "tinymce_template_desc"
+msgstr "Sisesta eeldefineeritud šablooni sisu"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Šabloonid"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Šabloon"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Kirjeldus"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Sisesta eeldefineeritud šablooni sisu"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Vali šabloon"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Eelvaade"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Hoiatus: Šablooni uuendamine teistsugusega võib kaasa tuua andmete kaotsiminemist."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "Jaanuar,Veebruar,Märts,Aprill,Mai,Juuni,Juuli,August,September,Oktoober,November,Detsember"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Jaan,Veeb,Märts,Apr,Mai,Juuni,Juuli,Aug,Sep,Okt,Nov,Dets"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "Pühapäev,Esmaspäev,Teisipäev,Kolmapäev,Neljapäev,reede,Laupäev,Pühapäev"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "P,E,T,K,N,R,L,P"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Visuaalsed kontrolltähemärgid sisse/välja"
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Lülita ümber õigekirja kontroll"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Õigekirja kontrolli seaded"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Jäta sõna vahele"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Jära kõik vahele"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Keeled"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Palun oota..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Soovitused"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Soovitusi pole"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Valesti kirjutamisi ei leitud."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Sisesta lehevahetus."
+

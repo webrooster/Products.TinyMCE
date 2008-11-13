@@ -1,0 +1,2261 @@
+# This is the Bulgarian language pack for TinyMCE.
+# Version 1.8
+#
+# Moxiecode Systems AB
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-10-24 00:00+0000\n"
+"Last-Translator: Moxiecode Systems AB\n"
+"Language-Team: Moxiecode Systems AB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: bg\n"
+"Language-Name: Moi\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Искате ли да използвате WYSIWYG режим за това текстово поле?"
+
+msgid "tinymce_common_apply"
+msgstr "Поъвърди"
+
+msgid "tinymce_common_insert"
+msgstr "Вмъкни"
+
+msgid "tinymce_common_update"
+msgstr "Обнови"
+
+msgid "tinymce_common_cancel"
+msgstr "Откажи"
+
+msgid "tinymce_common_close"
+msgstr "Затвори"
+
+msgid "tinymce_common_browse"
+msgstr "Browse"
+
+msgid "tinymce_common_class_name"
+msgstr "Клас"
+
+msgid "tinymce_common_not_set"
+msgstr "-- Неустановено --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Копиране/Отрязване/Поставяне не е достъпно под Mozilla и Firefox.\nЖелаете ли повече информация за проблема?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Не се поддържа от вашият браузър, използвайте клавиатурни команди."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "Съжаляваме, но забелязахме, че вашият popup-blocker е спрял прозорец който се използва от програмата. Ще трябва да изключите блокирането на попъпи за този сайт за да използвате пълната функционалност."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Грешка: Въведени са невалидни стойности, те са маркирани в червено."
+
+msgid "tinymce_common_more_colors"
+msgstr "Още цветове"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Получер (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Курсив (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Подчертан (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Зачертан"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Водачи"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Номера"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Отмяна (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Възстановяване (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Изчисти кода"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Стилове"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Размер на шрифта"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Шрифт"
+
+msgid "tinymce_advanced_block"
+msgstr "Формат"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Параграф"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "Адрес"
+
+msgid "tinymce_advanced_pre"
+msgstr "Предварително форматиран"
+
+msgid "tinymce_advanced_h1"
+msgstr "Заглавие 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Заглавие 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Заглавие 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Заглавие 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Заглавие 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Заглавие 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Цитат"
+
+msgid "tinymce_advanced_code"
+msgstr "Код"
+
+msgid "tinymce_advanced_samp"
+msgstr "Промерен код"
+
+msgid "tinymce_advanced_dt"
+msgstr "Дефиниция "
+
+msgid "tinymce_advanced_dd"
+msgstr "Описание на дефиниция"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Получер (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Курсив (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Подчертан (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Зачертан"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Подравняване отляво"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Центрирано"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Подравняване отдясно"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Двустранно"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Водачи"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Номера"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Намаляване на отстъпа"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Увеличаване на отстъпа"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Отмяна (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Възстановяване (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Вмъкване/редакция на хипервръзка"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Премахни хипервръзка"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Вмъкване/редакция на картинка"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Изчисти кода"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "Редактирай HTML"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Долен индекс"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Горен индекс"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Вмъкни хоризонтална линия"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Премахни форматирането"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Вашето описание тук"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Избери цвят на текста"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Избери цвят на фона"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Вмъкни символ"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Вкл./изкл. невидимите елементи"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Вмъкни/редактирай котва"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Изрязване"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Копиране"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Поставяне"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Свойства на картинката"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Нов документ"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Помощ"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Цитат"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Копиране/Отрязване/Поставяне не е достъпно под Mozilla и Firefox.\nЖелаете ли повече информация за проблема?"
+
+msgid "tinymce_advanced_path"
+msgstr "Път"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Сигурен ли сте, че искате да изчистите цялото съдържание?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Отиди при бутоните - Alt+Q, Отиди при редактора - Alt-Z, Отиди при пътеката на елементите - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Още цветове"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "Относно TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "Относно"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Помощ"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Лиценз"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Добавки"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Добавка"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Автор"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Версия"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Заредени добавки"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Вмъкни/Редактирай котва"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Име на котвата"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "Редактор на HTML"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Пренос на думи"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Изберете цвят"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Избор"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Избор на цвят"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Палитра"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Цветова палитра"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Именувани"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Именувани цветове"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Цвят:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Име:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Изберете символ"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Вмъкни/Редактирай картинка"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "URL на картинка"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Описание на картинка"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Списък картинки"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Рамка"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Размери"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Вертикално разстояние"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Хоризонтално разстояние"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Подравняване"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Базова линия"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Горе"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Центриране"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Долу"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Текст горе"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Текст долу"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Ляво"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Дясно"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Вмъкни/Редактирай хипервръзка"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "URL на хипервръзка"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Цел"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Отвори хипервръзката в същият прозорец"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Отвори хипервръзката в нов прозорец"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Заглавие"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "URL-то което въведохте е email адрес, желаете ли да добавите нужният mailto: префикс?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "URL-то което въведохте е външна хипервръзка, желаете ли да добавите нужният http:// префикс?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Списък линкове"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Подравняване"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Ляво"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Център"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Дясно"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Двустранно"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%Y-%m-%d"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Вмъкни дата"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Вмъкни време"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "Януари,Февруари,Март,Април,Май,Юни,Юли,Август,Септември,Октомври,Ноември,Декември"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Яну,Фев,Мар,Апр,Май,Юни,Юли,Авг,Сеп,Окт,Ное,Дек"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "Неделя,Понеделник,Вторник,Сряда,Четвъртък,Петък,Събота,Неделя"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "Нд,Пн,Вт,Ср,Чт,Пт,Сб,Нд"
+
+msgid "tinymce_print_print_desc"
+msgstr "Отпечатай"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Преглед"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Посока отляво на дясно"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Посока отдясно на ляво"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Вмъкни нов слой"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Покажи отпред"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Покажи отзад"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Включи абсолютно позициониране"
+
+msgid "tinymce_layer_content"
+msgstr "Нов слой..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Запиши"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Откажи всички промени"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Вмъкни непрекъсваем интервал"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Провери правописа"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell не е открит. Желаете ли да го инсталирате сега?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Хоризонтална линия"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Ширина"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Височина"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Без сянка"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Емотикони"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Вмъкни емотикон"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Емотикони"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Cool"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Cry"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Embarassed"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Foot in mouth"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Frown"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Innocent"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Kiss"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Laughing"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Money mouth"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Sealed"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Smile"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Surprised"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Tongue out"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Undecided"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Wink"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Yell"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Търси"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Търси/Замести"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Търси отново"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "Търсенето завърши. Търсените думи не бяха открити."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Търси"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Търси/Замести"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Всички намерени думи бяха заместени."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Търси"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Замести с"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Посока"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Нагоре"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Надолу"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Съвпадение на регистъра"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Търси следващи"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Замести"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Замести всички"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Вмъкни/Редактирай картинка"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "Общи"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Външен вид"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "За напреднали"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "Общи"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Заглавие"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Преглед"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Ограничи пропорциите"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Посока на езика"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Код на езика"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Хипервръзка към дълго описание"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Стил"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Класове"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "Отляво на дясно"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "Отдясно на ляво"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Картина карта"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Смени картинка"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Резервна картинка"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "за mouse over"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "за mouse out"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Разни"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Преглед на картинката"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Сигурен ли сте че желаете да продължите без описание на картинката? Без него картинката може да е недостъпна за някои потребители с недъзи, или за тези използващи текстов браузър, или използващи Интернет с изключени картинки."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Вмъкни/Редактирай картинка"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "URL на картинка"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Описание на картинка"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Списък с картинки"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Рамка"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Размери"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Вертикално разстояние"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Хоризонтално разстояние"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Подравняване"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Базова линия"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Горе"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Център"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Долу"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Текст горе"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Текст долу"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Ляво"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Дясно"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Списък с картинки"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Вмъкни/Редактирай хипервръзка"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Вмъкни/Редактирай хипервръзка"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "URL на хипервръзка"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Цел"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Заглавие"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "URL-то което въведохте е email адрес, желаете ли да добавите нужният mailto: префикс?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "URL-то което въведохте е външна хипервръзка, желаете ли да добавите нужният http:// префикс?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Списък с хипервръзки"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "Общи"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Popup"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Събития"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "За напреднали"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Общи настройки"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Popup настройки"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Събития"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Настройки за напреднали"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Настройки"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Котви"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Отвори в този прозорец / фрейм"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Отвори в горния прозорец / фрейм"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Отвори в най-горния фрейм (замества всички фреймове)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Отвори в нов прозорец"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Javascript popup"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "URL на popup-а"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Име на прозореца"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "Вмъкни 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Покажи скролери"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Покажи status bar"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Покажи лентите с инструменти"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Покажи лентата с менюта"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Покажи location bar"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Разреши преоразмеряване на прозорците"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Зависими (Mozilla/Firefox only)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Размер"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Позиция (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Стил"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Класове"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Име на цел"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Посока на езика"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Език"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Код на езика"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Кодиране на символите"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "MIME тип"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Взаимоотношение страница - цел"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Взаимоотношение цел - страница"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Последователност"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Клавиш"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Отляво на дясно"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Отдясно на ляво"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Списък с хипервръзки"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Цитат"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Съкращение"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Акроним"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Изтриване"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Вмъкване"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Вмъкни/Редактирай атрибути"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Заглавие"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Клас"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Стил"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Цитат"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Дата/Време"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Посока на текста"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "Отляво на дясно"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "Отдясно на ляво"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Език"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "Последователност"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "Клавиш"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Събития"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Атрибути"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "Общи"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Атрибути"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Събития"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Общи настройки"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Атрибути на елемента"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Събития на елемента"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Елемент Вмъкване"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Елемент Изтриване"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Елемент Акроним"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Елемент Съкращение"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Елемент Цитат"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Премахни"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Вмъкни текущата дата/цас"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "Отляво на дясно"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "Отдясно на ляво"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Вмъкни/редактирай Атрибути"
+
+msgid "tinymce_style_desc"
+msgstr "Редактирай CSS стил"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "Редактирай CSS стил"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Потвърди"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Текст"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Фон"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Блок"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Кутия"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Рамка"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "Списък"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Позициониране"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Текст"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Шрифт"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Размер"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Тегло"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Стил"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Променлив"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Височина на реда"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Регистър"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Цвят"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Декорация"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "надчертан"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "подчертан"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "зачертан"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "мига"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "нищо"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Фонив цвят"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Фонова картинка"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Повтори"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Прикрепи"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Хоризонтална позиция"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Вертикална позиция"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Разстояние между думите"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Разстояние между буквите"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Вертикално подравняване"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Подравняване на текста"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Отстъп на текста"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Интервал"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Показване"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Ширина"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Височина"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Float"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Изчисти"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Padding"
+
+msgid "tinymce_style_dlg_same"
+msgstr "За всички"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Горе"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Дясно"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Долу"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Ляво"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Margin"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Стил"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Ширина"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Височина"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Цвят"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Тип"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Графика на водачите"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Позиция"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Тип"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Видимост"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-index"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Overflow"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Разположение"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Отрежи"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Постави като текст"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Постави от Word"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Избери всички"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Използвайте CTRL+V на клавиатурата за да поставите текста в прозореца."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Запази новите редове"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Използвайте CTRL+V на клавиатурата за да поставите текста в прозореца."
+
+msgid "tinymce_table_desc"
+msgstr "Вмъкни нова таблица"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Вмъкни ред преди"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Вмъкни ред след"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Изтрий ред"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Вмъкни колона преди"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Вмъкни колона след"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Изтрий колона"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Раздели слети клетки"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Слей клетки"
+
+msgid "tinymce_table_row_desc"
+msgstr "Свойства на реда"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Свойства на клетката"
+
+msgid "tinymce_table_props_desc"
+msgstr "Свойства на таблицата"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Постави ред преди"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Постави ред след"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Отрежи ред"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Копирай ред"
+
+msgid "tinymce_table_del"
+msgstr "Изтрий таблица"
+
+msgid "tinymce_table_row"
+msgstr "Ред"
+
+msgid "tinymce_table_col"
+msgstr "Колона"
+
+msgid "tinymce_table_cell"
+msgstr "Клетка"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "Общи"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "За напреднали"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Общи настройки"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Настройки за напреднали"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Роля на реда"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Вмъкни/Редактирай таблица"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Ширина"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Височина"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Колони"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Редове"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Разстояние мъжду клетките"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Padding на клетките"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Рамка"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Подравняване"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "По подразбиране"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Ляво"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Дясно"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Център"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Свойства на реда"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Свойства на клетката"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Тип на клетката"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Вертикално подравняване"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Горе"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Долу"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Цвят на рамката"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Цвят на фона"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Слей клетките"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Стил"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Посока на езика"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Код на езика"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "MIME тип"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "Отляво на дясно"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "Отдясно на ляво"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Фонова картинка"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Обобщение"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Данин"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Глава"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Обнови текущата клеткаUpdate current cell"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Обнови всички клетки на реда"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Обнови всички клетки в таблицата"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Обнови текущия ред"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Обнови нечетните редове в талицата"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Обнови четните редове в таблицата"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Обнови всички редове в таблицата"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Глава на таблицата"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Тяло на таблицата"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Дъно на таблицата"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Обхват"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Група редове"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Група колони"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "Превишихте максималната бройка колони: {$cols}."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "Превишихте максималната бройка редове:  {$rows}."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "Превишихте максималната бройка клетки:  {$cells}."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Сигурен ли сте че желаете да продулжите без да сложите обхват на главата на клетката. Без него, някои потребители с недъзи могат да имат проблем да разберат данните показани в таблицата."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Заглавие на таблицата"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Фрейм"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "без"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "групи"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "редове"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "колони"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "всички"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Правила"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "void"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "above"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "below"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hsides"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vsides"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "box"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "border"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "Промените които направихте ще се загубят ако отидете на друга страница."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Вкл./Изкл. цял екран"
+
+msgid "tinymce_media_desc"
+msgstr "Вмъкни/редактирай медиата"
+
+msgid "tinymce_media_edit"
+msgstr "Редактирак медиа"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Вмъкни/редактирай медиата"
+
+msgid "tinymce_media_dlg_general"
+msgstr "Общи"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "За напреднали"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Файл/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Списък"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Размери"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Преглед"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Ограничи пропорциите"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Тип"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Име"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Клас"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "V-Space"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "H-Space"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Автоматично пускане"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Повтаряй"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Покажи меню"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Качество"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Преоразмери"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Подравняване"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SAlign"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Фон"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Основа"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Flashvars"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Кеш"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Скрит"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Контролер"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kiosk режим"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Показвай всеки кадър"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Целеви кеш"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "Без поправки"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "Включи JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Време за стартиране"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "Време за край"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Пределна скорост"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Цел"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Сила на звука"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Автоматично стартиране"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Включен"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Цял екран"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Invoke URLs"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Заглуши"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Разпъни"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Видео без прозорец"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Баланс"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "Базово URL"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Captioning id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Текущ маркер"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Текуща позиция"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Начален кадър"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Брой повторения"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Бързина"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI режим"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Опции за Flash"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Опции за Quicktime"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Опции за Windows media player"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Опции за Real media player"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Опции за Shockwave"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Отиди на URL"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Център"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Статус на картинка"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Поддържай съотношението"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "Без java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Свали предварително"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Разбъркай"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Конзола"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Брой повторения"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Управление"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Script callbacks"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Стил на разпъване"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Разпъване H-Align"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Разпъване V-Align"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Звук"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Прогрес"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Поточните rtsp ресурси трябва да се добавят в QT Src полето в раздела за напреднали.\nТрябва също да добавите не поточна версия в Src полето.."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Горе"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Дясно"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Долу"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Ляво"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Център"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Горе ляво"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Горе дясно"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Долу ляво"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Долу дясно"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Видео настройки за Flash"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Режим на преоразмеряване"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Буфер"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Начална картинка"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Начално време"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Сила на звука по подразбиране"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "Скрито управление"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Автоматичен старт"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Повтаряй"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Покажи режимите на преоразмеряване"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Гладко видео"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Настройки на документа"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Настройки на документа"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "Общи"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Външен вид"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "За напреднали"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Meta информация"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Език и кодиране"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Заглавие"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Ключови думи"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Описание"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Роботи"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Код на езика"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Посока на езика"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "Отляво на дясно"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "Отдясно на ляво"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "XML декларации"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Кодиране на символите"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Настройки на фона"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Body margins"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Цветове на хипервръзките"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Настройки на текста"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Цвят на дона"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Фонова картинка"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Ляв margin"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Деасен margin"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Горен margin"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Долен margin"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Цвят на текста"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Размер на шрифта"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Шрифт"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Цвят на хипервръзката"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Цвят при hover"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Цвят за посетени хипервръзки"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Активен цвят"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Цвят"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Размер на шрифта"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Шрифт"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Индексирай и следвай хипервръзките"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Индексирай и не следвай хипервръзките"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Не индексирай но следвай хипервръзките"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Не индексирай и не следвай хипервръзките"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Настройки на Stylesheet и стила"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Stylesheet"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Стил"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Автор"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Copyright"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Добави нов елемент"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Премахни избраният елемент"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Придвижи избраният елемент нагоре"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Придвижи избраният елемент надолу"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Head elements"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Information"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Title element"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta element"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Script element"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Style element"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Link element"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Base element"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Comment node"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Title element"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Script element"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Style element"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Base element"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Link element"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta element"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Comment"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Src"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Language"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Target"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Charset"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Properties"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Name"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Value"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Content"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "Общи"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "За напреднали"
+
+msgid "tinymce_template_desc"
+msgstr "Вмъкни съдържанието на темплейт"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Темплейти"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Темплейт"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Описание"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Вмъкни съдържанието на темплейт"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Избери темплейт"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Преглед"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Внимание: Обновяването на един темплейт с друг може да доведе до загуба на данни."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "Януари,Февруари,Март,Април,Май,Юни,Юли,Август,Септември,Октомври,Ноември,Декември"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Яну,Фев,Мар,Апр,Май,Юни,Юли,Авг,Сеп,Окт,Ное,Дек"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "Неделя,Понеделник,Вторник,Сряда,Четвъртък,Петък,Събота,Неделя"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "Нд,Пн,Вт,Ср,Чт,Пт,Сб,Нд"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Вкл./Изкл. на контролните символи."
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Вкл./Изкл. проверка на правописа"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Настройки на проверката на правопис"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Игнорирай дума"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Игнорирай всички"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Езици"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Моля изчакайте..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Предложения"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Няма предложения"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Няма грешно написани думи."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Вмъкни нова страница."
+

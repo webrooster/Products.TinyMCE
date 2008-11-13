@@ -1,0 +1,2261 @@
+# This is the Dutch language pack for TinyMCE.
+# Version 5.6
+#
+# Claudia
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-07 00:00+0000\n"
+"Last-Translator: Claudia\n"
+"Language-Team: Claudia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: nl\n"
+"Language-Name: Dutch\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Weet u zeker dat u tekst in WYSIWYG mode wilt bewerken in dit tekstveld?"
+
+msgid "tinymce_common_apply"
+msgstr "Toepassen"
+
+msgid "tinymce_common_insert"
+msgstr "Invoegen"
+
+msgid "tinymce_common_update"
+msgstr "Bijwerken"
+
+msgid "tinymce_common_cancel"
+msgstr "Annuleren"
+
+msgid "tinymce_common_close"
+msgstr "Sluiten"
+
+msgid "tinymce_common_browse"
+msgstr "Bladeren"
+
+msgid "tinymce_common_class_name"
+msgstr "Klasse"
+
+msgid "tinymce_common_not_set"
+msgstr "- Standaard -"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Kopiëren/knippen/plakken is niet beschikbaar in Mozilla en Firefox.\nWilt u meer informatie over deze beperking?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Kopiëren/knippen/plakken wordt niet ondersteund door uw browser, gebruik hiervoor de sneltoetsen."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "U zult uw popup-blocker tijdelijk moeten uitschakelen voor deze website om gebruik te kunnen maken van alle fucties van deze teksteditor."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Fout: Er zijn ongeldige waardes ingevoerd, deze zijn rood gemarkeerd."
+
+msgid "tinymce_common_more_colors"
+msgstr "Meer kleuren"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Vet (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Cursief (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Onderstrepen (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Doorhalen"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Opsommingstekens"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Nummering"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Ongedaan maken (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Herhalen (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Code opruimen"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Stijlen"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Tekengrootte"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Lettertype"
+
+msgid "tinymce_advanced_block"
+msgstr "Opmaak"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Alinea"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "Adres"
+
+msgid "tinymce_advanced_pre"
+msgstr "Vaste opmaak"
+
+msgid "tinymce_advanced_h1"
+msgstr "Kop 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Kop 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Kop 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Kop 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Kop 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Kop 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Citaat"
+
+msgid "tinymce_advanced_code"
+msgstr "Code"
+
+msgid "tinymce_advanced_samp"
+msgstr "Codevoorbeeld"
+
+msgid "tinymce_advanced_dt"
+msgstr "Definitieterm"
+
+msgid "tinymce_advanced_dd"
+msgstr "Definitiebeschrijving"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Vet (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Cursief (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Onderstrepen (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Doorhalen"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Links uitlijnen"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Centreren"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Rechts uitlijnen"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Uitvullen"
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Opsommingstekens"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Nummering"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Inspringing verkleinen"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Inspringing vergroten"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Ongedaan maken (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Herhalen (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Link invoegen/bewerken"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Link verwijderen"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Afbeelding invoegen/bewerken"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Code opruimen"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "HTML bron bewerken"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Subscript"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Superscript"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Scheidingslijn invoegen"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Opmaak verwijderen"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Uw eigen beschrijving hier"
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Tekstkleur"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Tekstmarkeringskleur"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Symbool invoegen"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Hulplijnen weergeven"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Anker invoegen/bewerken"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Knippen"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Kopiëren"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Plakken"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Afbeeldingseigenschappen"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Nieuw document"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Help"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Citaat"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Kopiëren/knippen/plakken is niet beschikbaar in Mozilla en Firefox.\nWilt u meer informatie over deze beperking?"
+
+msgid "tinymce_advanced_path"
+msgstr "Pad"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Weet u zeker dat u alle inhoud wilt wissen?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Spring naar werkbalk - Alt+Q, Spring naar tekst - Alt-Z, Spring naar elementpad - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Meer kleuren"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "Over TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "Info"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Help"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Licentie"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Invoegtoepassingen"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Invoegtoepassing"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Auteur"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Versie"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Geladen Invoegtoepassingen"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Anker invoegen/bewerken"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Ankernaam"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "HTML Bron"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Automatische terugloop"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Kleuren"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Alle kleuren"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Alle kleuren"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Palet"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Paletkleuren"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Benoemd"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Benoemde kleuren"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Kleur:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Naam:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Symbolen"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Afbeelding invoegen/bewerken"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "Bestand/URL"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Beschrijving"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Lijst"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Rand"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Afmetingen"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Verticale ruimte"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Horizontale ruimte"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Uitlijning"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Basislijn"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Boven"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "Midden"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Onder"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Bovenkant tekst"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Onderkant tekst"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Links"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Rechts"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Link invoegen/bewerken"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "URL"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Doel"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Link in hetzelfde venster openen"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Link in een nieuw venster openen"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Titel"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "De ingevoerde URL lijkt op een e-mailadres. Wilt u de vereiste mailto: tekst voorvoegen?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "De ingevoerde URL lijkt op een externe link. Wilt u de vereiste http:// tekst voorvoegen?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Link lijst"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Uitlijning"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Links"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Centreren"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Rechts"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Uitvullen"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%d-%m-%Y"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Datum invoegen"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Tijd invoegen"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "Januari,Februari,Maart,April,Mei,Juni,Juli,Augustus,September,Oktober,November,December"
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Jan,Feb,Mar,Apr,Mei,Jun,Jul,Aug,Sep,Okt,Nov,Dec"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "Zondag,Maandag,Dinsdag,Woensdag,Donderdag,Vrijdag,Zaterdag,Zondag"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "Zo,Ma,Di,Wo,Do,Vr,Zat,Zon"
+
+msgid "tinymce_print_print_desc"
+msgstr "Afdrukken"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Voorbeeld"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Van links naar rechts"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Van rechts naar links"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Nieuwe laag invoegen"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Volgende laag"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Vorige laag"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Absoluut positioneren inschakelen"
+
+msgid "tinymce_layer_content"
+msgstr "Nieuwe laag..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Opslaan"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Alle wijzigingen annuleren"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Open ruimte invoegen"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Spellingcontrole"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell niet gevonden. Wilt u deze nu installeren?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Scheidingslijn"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Breedte"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Hoogte"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Geen schaduw"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Emoties"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Emotie invoegen"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Emoties"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Stoer"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Huilen"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Schamen"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Verstomd"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Wenkbrouw ophalen"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Onschuldig"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Zoenen"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Lachen"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Hebberig"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Afgesloten"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Lachen"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Verrast"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Tong uitsteken"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Onbeslist"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Knipogen"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Roepen"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Zoeken"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Zoeken/Vervangen"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Opnieuw zoeken"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "Het doorzoeken is voltooid. De zoekterm kon niet meer worden gevonden."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Zoeken"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Zoeken/Vervangen"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Alle instanties van de zoekterm zijn vervangen."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Zoeken naar"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Vervangen door"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Richting"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "Omhoog"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "Omlaag"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Identieke hoofdletters/kleine letters"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Zoeken"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Vervangen"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Alles verv."
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Afbeelding invoegen/bewerken"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "Algemeen"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Weergave"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Geavanceerd"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "Algemeen"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Titel"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Voorbeeld"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Verhouding behouden"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Taalrichting"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Taalcode"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Uitgebreide beschrijving"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Stijl"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Klasses"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "Van links naar rechts"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "Van rechts naar links"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Afbeeldingsplattegrond"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Afbeelding wisselen"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Alternatieve afbeeldingen"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "Bij muis over"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "Bij muis uit"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Diversen"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Voorbeeldweergave"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Wilt u de afbeelding zonder beschrijving invoegen? De afbeelding wordt dan mogelijk niet opgemerkt door mensen met een visuele handicap, of welke zonder afbeeldingen browsen."
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Afbeelding invoegen/bewerken"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "Bestand/URL"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Beschrijving"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Lijst"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Rand"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Afmetingen"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Verticale ruimte"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Horizontale ruimte"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Uitlijning"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Basislijn"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Boven"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "Midden"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Onder"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Bovenkant tekst"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Onderkant tekst"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Links"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Rechts"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Lijst"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Link invoegen/bewerken"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Link invoegen/bewerken"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "URL"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Doel"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Titel"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "De ingevoerde URL lijkt op een e-mailadres. Wilt u de vereiste mailto: tekst voorvoegen?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "De ingevoerde URL lijkt op een externe link. Wilt u de vereiste http:// tekst voorvoegen?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Lijst"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "Algemeen"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Popup"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Gebeurtenissen"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Geavanceerd"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Algemene eigenschappen"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Popup eigenschappen"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Gebeurtenissen"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Geavanceerde eigenschappen"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Opties"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Ankers"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "In dit venster / frame openen"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "In bovenliggend venster / frame openen"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "In bovenste frame openen (vervangt gehele pagina)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "In nieuw venster openen"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Javascript popup"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "Popup URL"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Venstertitel"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "'return false' invoegen"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Scrollbalken weergeven"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Statusbalk weergeven"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Werkbalk weergeven"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Menubalk weergeven"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Lokatiebalk weergeven"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Aanpasbaar venster"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Afhankelijk (Alleen Mozilla/Firefox)"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Grootte"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Positie (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Stijl"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Klasses"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Doel"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Taalrichting"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Taal"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Taalcode"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Taalcodering"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "MIME type"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Relatie van pagina tot doel"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Relatie van doel tot pagina"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Tabvolgorde"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Toegangstoets"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Van links naar rechts"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Van rechts naar links"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Lijst"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Citaat"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Afkorting"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Synoniem"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Verwijderd"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Ingevoegd"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Attributen invoegen/bewerken"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Titel"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Klasse"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Stijl"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Citaat"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Datum/Tijd"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Tekstrichting"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "Van links naar rechts"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "Van rechts naar links"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Taal"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "Tabvolgorde"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "Toegangstoets"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Gebeurtenissen"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Attributen"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "Algemeen"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Attributen"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Gebeurtenissen"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Algemene instellingen"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Elementattributen"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Element Gebeurtenissen"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Invoegingselement"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Verwijderingselement"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Synoniem"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Afkoring"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Citaat"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Verwijderen"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Huidige datum/tijd invoegen"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "Van links naar rechts"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "Van rechts naar links"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Attributen Invoegen/bewerken"
+
+msgid "tinymce_style_desc"
+msgstr "CSS Stijl bewerken"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "CSS Stijl bewerken"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Toepassen"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Tekst"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Achtergrond"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Blok"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Box"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Rand"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "Lijst"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Positionering"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Tekst"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Lettertype"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Tekengrootte"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Gewicht"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Stijl"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Variant"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Lijnhoogte"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Hoofdlettergebruik"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Kleur"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Decoratie"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "Overhalen"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "Onderstrepen"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "Doorhalen"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "Knipperen"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "Niets"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Achtergrondkleur"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Achtergrondafbeelding"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Herhalen"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Bijlage"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Horizontale positie"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Verticale positie"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Woordruimte"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Letterruimte"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Verticale uitlijning"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Tekstuitlijning"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Inspringen"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Witruimte"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Weergave"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Breedte"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Hoogte"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Zweven"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Vrijhouden"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Opening"
+
+msgid "tinymce_style_dlg_same"
+msgstr "Alles hetzelfde"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Boven"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Rechts"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Onder"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Links"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Marge"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Stijl"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Breedte"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Hoogte"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Kleur"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Opsommingsteken"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Positie"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Type"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Zichtbaarheid"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-index"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Overvloeien"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Plaatsing"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Clip"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Als platte tekst plakken"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Vanuit Word plakken"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Alles selecteren"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Gebruik Ctrl+V om tekst in het venster te plakken."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Regelafbreking bewaren"
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Gebruik Ctrl+V om tekst in het venster te plakken."
+
+msgid "tinymce_table_desc"
+msgstr "Nieuwe tabel invoegen"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Rij boven invoegen"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Rij onder invoegen"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Rij verwijderen"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Kolom links invoegen"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Kolom rechts invoegen"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Kolom verwijderen"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Cellen splitsen"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Cellen samenvoegen"
+
+msgid "tinymce_table_row_desc"
+msgstr "Rij-eigenschappen"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Cel-eigenschappen"
+
+msgid "tinymce_table_props_desc"
+msgstr "Tabeleigenschappen"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Rij boven plakken"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Rij onder plakken"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Rij knippen"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Rij kopiëren"
+
+msgid "tinymce_table_del"
+msgstr "Tabel verwijderen"
+
+msgid "tinymce_table_row"
+msgstr "Rij"
+
+msgid "tinymce_table_col"
+msgstr "Kolom"
+
+msgid "tinymce_table_cell"
+msgstr "Cel"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "Algemeen"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Geavanceerd"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Algemene eigenschappen"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Geavanceerde eigenschappen"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Rijtype"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Tabel invoegen/bewerken"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Breedte"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Hoogte"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Kolommen"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Rijen"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Ruimte om cel"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Ruimte in cel"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Rand"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Uitlijning"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "Standaard"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Links"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Rechts"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Centreren"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Rij-eigenschappen"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Celeigenschappen"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Celtype"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Verticale uitlijning"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Boven"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Onder"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Randkleur"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Achtergrondkleur"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Cellen samenvoegen"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Stijl"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Taalrichting"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Taalcode"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "Doel MIME type"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "Van links naar rechts"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "Van rechts naar links"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Achtergrondafbeelding"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Samenvatting"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Gegevens"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Kop"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Huidige cel bijwerken"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Alle cellen in rij bijwerken"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Alle cellen in tabel bijwerken"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Huidige rij bijwerken"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Oneven rijen bijwerken"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Even rijen bijwerken"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Alle rijen bijweken"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Tabelkop"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Tabellichaam"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Tabelvoet"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Bereik"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Rijgroep"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Kolomgroep"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "U heeft het maximale aantal kolommen van {$cols} overschreden."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "U heeft hebt het maximale aantal rijen van {$rows} overschreden."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "U heeft het maximale aantal cellen van {$cells} overschreden."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Weet u zeker dat u door wilt gaan met het toewijzen van een kop zonder een bereik op te geven? Mensen met een visuele handicap kunnen hierdoor waarschijnlijk slecht bij de gegevens."
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Tabelbeschrijving"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Frame"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "Geen"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "Groepen"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "Rijen"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "Kolommen"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "Alles"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Hulplijnen"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "Geen"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "Boven"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "Onder"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "Horizontale zijdes"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "Linkerzijkant"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "Rechterzijkant"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "Verticale zijdes"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "Box"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "Rand"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "De wijzigingen zullen verloren gaan als u nu deze pagina verlaat."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Volledig scherm"
+
+msgid "tinymce_media_desc"
+msgstr "Media invoegen/bewerken"
+
+msgid "tinymce_media_edit"
+msgstr "Media bewerken"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Media invoegen/bewerken"
+
+msgid "tinymce_media_dlg_general"
+msgstr "Algemeen"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Geavanceerd"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Bestand/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Lijst"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Afmetingen"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Voorbeeld"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Verhouding bewaren"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Naam"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Klasse"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "V-Ruimte"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "H-Ruimte"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Automatisch afspelen"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Herhalen"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Menu Weergeven"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Kwaliteit"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Schaal"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Uitlijning"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "Schaaluitlijning"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Achtergrond"
+
+msgid "tinymce_media_dlg_base"
+msgstr "Basis"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Variabelen"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Cache"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Verborgen"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Controller"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Kioskmodus"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Elk frame afspelen"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Doelcache"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "Geen correctie"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "JavaScript Inschakelen"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Starttijd"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "Eindtijd"
+
+msgid "tinymce_media_dlg_href"
+msgstr "HREF"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Chokesnelheid"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Doel"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Volume"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Automatisch afspelen"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Ingeschakeld"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Volledig scherm"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "URLs laden"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Geluid dempen"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Passend maken"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Video zonder venster"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Balans"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "BasisURL"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Ondertiteling id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Huidige markering"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Huidige positie"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Standaard frame"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Afspeelteller"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Snelheid"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "UI Modus"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Flash opties"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Quicktime opties"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Windows mediaspeler opties"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Real mediaspeler opties"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Shockwave opties"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Automatisch naar URL"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Centreren"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Afbeeldingstatus"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Verhouding bewaren"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "Geen java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Voorladen"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Willekeurige volgorde"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Console"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Aantal herhalingen"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Bediening"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Script callbacks"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Schaal"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "H-Schaal"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "V-Schaal"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Geluid"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Voortgang"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "Quicktime bron"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Gestreamde RTSP bronnen dienen op het tabblad geavanceerd bij Quicktime bron te worden opgegeven.\nDe niet-gestreamde versie kan dan bij het tabblad algemeen worden opgegeven."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Boven"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Rechts"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Onder"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Links"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Centreren"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Linksboven"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Rechtsboven"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Linksonder"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Rechtsonder"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Flash video-opties"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Schaalmodus"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Buffer"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Startafbeelding"
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Starttijd"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Standaard volumne"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "GUI verbergen"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Automatisch afspelen"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Herhalen"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Schaalmodus weergeven"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Soepele video"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Documenteigenschappen"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Documenteigenschappen"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "Algemeen"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Weergave"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Geavanceerd"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Meta informatie"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Taal en codering"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Titel"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Sleutelwoorden"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Beschrijving"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Robots"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Taalcode"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Taalrichting"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "Van links naar rechts"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "Van rechts naar links"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "XML toewijzing"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Karaktercodering"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Achtergrondeigenschappen"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Bodymarge"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Linkkleuren"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Teksteigenschappen"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Achtergrondkleur"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Achtergrondafbeelding"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Linkermarge"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Rechtermarge"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Bovenmarge"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Ondermarge"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Tekstkleur"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Tekengrootte"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Lettertype"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Linkkleur"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Hoverkleur"
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Bezocht kleur"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Actieve kleur"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Kleur"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Tekengrootte"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Lettertype"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Links indexeren en volgen"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Links indexeren maar niet volgen"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Links volgen maar niet indexeren"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Links niet indexeren en niet volgen"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Stijlblad en stijleigenschappen"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Stijlblad"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Stijl"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Auteur"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Copyright"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Nieuw element toevoegen"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Geselecteerde elementen verwijderen"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Geselecteerde elementen omhoog verplaatsen"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Geselecteerde elementen omlaag verplaatsen"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Kopelementen"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Informatie"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Titelelement"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta-element"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Scriptelement"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Stijlelement"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Linkelement"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Basiselement"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Opmerkingknooppunt"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Titelelement"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Scriptelement"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Stijlelement"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Basiselement"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Linkelement"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta-element"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Opmerking"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Bron"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Taal"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Doel"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Type"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Karakterset"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Uitstellen"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Eigenschappen"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Naam"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Waarde"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Inhoud"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href taal"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "Algemeen"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Geavanceerd"
+
+msgid "tinymce_template_desc"
+msgstr "Voorgedefineerd sjabloon invoegen"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Sjablonen"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Sjabloon"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Beschrijving"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Voorgedefineerd sjabloon invoegen"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Selecteer een sjabloon"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Voorbeeld"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Waarschuwing: het bijwerken van een sjabloon met een andere kan informatie verwijderen."
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%d-%m-%Y %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%d-%m-%Y %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "Januari,Februari,Maart,April,Mei,Juni,Juli,Augustus,September,Oktober,November,December"
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Jan,Feb,Mar,Apr,Mei,Jun,Jul,Aug,Sep,Okt,Nov,Dec"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "Zondag,Maandag,Dinsdag,Woensdag,Donderdag,Vrijdag,Zaterdag,Zonday"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "Zon,Ma,Di,Woe,Do,Vrij,Zat,Zon"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Zichtbare symbolen"
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Spellingcontrole"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Instellingen spellingcontrole"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Woord negeren"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Alles negeren"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Talen"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Een ogenblik geduld..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Suggesties"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Geen suggesties"
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Geen spelfouten gevonden."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Pagina-einde invoegen"
+

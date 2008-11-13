@@ -1,0 +1,2261 @@
+# Traducerea în română cu diacritice pentru TinyMCE.
+# Version 1.9
+#
+# fester&&Andreiz
+msgid ""
+msgstr ""
+"Project-Id-Version: Products.TinyMCE\n"
+"POT-Creation-Date: 2000-01-01 00:00+0000\n"
+"PO-Revision-Date: 2008-11-12 00:00+0000\n"
+"Last-Translator: fester&&Andreiz\n"
+"Language-Team: fester&&Andreiz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language-Code: ro\n"
+"Language-Name: Romana\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: tinymce\n"
+
+msgid "tinymce_common_edit_confirm"
+msgstr "Doriţi să folosiţi un editor avansat pentru această zona de text?"
+
+msgid "tinymce_common_apply"
+msgstr "Aplică"
+
+msgid "tinymce_common_insert"
+msgstr "Inserează"
+
+msgid "tinymce_common_update"
+msgstr "Actualizează"
+
+msgid "tinymce_common_cancel"
+msgstr "Anulare"
+
+msgid "tinymce_common_close"
+msgstr "Închide"
+
+msgid "tinymce_common_browse"
+msgstr "Răsfoieşte"
+
+msgid "tinymce_common_class_name"
+msgstr "Clasă"
+
+msgid "tinymce_common_not_set"
+msgstr "-- Nestată --"
+
+msgid "tinymce_common_clipboard_msg"
+msgstr "Copiere/Tăiere/Lipire nu sunt disponibile în  Mozilla şi Firefox.\nDoriţi mai multe informaţii despre această problemă?"
+
+msgid "tinymce_common_clipboard_no_support"
+msgstr "Deocamdată nu este suportată de browser. Vă rugăm să folosiţi combinaţii de taste."
+
+msgid "tinymce_common_popup_blocked"
+msgstr "Ne pare rău, dar un popup-blocker a dezativat o fereastră care dă funcţionalitate aplicaţiei.Trebuie să dezactivaţi acel popup-blocker pentru acest site pentru a folosi aplicaţia la capacitate maximă."
+
+msgid "tinymce_common_invalid_data"
+msgstr "Aveţi erori. Datele greşite sunt în roşu."
+
+msgid "tinymce_common_more_colors"
+msgstr "Mai multe culori"
+
+msgid "tinymce_simple_bold_desc"
+msgstr "Îngroşat (Ctrl+B)"
+
+msgid "tinymce_simple_italic_desc"
+msgstr "Italic (Ctrl+I)"
+
+msgid "tinymce_simple_underline_desc"
+msgstr "Subliniat (Ctrl+U)"
+
+msgid "tinymce_simple_striketrough_desc"
+msgstr "Tăiat"
+
+msgid "tinymce_simple_bullist_desc"
+msgstr "Listă neordonată"
+
+msgid "tinymce_simple_numlist_desc"
+msgstr "Listă ordonată"
+
+msgid "tinymce_simple_undo_desc"
+msgstr "Undo (Ctrl+Z)"
+
+msgid "tinymce_simple_redo_desc"
+msgstr "Refă (Ctrl+Y)"
+
+msgid "tinymce_simple_cleanup_desc"
+msgstr "Curăţă cod invalid"
+
+msgid "tinymce_advanced_style_select"
+msgstr "Stiluri"
+
+msgid "tinymce_advanced_font_size"
+msgstr "Mărime font"
+
+msgid "tinymce_advanced_fontdefault"
+msgstr "Font"
+
+msgid "tinymce_advanced_block"
+msgstr "Format"
+
+msgid "tinymce_advanced_paragraph"
+msgstr "Paragraf"
+
+msgid "tinymce_advanced_div"
+msgstr "Div"
+
+msgid "tinymce_advanced_address"
+msgstr "Adresă"
+
+msgid "tinymce_advanced_pre"
+msgstr "Preformatat"
+
+msgid "tinymce_advanced_h1"
+msgstr "Titlu 1"
+
+msgid "tinymce_advanced_h2"
+msgstr "Titlu 2"
+
+msgid "tinymce_advanced_h3"
+msgstr "Titlu 3"
+
+msgid "tinymce_advanced_h4"
+msgstr "Titlu 4"
+
+msgid "tinymce_advanced_h5"
+msgstr "Titlu 5"
+
+msgid "tinymce_advanced_h6"
+msgstr "Titlu 6"
+
+msgid "tinymce_advanced_blockquote"
+msgstr "Citat"
+
+msgid "tinymce_advanced_code"
+msgstr "Cod"
+
+msgid "tinymce_advanced_samp"
+msgstr "Mostră de cod"
+
+msgid "tinymce_advanced_dt"
+msgstr "Termen definit "
+
+msgid "tinymce_advanced_dd"
+msgstr "Definiţie"
+
+msgid "tinymce_advanced_bold_desc"
+msgstr "Îngroşat (Ctrl+B)"
+
+msgid "tinymce_advanced_italic_desc"
+msgstr "Italic (Ctrl+I)"
+
+msgid "tinymce_advanced_underline_desc"
+msgstr "Subliniat (Ctrl+U)"
+
+msgid "tinymce_advanced_striketrough_desc"
+msgstr "Tăiat"
+
+msgid "tinymce_advanced_justifyleft_desc"
+msgstr "Aliniere la stânga"
+
+msgid "tinymce_advanced_justifycenter_desc"
+msgstr "Centrare"
+
+msgid "tinymce_advanced_justifyright_desc"
+msgstr "Aliniere la dreapta"
+
+msgid "tinymce_advanced_justifyfull_desc"
+msgstr "Aliniere \"justify\""
+
+msgid "tinymce_advanced_bullist_desc"
+msgstr "Listă neordonată"
+
+msgid "tinymce_advanced_numlist_desc"
+msgstr "Listă ordonată"
+
+msgid "tinymce_advanced_outdent_desc"
+msgstr "Outdentează"
+
+msgid "tinymce_advanced_indent_desc"
+msgstr "Indentează"
+
+msgid "tinymce_advanced_undo_desc"
+msgstr "Undo (Ctrl+Z)"
+
+msgid "tinymce_advanced_redo_desc"
+msgstr "Refă (Ctrl+Y)"
+
+msgid "tinymce_advanced_link_desc"
+msgstr "Inserare/editare legătură"
+
+msgid "tinymce_advanced_unlink_desc"
+msgstr "Şterge link"
+
+msgid "tinymce_advanced_image_desc"
+msgstr "Inserare/editare imagine"
+
+msgid "tinymce_advanced_cleanup_desc"
+msgstr "Curăţare cod"
+
+msgid "tinymce_advanced_code_desc"
+msgstr "Editare sursă HTML"
+
+msgid "tinymce_advanced_sub_desc"
+msgstr "Subscript"
+
+msgid "tinymce_advanced_sup_desc"
+msgstr "Superscript"
+
+msgid "tinymce_advanced_hr_desc"
+msgstr "Inserează linie orizontală"
+
+msgid "tinymce_advanced_removeformat_desc"
+msgstr "Anulează formatarea"
+
+msgid "tinymce_advanced_custom1_desc"
+msgstr "Descriere ..."
+
+msgid "tinymce_advanced_forecolor_desc"
+msgstr "Culoare text"
+
+msgid "tinymce_advanced_backcolor_desc"
+msgstr "Culoare fundal"
+
+msgid "tinymce_advanced_charmap_desc"
+msgstr "Inserare caracter special"
+
+msgid "tinymce_advanced_visualaid_desc"
+msgstr "Toggle guidelines/invisible elements"
+
+msgid "tinymce_advanced_anchor_desc"
+msgstr "Inserare/editare ancoră"
+
+msgid "tinymce_advanced_cut_desc"
+msgstr "Taie"
+
+msgid "tinymce_advanced_copy_desc"
+msgstr "Copiază"
+
+msgid "tinymce_advanced_paste_desc"
+msgstr "Lipeşte"
+
+msgid "tinymce_advanced_image_props_desc"
+msgstr "Detalii imagine"
+
+msgid "tinymce_advanced_newdocument_desc"
+msgstr "Document nou"
+
+msgid "tinymce_advanced_help_desc"
+msgstr "Autor"
+
+msgid "tinymce_advanced_blockquote_desc"
+msgstr "Citat"
+
+msgid "tinymce_advanced_clipboard_msg"
+msgstr "Copiere/Tăiere/Lipire nu sunt disponibile în  Mozilla şi Firefox.\nDoriţi mai multe informaţii despre această problemă?"
+
+msgid "tinymce_advanced_path"
+msgstr "Cale"
+
+msgid "tinymce_advanced_newdocument"
+msgstr "Sigur doriţi să ştergeţi tot?"
+
+msgid "tinymce_advanced_toolbar_focus"
+msgstr "Săriţi la instrumente - Alt+Q, Săriţi la editor - Alt-Z, Săriţi la cale - Alt-X"
+
+msgid "tinymce_advanced_more_colors"
+msgstr "Mai multe culori"
+
+msgid "tinymce_advanced_image_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_image_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_link_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_colorpicker_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_charmap_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_width"
+msgstr ""
+
+msgid "tinymce_advanced_anchor_delta_height"
+msgstr ""
+
+msgid "tinymce_advanced_dlg_about_title"
+msgstr "Despre TinyMCE"
+
+msgid "tinymce_advanced_dlg_about_general"
+msgstr "Despre"
+
+msgid "tinymce_advanced_dlg_about_help"
+msgstr "Ajutor"
+
+msgid "tinymce_advanced_dlg_about_license"
+msgstr "Licenţă"
+
+msgid "tinymce_advanced_dlg_about_plugins"
+msgstr "Module"
+
+msgid "tinymce_advanced_dlg_about_plugin"
+msgstr "Modul"
+
+msgid "tinymce_advanced_dlg_about_author"
+msgstr "Autor"
+
+msgid "tinymce_advanced_dlg_about_version"
+msgstr "Versiune"
+
+msgid "tinymce_advanced_dlg_about_loaded"
+msgstr "Module încărcate"
+
+msgid "tinymce_advanced_dlg_anchor_title"
+msgstr "Inserare/editare ancoră"
+
+msgid "tinymce_advanced_dlg_anchor_name"
+msgstr "Nume ancoră"
+
+msgid "tinymce_advanced_dlg_code_title"
+msgstr "Editor sursă HTML"
+
+msgid "tinymce_advanced_dlg_code_wordwrap"
+msgstr "Word wrap"
+
+msgid "tinymce_advanced_dlg_colorpicker_title"
+msgstr "Alegeţi o culoare"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_tab"
+msgstr "Picker"
+
+msgid "tinymce_advanced_dlg_colorpicker_picker_title"
+msgstr "Color picker"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_tab"
+msgstr "Paletă"
+
+msgid "tinymce_advanced_dlg_colorpicker_palette_title"
+msgstr "Paletă de culori"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_tab"
+msgstr "Named"
+
+msgid "tinymce_advanced_dlg_colorpicker_named_title"
+msgstr "Culori denumite"
+
+msgid "tinymce_advanced_dlg_colorpicker_color"
+msgstr "Culoare:"
+
+msgid "tinymce_advanced_dlg_colorpicker_name"
+msgstr "Nume:"
+
+msgid "tinymce_advanced_dlg_charmap_title"
+msgstr "Alegeţi un caracter special"
+
+msgid "tinymce_advanced_dlg_image_title"
+msgstr "Inserează/editează imagine"
+
+msgid "tinymce_advanced_dlg_image_src"
+msgstr "URL imagine"
+
+msgid "tinymce_advanced_dlg_image_alt"
+msgstr "Descriere imagine"
+
+msgid "tinymce_advanced_dlg_image_list"
+msgstr "Listă de imagini"
+
+msgid "tinymce_advanced_dlg_image_border"
+msgstr "Bordură"
+
+msgid "tinymce_advanced_dlg_image_dimensions"
+msgstr "Dimensiuni"
+
+msgid "tinymce_advanced_dlg_image_vspace"
+msgstr "Spaţiu vertical"
+
+msgid "tinymce_advanced_dlg_image_hspace"
+msgstr "Spaţiu orizontal"
+
+msgid "tinymce_advanced_dlg_image_align"
+msgstr "Aliniere"
+
+msgid "tinymce_advanced_dlg_image_align_baseline"
+msgstr "Baseline"
+
+msgid "tinymce_advanced_dlg_image_align_top"
+msgstr "Sus"
+
+msgid "tinymce_advanced_dlg_image_align_middle"
+msgstr "La mijloc"
+
+msgid "tinymce_advanced_dlg_image_align_bottom"
+msgstr "Jos"
+
+msgid "tinymce_advanced_dlg_image_align_texttop"
+msgstr "Textul sus"
+
+msgid "tinymce_advanced_dlg_image_align_textbottom"
+msgstr "Textul la mijloc"
+
+msgid "tinymce_advanced_dlg_image_align_left"
+msgstr "Stânga"
+
+msgid "tinymce_advanced_dlg_image_align_right"
+msgstr "Dreapta"
+
+msgid "tinymce_advanced_dlg_link_title"
+msgstr "Inserează/editează link"
+
+msgid "tinymce_advanced_dlg_link_url"
+msgstr "URL link"
+
+msgid "tinymce_advanced_dlg_link_target"
+msgstr "Ţintă"
+
+msgid "tinymce_advanced_dlg_link_target_same"
+msgstr "Deschide link în aceeaşi fereastră"
+
+msgid "tinymce_advanced_dlg_link_target_blank"
+msgstr "Deschide link în fereastră nouă"
+
+msgid "tinymce_advanced_dlg_link_titlefield"
+msgstr "Titlu"
+
+msgid "tinymce_advanced_dlg_link_is_email"
+msgstr "URL-ul pe care l-aţi introdus pare a fi o adresă de email, doriţi să adaug şi prefixul mailto: necesar?"
+
+msgid "tinymce_advanced_dlg_link_is_external"
+msgstr "URL-ul pe care l-aţi introdus pare a fi un link extern, doriţi să adaug şi prefixul http:// necesar?"
+
+msgid "tinymce_advanced_dlg_link_list"
+msgstr "Lista de linkuri"
+
+msgid "tinymce_contextmenu_align"
+msgstr "Aliniere"
+
+msgid "tinymce_contextmenu_left"
+msgstr "Stânga"
+
+msgid "tinymce_contextmenu_center"
+msgstr "Centru"
+
+msgid "tinymce_contextmenu_right"
+msgstr "Dreapta"
+
+msgid "tinymce_contextmenu_full"
+msgstr "Justify"
+
+msgid "tinymce_insertdatetime_date_fmt"
+msgstr "%Y-%m-%d"
+
+msgid "tinymce_insertdatetime_time_fmt"
+msgstr "%H:%M:%S"
+
+msgid "tinymce_insertdatetime_insertdate_desc"
+msgstr "Inserează dată"
+
+msgid "tinymce_insertdatetime_inserttime_desc"
+msgstr "Inserează oră"
+
+msgid "tinymce_insertdatetime_months_long"
+msgstr "Ianuarie,Februarie,Martie,Aprilie,Mai,Iunie,Iulie,August,Septembrie,Octombrie,Noiembrie,Decembrie "
+
+msgid "tinymce_insertdatetime_months_short"
+msgstr "Ian,Feb,Mar,Apr,Mai,Iun,Iul,Aug,Sep,Oct,Noi,Dec"
+
+msgid "tinymce_insertdatetime_day_long"
+msgstr "Duminică,Luni,Marţi,Miercuri,Joi,Vineri,Sâmbătă,Duminică"
+
+msgid "tinymce_insertdatetime_day_short"
+msgstr "Dum,Lun,Mar,Mie,Joi,Vin,Sâm,Dum"
+
+msgid "tinymce_print_print_desc"
+msgstr "Imprimare"
+
+msgid "tinymce_preview_preview_desc"
+msgstr "Previzualizare"
+
+msgid "tinymce_directionality_ltr_desc"
+msgstr "Direcţia de la stânga la dreapta"
+
+msgid "tinymce_directionality_rtl_desc"
+msgstr "Direcţia de la dreapta la stânga"
+
+msgid "tinymce_layer_insertlayer_desc"
+msgstr "Inserează stat nou"
+
+msgid "tinymce_layer_forward_desc"
+msgstr "Mută înainte"
+
+msgid "tinymce_layer_backward_desc"
+msgstr "Mută înapoi"
+
+msgid "tinymce_layer_absolute_desc"
+msgstr "Poziţionare absolută"
+
+msgid "tinymce_layer_content"
+msgstr "Strat nou ..."
+
+msgid "tinymce_save_save_desc"
+msgstr "Salvează"
+
+msgid "tinymce_save_cancel_desc"
+msgstr "Anulează toate schimbările"
+
+msgid "tinymce_nonbreaking_nonbreaking_desc"
+msgstr "Insert non-breaking space character"
+
+msgid "tinymce_iespell_iespell_desc"
+msgstr "Rulează corector de limbă"
+
+msgid "tinymce_iespell_download"
+msgstr "ieSpell nu a fost detectat. Doriţi să-l instalaţi?"
+
+msgid "tinymce_advhr_advhr_desc"
+msgstr "Linie orizontală"
+
+msgid "tinymce_advhr_delta_width"
+msgstr ""
+
+msgid "tinymce_advhr_delta_height"
+msgstr ""
+
+msgid "tinymce_advhr_dlg_width"
+msgstr "Lăţime"
+
+msgid "tinymce_advhr_dlg_size"
+msgstr "Înălţime"
+
+msgid "tinymce_advhr_dlg_noshade"
+msgstr "Fără umbre"
+
+msgid "tinymce_emotions_emotions_desc"
+msgstr "Emoticoane"
+
+msgid "tinymce_emotions_delta_width"
+msgstr ""
+
+msgid "tinymce_emotions_delta_height"
+msgstr ""
+
+msgid "tinymce_emotions_dlg_title"
+msgstr "Inserează emoticon"
+
+msgid "tinymce_emotions_dlg_desc"
+msgstr "Emoţii"
+
+msgid "tinymce_emotions_dlg_cool"
+msgstr "Cool"
+
+msgid "tinymce_emotions_dlg_cry"
+msgstr "Trist"
+
+msgid "tinymce_emotions_dlg_embarassed"
+msgstr "Ruşinat"
+
+msgid "tinymce_emotions_dlg_foot_in_mouth"
+msgstr "Picior în gură"
+
+msgid "tinymce_emotions_dlg_frown"
+msgstr "Încruntat"
+
+msgid "tinymce_emotions_dlg_innocent"
+msgstr "Nevinovat"
+
+msgid "tinymce_emotions_dlg_kiss"
+msgstr "Pupic"
+
+msgid "tinymce_emotions_dlg_laughing"
+msgstr "Râde"
+
+msgid "tinymce_emotions_dlg_money_mouth"
+msgstr "Bani în gură"
+
+msgid "tinymce_emotions_dlg_sealed"
+msgstr "Sigilat"
+
+msgid "tinymce_emotions_dlg_smile"
+msgstr "Zâmbet"
+
+msgid "tinymce_emotions_dlg_surprised"
+msgstr "Surprins"
+
+msgid "tinymce_emotions_dlg_tongue_out"
+msgstr "Cu limba afară"
+
+msgid "tinymce_emotions_dlg_undecided"
+msgstr "Indecis"
+
+msgid "tinymce_emotions_dlg_wink"
+msgstr "Face cu ochiul"
+
+msgid "tinymce_emotions_dlg_yell"
+msgstr "Ţipa"
+
+msgid "tinymce_searchreplace_search_desc"
+msgstr "Caută"
+
+msgid "tinymce_searchreplace_replace_desc"
+msgstr "Caută/Înlocuieşte"
+
+msgid "tinymce_searchreplace_delta_width"
+msgstr ""
+
+msgid "tinymce_searchreplace_delta_height"
+msgstr ""
+
+msgid "tinymce_searchreplace_dlg_searchnext_desc"
+msgstr "Caută din nou"
+
+msgid "tinymce_searchreplace_dlg_notfound"
+msgstr "Căutarea a fost terminată. Nu am găsit termenul căutat."
+
+msgid "tinymce_searchreplace_dlg_search_title"
+msgstr "Caută"
+
+msgid "tinymce_searchreplace_dlg_replace_title"
+msgstr "Caută/Înlocuieşte"
+
+msgid "tinymce_searchreplace_dlg_allreplaced"
+msgstr "Toate instanţele termenului căutat au fost înlocuite."
+
+msgid "tinymce_searchreplace_dlg_findwhat"
+msgstr "Termen căutat:"
+
+msgid "tinymce_searchreplace_dlg_replacewith"
+msgstr "Înlocuieşte cu:"
+
+msgid "tinymce_searchreplace_dlg_direction"
+msgstr "Direcţia"
+
+msgid "tinymce_searchreplace_dlg_up"
+msgstr "În sus"
+
+msgid "tinymce_searchreplace_dlg_down"
+msgstr "În jos"
+
+msgid "tinymce_searchreplace_dlg_mcase"
+msgstr "Contează litere mici/mari?"
+
+msgid "tinymce_searchreplace_dlg_findnext"
+msgstr "Caută următorul"
+
+msgid "tinymce_searchreplace_dlg_replace"
+msgstr "Înlocuieşte"
+
+msgid "tinymce_searchreplace_dlg_replaceall"
+msgstr "Înlocuieşte toate"
+
+msgid "tinymce_advimage_image_desc"
+msgstr "Inserare/editare imagine"
+
+msgid "tinymce_advimage_delta_width"
+msgstr ""
+
+msgid "tinymce_advimage_delta_height"
+msgstr ""
+
+msgid "tinymce_advimage_dlg_tab_general"
+msgstr "General"
+
+msgid "tinymce_advimage_dlg_tab_appearance"
+msgstr "Afişare"
+
+msgid "tinymce_advimage_dlg_tab_advanced"
+msgstr "Avansat"
+
+msgid "tinymce_advimage_dlg_general"
+msgstr "General"
+
+msgid "tinymce_advimage_dlg_title"
+msgstr "Titlu"
+
+msgid "tinymce_advimage_dlg_preview"
+msgstr "Previzualizare"
+
+msgid "tinymce_advimage_dlg_constrain_proportions"
+msgstr "Menţine proporţii"
+
+msgid "tinymce_advimage_dlg_langdir"
+msgstr "Direcţie limbă"
+
+msgid "tinymce_advimage_dlg_langcode"
+msgstr "Cod limbă"
+
+msgid "tinymce_advimage_dlg_long_desc"
+msgstr "Link descriere"
+
+msgid "tinymce_advimage_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_advimage_dlg_classes"
+msgstr "Clase"
+
+msgid "tinymce_advimage_dlg_ltr"
+msgstr "De la stânga la dreapta"
+
+msgid "tinymce_advimage_dlg_rtl"
+msgstr "De la dreapta la stânga"
+
+msgid "tinymce_advimage_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advimage_dlg_map"
+msgstr "Hartă imagine"
+
+msgid "tinymce_advimage_dlg_swap_image"
+msgstr "Schimbă imagini"
+
+msgid "tinymce_advimage_dlg_alt_image"
+msgstr "Imagine alternativă"
+
+msgid "tinymce_advimage_dlg_mouseover"
+msgstr "Pentru mouse peste"
+
+msgid "tinymce_advimage_dlg_mouseout"
+msgstr "Normal"
+
+msgid "tinymce_advimage_dlg_misc"
+msgstr "Diverse"
+
+msgid "tinymce_advimage_dlg_example_img"
+msgstr "Imagine mică"
+
+msgid "tinymce_advimage_dlg_missing_alt"
+msgstr "Sigur doriţi să continuaţi fără a introduce o descriere a imaginii?"
+
+msgid "tinymce_advimage_dlg_dialog_title"
+msgstr "Inserează/Editează imagine"
+
+msgid "tinymce_advimage_dlg_src"
+msgstr "URL imagine"
+
+msgid "tinymce_advimage_dlg_alt"
+msgstr "Descriere imagine"
+
+msgid "tinymce_advimage_dlg_list"
+msgstr "Listă imagini"
+
+msgid "tinymce_advimage_dlg_border"
+msgstr "Bordură"
+
+msgid "tinymce_advimage_dlg_dimensions"
+msgstr "Dimensiuni"
+
+msgid "tinymce_advimage_dlg_vspace"
+msgstr "Spaţiu vertical"
+
+msgid "tinymce_advimage_dlg_hspace"
+msgstr "Spaţiu orizontal"
+
+msgid "tinymce_advimage_dlg_align"
+msgstr "Aliniere"
+
+msgid "tinymce_advimage_dlg_align_baseline"
+msgstr "Baseline"
+
+msgid "tinymce_advimage_dlg_align_top"
+msgstr "Sus"
+
+msgid "tinymce_advimage_dlg_align_middle"
+msgstr "La mijloc"
+
+msgid "tinymce_advimage_dlg_align_bottom"
+msgstr "Jos"
+
+msgid "tinymce_advimage_dlg_align_texttop"
+msgstr "Textul sus"
+
+msgid "tinymce_advimage_dlg_align_textbottom"
+msgstr "Textul jos"
+
+msgid "tinymce_advimage_dlg_align_left"
+msgstr "Stânga"
+
+msgid "tinymce_advimage_dlg_align_right"
+msgstr "Dreapta"
+
+msgid "tinymce_advimage_dlg_image_list"
+msgstr "Listă de imagini"
+
+msgid "tinymce_advlink_link_desc"
+msgstr "Inserează/editează link"
+
+msgid "tinymce_advlink_delta_width"
+msgstr ""
+
+msgid "tinymce_advlink_delta_height"
+msgstr ""
+
+msgid "tinymce_advlink_dlg_title"
+msgstr "Inserează/editează link"
+
+msgid "tinymce_advlink_dlg_url"
+msgstr "URL link"
+
+msgid "tinymce_advlink_dlg_target"
+msgstr "Ţintă"
+
+msgid "tinymce_advlink_dlg_titlefield"
+msgstr "Titlu"
+
+msgid "tinymce_advlink_dlg_is_email"
+msgstr "URL-ul pe care l-aţi introdus pare a fi o adresă de email, doriţi să adaug şi prefixul mailto: necesar?"
+
+msgid "tinymce_advlink_dlg_is_external"
+msgstr "URL-ul pe care l-aţi introdus pare a fi un link extern, doriţi să adaug şi prefixul http:// necesar?"
+
+msgid "tinymce_advlink_dlg_list"
+msgstr "Listă linkuri"
+
+msgid "tinymce_advlink_dlg_general_tab"
+msgstr "General"
+
+msgid "tinymce_advlink_dlg_popup_tab"
+msgstr "Popup"
+
+msgid "tinymce_advlink_dlg_events_tab"
+msgstr "Evenimente"
+
+msgid "tinymce_advlink_dlg_advanced_tab"
+msgstr "Avansat"
+
+msgid "tinymce_advlink_dlg_general_props"
+msgstr "Proprietăţi generale"
+
+msgid "tinymce_advlink_dlg_popup_props"
+msgstr "Proprietăţi popup"
+
+msgid "tinymce_advlink_dlg_event_props"
+msgstr "Evenimente"
+
+msgid "tinymce_advlink_dlg_advanced_props"
+msgstr "Proprietăţi avansate"
+
+msgid "tinymce_advlink_dlg_popup_opts"
+msgstr "Opţiuni"
+
+msgid "tinymce_advlink_dlg_anchor_names"
+msgstr "Ancore"
+
+msgid "tinymce_advlink_dlg_target_same"
+msgstr "Deschide link în această fereastră / acest frame"
+
+msgid "tinymce_advlink_dlg_target_parent"
+msgstr "Deschide link în fereastră / frame-ul părinte"
+
+msgid "tinymce_advlink_dlg_target_top"
+msgstr "Deschide în frame-ul cel mai mare (înlocuieşte celelalte frame-uri)"
+
+msgid "tinymce_advlink_dlg_target_blank"
+msgstr "Deschide în fereastră nouă"
+
+msgid "tinymce_advlink_dlg_popup"
+msgstr "Popup Javascript"
+
+msgid "tinymce_advlink_dlg_popup_url"
+msgstr "Popup URL"
+
+msgid "tinymce_advlink_dlg_popup_name"
+msgstr "Nume fereastră"
+
+msgid "tinymce_advlink_dlg_popup_return"
+msgstr "Inserează 'return false'"
+
+msgid "tinymce_advlink_dlg_popup_scrollbars"
+msgstr "Arată bări de derulare"
+
+msgid "tinymce_advlink_dlg_popup_statusbar"
+msgstr "Arată bara de stare"
+
+msgid "tinymce_advlink_dlg_popup_toolbar"
+msgstr "Arată toolbar-uri"
+
+msgid "tinymce_advlink_dlg_popup_menubar"
+msgstr "Arată meniul"
+
+msgid "tinymce_advlink_dlg_popup_location"
+msgstr "Arată bara de adresă"
+
+msgid "tinymce_advlink_dlg_popup_resizable"
+msgstr "Fereastră redimensionabilă?"
+
+msgid "tinymce_advlink_dlg_popup_dependent"
+msgstr "Dependent (Mozilla/Firefox)?"
+
+msgid "tinymce_advlink_dlg_popup_size"
+msgstr "Mărime"
+
+msgid "tinymce_advlink_dlg_popup_position"
+msgstr "Poziţie (X/Y)"
+
+msgid "tinymce_advlink_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_advlink_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_advlink_dlg_classes"
+msgstr "Clase"
+
+msgid "tinymce_advlink_dlg_target_name"
+msgstr "Nume ţintă"
+
+msgid "tinymce_advlink_dlg_langdir"
+msgstr "Direcţie limbă"
+
+msgid "tinymce_advlink_dlg_target_langcode"
+msgstr "Limbă"
+
+msgid "tinymce_advlink_dlg_langcode"
+msgstr "Cod limbă"
+
+msgid "tinymce_advlink_dlg_encoding"
+msgstr "Set de caractere ţintă"
+
+msgid "tinymce_advlink_dlg_mime"
+msgstr "MIME type ţintă"
+
+msgid "tinymce_advlink_dlg_rel"
+msgstr "Relaţia paginii cu ţinta"
+
+msgid "tinymce_advlink_dlg_rev"
+msgstr "Relaţia ţintei cu pagina"
+
+msgid "tinymce_advlink_dlg_tabindex"
+msgstr "Tabindex"
+
+msgid "tinymce_advlink_dlg_accesskey"
+msgstr "Cheie de acces"
+
+msgid "tinymce_advlink_dlg_ltr"
+msgstr "Stânga la dreapta"
+
+msgid "tinymce_advlink_dlg_rtl"
+msgstr "Dreapta la stânga"
+
+msgid "tinymce_advlink_dlg_link_list"
+msgstr "Listă linkuri"
+
+msgid "tinymce_xhtmlxtras_cite_desc"
+msgstr "Citat"
+
+msgid "tinymce_xhtmlxtras_abbr_desc"
+msgstr "Abreviere"
+
+msgid "tinymce_xhtmlxtras_acronym_desc"
+msgstr "Acronim"
+
+msgid "tinymce_xhtmlxtras_del_desc"
+msgstr "Ştergere"
+
+msgid "tinymce_xhtmlxtras_ins_desc"
+msgstr "Inserare"
+
+msgid "tinymce_xhtmlxtras_attribs_desc"
+msgstr "Inserează/Editează atribute"
+
+msgid "tinymce_xhtmlxtras_cite_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_cite_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_abbr_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_acronym_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_del_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_ins_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_width"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_attribs_delta_height"
+msgstr ""
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_title"
+msgstr "Titlu"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_id"
+msgstr "ID"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_class"
+msgstr "Clasă"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_style"
+msgstr "Stil"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_cite"
+msgstr "Citat"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_datetime"
+msgstr "Dată/Oră"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langdir"
+msgstr "Direcţie text"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_ltr"
+msgstr "De la stânga la dreapta"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_option_rtl"
+msgstr "De la dreapta la stânga"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_langcode"
+msgstr "Limbă"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_tabindex"
+msgstr "TabIndex"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_label_accesskey"
+msgstr "Tastă de acces"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_events_tab"
+msgstr "Evenimente"
+
+msgid "tinymce_xhtmlxtras_dlg_attribute_attrib_tab"
+msgstr "Atribute"
+
+msgid "tinymce_xhtmlxtras_dlg_general_tab"
+msgstr "General"
+
+msgid "tinymce_xhtmlxtras_dlg_attrib_tab"
+msgstr "Atribute"
+
+msgid "tinymce_xhtmlxtras_dlg_events_tab"
+msgstr "Evenimente"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_general_tab"
+msgstr "Setări generale"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_attrib_tab"
+msgstr "Atribute element"
+
+msgid "tinymce_xhtmlxtras_dlg_fieldset_events_tab"
+msgstr "Evenimente element"
+
+msgid "tinymce_xhtmlxtras_dlg_title_ins_element"
+msgstr "Inserare element"
+
+msgid "tinymce_xhtmlxtras_dlg_title_del_element"
+msgstr "Ştergere element"
+
+msgid "tinymce_xhtmlxtras_dlg_title_acronym_element"
+msgstr "Acronim"
+
+msgid "tinymce_xhtmlxtras_dlg_title_abbr_element"
+msgstr "Abreviere"
+
+msgid "tinymce_xhtmlxtras_dlg_title_cite_element"
+msgstr "Citare"
+
+msgid "tinymce_xhtmlxtras_dlg_remove"
+msgstr "Scoate"
+
+msgid "tinymce_xhtmlxtras_dlg_insert_date"
+msgstr "Inserare dată/oră curentă"
+
+msgid "tinymce_xhtmlxtras_dlg_option_ltr"
+msgstr "De la stânga la dreapta"
+
+msgid "tinymce_xhtmlxtras_dlg_option_rtl"
+msgstr "De la dreapta la stânga"
+
+msgid "tinymce_xhtmlxtras_dlg_attribs_title"
+msgstr "Inserare atribute"
+
+msgid "tinymce_style_desc"
+msgstr "Editare CSS"
+
+msgid "tinymce_style_delta_width"
+msgstr ""
+
+msgid "tinymce_style_delta_height"
+msgstr ""
+
+msgid "tinymce_style_dlg_title"
+msgstr "Editare CSS"
+
+msgid "tinymce_style_dlg_apply"
+msgstr "Aplică"
+
+msgid "tinymce_style_dlg_text_tab"
+msgstr "Text"
+
+msgid "tinymce_style_dlg_background_tab"
+msgstr "Fundal"
+
+msgid "tinymce_style_dlg_block_tab"
+msgstr "Block"
+
+msgid "tinymce_style_dlg_box_tab"
+msgstr "Box"
+
+msgid "tinymce_style_dlg_border_tab"
+msgstr "Bordură"
+
+msgid "tinymce_style_dlg_list_tab"
+msgstr "Listă"
+
+msgid "tinymce_style_dlg_positioning_tab"
+msgstr "Poziţionare"
+
+msgid "tinymce_style_dlg_text_props"
+msgstr "Text"
+
+msgid "tinymce_style_dlg_text_font"
+msgstr "Font"
+
+msgid "tinymce_style_dlg_text_size"
+msgstr "Mărime"
+
+msgid "tinymce_style_dlg_text_weight"
+msgstr "Greutate"
+
+msgid "tinymce_style_dlg_text_style"
+msgstr "Stil"
+
+msgid "tinymce_style_dlg_text_variant"
+msgstr "Variantă"
+
+msgid "tinymce_style_dlg_text_lineheight"
+msgstr "Înălţime linie"
+
+msgid "tinymce_style_dlg_text_case"
+msgstr "Caz"
+
+msgid "tinymce_style_dlg_text_color"
+msgstr "Culoare"
+
+msgid "tinymce_style_dlg_text_decoration"
+msgstr "Decoraţii"
+
+msgid "tinymce_style_dlg_text_overline"
+msgstr "Peste linie"
+
+msgid "tinymce_style_dlg_text_underline"
+msgstr "Sub linie"
+
+msgid "tinymce_style_dlg_text_striketrough"
+msgstr "Tăiere"
+
+msgid "tinymce_style_dlg_text_blink"
+msgstr "Blink"
+
+msgid "tinymce_style_dlg_text_none"
+msgstr "Nici unul"
+
+msgid "tinymce_style_dlg_background_color"
+msgstr "Culoare fundal"
+
+msgid "tinymce_style_dlg_background_image"
+msgstr "Imagine fundal"
+
+msgid "tinymce_style_dlg_background_repeat"
+msgstr "Repetă"
+
+msgid "tinymce_style_dlg_background_attachment"
+msgstr "Ataşament"
+
+msgid "tinymce_style_dlg_background_hpos"
+msgstr "Poziţionare orizontală"
+
+msgid "tinymce_style_dlg_background_vpos"
+msgstr "Poziţionare verticală"
+
+msgid "tinymce_style_dlg_block_wordspacing"
+msgstr "Spaţiere cuvinte"
+
+msgid "tinymce_style_dlg_block_letterspacing"
+msgstr "Spaţiere litere"
+
+msgid "tinymce_style_dlg_block_vertical_alignment"
+msgstr "Aliniere verticală"
+
+msgid "tinymce_style_dlg_block_text_align"
+msgstr "Aliniere text"
+
+msgid "tinymce_style_dlg_block_text_indent"
+msgstr "Indentare text"
+
+msgid "tinymce_style_dlg_block_whitespace"
+msgstr "Spaţiu alb"
+
+msgid "tinymce_style_dlg_block_display"
+msgstr "Afişare"
+
+msgid "tinymce_style_dlg_box_width"
+msgstr "Lăţime"
+
+msgid "tinymce_style_dlg_box_height"
+msgstr "Înălţime"
+
+msgid "tinymce_style_dlg_box_float"
+msgstr "Float"
+
+msgid "tinymce_style_dlg_box_clear"
+msgstr "Anulare float"
+
+msgid "tinymce_style_dlg_padding"
+msgstr "Margini interne"
+
+msgid "tinymce_style_dlg_same"
+msgstr "La fel pentru toate"
+
+msgid "tinymce_style_dlg_top"
+msgstr "Sus"
+
+msgid "tinymce_style_dlg_right"
+msgstr "Dreapta"
+
+msgid "tinymce_style_dlg_bottom"
+msgstr "Jos"
+
+msgid "tinymce_style_dlg_left"
+msgstr "Stânga"
+
+msgid "tinymce_style_dlg_margin"
+msgstr "Margini"
+
+msgid "tinymce_style_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_style_dlg_width"
+msgstr "Lăţime"
+
+msgid "tinymce_style_dlg_height"
+msgstr "Înălţime"
+
+msgid "tinymce_style_dlg_color"
+msgstr "Culoare"
+
+msgid "tinymce_style_dlg_list_type"
+msgstr "Tip"
+
+msgid "tinymce_style_dlg_bullet_image"
+msgstr "Imagine"
+
+msgid "tinymce_style_dlg_position"
+msgstr "Poziţionare"
+
+msgid "tinymce_style_dlg_positioning_type"
+msgstr "Tip"
+
+msgid "tinymce_style_dlg_visibility"
+msgstr "Vizibilitate"
+
+msgid "tinymce_style_dlg_zindex"
+msgstr "Z-index"
+
+msgid "tinymce_style_dlg_overflow"
+msgstr "Overflow"
+
+msgid "tinymce_style_dlg_placement"
+msgstr "Plasament"
+
+msgid "tinymce_style_dlg_clip"
+msgstr "Clip"
+
+msgid "tinymce_paste_paste_text_desc"
+msgstr "Lipire ca text simplu"
+
+msgid "tinymce_paste_paste_word_desc"
+msgstr "Lipire din Word"
+
+msgid "tinymce_paste_selectall_desc"
+msgstr "Selectează tot"
+
+msgid "tinymce_paste_dlg_text_title"
+msgstr "Folosiţi CTRL+V pentru a lipi în această zonă."
+
+msgid "tinymce_paste_dlg_text_linebreaks"
+msgstr "Pastreaza linii noi."
+
+msgid "tinymce_paste_dlg_word_title"
+msgstr "Folosiţi CTRL+V pentru a lipi în această zonă."
+
+msgid "tinymce_table_desc"
+msgstr "Inserează tabel nou"
+
+msgid "tinymce_table_row_before_desc"
+msgstr "Inserare rând înainte"
+
+msgid "tinymce_table_row_after_desc"
+msgstr "Inserare rând după"
+
+msgid "tinymce_table_delete_row_desc"
+msgstr "Şterge rând"
+
+msgid "tinymce_table_col_before_desc"
+msgstr "Inserare coloană înainte"
+
+msgid "tinymce_table_col_after_desc"
+msgstr "Inserare coloană după"
+
+msgid "tinymce_table_delete_col_desc"
+msgstr "Şterge coloană"
+
+msgid "tinymce_table_split_cells_desc"
+msgstr "Separaţi celule unite"
+
+msgid "tinymce_table_merge_cells_desc"
+msgstr "Uniţi celule"
+
+msgid "tinymce_table_row_desc"
+msgstr "Proprietăţi rând"
+
+msgid "tinymce_table_cell_desc"
+msgstr "Proprietăţi celulă"
+
+msgid "tinymce_table_props_desc"
+msgstr "Proprietăţi tabel"
+
+msgid "tinymce_table_paste_row_before_desc"
+msgstr "Lipeşte rând înainte"
+
+msgid "tinymce_table_paste_row_after_desc"
+msgstr "Lipeşte rând după"
+
+msgid "tinymce_table_cut_row_desc"
+msgstr "Taie rând"
+
+msgid "tinymce_table_copy_row_desc"
+msgstr "Copiază rând"
+
+msgid "tinymce_table_del"
+msgstr "Şterge tabel"
+
+msgid "tinymce_table_row"
+msgstr "Rând"
+
+msgid "tinymce_table_col"
+msgstr "Coloană"
+
+msgid "tinymce_table_cell"
+msgstr "Celulă"
+
+msgid "tinymce_table_rowprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_rowprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_width"
+msgstr ""
+
+msgid "tinymce_table_cellprops_delta_height"
+msgstr ""
+
+msgid "tinymce_table_table_delta_width"
+msgstr ""
+
+msgid "tinymce_table_table_delta_height"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_width"
+msgstr ""
+
+msgid "tinymce_table_merge_cells_delta_height"
+msgstr ""
+
+msgid "tinymce_table_dlg_general_tab"
+msgstr "General"
+
+msgid "tinymce_table_dlg_advanced_tab"
+msgstr "Avansat"
+
+msgid "tinymce_table_dlg_general_props"
+msgstr "Proprietăţi generale"
+
+msgid "tinymce_table_dlg_advanced_props"
+msgstr "Proprietăţi avansate"
+
+msgid "tinymce_table_dlg_rowtype"
+msgstr "Rănd în tabel"
+
+msgid "tinymce_table_dlg_title"
+msgstr "Inserare/modificare tabel"
+
+msgid "tinymce_table_dlg_width"
+msgstr "Lăţime"
+
+msgid "tinymce_table_dlg_height"
+msgstr "Înălţime"
+
+msgid "tinymce_table_dlg_cols"
+msgstr "Coloane"
+
+msgid "tinymce_table_dlg_rows"
+msgstr "Rânduri"
+
+msgid "tinymce_table_dlg_cellspacing"
+msgstr "Spaţiu între celule"
+
+msgid "tinymce_table_dlg_cellpadding"
+msgstr "Spaţiu în celule"
+
+msgid "tinymce_table_dlg_border"
+msgstr "Bordură"
+
+msgid "tinymce_table_dlg_align"
+msgstr "Aliniere"
+
+msgid "tinymce_table_dlg_align_default"
+msgstr "Implicită"
+
+msgid "tinymce_table_dlg_align_left"
+msgstr "Stânga"
+
+msgid "tinymce_table_dlg_align_right"
+msgstr "Dreapta"
+
+msgid "tinymce_table_dlg_align_middle"
+msgstr "Centru"
+
+msgid "tinymce_table_dlg_row_title"
+msgstr "Proprietăţi rând"
+
+msgid "tinymce_table_dlg_cell_title"
+msgstr "Proprietăţi celulă"
+
+msgid "tinymce_table_dlg_cell_type"
+msgstr "Tip celulă"
+
+msgid "tinymce_table_dlg_valign"
+msgstr "Aliniere verticală"
+
+msgid "tinymce_table_dlg_align_top"
+msgstr "Sus"
+
+msgid "tinymce_table_dlg_align_bottom"
+msgstr "Jos"
+
+msgid "tinymce_table_dlg_bordercolor"
+msgstr "Culoare bordură"
+
+msgid "tinymce_table_dlg_bgcolor"
+msgstr "Culoare fundal"
+
+msgid "tinymce_table_dlg_merge_cells_title"
+msgstr "Uniţi celulele"
+
+msgid "tinymce_table_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_table_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_table_dlg_langdir"
+msgstr "Direcţie limbă"
+
+msgid "tinymce_table_dlg_langcode"
+msgstr "Cod limbă"
+
+msgid "tinymce_table_dlg_mime"
+msgstr "MIME type ţintă"
+
+msgid "tinymce_table_dlg_ltr"
+msgstr "De la stânga la dreapta"
+
+msgid "tinymce_table_dlg_rtl"
+msgstr "De la dreapta la stânga"
+
+msgid "tinymce_table_dlg_bgimage"
+msgstr "Imagine de fundal"
+
+msgid "tinymce_table_dlg_summary"
+msgstr "Sumar"
+
+msgid "tinymce_table_dlg_td"
+msgstr "Date"
+
+msgid "tinymce_table_dlg_th"
+msgstr "Antet"
+
+msgid "tinymce_table_dlg_cell_cell"
+msgstr "Actualizează celula curentă"
+
+msgid "tinymce_table_dlg_cell_row"
+msgstr "Actualizează toate celulele din rând"
+
+msgid "tinymce_table_dlg_cell_all"
+msgstr "Actualizează toate celulele din tabel"
+
+msgid "tinymce_table_dlg_row_row"
+msgstr "Actualizează rând curent"
+
+msgid "tinymce_table_dlg_row_odd"
+msgstr "Actualizează rândurile impare"
+
+msgid "tinymce_table_dlg_row_even"
+msgstr "Actualizează rândurile pare"
+
+msgid "tinymce_table_dlg_row_all"
+msgstr "Actualizează toate rândurile"
+
+msgid "tinymce_table_dlg_thead"
+msgstr "Antet tabel"
+
+msgid "tinymce_table_dlg_tbody"
+msgstr "Corp tabel"
+
+msgid "tinymce_table_dlg_tfoot"
+msgstr "Subsol tabel"
+
+msgid "tinymce_table_dlg_scope"
+msgstr "Scop"
+
+msgid "tinymce_table_dlg_rowgroup"
+msgstr "Grupează rânduri"
+
+msgid "tinymce_table_dlg_colgroup"
+msgstr "Grupează celule"
+
+msgid "tinymce_table_dlg_col_limit"
+msgstr "Aţi depăşit numărul maxim de coloane: {$cols}."
+
+msgid "tinymce_table_dlg_row_limit"
+msgstr "Aţi depăşit numărul maxim de rânduri {$rows}."
+
+msgid "tinymce_table_dlg_cell_limit"
+msgstr "Aţi depăşit numărul maxim de celule {$cells}."
+
+msgid "tinymce_table_dlg_missing_scope"
+msgstr "Sigur doriţi să lăsaţi scopul necompletat? "
+
+msgid "tinymce_table_dlg_caption"
+msgstr "Titlu tabel"
+
+msgid "tinymce_table_dlg_frame"
+msgstr "Frame"
+
+msgid "tinymce_table_dlg_frame_none"
+msgstr "niciuna"
+
+msgid "tinymce_table_dlg_frame_groups"
+msgstr "grupuri"
+
+msgid "tinymce_table_dlg_frame_rows"
+msgstr "rânduri"
+
+msgid "tinymce_table_dlg_frame_cols"
+msgstr "coloane"
+
+msgid "tinymce_table_dlg_frame_all"
+msgstr "toate"
+
+msgid "tinymce_table_dlg_rules"
+msgstr "Reguli"
+
+msgid "tinymce_table_dlg_rules_void"
+msgstr "gol"
+
+msgid "tinymce_table_dlg_rules_above"
+msgstr "deasupra"
+
+msgid "tinymce_table_dlg_rules_below"
+msgstr "dedesubt"
+
+msgid "tinymce_table_dlg_rules_hsides"
+msgstr "hsides"
+
+msgid "tinymce_table_dlg_rules_lhs"
+msgstr "lhs"
+
+msgid "tinymce_table_dlg_rules_rhs"
+msgstr "rhs"
+
+msgid "tinymce_table_dlg_rules_vsides"
+msgstr "vsides"
+
+msgid "tinymce_table_dlg_rules_box"
+msgstr "box"
+
+msgid "tinymce_table_dlg_rules_border"
+msgstr "border"
+
+msgid "tinymce_autosave_unload_msg"
+msgstr "Modificările nu vor fi salvate."
+
+msgid "tinymce_fullscreen_desc"
+msgstr "Mod ecran complet"
+
+msgid "tinymce_media_desc"
+msgstr "Inserează / editează media"
+
+msgid "tinymce_media_edit"
+msgstr "Editează media"
+
+msgid "tinymce_media_delta_width"
+msgstr ""
+
+msgid "tinymce_media_delta_height"
+msgstr ""
+
+msgid "tinymce_media_dlg_title"
+msgstr "Inserează / editează media"
+
+msgid "tinymce_media_dlg_general"
+msgstr "General"
+
+msgid "tinymce_media_dlg_advanced"
+msgstr "Avansată"
+
+msgid "tinymce_media_dlg_file"
+msgstr "Fişier/URL"
+
+msgid "tinymce_media_dlg_list"
+msgstr "Listă"
+
+msgid "tinymce_media_dlg_size"
+msgstr "Dimensiuni"
+
+msgid "tinymce_media_dlg_preview"
+msgstr "Previzualizare"
+
+msgid "tinymce_media_dlg_constrain_proportions"
+msgstr "Menţinere proporţii"
+
+msgid "tinymce_media_dlg_type"
+msgstr "Tip"
+
+msgid "tinymce_media_dlg_id"
+msgstr "Id"
+
+msgid "tinymce_media_dlg_name"
+msgstr "Nume"
+
+msgid "tinymce_media_dlg_class_name"
+msgstr "Clasă"
+
+msgid "tinymce_media_dlg_vspace"
+msgstr "V-Space"
+
+msgid "tinymce_media_dlg_hspace"
+msgstr "H-Space"
+
+msgid "tinymce_media_dlg_play"
+msgstr "Redare automată"
+
+msgid "tinymce_media_dlg_loop"
+msgstr "Repetare"
+
+msgid "tinymce_media_dlg_menu"
+msgstr "Arată meniu"
+
+msgid "tinymce_media_dlg_quality"
+msgstr "Calitate"
+
+msgid "tinymce_media_dlg_scale"
+msgstr "Scară"
+
+msgid "tinymce_media_dlg_align"
+msgstr "Aliniere"
+
+msgid "tinymce_media_dlg_salign"
+msgstr "SAlign"
+
+msgid "tinymce_media_dlg_wmode"
+msgstr "WMode"
+
+msgid "tinymce_media_dlg_bgcolor"
+msgstr "Fundal"
+
+msgid "tinymce_media_dlg_base"
+msgstr "URL de baza"
+
+msgid "tinymce_media_dlg_flashvars"
+msgstr "Variabile Flash"
+
+msgid "tinymce_media_dlg_liveconnect"
+msgstr "SWLiveConnect"
+
+msgid "tinymce_media_dlg_autohref"
+msgstr "AutoHREF"
+
+msgid "tinymce_media_dlg_cache"
+msgstr "Cache"
+
+msgid "tinymce_media_dlg_hidden"
+msgstr "Ascuns"
+
+msgid "tinymce_media_dlg_controller"
+msgstr "Controler"
+
+msgid "tinymce_media_dlg_kioskmode"
+msgstr "Mod Kiosk"
+
+msgid "tinymce_media_dlg_playeveryframe"
+msgstr "Redă fiecare frame"
+
+msgid "tinymce_media_dlg_targetcache"
+msgstr "Target cache"
+
+msgid "tinymce_media_dlg_correction"
+msgstr "Fără corecturi"
+
+msgid "tinymce_media_dlg_enablejavascript"
+msgstr "Activează JavaScript"
+
+msgid "tinymce_media_dlg_starttime"
+msgstr "Timp de început"
+
+msgid "tinymce_media_dlg_endtime"
+msgstr "Timp de sfârşit"
+
+msgid "tinymce_media_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_media_dlg_qtsrcchokespeed"
+msgstr "Choke speed"
+
+msgid "tinymce_media_dlg_target"
+msgstr "Tinţa"
+
+msgid "tinymce_media_dlg_volume"
+msgstr "Volum"
+
+msgid "tinymce_media_dlg_autostart"
+msgstr "Pornire automată"
+
+msgid "tinymce_media_dlg_enabled"
+msgstr "Activat"
+
+msgid "tinymce_media_dlg_fullscreen"
+msgstr "Ecran complet"
+
+msgid "tinymce_media_dlg_invokeurls"
+msgstr "Invocă URL-uri"
+
+msgid "tinymce_media_dlg_mute"
+msgstr "Mut"
+
+msgid "tinymce_media_dlg_stretchtofit"
+msgstr "Întinde pentru a se încadra"
+
+msgid "tinymce_media_dlg_windowlessvideo"
+msgstr "Video fără fereastră"
+
+msgid "tinymce_media_dlg_balance"
+msgstr "Balanţă"
+
+msgid "tinymce_media_dlg_baseurl"
+msgstr "URL bază"
+
+msgid "tinymce_media_dlg_captioningid"
+msgstr "Titlu id"
+
+msgid "tinymce_media_dlg_currentmarker"
+msgstr "Marcator curent"
+
+msgid "tinymce_media_dlg_currentposition"
+msgstr "Poziţie curentă"
+
+msgid "tinymce_media_dlg_defaultframe"
+msgstr "Frame implicit"
+
+msgid "tinymce_media_dlg_playcount"
+msgstr "Numar redări"
+
+msgid "tinymce_media_dlg_rate"
+msgstr "Vot"
+
+msgid "tinymce_media_dlg_uimode"
+msgstr "Mod UI"
+
+msgid "tinymce_media_dlg_flash_options"
+msgstr "Opţiuni Flash"
+
+msgid "tinymce_media_dlg_qt_options"
+msgstr "Opţiuni QuickTime"
+
+msgid "tinymce_media_dlg_wmp_options"
+msgstr "Opţiuni Windows media player"
+
+msgid "tinymce_media_dlg_rmp_options"
+msgstr "Opţiuni Real media player"
+
+msgid "tinymce_media_dlg_shockwave_options"
+msgstr "Opţiuni Shockwave"
+
+msgid "tinymce_media_dlg_autogotourl"
+msgstr "Auto goto URL"
+
+msgid "tinymce_media_dlg_center"
+msgstr "Centru"
+
+msgid "tinymce_media_dlg_imagestatus"
+msgstr "Status imagine"
+
+msgid "tinymce_media_dlg_maintainaspect"
+msgstr "Menţine aspect"
+
+msgid "tinymce_media_dlg_nojava"
+msgstr "Fără java"
+
+msgid "tinymce_media_dlg_prefetch"
+msgstr "Prefetch"
+
+msgid "tinymce_media_dlg_shuffle"
+msgstr "Aleator"
+
+msgid "tinymce_media_dlg_console"
+msgstr "Consola"
+
+msgid "tinymce_media_dlg_numloop"
+msgstr "Număr de repetări"
+
+msgid "tinymce_media_dlg_controls"
+msgstr "Controale"
+
+msgid "tinymce_media_dlg_scriptcallbacks"
+msgstr "Script callback"
+
+msgid "tinymce_media_dlg_swstretchstyle"
+msgstr "Stil strech"
+
+msgid "tinymce_media_dlg_swstretchhalign"
+msgstr "Stretch H-Aliniere"
+
+msgid "tinymce_media_dlg_swstretchvalign"
+msgstr "Stretch V-Aliniere"
+
+msgid "tinymce_media_dlg_sound"
+msgstr "Sunet"
+
+msgid "tinymce_media_dlg_progress"
+msgstr "Progres"
+
+msgid "tinymce_media_dlg_qtsrc"
+msgstr "QT Src"
+
+msgid "tinymce_media_dlg_qt_stream_warn"
+msgstr "Streamed rtsp resources should be added to the QT Src field under the advanced tab.\nYou should also add a non streamed version to the Src field.."
+
+msgid "tinymce_media_dlg_align_top"
+msgstr "Sus"
+
+msgid "tinymce_media_dlg_align_right"
+msgstr "Dreapta"
+
+msgid "tinymce_media_dlg_align_bottom"
+msgstr "Jos"
+
+msgid "tinymce_media_dlg_align_left"
+msgstr "Stânga"
+
+msgid "tinymce_media_dlg_align_center"
+msgstr "Centru"
+
+msgid "tinymce_media_dlg_align_top_left"
+msgstr "Stânga sus"
+
+msgid "tinymce_media_dlg_align_top_right"
+msgstr "Dreapta sus"
+
+msgid "tinymce_media_dlg_align_bottom_left"
+msgstr "Stânga jos"
+
+msgid "tinymce_media_dlg_align_bottom_right"
+msgstr "Dreapta jos"
+
+msgid "tinymce_media_dlg_flv_options"
+msgstr "Opţiuni Flash video"
+
+msgid "tinymce_media_dlg_flv_scalemode"
+msgstr "Moduri scală"
+
+msgid "tinymce_media_dlg_flv_buffer"
+msgstr "Buffer"
+
+msgid "tinymce_media_dlg_flv_startimage"
+msgstr "Imagine start "
+
+msgid "tinymce_media_dlg_flv_starttime"
+msgstr "Timp start"
+
+msgid "tinymce_media_dlg_flv_defaultvolume"
+msgstr "Volum implicit"
+
+msgid "tinymce_media_dlg_flv_hiddengui"
+msgstr "GUI ascuns"
+
+msgid "tinymce_media_dlg_flv_autostart"
+msgstr "Auto pornire"
+
+msgid "tinymce_media_dlg_flv_loop"
+msgstr "Repetare"
+
+msgid "tinymce_media_dlg_flv_showscalemodes"
+msgstr "Afişare moduri scalare"
+
+msgid "tinymce_media_dlg_flv_smoothvideo"
+msgstr "Smooth video"
+
+msgid "tinymce_media_dlg_flv_jscallback"
+msgstr "JS Callback"
+
+msgid "tinymce_fullpage_desc"
+msgstr "Proprietăţi document"
+
+msgid "tinymce_fullpage_delta_width"
+msgstr ""
+
+msgid "tinymce_fullpage_delta_height"
+msgstr ""
+
+msgid "tinymce_fullpage_dlg_title"
+msgstr "Proprietăţi document"
+
+msgid "tinymce_fullpage_dlg_meta_tab"
+msgstr "General"
+
+msgid "tinymce_fullpage_dlg_appearance_tab"
+msgstr "Aparenţă"
+
+msgid "tinymce_fullpage_dlg_advanced_tab"
+msgstr "Avansat"
+
+msgid "tinymce_fullpage_dlg_meta_props"
+msgstr "Meta informaţii"
+
+msgid "tinymce_fullpage_dlg_langprops"
+msgstr "Limbă şi codare"
+
+msgid "tinymce_fullpage_dlg_meta_title"
+msgstr "Titlu"
+
+msgid "tinymce_fullpage_dlg_meta_keywords"
+msgstr "Cuvinte cheie"
+
+msgid "tinymce_fullpage_dlg_meta_description"
+msgstr "Descriere"
+
+msgid "tinymce_fullpage_dlg_meta_robots"
+msgstr "Roboţi"
+
+msgid "tinymce_fullpage_dlg_doctypes"
+msgstr "Doctype"
+
+msgid "tinymce_fullpage_dlg_langcode"
+msgstr "Cod limbă"
+
+msgid "tinymce_fullpage_dlg_langdir"
+msgstr "Direcţie limbă"
+
+msgid "tinymce_fullpage_dlg_ltr"
+msgstr "De la stânga la dreapta"
+
+msgid "tinymce_fullpage_dlg_rtl"
+msgstr "De la dreapta la stânga"
+
+msgid "tinymce_fullpage_dlg_xml_pi"
+msgstr "Declaraţie XML"
+
+msgid "tinymce_fullpage_dlg_encoding"
+msgstr "Cod caractere"
+
+msgid "tinymce_fullpage_dlg_appearance_bgprops"
+msgstr "Proprietăţi fundal"
+
+msgid "tinymce_fullpage_dlg_appearance_marginprops"
+msgstr "Margini corp"
+
+msgid "tinymce_fullpage_dlg_appearance_linkprops"
+msgstr "Culoare link-uri"
+
+msgid "tinymce_fullpage_dlg_appearance_textprops"
+msgstr "Proprietăţi text"
+
+msgid "tinymce_fullpage_dlg_bgcolor"
+msgstr "Culoare de fundal"
+
+msgid "tinymce_fullpage_dlg_bgimage"
+msgstr "Imagine de fundal"
+
+msgid "tinymce_fullpage_dlg_left_margin"
+msgstr "Margine stânga"
+
+msgid "tinymce_fullpage_dlg_right_margin"
+msgstr "Margine dreapta"
+
+msgid "tinymce_fullpage_dlg_top_margin"
+msgstr "Margine sus"
+
+msgid "tinymce_fullpage_dlg_bottom_margin"
+msgstr "Margine jos"
+
+msgid "tinymce_fullpage_dlg_text_color"
+msgstr "Culoare text"
+
+msgid "tinymce_fullpage_dlg_font_size"
+msgstr "Dimensiune font"
+
+msgid "tinymce_fullpage_dlg_font_face"
+msgstr "Tip font"
+
+msgid "tinymce_fullpage_dlg_link_color"
+msgstr "Culoare link"
+
+msgid "tinymce_fullpage_dlg_hover_color"
+msgstr "Culoare link \"peste\" "
+
+msgid "tinymce_fullpage_dlg_visited_color"
+msgstr "Link vizitat"
+
+msgid "tinymce_fullpage_dlg_active_color"
+msgstr "Link activ"
+
+msgid "tinymce_fullpage_dlg_textcolor"
+msgstr "Culoare"
+
+msgid "tinymce_fullpage_dlg_fontsize"
+msgstr "Dimensiune font"
+
+msgid "tinymce_fullpage_dlg_fontface"
+msgstr "Tip font"
+
+msgid "tinymce_fullpage_dlg_meta_index_follow"
+msgstr "Indexează şi urmăreste aceste link-uri"
+
+msgid "tinymce_fullpage_dlg_meta_index_nofollow"
+msgstr "Indexează şi nu urmări aceste link-uri"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_follow"
+msgstr "Nu indexa, dar urmăreste aceste link-uri"
+
+msgid "tinymce_fullpage_dlg_meta_noindex_nofollow"
+msgstr "Nu indexa şi nu urmări aceste link-uri"
+
+msgid "tinymce_fullpage_dlg_appearance_style"
+msgstr "Stil"
+
+msgid "tinymce_fullpage_dlg_stylesheet"
+msgstr "Foaie de stil"
+
+msgid "tinymce_fullpage_dlg_style"
+msgstr "Stil"
+
+msgid "tinymce_fullpage_dlg_author"
+msgstr "Autor"
+
+msgid "tinymce_fullpage_dlg_copyright"
+msgstr "Copyright"
+
+msgid "tinymce_fullpage_dlg_add"
+msgstr "Adaugă un element"
+
+msgid "tinymce_fullpage_dlg_remove"
+msgstr "Şterge element selectat"
+
+msgid "tinymce_fullpage_dlg_moveup"
+msgstr "Mută elementul selectat în sus"
+
+msgid "tinymce_fullpage_dlg_movedown"
+msgstr "Mută elementul selectat în jos"
+
+msgid "tinymce_fullpage_dlg_head_elements"
+msgstr "Elemente de antet"
+
+msgid "tinymce_fullpage_dlg_info"
+msgstr "Informaţii"
+
+msgid "tinymce_fullpage_dlg_add_title"
+msgstr "Titlu"
+
+msgid "tinymce_fullpage_dlg_add_meta"
+msgstr "Meta"
+
+msgid "tinymce_fullpage_dlg_add_script"
+msgstr "Script"
+
+msgid "tinymce_fullpage_dlg_add_style"
+msgstr "Stil"
+
+msgid "tinymce_fullpage_dlg_add_link"
+msgstr "Link"
+
+msgid "tinymce_fullpage_dlg_add_base"
+msgstr "Base"
+
+msgid "tinymce_fullpage_dlg_add_comment"
+msgstr "Comentariu"
+
+msgid "tinymce_fullpage_dlg_title_element"
+msgstr "Title"
+
+msgid "tinymce_fullpage_dlg_script_element"
+msgstr "Script"
+
+msgid "tinymce_fullpage_dlg_style_element"
+msgstr "Stil"
+
+msgid "tinymce_fullpage_dlg_base_element"
+msgstr "Base"
+
+msgid "tinymce_fullpage_dlg_link_element"
+msgstr "Link"
+
+msgid "tinymce_fullpage_dlg_meta_element"
+msgstr "Meta"
+
+msgid "tinymce_fullpage_dlg_comment_element"
+msgstr "Comentariu"
+
+msgid "tinymce_fullpage_dlg_src"
+msgstr "Src"
+
+msgid "tinymce_fullpage_dlg_language"
+msgstr "Limbă"
+
+msgid "tinymce_fullpage_dlg_href"
+msgstr "Href"
+
+msgid "tinymce_fullpage_dlg_target"
+msgstr "Ţintă"
+
+msgid "tinymce_fullpage_dlg_type"
+msgstr "Tip"
+
+msgid "tinymce_fullpage_dlg_charset"
+msgstr "Set de caractere"
+
+msgid "tinymce_fullpage_dlg_defer"
+msgstr "Defer"
+
+msgid "tinymce_fullpage_dlg_media"
+msgstr "Media"
+
+msgid "tinymce_fullpage_dlg_properties"
+msgstr "Proprietăţi"
+
+msgid "tinymce_fullpage_dlg_name"
+msgstr "Nume"
+
+msgid "tinymce_fullpage_dlg_value"
+msgstr "Valoare"
+
+msgid "tinymce_fullpage_dlg_content"
+msgstr "Conţinut"
+
+msgid "tinymce_fullpage_dlg_rel"
+msgstr "Rel"
+
+msgid "tinymce_fullpage_dlg_rev"
+msgstr "Rev"
+
+msgid "tinymce_fullpage_dlg_hreflang"
+msgstr "Href lang"
+
+msgid "tinymce_fullpage_dlg_general_props"
+msgstr "General"
+
+msgid "tinymce_fullpage_dlg_advanced_props"
+msgstr "Avansat"
+
+msgid "tinymce_template_desc"
+msgstr "Inserează un şablon predefinit"
+
+msgid "tinymce_template_dlg_title"
+msgstr "Şabloane"
+
+msgid "tinymce_template_dlg_label"
+msgstr "Şablon"
+
+msgid "tinymce_template_dlg_desc_label"
+msgstr "Descriere"
+
+msgid "tinymce_template_dlg_desc"
+msgstr "Inserează şablon"
+
+msgid "tinymce_template_dlg_select"
+msgstr "Selectează şablon"
+
+msgid "tinymce_template_dlg_preview"
+msgstr "Previzualizare"
+
+msgid "tinymce_template_dlg_warning"
+msgstr "Atenţie: Schimbarea şablonului poate provoca pierderi de date"
+
+msgid "tinymce_template_dlg_mdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_cdate_format"
+msgstr "%Y-%m-%d %H:%M:%S"
+
+msgid "tinymce_template_dlg_months_long"
+msgstr "Ianuarie,Februarie,Martie,Aprilie,Mai,Iunie,Iulie,August,Septembrie,Octombrie,Noiembrie,Decembrie "
+
+msgid "tinymce_template_dlg_months_short"
+msgstr "Ian,Feb,Mar,Apr,Mai,Iun,Iul,Aug,Sep,Oct,Noi,Dec"
+
+msgid "tinymce_template_dlg_day_long"
+msgstr "Duminică,Luni,Marţi,Miercuri,Joi,Vineri,Sâmbătă,Duminică"
+
+msgid "tinymce_template_dlg_day_short"
+msgstr "Dum,Lun,Mar,Mie,Joi,Vin,Sâm,Dum"
+
+msgid "tinymce_visualchars_desc"
+msgstr "Visual control characters on/off."
+
+msgid "tinymce_spellchecker_desc"
+msgstr "Activare/dezactivare dicţionar"
+
+msgid "tinymce_spellchecker_menu"
+msgstr "Setări dicţionar"
+
+msgid "tinymce_spellchecker_ignore_word"
+msgstr "Ignoră cuvânt"
+
+msgid "tinymce_spellchecker_ignore_words"
+msgstr "Ignoră toate"
+
+msgid "tinymce_spellchecker_langs"
+msgstr "Limbi"
+
+msgid "tinymce_spellchecker_wait"
+msgstr "Vă rog aşteptaţi..."
+
+msgid "tinymce_spellchecker_sug"
+msgstr "Sugestii"
+
+msgid "tinymce_spellchecker_no_sug"
+msgstr "Nu sunt sugestii."
+
+msgid "tinymce_spellchecker_no_mpell"
+msgstr "Nu sunt greşeli."
+
+msgid "tinymce_pagebreak_desc"
+msgstr "Inserează page break."
+
