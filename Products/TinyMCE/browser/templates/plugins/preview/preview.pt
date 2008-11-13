@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
+<html i18n:domain="tinymce" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
 <script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
 <script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/preview/embed.js"></script>
@@ -11,7 +11,7 @@ tinyMCEPopup.onInit.add(function(ed) {
 
 document.write('<base href="' + tinyMCEPopup.getWindowArg("base") + '">');
 </script>
-<title>{#preview.preview_desc}</title>
+<title i18n:translate="tinymce_preview_preview_desc">Preview</title>
 </head>
 <body id="content">
 <!-- Gets filled with editor contents -->

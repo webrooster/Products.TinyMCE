@@ -1,6 +1,6 @@
-<html xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
+<html i18n:domain="tinymce" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
-	<title>{#template_dlg.title}</title>
+	<title i18n:translate="tinymce_template_dlg_title">Templates</title>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/template/template.js"></script>
 	<link href="" tal:attributes="href string:$portal_url/++resource++tinymce.stylesheets/plugins/template/template.css" rel="stylesheet" type="text/css" />
@@ -9,27 +9,27 @@
 <body onresize="TemplateDialog.resize();"> 
 	<form onsubmit="TemplateDialog.insert();return false;">
 		<div id="frmbody">
-			<div class="title">{#template_dlg.desc}</div>
-			<div class="frmRow"><label for="tpath" title="{#template_dlg.select}">{#template_dlg.label}:</label>
+			<div class="title" i18n:translate="tinymce_template_dlg_desc">Insert predefined template content</div>
+			<div class="frmRow"><label for="tpath" title="Select a template" i18n:attributes="title tinymce_template_dlg_select" i18n:translate="tinymce_template_dlg_label">Template</label>
 			<select id="tpath" name="tpath" onchange="TemplateDialog.selectTemplate(this.options[this.selectedIndex].value, this.options[this.selectedIndex].text);" class="mceFocus">
-				<option value="">{#template_dlg.select}...</option>
+				<option value="" i18n:translate="tinymce_template_dlg_select">Select a template</option>
 			</select>
 			<span id="warning"></span></div>
-			<div class="frmRow"><label for="tdesc">{#template_dlg.desc_label}:</label>
+			<div class="frmRow"><label for="tdesc" i18n:translate="tinymce_template_dlg_desc_label">Description</label>
 			<span id="tmpldesc"></span></div>
 			<fieldset>
-				<legend>{#template_dlg.preview}</legend>
+				<legend i18n:translate="tinymce_template_dlg_preview">Preview</legend>
 				<iframe id="templatesrc" name="templatesrc" src="blank.htm" width="690" height="400" frameborder="0"></iframe>
 			</fieldset>
 		</div>
 		
 		<div class="mceActionPanel">
 			<div style="float: left">
-				<input type="submit" id="insert" name="insert" value="{#insert}" />
+				<input type="submit" id="insert" name="insert" value="Insert" i18n:attributes="value tinymce_common_insert" />
 			</div>
 
 			<div style="float: right">
-				<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+				<input type="button" id="cancel" name="cancel" value="Cancel" i18n:attributes="value tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
 			</div>
 
 			<br style="clear:both" />

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html id="region-content" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
+<html i18n:domain="tinymce" id="region-content" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
-	<title>{#paste.paste_text_desc}</title>
+	<title i18n:translate="tinymce_paste_paste_text_desc">Paste as Plain Text</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/paste/pastetext.js"></script>
@@ -11,10 +11,10 @@
 	<div class="dialog-wrapper">
 		<form name="source" onsubmit="saveContent();return false;" action="#">
 			<fieldset>
-				<legend>{#paste.paste_text_desc}</legend>
+				<legend i18n:translate="tinymce_paste_paste_text_desc">Paste as Plain Text</legend>
 				<div class="field">
-					<label for="htmlSource">{#paste.paste_text_desc}</label>
-					<div class="formHelp">{#paste_dlg.text_title}</div>
+					<label for="htmlSource" i18n:translate="tinymce_paste_paste_text_desc">Paste as Plain Text</label>
+					<div class="formHelp" i18n:translate="tinymce_paste_dlg_text_title">Use CTRL+V on your keyboard to paste the text into the window.</div>
 					<div class="widget">
 						<textarea name="htmlSource" id="htmlSource" rows="15" cols="100" style="width: 398px; height: 230px;" wrap="soft" class="mceFocus"></textarea>
 					</div>
@@ -23,7 +23,7 @@
 				<div class="field">
 					<div class="widget">
 						<input name="linebreaks" id="linebreaks" checked="checked" type="checkbox">
-						<label for="noshade">{#paste_dlg.text_linebreaks}</label>
+						<label for="noshade" i18n:translate="tinymce_paste_dlg_text_linebreaks">Keep linebreaks</label>
 					</div>
 				</div>
 			</fieldset>
@@ -32,8 +32,8 @@
 
 			<div class="mceActionPanel formControls">
 				<span class="actionButtons">
-					<input type="submit" id="insert" class="context" name="insert" value="{#insert}" />
-					<input type="button" id="cancel" class="context" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+					<input type="submit" id="insert" class="context" name="insert" value="Insert" i18n:attributes="value tinymce_common_insert" />
+					<input type="button" id="cancel" class="context" name="cancel" value="Cancel" i18n:attributes="value tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
 				</span>
 			</div>
 		</form>

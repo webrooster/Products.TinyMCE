@@ -43,7 +43,6 @@
 		<browser:page name="tinymce.plugins.advimage.image" template="templates/plugins/advimage/image.pt"/>
 		<browser:page name="tinymce.plugins.advlink.link" template="templates/plugins/advlink/link.pt"/>
 		<browser:page name="tinymce.plugins.emotions.emotions" template="templates/plugins/emotions/emotions.pt"/>
-		<browser:page name="tinymce.plugins.example.dialog" template="templates/plugins/example/dialog.pt"/>
 		<browser:page name="tinymce.plugins.fullscreen.fullscreen" template="templates/plugins/fullscreen/fullscreen.pt"/>
 		<browser:page name="tinymce.plugins.inlinepopups.template" template="templates/plugins/inlinepopups/template.pt"/>
 		<browser:page name="tinymce.plugins.media.media" template="templates/plugins/media/media.pt"/>

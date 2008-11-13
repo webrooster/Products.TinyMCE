@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
+<html i18n:domain="tinymce" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
-	<title>{#xhtmlxtras_dlg.title_attributes_element}</title>
+	<title i18n:translate="tinymce_xhtmlxtras_dlg_attribs_title">Insert/Edit Attributes</title>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/mctabs.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/form_utils.js"></script>
@@ -14,59 +14,59 @@
 <form onsubmit="insertAction();return false;" action="#">
 	<div class="tabs">
 		<ul>
-			<li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;">{#xhtmlxtras_dlg.attribute_attrib_tab}</a></span></li>
-			<li id="events_tab"><span><a href="javascript:mcTabs.displayTab('events_tab','events_panel');" onmousedown="return false;">{#xhtmlxtras_dlg.attribute_events_tab}</a></span></li>
+			<li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;" i18n:translate="tinymce_xhtmlxtras_dlg_attribute_attrib_tab">Attributes</a></span></li>
+			<li id="events_tab"><span><a href="javascript:mcTabs.displayTab('events_tab','events_panel');" onmousedown="return false;" i18n:translate="tinymce_xhtmlxtras_dlg_attribute_events_tab">Events</a></span></li>
 		</ul>
 	</div>
 
 	<div class="panel_wrapper">
 		<div id="general_panel" class="panel current">
 			<fieldset>
-				<legend>{#xhtmlxtras_dlg.attribute_attrib_tab}</legend>
+				<legend i18n:translate="tinymce_xhtmlxtras_dlg_attribute_attrib_tab">Attributes</legend>
 				<table border="0" cellpadding="0" cellspacing="4">
 					<tr>
-						<td class="label"><label id="titlelabel" for="title">{#xhtmlxtras_dlg.attribute_label_title}</label>:</td> 
+						<td class="label"><label id="titlelabel" for="title" i18n:translate="tinymce_xhtmlxtras_dlg_attribute_label_title">Title</label>:</td> 
 						<td><input id="title" name="title" type="text" value="" class="mceFocus" /></td> 
 					</tr>
 					<tr>
-						<td class="label"><label id="idlabel" for="id">{#xhtmlxtras_dlg.attribute_label_id}</label>:</td> 
+						<td class="label"><label id="idlabel" for="id" i18n:translate="tinymce_xhtmlxtras_dlg_attribute_label_id">ID</label>:</td> 
 						<td><input id="id" name="id" type="text" value="" /></td> 
 					</tr>
 					<tr>
-						<td><label id="classlabel" for="classlist">{#class_name}</label></td>
+						<td><label id="classlabel" for="classlist" i18n:translate="tinymce_common_class_name">Class</label></td>
 						<td>
 							<select id="classlist" name="classlist" class="mceEditableSelect">
-								<option value="" selected>{#not_set}</option>
+								<option value="" selected i18n:translate="tinymce_common_not_set"">-- Not set --</option>
 							</select>
 						</td>
 					</tr>
 					<tr>
-						<td class="label"><label id="stylelabel" for="class">{#xhtmlxtras_dlg.attribute_label_style}</label>:</td> 
+						<td class="label"><label id="stylelabel" for="class" i18n:translate="tinymce_xhtmlxtras_dlg_attribute_label_style">Style</label>:</td> 
 						<td><input id="style" name="style" type="text" value="" /></td> 
 					</tr>
 					<tr>
-						<td class="label"><label id="dirlabel" for="dir">{#xhtmlxtras_dlg.attribute_label_langdir}</label>:</td> 
+						<td class="label"><label id="dirlabel" for="dir" i18n:translate="tinymce_xhtmlxtras_dlg_attribute_label_langdir">Text Direction</label>:</td> 
 						<td>
 							<select id="dir" name="dir"> 
-								<option value="">{#not_set}</option> 
-								<option value="ltr">{#xhtmlxtras_dlg.option_ltr}</option> 
-								<option value="rtl">{#xhtmlxtras_dlg.option_rtl}</option> 
+								<option value="" i18n:translate="tinymce_common_not_set">-- Not set --</option> 
+								<option value="ltr" i18n:translate="tinymce_xhtmlxtras_dlg_option_ltr">Left to right</option> 
+								<option value="rtl" i18n:translate="tinymce_xhtmlxtras_dlg_option_rtl">Right to left</option> 
 							</select>
 						</td> 
 					</tr>
 					<tr>
-						<td class="label"><label id="langlabel" for="lang">{#xhtmlxtras_dlg.attribute_label_langcode}</label>:</td> 
+						<td class="label"><label id="langlabel" for="lang" i18n:translate="tinymce_xhtmlxtras_dlg_attribute_label_langcode">Language</label>:</td> 
 						<td>
 							<input id="lang" name="lang" type="text" value="" />
 						</td> 
 					</tr>
 					<tr>
-							<td><label id="tabindexlabel" for="tabindex">{#xhtmlxtras_dlg.attribute_label_tabindex}</label></td>
+							<td><label id="tabindexlabel" for="tabindex" i18n:translate="tinymce_xhtmlxtras_dlg_attribute_label_tabindex">Tabindex</label></td>
 							<td><input type="text" id="tabindex" name="tabindex" value="" /></td>
 						</tr>
 
 						<tr>
-							<td><label id="accesskeylabel" for="accesskey">{#xhtmlxtras_dlg.attribute_label_accesskey}</label></td>
+							<td><label id="accesskeylabel" for="accesskey" i18n:translate="tinymce_xhtmlxtras_dlg_attribute_label_accesskey">Accesskey</label></td>
 							<td><input type="text" id="accesskey" name="accesskey" value="" /></td>
 						</tr>
 				</table>
@@ -74,7 +74,7 @@
 		</div>
 		<div id="events_panel" class="panel">
 			<fieldset>
-				<legend>{#xhtmlxtras_dlg.attribute_events_tab}</legend>
+				<legend i18n:translate="tinymce_xhtmlxtras_dlg_attribute_events_tab">Events</legend>
 
 				<table border="0" cellpadding="0" cellspacing="4">
 					<tr>
@@ -142,10 +142,10 @@
 	</div>
 	<div class="mceActionPanel">
 		<div style="float: left">
-			<input type="submit" id="insert" name="insert" value="{#insert}" />
+			<input type="submit" id="insert" name="insert" value="Insert" i18n:attributes="value tinymce_common_insert" />
 		</div>
 		<div style="float: right">
-			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+			<input type="button" id="cancel" name="cancel" value="Cancel" i18n:attributes="value tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
 		</div>
 	</div>
 

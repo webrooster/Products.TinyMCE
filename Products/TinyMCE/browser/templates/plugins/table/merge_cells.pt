@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html id="region-content" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
+<html i18n:domain="tinymce" id="region-content" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
-	<title>{#table_dlg.merge_cells_title}</title>
+	<title i18n:translate="tinymce_table_dlg_merge_cells_title">Merge table cells</title>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/validate.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/plugins/table/merge_cells.js"></script>
@@ -11,16 +11,16 @@
 	<div class="dialog-wrapper">
 		<form onsubmit="mergeCells();return false;" action="#">
 			<fieldset>
-				<legend>{#table_dlg.merge_cells_title}</legend>
+				<legend i18n:translate="tinymce_table_dlg_merge_cells_title">Merge table cells</legend>
 				<div class="field">
-					<label for="numcols">{#table_dlg.cols}</label>
+					<label for="numcols" i18n:translate="tinymce_table_dlg_cols">Cols</label>
 					<div class="widget">
 						<input type="text" id="numcols" name="numcols" value="" class="number min1 mceFocus" size="3" maxlength="3" />
 					</div>
 				</div>
 				
 				<div class="field">
-					<label for="numrows">{#table_dlg.rows}</label>
+					<label for="numrows" i18n:translate="tinymce_table_dlg_rows">Rows</label>
 					<div class="widget">
 						<input type="text" id="numrows" name="numrows" value="" class="number min1" size="3" maxlength="3" />
 					</div>
@@ -31,8 +31,8 @@
 		
 			<div class="mceActionPanel formControls">
 				<span class="actionButtons">
-					<input type="submit" id="insert" class="context" name="insert" value="{#update}" />
-					<input type="button" id="cancel" class="context" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+					<input type="submit" id="insert" class="context" name="insert" value="Update" i18n:attributes="value tinymce_common_update" />
+					<input type="button" id="cancel" class="context" name="cancel" value="Cancel" i18n:attributes="value tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
 				</span>
 			</div>
 		</form>

@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html id="region-conent" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
+<html i18n:domain="tinymce" id="region-conent" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
-	<title>{#advimage_dlg.dialog_title}</title>
+	<title i18n:translate="tinymce_advimage_dlg_dialog_title">Insert/edit image</title>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/mctabs.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/form_utils.js"></script>
@@ -11,7 +11,7 @@
 <body id="advimage" style="display: none">
 	<div class="dialog-wrapper">
 		<fieldset id="general_panel">
-			<legend>{#advimage_dlg.dialog_title}</legend>
+			<legend i18n:translate="tinymce_advimage_dlg_dialog_title">Insert/edit image</legend>
 			<form>
 
 				<fieldset class="column" style="width: 120px;">
@@ -36,10 +36,10 @@
 				</fieldset>
 
 				<fieldset id="internal_panel" class="subPanel column" style="width: 296px;">
-					<legend>{#advimage_dlg.image_list}</legend>
+					<legend i18n:translate="tinymce_advimage_dlg_image_list">Image list</legend>
 					<div class="field">
 						<div id="internalpath" class="formHelp" style="text-align: right;"></div>
-						<label for="internallink">{#advimage_dlg.image_list}</label>
+						<label for="internallink" i18n:translate="tinymce_advimage_dlg_image_list">Image list</label>
 						<a id="uponelevel" class="link-parent" style="line-height: 1em;" href="javascript:void(0)"> Up one level </a>
 						<div id="internallinkcontainer" class="widget radioscrolllist input-border" style="height: 260px;">
 						</div>
@@ -49,7 +49,7 @@
 				<fieldset id="internal_details_panel" class="subPanel column" style="width: 190px;">
 					<legend>Details</legend>
 					<div class="field">
-						<label>{#advimage_dlg.preview}</label>
+						<label i18n:translate="tinymce_advimage_dlg_preview">Preview</label>
 						<div class="widget">
 							<div id="previewimagecontainer">
 							</div>
@@ -57,19 +57,19 @@
 					</div>
 
 					<div class="field">
-						<label id="altlabel" for="alt">{#advimage_dlg.alt}</label>
+						<label id="altlabel" for="alt" i18n:translate="tinymce_advimage_dlg_alt">Image description</label>
 						<div class="widget">
 							<input id="alt" name="alt" type="text" value="" size="20" />
 						</div>
 					</div>
 								
 					<div class="field">
-						<label id="alignlabel" for="align">{#advimage_dlg.align}</label>
+						<label id="alignlabel" for="align" i18n:translate="tinymce_advimage_dlg_align">Alignment</label>
 						<div class="widget">
 							<select id="classes" name="classes"> 
 								<option value="image-inline">Inline</option>
-								<option value="image-left">{#advimage_dlg.align_left}</option>
-								<option value="image-right">{#advimage_dlg.align_right}</option>
+								<option value="image-left" i18n:translate="tinymce_advimage_dlg_align_left">Left</option>
+								<option value="image-right" i18n:translate="tinymce_advimage_dlg_align_right">Right</option>
 							</select>
 						</div>
 					</div>
@@ -81,7 +81,7 @@
 					</div>
 
 					<div class="field">
-						<label id="dimensionslabel" for="dimensions">{#advimage_dlg.dimensions}</label>
+						<label id="dimensionslabel" for="dimensions" i18n:translate="tinymce_advimage_dlg_dimensions">Dimensions</label>
 						<div class="widget">
 							<select id="dimensions" name="dimensions"> 
 								<option value="">Original</option> 
@@ -109,14 +109,14 @@
 					</div>
 
 					<div class="field">
-						<label for="uploadtitle">{#advimage_dlg.title}</label>
+						<label for="uploadtitle" i18n:translate="tinymce_advimage_dlg_title">Title</label>
 						<div class="widget">
 							<input type="text" name="uploadtitle" id="uploadtitle" value="" size="25" />
 						</div>
 					</div>
 
 					<div class="field">
-						<label for="uploaddescription">Description</label>
+						<label for="uploaddescription" i18n:translate="tinymce_advimage_dlg_alt">Image description</label>
 						<div class="widget">
 							<textarea wrap="soft" cols="10" rows="6" id="uploaddescription" name="uploaddescription"></textarea>
 						</div>
@@ -133,8 +133,8 @@
 	    <form onsubmit="ImageDialog.insert();return false;" action="#"> 
 			<div class="mceActionPanel formControls">
 				<span class="actionButtons">
-					<input type="submit" id="insert" class="context" name="insert" value="{#insert}" />
-					<input type="button" id="cancel" class="context" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+					<input type="submit" id="insert" class="context" name="insert" value="Insert" i18n:attributes="value tinymce_common_insert" />
+					<input type="button" id="cancel" class="context" name="cancel" value="Cancel" i18n:attributes="value tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
 					<input type="button" id="upload" class="standalone" name="upload" value="Upload file" onclick="ImageDialog.displayPanel('upload_panel');" />
 				</span>
 			</div>

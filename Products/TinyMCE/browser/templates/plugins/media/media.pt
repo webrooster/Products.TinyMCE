@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
+<html i18n:domain="tinymce" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
-	<title>{#media_dlg.title}</title>
+	<title i18n:translate="tinymce_media_dlg_title">Insert / edit embedded media</title>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/mctabs.js"></script>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/utils/form_utils.js"></script>
@@ -13,17 +13,17 @@
 <body style="display: none">
     <form onsubmit="insertMedia();return false;" action="#">
 		<div class="tabs">
-			<ul><li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');generatePreview();" onmousedown="return false;">{#media_dlg.general}</a></span></li><li id="advanced_tab"><span><a href="javascript:mcTabs.displayTab('advanced_tab','advanced_panel');" onmousedown="return false;">{#media_dlg.advanced}</a></span></li></ul>
+			<ul><li id="general_tab" class="current"><span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');generatePreview();" onmousedown="return false;" i18n:translate="tinymce_media_dlg_general">General</a></span></li><li id="advanced_tab"><span><a href="javascript:mcTabs.displayTab('advanced_tab','advanced_panel');" onmousedown="return false;" i18n:translate="tinymce_media_dlg_advanced">Advanced</a></span></li></ul>
 		</div>
 
 		<div class="panel_wrapper">
 			<div id="general_panel" class="panel current">
 				<fieldset>
-					<legend>{#media_dlg.general}</legend>
+					<legend i18n:translate="tinymce_media_dlg_general">General</legend>
 
 					<table border="0" cellpadding="4" cellspacing="0">
 							<tr>
-								<td><label for="media_type">{#media_dlg.type}</label></td>
+								<td><label for="media_type" i18n:translate="tinymce_media_dlg_type">Type</label></td>
 								<td>
 									<select id="media_type" name="media_type" onchange="changedType(this.value);generatePreview();">
 										<option value="flash">Flash</option>
@@ -36,7 +36,7 @@
 								</td>
 							</tr>
 							<tr>
-							<td><label for="src">{#media_dlg.file}</label></td>
+							<td><label for="src" i18n:translate="tinymce_media_dlg_file">File/URL</label></td>
 							  <td>
 									<table border="0" cellspacing="0" cellpadding="0">
 									  <tr>
@@ -47,17 +47,17 @@
 								</td>
 							</tr>
 							<tr id="linklistrow">
-								<td><label for="linklist">{#media_dlg.list}</label></td>
+								<td><label for="linklist" i18n:translate="tinymce_media_dlg_list">List</label></td>
 								<td id="linklistcontainer">&nbsp;</td>
 							</tr>
 							<tr>
-								<td><label for="width">{#media_dlg.size}</label></td>
+								<td><label for="width" i18n:translate="tinymce_media_dlg_size">Dimensions</label></td>
 								<td>
 									<table border="0" cellpadding="0" cellspacing="0">
 										<tr>
 											<td><input type="text" id="width" name="width" value="" class="size" onchange="generatePreview('width');" /> x <input type="text" id="height" name="height" value="" class="size"  onchange="generatePreview('height');" /></td>
 											<td>&nbsp;&nbsp;<input id="constrain" type="checkbox" name="constrain" class="checkbox" /></td>
-											<td><label id="constrainlabel" for="constrain">{#media_dlg.constrain_proportions}</label></td>
+											<td><label id="constrainlabel" for="constrain" i18n:translate="tinymce_media_dlg_constrain_proportions">Constrain proportions</label></td>
 										</tr>
 									</table>
 								</td>
@@ -66,36 +66,36 @@
 				</fieldset>
 
 				<fieldset>
-					<legend>{#media_dlg.preview}</legend>
+					<legend i18n:translate="tinymce_media_dlg_preview">Preview</legend>
 					<div id="prev"></div>
 				</fieldset>
 			</div>
 
 			<div id="advanced_panel" class="panel">
 				<fieldset>
-					<legend>{#media_dlg.advanced}</legend>
+					<legend i18n:translate="tinymce_media_dlg_advanced">Advanced</legend>
 
 					<table border="0" cellpadding="4" cellspacing="0" width="100%">
 						<tr>
-							<td><label for="id">{#media_dlg.id}</label></td>
+							<td><label for="id" i18n:translate="tinymce_media_dlg_id">Id</label></td>
 							<td><input type="text" id="id" name="id" onchange="generatePreview();" /></td>
-							<td><label for="name">{#media_dlg.name}</label></td>
+							<td><label for="name" i18n:translate="tinymce_media_dlg_name">Name</label></td>
 							<td><input type="text" id="name" name="name" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="align">{#media_dlg.align}</label></td>
+							<td><label for="align" i18n:translate="tinymce_media_dlg_align">Align</label></td>
 							<td>
 								<select id="align" name="align" onchange="generatePreview();">
-									<option value="">{#not_set}</option> 
-									<option value="top">{#media_dlg.align_top}</option>
-									<option value="right">{#media_dlg.align_right}</option>
-									<option value="bottom">{#media_dlg.align_bottom}</option>
-									<option value="left">{#media_dlg.align_left}</option>
+									<option value="" i18n:translate="tinymce_common_not_set">-- Not set --</option> 
+									<option value="top" i18n:translate="tinymce_media_dlg_align_top">Top</option>
+									<option value="right" i18n:translate="tinymce_media_dlg_align_right">Right</option>
+									<option value="bottom" i18n:translate="tinymce_media_dlg_align_bottom">Bottom</option>
+									<option value="left" i18n:translate="tinymce_media_dlg_align_left">Left</option>
 								</select>
 							</td>
 
-							<td><label for="bgcolor">{#media_dlg.bgcolor}</label></td>
+							<td><label for="bgcolor" i18n:translate="tinymce_media_dlg_bgcolor">Background</label></td>
 							<td>
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
@@ -107,23 +107,23 @@
 						</tr>
 
 						<tr>
-							<td><label for="vspace">{#media_dlg.vspace}</label></td>
+							<td><label for="vspace" i18n:translate="tinymce_media_dlg_vspace">Vertical space</label></td>
 							<td><input type="text" id="vspace" name="vspace" class="number" onchange="generatePreview();" /></td>
-							<td><label for="hspace">{#media_dlg.hspace}</label></td>
+							<td><label for="hspace" i18n:translate="tinymce_media_dlg_hspace">Horizontal space</label></td>
 							<td><input type="text" id="hspace" name="hspace" class="number" onchange="generatePreview();" /></td>
 						</tr>
 					</table>
 				</fieldset>
 
 				<fieldset id="flash_options">
-					<legend>{#media_dlg.flash_options}</legend>
+					<legend i18n:translate="tinymce_media_dlg_flash_options">Flash options</legend>
 
 					<table border="0" cellpadding="4" cellspacing="0">
 						<tr>
-							<td><label for="flash_quality">{#media_dlg.quality}</label></td>
+							<td><label for="flash_quality" i18n:translate="tinymce_media_dlg_quality">Quality</label></td>
 							<td>
 								<select id="flash_quality" name="flash_quality" onchange="generatePreview();">
-									<option value="">{#not_set}</option> 
+									<option value="" i18n:translate="tinymce_common_not_set">-- Not set --</option> 
 									<option value="high">high</option>
 									<option value="low">low</option>
 									<option value="autolow">autolow</option>
@@ -132,10 +132,10 @@
 								</select>
 							</td>
 
-							<td><label for="flash_scale">{#media_dlg.scale}</label></td>
+							<td><label for="flash_scale" i18n:translate="tinymce_media_dlg_scale">Scale</label></td>
 							<td>
 								<select id="flash_scale" name="flash_scale" onchange="generatePreview();">
-									<option value="">{#not_set}</option> 
+									<option value="" i18n:translate="tinymce_common_non_set">-- Not set --</option> 
 									<option value="showall">showall</option>
 									<option value="noborder">noborder</option>
 									<option value="exactfit">exactfit</option>
@@ -145,28 +145,28 @@
 						</tr>
 
 						<tr>
-							<td><label for="flash_wmode">{#media_dlg.wmode}</label></td>
+							<td><label for="flash_wmode" i18n:translate="tinymce_media_dlg_wmode">WMode</label></td>
 							<td>
 								<select id="flash_wmode" name="flash_wmode" onchange="generatePreview();">
-									<option value="">{#not_set}</option> 
+									<option value="" i18n:translate="tinymce_common_not_set">-- Not set --</option> 
 									<option value="window">window</option>
 									<option value="opaque">opaque</option>
 									<option value="transparent">transparent</option>
 								</select>
 							</td>
 
-							<td><label for="flash_salign">{#media_dlg.salign}</label></td>
+							<td><label for="flash_salign" i18n:translate="tinymce_media_dlg_salign">SAlign</label></td>
 							<td>
 								<select id="flash_salign" name="flash_salign" onchange="generatePreview();">
-									<option value="">{#not_set}</option> 
-									<option value="l">{#media_dlg.align_left}</option>
-									<option value="t">{#media_dlg.align_top}</option>
-									<option value="r">{#media_dlg.align_right}</option>
-									<option value="b">{#media_dlg.align_bottom}</option>
-									<option value="tl">{#media_dlg.align_top_left}</option>
-									<option value="tr">{#media_dlg.align_top_right}</option>
-									<option value="bl">{#media_dlg.align_bottom_left}</option>
-									<option value="br">{#media_dlg.align_bottom_right}</option>
+									<option value="" i18n:translate="tinymce_common_not_set">-- Not set --</option> 
+									<option value="l" i18n:translate="tinymce_media_dlg_align_left">Left</option>
+									<option value="t" i18n:translate="tinymce_media_dlg_align_top">Top</option>
+									<option value="r" i18n:translate="tinymce_media_dlg_align_right">Right</option>
+									<option value="b" i18n:translate="tinymce_media_dlg_align_bottom">Bottom</option>
+									<option value="tl" i18n:translate="tinymce_media_dlg_align_top_left">Top left</option>
+									<option value="tr" i18n:translate="tinymce_media_dlg_align_top_right">Top right</option>
+									<option value="bl" i18n:translate="tinymce_media_dlg_align_bottom_left">Bottom left</option>
+									<option value="br" i18n:translate="tinymce_media_dlg_align_bottom_right">Bottom right</option>
 								</select>
 							</td>
 						</tr>
@@ -176,7 +176,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flash_play" name="flash_play" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="flash_play">{#media_dlg.play}</label></td>
+										<td><label for="flash_play" i18n:translate="tinymce_media_dlg_play">Auto play</label></td>
 									</tr>
 								</table>
 							</td>
@@ -185,7 +185,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flash_loop" name="flash_loop" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="flash_loop">{#media_dlg.loop}</label></td>
+										<td><label for="flash_loop" i18n:translate="tinymce_media_dlg_loop">Loop</label></td>
 									</tr>
 								</table>
 							</td>
@@ -196,7 +196,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flash_menu" name="flash_menu" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="flash_menu">{#media_dlg.menu}</label></td>
+										<td><label for="flash_menu" i18n:translate="tinymce_media_dlg_menu">Show menu</label></td>
 									</tr>
 								</table>
 							</td>
@@ -205,7 +205,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flash_swliveconnect" name="flash_swliveconnect" onchange="generatePreview();" /></td>
-										<td><label for="flash_swliveconnect">{#media_dlg.liveconnect}</label></td>
+										<td><label for="flash_swliveconnect" i18n:translate="tinymce_media_dlg_liveconnect">SWLiveConnect</label></td>
 									</tr>
 								</table>
 							</td>
@@ -214,49 +214,49 @@
 
 					<table>
 						<tr>
-							<td><label for="flash_base">{#media_dlg.base}</label></td>
+							<td><label for="flash_base" i18n:translate="tinymce_media_dlg_base">Base</label></td>
 							<td><input type="text" id="flash_base" name="flash_base" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="flash_flashvars">{#media_dlg.flashvars}</label></td>
+							<td><label for="flash_flashvars" i18n:translate="tinymce_media_dlg_flashvars">Flashvars</label></td>
 							<td><input type="text" id="flash_flashvars" name="flash_flashvars" onchange="generatePreview();" /></td>
 						</tr>
 					</table>
 				</fieldset>
 
 				<fieldset id="flv_options">
-					<legend>{#media_dlg.flv_options}</legend>
+					<legend i18n:translate="tinymce_media_dlg_flv_options">Flash video options</legend>
 
 					<table border="0" cellpadding="4" cellspacing="0">
 						<tr>
-							<td><label for="flv_scalemode">{#media_dlg.flv_scalemode}</label></td>
+							<td><label for="flv_scalemode" i18n:translate="tinymce_media_dlg_flv_scalemode">Scale mode</label></td>
 							<td>
 								<select id="flv_scalemode" name="flv_scalemode" onchange="generatePreview();">
-									<option value="">{#not_set}</option> 
+									<option value="" i18n:translate="tinymce_common_not_set">-- Not set --</option> 
 									<option value="none">none</option>
 									<option value="double">double</option>
 									<option value="full">full</option>
 								</select>
 							</td>
 
-							<td><label for="flv_buffer">{#media_dlg.flv_buffer}</label></td>
+							<td><label for="flv_buffer" i18n:translate="tinymce_media_dlg_flv_buffer">Buffer</label></td>
 							<td><input type="text" id="flv_buffer" name="flv_buffer" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="flv_startimage">{#media_dlg.flv_startimage}</label></td>
+							<td><label for="flv_startimage" i18n:translate="tinymce_media_dlg_flv_startimage">Start image</label></td>
 							<td><input type="text" id="flv_startimage" name="flv_startimage" onchange="generatePreview();" /></td>
 
-							<td><label for="flv_starttime">{#media_dlg.flv_starttime}</label></td>
+							<td><label for="flv_starttime" i18n:translate="tinymce_media_dlg_flv_starttime">Start time</label></td>
 							<td><input type="text" id="flv_starttime" name="flv_starttime" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="flv_defaultvolume">{#media_dlg.flv_defaultvolume}</label></td>
+							<td><label for="flv_defaultvolume" i18n:translate="tinymce_media_dlg_flv_defaultvolume">Default volume</label></td>
 							<td><input type="text" id="flv_defaultvolume" name="flv_defaultvolume" onchange="generatePreview();" /></td>
 
-							<td><label for="flv_starttime">{#media_dlg.flv_starttime}</label></td>
+							<td><label for="flv_starttime" i18n:translate="tinymce_media_dlg_flv_starttime">Start time</label></td>
 							<td><input type="text" id="flv_starttime" name="flv_starttime" onchange="generatePreview();" /></td>
 						</tr>
 
@@ -265,7 +265,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flv_hiddengui" name="flv_hiddengui" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="flv_hiddengui">{#media_dlg.flv_hiddengui}</label></td>
+										<td><label for="flv_hiddengui" i18n:translate="tinymce_media_dlg_flv_hiddengui">Hidden GUI</label></td>
 									</tr>
 								</table>
 							</td>
@@ -274,7 +274,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flv_autostart" name="flv_autostart" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="flv_autostart">{#media_dlg.flv_autostart}</label></td>
+										<td><label for="flv_autostart" i18n:translate="tinymce_media_dlg_flv_autostart">Auto start</label></td>
 									</tr>
 								</table>
 							</td>
@@ -285,7 +285,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flv_loop" name="flv_loop" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="flv_loop">{#media_dlg.flv_loop}</label></td>
+										<td><label for="flv_loop" i18n:translate="tinymce_media_dlg_flv_loop">Loop</label></td>
 									</tr>
 								</table>
 							</td>
@@ -294,7 +294,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flv_showscalemodes" name="flv_showscalemodes" onchange="generatePreview();" /></td>
-										<td><label for="flv_showscalemodes">{#media_dlg.flv_showscalemodes}</label></td>
+										<td><label for="flv_showscalemodes" i18n:translate="tinymce_media_dlg_flv_showscalemodes">Show scale modes</label></td>
 									</tr>
 								</table>
 							</td>
@@ -305,7 +305,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flv_smoothvideo" name="flash_flv_flv_smoothvideosmoothvideo" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="flv_smoothvideo">{#media_dlg.flv_smoothvideo}</label></td>
+										<td><label for="flv_smoothvideo" i18n:translate="tinymce_media_dlg_flv_smoothvideo">Smooth video</label></td>
 									</tr>
 								</table>
 							</td>
@@ -314,7 +314,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="flv_jscallback" name="flv_jscallback" onchange="generatePreview();" /></td>
-										<td><label for="flv_jscallback">{#media_dlg.flv_jscallback}</label></td>
+										<td><label for="flv_jscallback" i18n:translate="tinymce_media_dlg_flv_jscallback">JS Callback</label></td>
 									</tr>
 								</table>
 							</td>
@@ -323,7 +323,7 @@
 				</fieldset>
 
 				<fieldset id="qt_options">
-					<legend>{#media_dlg.qt_options}</legend>
+					<legend i18n:translate="tinymce_media_dlg_qt_options">Quicktime options</legend>
 
 					<table border="0" cellpadding="4" cellspacing="0">
 						<tr>
@@ -331,7 +331,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_loop" name="qt_loop" onchange="generatePreview();" /></td>
-										<td><label for="qt_loop">{#media_dlg.loop}</label></td>
+										<td><label for="qt_loop" i18n:translate="tinymce_media_dlg_loop">Loop</label></td>
 									</tr>
 								</table>
 							</td>
@@ -340,7 +340,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_autoplay" name="qt_autoplay" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="qt_autoplay">{#media_dlg.play}</label></td>
+										<td><label for="qt_autoplay" i18n:translate="tinymce_media_dlg_play">Auto play</label></td>
 									</tr>
 								</table>
 							</td>
@@ -351,7 +351,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_cache" name="qt_cache" onchange="generatePreview();" /></td>
-										<td><label for="qt_cache">{#media_dlg.cache}</label></td>
+										<td><label for="qt_cache" i18n:translate="tinymce_media_dlg_cache">Cache</label></td>
 									</tr>
 								</table>
 							</td>
@@ -360,7 +360,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_controller" name="qt_controller" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="qt_controller">{#media_dlg.controller}</label></td>
+										<td><label for="qt_controller" i18n:translate="tinymce_media_dlg_controller">Controller</label></td>
 									</tr>
 								</table>
 							</td>
@@ -371,7 +371,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_correction" name="qt_correction" onchange="generatePreview();" /></td>
-										<td><label for="qt_correction">{#media_dlg.correction}</label></td>
+										<td><label for="qt_correction" i18n:translate="tinymce_media_dlg_correction">No correction</label></td>
 									</tr>
 								</table>
 							</td>
@@ -380,7 +380,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_enablejavascript" name="qt_enablejavascript" onchange="generatePreview();" /></td>
-										<td><label for="qt_enablejavascript">{#media_dlg.enablejavascript}</label></td>
+										<td><label for="qt_enablejavascript" i18n:translate="tinymce_media_dlg_enablejavascript">Enable Javascript</label></td>
 									</tr>
 								</table>
 							</td>
@@ -391,7 +391,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_kioskmode" name="qt_kioskmode" onchange="generatePreview();" /></td>
-										<td><label for="qt_kioskmode">{#media_dlg.kioskmode}</label></td>
+										<td><label for="qt_kioskmode" i18n:translate="tinymce_media_dlg_kioskmode">Kiosk mode</label></td>
 									</tr>
 								</table>
 							</td>
@@ -400,7 +400,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_autohref" name="qt_autohref" onchange="generatePreview();" /></td>
-										<td><label for="qt_autohref">{#media_dlg.autohref}</label></td>
+										<td><label for="qt_autohref" i18n:translate="tinymce_media_dlg_autohref">AutoHREF</label></td>
 									</tr>
 								</table>
 							</td>
@@ -411,7 +411,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_playeveryframe" name="qt_playeveryframe" onchange="generatePreview();" /></td>
-										<td><label for="qt_playeveryframe">{#media_dlg.playeveryframe}</label></td>
+										<td><label for="qt_playeveryframe" i18n:translate="tinymce_media_dlg_playeveryframe">Play every frame</label></td>
 									</tr>
 								</table>
 							</td>
@@ -420,16 +420,16 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="qt_targetcache" name="qt_targetcache" onchange="generatePreview();" /></td>
-										<td><label for="qt_targetcache">{#media_dlg.targetcache}</label></td>
+										<td><label for="qt_targetcache" i18n:translate="tinymce_media_dlg_targetcache">Target cache</label></td>
 									</tr>
 								</table>
 							</td>
 						</tr>
 
 						<tr>
-							<td><label for="qt_scale">{#media_dlg.scale}</label></td>
+							<td><label for="qt_scale" i18n:translate="tinymce_media_dlg_scale">Scale</label></td>
 							<td><select id="qt_scale" name="qt_scale" class="mceEditableSelect" onchange="generatePreview();">
-									<option value="">{#not_set}</option> 
+									<option value="" i18n:translate="tinymce_common_not_set">-- Not set --</option> 
 									<option value="tofit">tofit</option>
 									<option value="aspect">aspect</option>
 								</select>
@@ -439,31 +439,31 @@
 						</tr>
 
 						<tr>
-							<td><label for="qt_starttime">{#media_dlg.starttime}</label></td>
+							<td><label for="qt_starttime" i18n:translate="tinymce_media_dlg_starttime">Start time</label></td>
 							<td><input type="text" id="qt_starttime" name="qt_starttime" onchange="generatePreview();" /></td>
 
-							<td><label for="qt_endtime">{#media_dlg.endtime}</label></td>
+							<td><label for="qt_endtime" i18n:translate="tinymce_media_dlg_endtime">End time</label></td>
 							<td><input type="text" id="qt_endtime" name="qt_endtime" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="qt_target">{#media_dlg.target}</label></td>
+							<td><label for="qt_target" i18n:translate="tinymce_media_dlg_target">Target</label></td>
 							<td><input type="text" id="qt_target" name="qt_target" onchange="generatePreview();" /></td>
 
-							<td><label for="qt_href">{#media_dlg.href}</label></td>
+							<td><label for="qt_href" i18n:translate="tinymce_media_dlg_href">Href</label></td>
 							<td><input type="text" id="qt_href" name="qt_href" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="qt_qtsrcchokespeed">{#media_dlg.qtsrcchokespeed}</label></td>
+							<td><label for="qt_qtsrcchokespeed" i18n:translate="tinymce_media_dlg_qtsrcchokespeed">Choke speed</label></td>
 							<td><input type="text" id="qt_qtsrcchokespeed" name="qt_qtsrcchokespeed" onchange="generatePreview();" /></td>
 
-							<td><label for="qt_volume">{#media_dlg.volume}</label></td>
+							<td><label for="qt_volume" i18n:translate="tinymce_media_dlg_volume">Volume</label></td>
 							<td><input type="text" id="qt_volume" name="qt_volume" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="qt_qtsrc">{#media_dlg.qtsrc}</label></td>
+							<td><label for="qt_qtsrc" i18n:translate="tinymce_media_dlg_qtsrc">QT Src</label></td>
 							<td colspan="4">
 							<table border="0" cellspacing="0" cellpadding="0">
 								  <tr>
@@ -477,7 +477,7 @@
 				</fieldset>
 
 				<fieldset id="wmp_options">
-					<legend>{#media_dlg.wmp_options}</legend>
+					<legend i18n:translate="tinymce_media_dlg_wmp_options">Windows media player options</legend>
 
 					<table border="0" cellpadding="4" cellspacing="0">
 						<tr>
@@ -485,7 +485,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="wmp_autostart" name="wmp_autostart" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="wmp_autostart">{#media_dlg.autostart}</label></td>
+										<td><label for="wmp_autostart" i18n:translate="tinymce_media_dlg_autostart">Auto start</label></td>
 									</tr>
 								</table>
 							</td>
@@ -494,7 +494,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="wmp_enabled" name="wmp_enabled" onchange="generatePreview();" /></td>
-										<td><label for="wmp_enabled">{#media_dlg.enabled}</label></td>
+										<td><label for="wmp_enabled" i18n:translate="tinymce_media_dlg_enabled">Enabled</label></td>
 									</tr>
 								</table>
 							</td>
@@ -505,7 +505,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="wmp_enablecontextmenu" name="wmp_enablecontextmenu" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="wmp_enablecontextmenu">{#media_dlg.menu}</label></td>
+										<td><label for="wmp_enablecontextmenu" i18n:translate="tinymce_media_dlg_menu">Show menu</label></td>
 									</tr>
 								</table>
 							</td>
@@ -514,7 +514,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="wmp_fullscreen" name="wmp_fullscreen" onchange="generatePreview();" /></td>
-										<td><label for="wmp_fullscreen">{#media_dlg.fullscreen}</label></td>
+										<td><label for="wmp_fullscreen" i18n:translate="tinymce_media_dlg_fullscreen">Fullscreen</label></td>
 									</tr>
 								</table>
 							</td>
@@ -525,7 +525,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="wmp_invokeurls" name="wmp_invokeurls" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="wmp_invokeurls">{#media_dlg.invokeurls}</label></td>
+										<td><label for="wmp_invokeurls" i18n:translate="tinymce_media_dlg_invokeurls">Invoke URLs</label></td>
 									</tr>
 								</table>
 							</td>
@@ -534,7 +534,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="wmp_mute" name="wmp_mute" onchange="generatePreview();" /></td>
-										<td><label for="wmp_mute">{#media_dlg.mute}</label></td>
+										<td><label for="wmp_mute" i18n:translate="tinymce_media_dlg_mute">Mute</label></td>
 									</tr>
 								</table>
 							</td>
@@ -545,7 +545,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="wmp_stretchtofit" name="wmp_stretchtofit" onchange="generatePreview();" /></td>
-										<td><label for="wmp_stretchtofit">{#media_dlg.stretchtofit}</label></td>
+										<td><label for="wmp_stretchtofit" i18n:translate="tinymce_media_dlg_stretchtofit">Stretch to fit</label></td>
 									</tr>
 								</table>
 							</td>
@@ -554,49 +554,49 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="wmp_windowlessvideo" name="wmp_windowlessvideo" onchange="generatePreview();" /></td>
-										<td><label for="wmp_windowlessvideo">{#media_dlg.windowlessvideo}</label></td>
+										<td><label for="wmp_windowlessvideo" i18n:translate="tinymce_media_dlg_windowlessvideo">Windowless video</label></td>
 									</tr>
 								</table>
 							</td>
 						</tr>
 
 						<tr>
-							<td><label for="wmp_balance">{#media_dlg.balance}</label></td>
+							<td><label for="wmp_balance" i18n:translate="tinymce_media_dlg_balance">Balance</label></td>
 							<td><input type="text" id="wmp_balance" name="wmp_balance" onchange="generatePreview();" /></td>
 
-							<td><label for="wmp_baseurl">{#media_dlg.baseurl}</label></td>
+							<td><label for="wmp_baseurl" i18n:translate="tinymce_media_dlg_baseurl">Base URL</label></td>
 							<td><input type="text" id="wmp_baseurl" name="wmp_baseurl" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="wmp_captioningid">{#media_dlg.captioningid}</label></td>
+							<td><label for="wmp_captioningid" i18n:translate="tinymce_media_dlg_captioningid">Captioning id</label></td>
 							<td><input type="text" id="wmp_captioningid" name="wmp_captioningid" onchange="generatePreview();" /></td>
 
-							<td><label for="wmp_currentmarker">{#media_dlg.currentmarker}</label></td>
+							<td><label for="wmp_currentmarker" i18n:translate="tinymce_media_dlg_currentmarker">Current marker</label></td>
 							<td><input type="text" id="wmp_currentmarker" name="wmp_currentmarker" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="wmp_currentposition">{#media_dlg.currentposition}</label></td>
+							<td><label for="wmp_currentposition" i18n:translate="tinymce_media_dlg_currentposition">Current position</label></td>
 							<td><input type="text" id="wmp_currentposition" name="wmp_currentposition" onchange="generatePreview();" /></td>
 
-							<td><label for="wmp_defaultframe">{#media_dlg.defaultframe}</label></td>
+							<td><label for="wmp_defaultframe" i18n:translate="tinymce_media_dlg_defaultframe">Default frame</label></td>
 							<td><input type="text" id="wmp_defaultframe" name="wmp_defaultframe" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="wmp_playcount">{#media_dlg.playcount}</label></td>
+							<td><label for="wmp_playcount" i18n:translate="tinymce_media_dlg_playcount">Play count</label></td>
 							<td><input type="text" id="wmp_playcount" name="wmp_playcount" onchange="generatePreview();" /></td>
 
-							<td><label for="wmp_rate">{#media_dlg.rate}</label></td>
+							<td><label for="wmp_rate" i18n:translate="tinymce_media_dlg_rate">Rate</label></td>
 							<td><input type="text" id="wmp_rate" name="wmp_rate" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="wmp_uimode">{#media_dlg.uimode}</label></td>
+							<td><label for="wmp_uimode" i18n:translate="tinymce_media_dlg_uimode">UI Mode</label></td>
 							<td><input type="text" id="wmp_uimode" name="wmp_uimode" onchange="generatePreview();" /></td>
 
-							<td><label for="wmp_volume">{#media_dlg.volume}</label></td>
+							<td><label for="wmp_volume" i18n:translate="tinymce_media_dlg_volume">Volume</label></td>
 							<td><input type="text" id="wmp_volume" name="wmp_volume" onchange="generatePreview();" /></td>
 						</tr>
 
@@ -604,7 +604,7 @@
 				</fieldset>
 
 				<fieldset id="rmp_options">
-					<legend>{#media_dlg.rmp_options}</legend>
+					<legend i18n:translate="tinymce_media_dlg_rmp_options">Real media player options</legend>
 
 					<table border="0" cellpadding="4" cellspacing="0">
 						<tr>
@@ -612,7 +612,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="rmp_autostart" name="rmp_autostart" onchange="generatePreview();" /></td>
-										<td><label for="rmp_autostart">{#media_dlg.autostart}</label></td>
+										<td><label for="rmp_autostart" i18n:translate="tinymce_media_dlg_autostart">Auto start</label></td>
 									</tr>
 								</table>
 							</td>
@@ -621,7 +621,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="rmp_loop" name="rmp_loop" onchange="generatePreview();" /></td>
-										<td><label for="rmp_loop">{#media_dlg.loop}</label></td>
+										<td><label for="rmp_loop" i18n:translate="tinymce_media_dlg_loop">Loop</label></td>
 									</tr>
 								</table>
 							</td>
@@ -632,7 +632,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="rmp_autogotourl" name="rmp_autogotourl" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="rmp_autogotourl">{#media_dlg.autogotourl}</label></td>
+										<td><label for="rmp_autogotourl" i18n:translate="tinymce_media_dlg_autogotourl">Auto goto URL</label></td>
 									</tr>
 								</table>
 							</td>
@@ -641,7 +641,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="rmp_center" name="rmp_center" onchange="generatePreview();" /></td>
-										<td><label for="rmp_center">{#media_dlg.center}</label></td>
+										<td><label for="rmp_center" i18n:translate="tinymce_media_dlg_center">Center</label></td>
 									</tr>
 								</table>
 							</td>
@@ -652,7 +652,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="rmp_imagestatus" name="rmp_imagestatus" checked="checked" onchange="generatePreview();" /></td>
-										<td><label for="rmp_imagestatus">{#media_dlg.imagestatus}</label></td>
+										<td><label for="rmp_imagestatus" i18n:translate="tinymce_media_dlg_imagestatus">Image status</label></td>
 									</tr>
 								</table>
 							</td>
@@ -661,7 +661,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="rmp_maintainaspect" name="rmp_maintainaspect" onchange="generatePreview();" /></td>
-										<td><label for="rmp_maintainaspect">{#media_dlg.maintainaspect}</label></td>
+										<td><label for="rmp_maintainaspect" i18n:translate="tinymce_media_dlg_maintainaspect">Maintain aspect</label></td>
 									</tr>
 								</table>
 							</td>
@@ -672,7 +672,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="rmp_nojava" name="rmp_nojava" onchange="generatePreview();" /></td>
-										<td><label for="rmp_nojava">{#media_dlg.nojava}</label></td>
+										<td><label for="rmp_nojava" i18n:translate="tinymce_media_dlg_nojava">No java</label></td>
 									</tr>
 								</table>
 							</td>
@@ -681,7 +681,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="rmp_prefetch" name="rmp_prefetch" onchange="generatePreview();" /></td>
-										<td><label for="rmp_prefetch">{#media_dlg.prefetch}</label></td>
+										<td><label for="rmp_prefetch" i18n:translate="tinymce_media_dlg_prefetch">Prefetch</label></td>
 									</tr>
 								</table>
 							</td>
@@ -692,7 +692,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="rmp_shuffle" name="rmp_shuffle" onchange="generatePreview();" /></td>
-										<td><label for="rmp_shuffle">{#media_dlg.shuffle}</label></td>
+										<td><label for="rmp_shuffle" i18n:translate="tinymce_media_dlg_shuffle">Shuffle</label></td>
 									</tr>
 								</table>
 							</td>
@@ -703,57 +703,57 @@
 						</tr>
 
 						<tr>
-							<td><label for="rmp_console">{#media_dlg.console}</label></td>
+							<td><label for="rmp_console" i18n:translate="tinymce_media_dlg_console">Console</label></td>
 							<td><input type="text" id="rmp_console" name="rmp_console" onchange="generatePreview();" /></td>
 
-							<td><label for="rmp_controls">{#media_dlg.controls}</label></td>
+							<td><label for="rmp_controls" i18n:translate="tinymce_media_dlg_controls">Controls</label></td>
 							<td><input type="text" id="rmp_controls" name="rmp_controls" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="rmp_numloop">{#media_dlg.numloop}</label></td>
+							<td><label for="rmp_numloop" i18n:translate="tinymce_media_dlg_numloop">Num loops</label></td>
 							<td><input type="text" id="rmp_numloop" name="rmp_numloop" onchange="generatePreview();" /></td>
 
-							<td><label for="rmp_scriptcallbacks">{#media_dlg.scriptcallbacks}</label></td>
+							<td><label for="rmp_scriptcallbacks" i18n:translate="tinymce_media_dlg_scriptcallbacks">Script callbacks</label></td>
 							<td><input type="text" id="rmp_scriptcallbacks" name="rmp_scriptcallbacks" onchange="generatePreview();" /></td>
 						</tr>
 					</table>
 				</fieldset>
 
 				<fieldset id="shockwave_options">
-					<legend>{#media_dlg.shockwave_options}</legend>
+					<legend i18n:translate="tinymce_media_dlg_shockwave_options">Shockwave options</legend>
 
 					<table border="0" cellpadding="4" cellspacing="0">
 						<tr>
-							<td><label for="shockwave_swstretchstyle">{#media_dlg.swstretchstyle}</label></td>
+							<td><label for="shockwave_swstretchstyle" i18n:translate="tinymce_media_dlg_swstretchstyle">Stretch style</label></td>
 							<td>
 								<select id="shockwave_swstretchstyle" name="shockwave_swstretchstyle" onchange="generatePreview();">
-									<option value="none">{#not_set}</option>
+									<option value="none" i18n:translate="tinymce_not_set">-- Not set --</option>
 									<option value="meet">Meet</option>
 									<option value="fill">Fill</option>
 									<option value="stage">Stage</option>
 								</select>
 							</td>
 
-							<td><label for="shockwave_swvolume">{#media_dlg.volume}</label></td>
+							<td><label for="shockwave_swvolume" i18n:translate="tinymce_media_dlg_volume">Volume</label></td>
 							<td><input type="text" id="shockwave_swvolume" name="shockwave_swvolume" onchange="generatePreview();" /></td>
 						</tr>
 
 						<tr>
-							<td><label for="shockwave_swstretchhalign">{#media_dlg.swstretchhalign}</label></td>
+							<td><label for="shockwave_swstretchhalign" i18n:translate="tinymce_media_dlg_swstretchhalign">Stretch H-Align</label></td>
 							<td>
 								<select id="shockwave_swstretchhalign" name="shockwave_swstretchhalign" onchange="generatePreview();">
-									<option value="none">{#not_set}</option>
-									<option value="left">{#media_dlg.align_left}</option>
-									<option value="center">{#media_dlg.align_center}</option>
-									<option value="right">{#media_dlg.align_right}</option>
+									<option value="none" i18n:translate="tinymce_not_set">-- Not set --</option>
+									<option value="left" i18n:translate="tinymce_media_dlg_align_left">Left</option>
+									<option value="center" i18n:translate="tinymce_media_dlg_align_center">Center</option>
+									<option value="right" i18n:translate="tinymce_media_dlg_align_right">Right</option>
 								</select>
 							</td>
 
-							<td><label for="shockwave_swstretchvalign">{#media_dlg.swstretchvalign}</label></td>
+							<td><label for="shockwave_swstretchvalign" i18n:translate="tinymce_media_dlg_swstretchvalign">Stretch V-Align</label></td>
 							<td>
 								<select id="shockwave_swstretchvalign" name="shockwave_swstretchvalign" onchange="generatePreview();">
-									<option value="none">{#not_set}</option>
+									<option value="none" i18n:translate="tinymce_not_set">-- Not set --</option>
 									<option value="meet">Meet</option>
 									<option value="fill">Fill</option>
 									<option value="stage">Stage</option>
@@ -766,7 +766,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="shockwave_autostart" name="shockwave_autostart" onchange="generatePreview();" checked="checked" /></td>
-										<td><label for="shockwave_autostart">{#media_dlg.autostart}</label></td>
+										<td><label for="shockwave_autostart" i18n:translate="tinymce_media_dlg_autostart">Auto start</label></td>
 									</tr>
 								</table>
 							</td>
@@ -775,7 +775,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="shockwave_sound" name="shockwave_sound" onchange="generatePreview();" checked="checked" /></td>
-										<td><label for="shockwave_sound">{#media_dlg.sound}</label></td>
+										<td><label for="shockwave_sound" i18n:translate="tinymce_media_dlg_sound">Sound</label></td>
 									</tr>
 								</table>
 							</td>
@@ -787,7 +787,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="shockwave_swliveconnect" name="shockwave_swliveconnect" onchange="generatePreview();" /></td>
-										<td><label for="shockwave_swliveconnect">{#media_dlg.liveconnect}</label></td>
+										<td><label for="shockwave_swliveconnect" i18n:translate="tinymce_media_dlg_liveconnect">SWLiveConnect</label></td>
 									</tr>
 								</table>
 							</td>
@@ -796,7 +796,7 @@
 								<table border="0" cellpadding="0" cellspacing="0">
 									<tr>
 										<td><input type="checkbox" class="checkbox" id="shockwave_progress" name="shockwave_progress" onchange="generatePreview();" checked="checked" /></td>
-										<td><label for="shockwave_progress">{#media_dlg.progress}</label></td>
+										<td><label for="shockwave_progress" i18n:translate="tinymce_media_dlg_progress">Progress</label></td>
 									</tr>
 								</table>
 							</td>
@@ -808,11 +808,11 @@
 
 		<div class="mceActionPanel">
 			<div style="float: left">
-				<input type="submit" id="insert" name="insert" value="{#insert}" />
+				<input type="submit" id="insert" name="insert" value="Insert" i18n:attributes="value tinymce_common_insert" />
 			</div>
 
 			<div style="float: right">
-				<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+				<input type="button" id="cancel" name="cancel" value="Cancel" i18n:attributes="value tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
 			</div>
 		</div>
 	</form>
