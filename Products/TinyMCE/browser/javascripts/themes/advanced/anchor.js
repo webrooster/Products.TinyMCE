@@ -13,7 +13,9 @@ var AnchorDialog = {
 			f.anchorName.value = v;
 		}
 
-		f.insert.value = ed.getLang(elm ? 'update' : 'insert');
+		if (elm) {
+			f.insert.value = f.update.value;
+		}
 	},
 
 	update : function() {

@@ -554,7 +554,7 @@
 
 					t.close(null, w.id);
 				},
-				content : DOM.encode(t.editor.getLang(txt, txt)),
+				content : DOM.encode(txt),
 				inline : 1,
 				width : 400,
 				height : 130
