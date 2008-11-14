@@ -44,7 +44,7 @@ function init() {
 				break;
 		}
 
-		document.forms[0].insert.value = ed.getLang('update', 'Insert', true); 
+		document.forms[0].insert.value = document.forms[0].update.value;
 	}
 
 	document.getElementById('filebrowsercontainer').innerHTML = getBrowserHTML('filebrowser','src','media','media');
@@ -183,7 +183,6 @@ function insertMedia() {
 	tinyMCEPopup.restoreSelection();
 
 	if (!AutoValidator.validate(f)) {
-		tinyMCEPopup.alert(ed.getLang('invalid_data'));
 		return false;
 	}
 
@@ -343,8 +342,6 @@ function switchType(v) {
 
 	// Update qtsrc also
 	if (t == 'qt' && f.src.value.toLowerCase().indexOf('rtsp://') != -1) {
-		alert(ed.getLang("media_qt_stream_warn"));
-
 		if (f.qt_qtsrc.value == '')
 			f.qt_qtsrc.value = f.src.value;
 	}

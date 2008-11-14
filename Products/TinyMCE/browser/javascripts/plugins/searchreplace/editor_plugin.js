@@ -11,8 +11,8 @@
 			function open(m) {
 				ed.windowManager.open({
 					file : ed.settings.portal_url + '/@@tinymce.plugins.searchreplace.searchreplace',
-					width : 320 + parseInt(ed.getLang('searchreplace.delta_width', 0)),
-					height : 282 + parseInt(ed.getLang('searchreplace.delta_height', 0)),
+					width : 320,
+					height : 282,
 					inline : 1,
 					auto_focus : 0
 				}, {

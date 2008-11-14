@@ -1025,8 +1025,8 @@
 
 			ed.windowManager.open({
 				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.anchor',
-				width : 320 + parseInt(ed.getLang('advanced.anchor_delta_width', 0)),
-				height : 134 + parseInt(ed.getLang('advanced.anchor_delta_height', 0)),
+				width : 320,
+				height : 134,
 				inline : true
 			}, {
 				theme_url : this.url
@@ -1038,8 +1038,8 @@
 
 			ed.windowManager.open({
 				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.charmap',
-				width : 549 + parseInt(ed.getLang('advanced.charmap_delta_width', 0)),
-				height : 242 + parseInt(ed.getLang('advanced.charmap_delta_height', 0)),
+				width : 549,
+				height : 242,
 				inline : true
 			}, {
 				theme_url : this.url
@@ -1066,8 +1066,8 @@
 
 			ed.windowManager.open({
 				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.color_picker',
-				width : 410 + parseInt(ed.getLang('advanced.colorpicker_delta_width', 0)),
-				height : 322 + parseInt(ed.getLang('advanced.colorpicker_delta_height', 0)),
+				width : 410,
+				height : 322,
 				close_previous : false,
 				inline : true
 			}, {
@@ -1100,8 +1100,8 @@
 
 			ed.windowManager.open({
 				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.image',
-				width : 355 + parseInt(ed.getLang('advanced.image_delta_width', 0)),
-				height : 275 + parseInt(ed.getLang('advanced.image_delta_height', 0)),
+				width : 355,
+				height : 275,
 				inline : true
 			}, {
 				theme_url : this.url
@@ -1113,8 +1113,8 @@
 
 			ed.windowManager.open({
 				url : ed.settings.portal_url + '/@@tinymce.themes.advanced.link',
-				width : 310 + parseInt(ed.getLang('advanced.link_delta_width', 0)),
-				height : 200 + parseInt(ed.getLang('advanced.link_delta_height', 0)),
+				width : 310,
+				height : 200,
 				inline : true
 			}, {
 				theme_url : this.url

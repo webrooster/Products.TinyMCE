@@ -12,6 +12,8 @@
 </head>
 <body id="table" style="display: none">
 	<div class="dialog-wrapper">
+		<span style="display: none" id="tinymce_common_invalid_data" i18n:translate="tinymce_common_invalid_data">Error: Invalid values entered, these are marked in red.</span>
+
 		<form onsubmit="insertTable();return false;" action="#">
 			<ul class="formTabs"><li id="general_tab" class="formTab firstFormTab"><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;" class="selected"><span i18n:translate="tinymce_table_dlg_general_tab">General</span></a></li><li id="advanced_tab" class="formTab lastFormTab"><a href="javascript:mcTabs.displayTab('advanced_tab','advanced_panel');" onmousedown="return false;"><span i18n:translate="tinymce_table_dlg_advanced_tab">Advanced</span></a></li></ul>
 
@@ -104,6 +106,7 @@
 			<div class="mceActionPanel formControls">
 				<span class="actionButtons">
 					<input type="submit" class="context" id="insert" name="insert" value="Insert" i18n:attributes="value tinymce_common_insert" />
+					<input type="button" class="context" id="update" name="update" value="Update" i18n:attributes="value tinymce_common_update" style="display: none"/>
 					<input type="button" class="context" id="cancel" name="cancel" value="Cancel" i18n:attributes="cancel tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
 				</span>
 			</div>

@@ -9,6 +9,8 @@
 </head>
 <body style="display: none">
 	<div class="dialog-wrapper">
+		<span style="display: none" id="tinymce_common_invalid_data" i18n:translate="tinymce_common_invalid_data">Error: Invalid values entered, these are marked in red.</span>
+
 		<form onsubmit="mergeCells();return false;" action="#">
 			<fieldset>
 				<legend i18n:translate="tinymce_table_dlg_merge_cells_title">Merge table cells</legend>

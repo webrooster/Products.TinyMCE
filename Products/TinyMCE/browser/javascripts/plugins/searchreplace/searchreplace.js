@@ -86,9 +86,9 @@ var SearchReplaceDialog = {
 				}
 
 				if (fo)
-					tinyMCEPopup.alert(ed.getLang('searchreplace_dlg.allreplaced'));
+					tinyMCEPopup.alert(document.getElementById('tinymce_searchreplace_dlg_allreplaced').innerHTML);
 				else
-					tinyMCEPopup.alert(ed.getLang('searchreplace_dlg.notfound'));
+					tinyMCEPopup.alert(document.getElementById('tinymce_searchreplace_dlg_notfound').innerHTML);
 
 				return;
 
@@ -111,12 +111,12 @@ var SearchReplaceDialog = {
 				r.scrollIntoView();
 				r.select();
 			} else
-				tinyMCEPopup.alert(ed.getLang('searchreplace_dlg.notfound'));
+				tinyMCEPopup.alert(document.getElementById('tinymce_searchreplace_dlg_notfound').innerHTML);
 
 			tinyMCEPopup.storeSelection();
 		} else {
 			if (!w.find(s, ca, b, false, false, false, false))
-				tinyMCEPopup.alert(ed.getLang('searchreplace_dlg.notfound'));
+				tinyMCEPopup.alert(document.getElementById('tinymce_searchreplace_dlg_notfound').innerHTML);
 			else
 				fix();
 		}

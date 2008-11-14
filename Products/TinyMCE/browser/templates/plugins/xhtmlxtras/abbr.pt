@@ -132,16 +132,14 @@
 			</fieldset>
 		</div>
 	</div>
-	<div class="mceActionPanel">
-		<div style="float: left">
-			<input type="submit" id="insert" name="insert" value="Update" tal:attributes="value tinymce_common_update" />
-		</div>
-		<div style="float: left">
+
+	<div class="mceActionPanel formControls">
+		<span class="actionButtons">
+			<input type="submit" id="insert" class="context" name="insert" value="Insert" i18n:attributes="value tinymce_common_insert" />
+			<input type="button" id="update" class="context" name="update" value="Update" i18n:attributes="value tinymce_common_update" style="display: none"/>
 			<input type="button" id="remove" name="remove" class="button" value="Remove" tal:attributes="value tinymce_xhtmlxtras_dlg_remove" onclick="removeAbbr();" style="display: none;" />
-		</div>
-		<div style="float: right">
-			<input type="button" id="cancel" name="cancel" value="Cancel" i18n:attributes="value tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
-		</div>
+			<input type="button" id="cancel" class="context" name="cancel" value="Cancel" i18n:attributes="value tinymce_common_cancel" onclick="tinyMCEPopup.close();" />
+		</span>
 	</div>
 
 </form>

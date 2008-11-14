@@ -28,8 +28,8 @@
 			ed.addCommand('mceMedia', function() {
 				ed.windowManager.open({
 					file : ed.settings.portal_url + '/@@tinymce.plugins.media.media',
-					width : 430 + parseInt(ed.getLang('media.delta_width', 0)),
-					height : 470 + parseInt(ed.getLang('media.delta_height', 0)),
+					width : 430,
+					height : 470,
 					inline : 1
 				}, {
 					plugin_url : url

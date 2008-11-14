@@ -809,6 +809,7 @@
 		<div class="mceActionPanel">
 			<div style="float: left">
 				<input type="submit" id="insert" name="insert" value="Insert" i18n:attributes="value tinymce_common_insert" />
+				<input type="button" id="update" class="context" name="update" value="Update" i18n:attributes="value tinymce_common_update" style="display: none"/>
 			</div>
 
 			<div style="float: right">

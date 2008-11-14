@@ -12,8 +12,8 @@
 			ed.addCommand('mceEmotion', function() {
 				ed.windowManager.open({
 					file : ed.settings.portal_url + '/@@tinymce.plugins.emotions.emotions',
-					width : 143 + parseInt(ed.getLang('emotions.delta_width', 0)),
-					height : 139 + parseInt(ed.getLang('emotions.delta_height', 0)),
+					width : 143,
+					height : 139,
 					inline : 1
 				}, {
 					plugin_url : url

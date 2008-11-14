@@ -10,6 +10,9 @@
 </head>
 <body style="display:none;">
 	<div class="dialog-wrapper">
+		<span style="display: none" id="tinymce_searchreplace_dlg_allreplaced" i18n:translate="tinymce_searchreplace_dlg_allreplaced">All occurrences of the search string were replaced.</span>
+		<span style="display: none" id="tinymce_searchreplace_dlg_notfound" i18n:translate="tinymce_searchreplace_dlg_notfound">The search has been completed. The search string could not be found.</span>
+
 		<form onsubmit="SearchReplaceDialog.searchNext('none');return false;" action="#">
 			<ul class="formTabs"><li id="search_tab" class="formTab firstFormTab"><a href="javascript:SearchReplaceDialog.switchMode('search');" onmousedown="return false;" class="selected"><span i18n:translate="tinymce_searchreplace_search_desc">Find</span></a></li><li id="replace_tab" class="formTab lastFormTab"><a href="javascript:SearchReplaceDialog.switchMode('replace');" onmousedown="return false;"><span i18n:translate="tinymce_searchreplace_dlg_replace">Replace</span></a></li></ul>
 

@@ -12,8 +12,8 @@
 			ed.addCommand('mceAdvancedHr', function() {
 				ed.windowManager.open({
 					file : ed.settings.portal_url + '/@@tinymce.plugins.advhr.rule',
-					width : 220 + parseInt(ed.getLang('advhr.delta_width', 0)),
-					height : 219 + parseInt(ed.getLang('advhr.delta_height', 0)),
+					width : 220,
+					height : 219,
 					inline : 1
 				}, {
 					plugin_url : url

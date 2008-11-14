@@ -22,10 +22,7 @@
 					sp.CheckDocumentNode(ed.getDoc().documentElement);
 				} catch (e) {
 					if (e.number == -2146827859) {
-						ed.windowManager.confirm(ed.getLang("iespell.download"), function(s) {
-							if (s)
-								window.open('http://www.iespell.com/download.php', 'ieSpellDownload', '');
-						});
+						window.open('http://www.iespell.com/download.php', 'ieSpellDownload', '');
 					} else
 						ed.windowManager.alert("Error Loading ieSpell: Exception " + e.number);
 				}

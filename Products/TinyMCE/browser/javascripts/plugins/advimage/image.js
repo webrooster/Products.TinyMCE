@@ -57,7 +57,7 @@ var ImageDialog = {
 			}
 			nl0.alt.value = alt;
 			selectByValue(f0, 'classes', classname, true);
-			nl2.insert.value = ed.getLang('update');
+			nl2.insert.value = nl2.update.value;
 
 
 			if (href.indexOf('resolveuid') != -1) {
@@ -217,30 +217,6 @@ var ImageDialog = {
 
 		f.onmouseoversrc.disabled = !st;
 		f.onmouseoutsrc.disabled  = !st;
-	},
-
-	fillClassList : function(id) {
-		var dom = tinyMCEPopup.dom, lst = dom.get(id), v, cl;
-
-		if (v = tinyMCEPopup.getParam('theme_advanced_styles')) {
-			cl = [];
-
-			tinymce.each(v.split(';'), function(v) {
-				var p = v.split('=');
-
-				cl.push({'title' : p[0], 'class' : p[1]});
-			});
-		} else
-			cl = tinyMCEPopup.editor.dom.getClasses();
-
-		if (cl.length > 0) {
-			lst.options[lst.options.length] = new Option(tinyMCEPopup.getLang('not_set'), '');
-
-			tinymce.each(cl, function(o) {
-				lst.options[lst.options.length] = new Option(o.title || o['class'], o['class']);
-			});
-		} else
-			dom.remove(dom.getParent(id, 'tr'));
 	},
 
 	fillFileList : function(id, l) {

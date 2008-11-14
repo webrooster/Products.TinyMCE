@@ -15,7 +15,7 @@ function mergeCells() {
 	tinyMCEPopup.restoreSelection();
 
 	if (!AutoValidator.validate(f)) {
-		tinyMCEPopup.alert(tinyMCEPopup.getLang('invalid_data'));
+		tinyMCEPopup.alert(document.getElementById('tinymce_common_invalid_data').innerHTML);
 		return false;
 	}
 

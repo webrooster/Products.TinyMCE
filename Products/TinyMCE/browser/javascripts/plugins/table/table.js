@@ -12,7 +12,7 @@ function insertTable() {
 	tinyMCEPopup.restoreSelection();
 
 	if (!AutoValidator.validate(formObj)) {
-		tinyMCEPopup.alert(inst.getLang('invalid_data'));
+		tinyMCEPopup.alert(document.getElementById('tinymce_common_invalid_data').innerHTML);
 		return false;
 	}
 
@@ -43,18 +43,6 @@ function insertTable() {
 	cellLimit = tinyMCEPopup.getParam('table_cell_limit', false);
 	rowLimit = tinyMCEPopup.getParam('table_row_limit', false);
 	colLimit = tinyMCEPopup.getParam('table_col_limit', false);
-
-	// Validate table size
-	if (colLimit && cols > colLimit) {
-		tinyMCEPopup.alert(inst.getLang('table_dlg.col_limit').replace(/\{\$cols\}/g, colLimit));
-		return false;
-	} else if (rowLimit && rows > rowLimit) {
-		tinyMCEPopup.alert(inst.getLang('table_dlg.row_limit').replace(/\{\$rows\}/g, rowLimit));
-		return false;
-	} else if (cellLimit && cols * rows > cellLimit) {
-		tinyMCEPopup.alert(inst.getLang('table_dlg.cell_limit').replace(/\{\$cells\}/g, cellLimit));
-		return false;
-	}
 
 	// Update table
 	if (action == "update") {
@@ -287,7 +275,7 @@ function init() {
 		orgTableHeight = height;
 
 		action = "update";
-		formObj.insert.value = inst.getLang('update');
+		formObj.insert.value = formObj.update.value;
 	}
 
 	addClassesToList('class', "table_styles");
