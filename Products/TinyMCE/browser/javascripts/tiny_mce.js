@@ -4895,7 +4895,7 @@ tinymce.create('static tinymce.util.XHR', {
 				if (e && this.settings.unavailable_prefix) {
 					if (s) {
 						this.prevTitle = e.title;
-						e.title = this.settings.unavailable_prefix + ": " + e.title;
+						e.title = this.settings.unavailable_prefix + e.title;
 					} else
 						e.title = this.prevTitle;
 				}
@@ -6977,23 +6977,6 @@ var tinyMCE = window.tinyMCE = tinymce.EditorManager;
 
 				// Init when que is loaded
 				sl.loadQueue(function() {
-					if (s.ask) {
-						function ask() {
-							// Yield for awhile to avoid focus bug on FF 3 when cancel is pressed
-							window.setTimeout(function() {
-								Event.remove(t.id, 'focus', ask);
-
-								t.windowManager.confirm(t.getLang('edit_confirm'), function(s) {
-									if (s)
-										t.init();
-								});
-							}, 0);
-						};
-
-						Event.add(t.id, 'focus', ask);
-						return;
-					}
-
 					if (!t.removed)
 						t.init();
 				});
@@ -8829,12 +8812,12 @@ var tinyMCE = window.tinyMCE = tinymce.EditorManager;
 						ed.getDoc().execCommand(cmd, ui, val);
 					} catch (ex) {
 						if (isGecko) {
-							ed.windowManager.confirm(ed.getLang('clipboard_msg'), function(s) {
+							ed.windowManager.confirm(ed.settings.message_clipboard_msg, function(s) {
 								if (s)
 									window.open('http://www.mozilla.org/editor/midasdemo/securityprefs.html', 'mceExternal');
 							});
 						} else
-							ed.windowManager.alert(ed.getLang('clipboard_no_support'));
+							ed.windowManager.alert(ed.settings.message_clipboard_no_support);
 					}
 
 					return true;
@@ -10918,7 +10901,7 @@ tinymce.create('tinymce.UndoManager', {
 			s = extend({
 				title : s.title,
 				'class' : 'mce_' + id,
-				unavailable_prefix : ed.getLang('unavailable', ''),
+				unavailable_prefix : '',
 				scope : s.scope,
 				control_manager : t
 			}, s);
@@ -11006,7 +10989,7 @@ tinymce.create('tinymce.UndoManager', {
 				'class' : 'mce_' + id,
 				'menu_class' : ed.getParam('skin') + 'Skin',
 				scope : s.scope,
-				more_colors_title : ed.getLang('more_colors')
+				more_colors_title : ed.settings.message_more_colors
 			}, s);
 
 			id = t.prefix + id;
@@ -11147,9 +11130,6 @@ tinymce.create('tinymce.UndoManager', {
 			} catch (ex) {
 				// Ignore
 			}
-
-			if (!w)
-				alert(t.editor.getLang('popup_blocked'));
 		},
 
 		close : function(w) {
@@ -11166,14 +11146,14 @@ tinymce.create('tinymce.UndoManager', {
 		confirm : function(t, cb, s, w) {
 			w = w || window;
 
-			cb.call(s || this, w.confirm(this._decode(this.editor.getLang(t, t))));
+			cb.call(s || this, w.confirm(this._decode(t)));
 		},
 
 		alert : function(tx, cb, s, w) {
 			var t = this;
 
 			w = w || window;
-			w.alert(t._decode(t.editor.getLang(tx, tx)));
+			w.alert(t._decode(tx));
 
 			if (cb)
 				cb.call(s || t);

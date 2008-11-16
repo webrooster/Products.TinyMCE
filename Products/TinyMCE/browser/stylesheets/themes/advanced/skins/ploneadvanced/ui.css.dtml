@@ -71,7 +71,7 @@
 /* SplitButton */
 .ploneadvancedSkin .mceSplitButton {width:32px; height:20px; direction:ltr}
 .ploneadvancedSkin .mceSplitButton a, .ploneadvancedSkin .mceSplitButton span {height:20px; display:block}
-.ploneadvancedSkin .mceSplitButton a.mceAction {width:20px; border:&dtml-borderWidth; &dtml-borderStyle; &dtml-contentViewBackgroundColor;;border-right:0px}
+.ploneadvancedSkin .mceSplitButton a.mceAction {width:20px; border:&dtml-borderWidth; &dtml-borderStyle; &dtml-globalBackgroundColor;;border-right:0px}
 .ploneadvancedSkin .mceSplitButton span.mceAction {width:20px; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/icons.gif) 20px 20px;}
 .ploneadvancedSkin .mceSplitButton a.mceOpen {width:9px; border:&dtml-borderWidth; &dtml-borderStyle; transparent;}
 .ploneadvancedSkin .mceSplitButton span.mceOpen {width:9px; background:url(&dtml-portal_url;/++resource++tinymce.images/themes/advanced/icons.gif) -741px 0;}

@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html 18n:domain="tinymce" id="region-content" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
+<html i18n:domain="tinymce" id="region-content" xmlns="http://www.w3.org/1999/xhtml" tal:define="portal_url portal_url|here/portal_url">
 <head>
 	<title i18n:translate="tinymce_advanced_dlg_colorpicker_title">Select a color</title>
 	<script type="text/javascript" src="" tal:attributes="src string:$portal_url/++resource++tinymce.javascripts/tiny_mce_popup.js"></script>
@@ -16,7 +16,7 @@
 				<div class="field">
 					<label for="picker" i18n:translate="tinymce_advanced_dlg_colorpicker_picker_title">Select a color</label>
 					<div class="widget" id="picker">
-						<img id="colors" class="input-border" style="margin-right: 1em; float: left" src="img/colorpicker.jpg" onclick="computeColor(event)" onmousedown="isMouseDown = true;return false;" onmouseup="isMouseDown = false;" onmousemove="if (isMouseDown && isMouseOver) computeColor(event); return false;" onmouseover="isMouseOver=true;" onmouseout="isMouseOver=false;" />
+						<img id="colors" class="input-border" style="margin-right: 1em; float: left" src="" tal:attributes="src string:$portal_url/++resource++tinymce.images/themes/advanced/colorpicker.jpg" onclick="computeColor(event)" onmousedown="isMouseDown = true;return false;" onmouseup="isMouseDown = false;" onmousemove="if (isMouseDown && isMouseOver) computeColor(event); return false;" onmouseover="isMouseOver=true;" onmouseout="isMouseOver=false;" />
 
 						<div id="light" class="input-border" style="float: left">
 							<!-- Will be filled with divs -->
@@ -57,7 +57,7 @@
 
 			<div class="mceActionPanel formControls">
 				<span class="actionButtons">
-					<input type="submit" class="context" id="insert" name="insert" value="Apply" i18n:translate="tinymce_common_apply" />
+					<input type="submit" class="context" id="insert" name="insert" value="Apply" i18n:attributes="value tinymce_common_apply" />
 				</span>
 			</div>
 		</form>

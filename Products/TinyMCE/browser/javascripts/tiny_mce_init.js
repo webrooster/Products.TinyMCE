@@ -217,6 +217,18 @@ function TinyMCEConfig(id) {
 	this.getPortalUrl = function () {
 		return this.widget_config.portal_url;
 	};
+
+	this.getMessageClipboardMsg = function () {
+		return this.widget_config.message_clipboard_msg;
+	};
+
+	this.getMessageClipboardNoSupport = function () {
+		return this.widget_config.message_clipboard_no_support;
+	};
+
+	this.getMessageMoreColors = function () {
+		return this.widget_config.message_more_colors;
+	}
 }
 
 kukit.actionsGlobalRegistry.register("init-tinymce", function(oper) {
@@ -260,6 +272,9 @@ kukit.actionsGlobalRegistry.register("init-tinymce", function(oper) {
 		valid_elements : config.getValidElements(),
 		link_using_uids : config.getLinkUsingUids(),
 		allow_captioned_images : config.getAllowCaptionedImages(),
+		message_clipboard_msg : config.getMessageClipboardMsg(),
+		message_clipboard_no_support : config.getMessageClipboardNoSupport(),
+		message_more_colors : config.getMessageMoreColors(),
 		rooted : config.getRooted(),
 		force_span_wrappers : true,
 		fix_list_elements : false

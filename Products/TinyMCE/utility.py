@@ -6,6 +6,8 @@ from AccessControl import ClassSecurityInfo
 from Products.CMFCore.utils import getToolByName
 from z3c.json import interfaces
 from z3c.json import testing
+from zope.i18nmessageid import MessageFactory
+from zope.i18n import translate
 
 from Products.TinyMCE.interfaces.utility import ITinyMCE
 from Products.TinyMCE.interfaces.utility import ITinyMCELayout
@@ -14,6 +16,8 @@ from Products.TinyMCE.interfaces.utility import ITinyMCELibraries
 from Products.TinyMCE.interfaces.utility import ITinyMCEResourceTypes
 
 from OFS.SimpleItem import SimpleItem
+
+_ = MessageFactory('tinymce')
 
 def form_adapter(context):
     """Form Adapter"""
@@ -698,6 +702,10 @@ class TinyMCE(SimpleItem):
         except:
             results['parent'] = portal_url() + "/"
             results['document_url'] = portal_url()
+
+        results['message_clipboard_msg'] = translate(u"tinymce_common_clipboard_msg", domain="tinymce", target_language=results['language']);
+        results['message_clipboard_no_support'] = translate(u"tinymce_common_clipboard_no_support", domain="tinymce", target_language=results['language']);
+        results['message_more_colors'] = translate(u"tinymce_common_more_colors", domain="tinymce", target_language=results['language']);
 
         testing.setUpJSONConverter()
         jsonWriter = getUtility(interfaces.IJSONWriter)
