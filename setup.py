@@ -27,7 +27,7 @@ setup(name='Products.TinyMCE',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          # -*- Extra requirements: -*-
+          'z3c.json',
       ],
       entry_points="""
       # -*- Entry points: -*-

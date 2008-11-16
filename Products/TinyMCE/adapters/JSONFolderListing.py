@@ -1,6 +1,9 @@
 from zope.interface import implements
 from zope.component import adapts
-from Products.TinyMCE.libs import json
+from zope.component import getUtility
+from z3c.json import interfaces
+from z3c.json import testing
+
 from Products.TinyMCE.interfaces.utility import ITinyMCE
 
 from Products.TinyMCE.adapters.interfaces.JSONFolderListing import IJSONFolderListing
@@ -103,5 +106,7 @@ class JSONFolderListing(object):
 		results['items'] = catalog_results
 
 		# return results in JSON format
-		return json.write(results)
+		testing.setUpJSONConverter()
+		jsonWriter = getUtility(interfaces.IJSONWriter)
+		return jsonWriter.write(results)
 

@@ -4,8 +4,9 @@ from zope.component import getUtility
 from zope.interface import classProvides
 from AccessControl import ClassSecurityInfo
 from Products.CMFCore.utils import getToolByName
+from z3c.json import interfaces
+from z3c.json import testing
 
-from Products.TinyMCE.libs import json
 from Products.TinyMCE.interfaces.utility import ITinyMCE
 from Products.TinyMCE.interfaces.utility import ITinyMCELayout
 from Products.TinyMCE.interfaces.utility import ITinyMCEToolbar
@@ -698,4 +699,6 @@ class TinyMCE(SimpleItem):
             results['parent'] = portal_url() + "/"
             results['document_url'] = portal_url()
 
-        return json.write(results)
+        testing.setUpJSONConverter()
+        jsonWriter = getUtility(interfaces.IJSONWriter)
+        return jsonWriter.write(results)
