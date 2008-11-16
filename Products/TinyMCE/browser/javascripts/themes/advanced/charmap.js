@@ -270,7 +270,7 @@ tinyMCEPopup.onInit.add(function() {
 function renderCharMapHTML() {
 	var charsPerRow = 20, tdWidth=20, tdHeight=20, i;
 	var html = '<table class="listing">';
-	html += '<tr ><th colspan="' + (charsPerRow + 1) + '">' + tinyMCEPopup.editor.getLang("advanced_dlg.charmap_title") + '</th>';
+	html += '<tr ><th colspan="' + (charsPerRow + 1) + '">' + document.title + '</th>';
 	html += '<tr class="odd" height="' + tdHeight + '">';
 	var cols=-1;
 

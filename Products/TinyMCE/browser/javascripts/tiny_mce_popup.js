@@ -183,12 +183,6 @@ tinyMCEPopup = {
 				h = h.replace(/ (value|title|alt)=([^"][^\s>]+)/gi, ' $1="$2"')
 
 			document.dir = t.editor.getParam('directionality','');
-
-			if ((nv = t.editor.translate(h)) && nv != h)
-				document.body.innerHTML = nv;
-
-			if ((nv = t.editor.translate(ti)) && nv != ti)
-				document.title = ti = nv;
 		}
 
 		document.body.style.display = '';

@@ -9,11 +9,11 @@
 
 var themeBaseURL = tinyMCEPopup.editor.baseURI.toAbsolute('themes/' + tinyMCEPopup.getParam("theme"));
 
-function getColorPickerHTML(id, target_form_element) {
+function getColorPickerHTML(id, target_form_element, browse) {
 	var h = "";
 
 	h += '<a id="' + id + '_link" href="javascript:;" onclick="tinyMCEPopup.pickColor(event,\'' + target_form_element +'\');" onmousedown="return false;" class="pickcolor">';
-	h += '<span id="' + id + '" title="' + tinyMCEPopup.getLang('browse') + '"></span></a>';
+	h += '<span id="' + id + '" title="' + browse + '"></span></a>';
 
 	return h;
 }
@@ -40,7 +40,7 @@ function setBrowserDisabled(id, state) {
 	}
 }
 
-function getBrowserHTML(id, target_form_element, type, prefix) {
+function getBrowserHTML(id, target_form_element, type, prefix, browse) {
 	var option = prefix + "_" + type + "_browser_callback", cb, html;
 
 	cb = tinyMCEPopup.getParam(option, tinyMCEPopup.getParam("file_browser_callback"));
@@ -50,7 +50,7 @@ function getBrowserHTML(id, target_form_element, type, prefix) {
 
 	html = "";
 	html += '<a id="' + id + '_link" href="javascript:openBrowser(\'' + id + '\',\'' + target_form_element + '\', \'' + type + '\',\'' + option + '\');" onmousedown="return false;" class="browse">';
-	html += '<span id="' + id + '" title="' + tinyMCEPopup.getLang('browse') + '"></span></a>';
+	html += '<span id="' + id + '" title="' + browse + '"></span></a>';
 
 	return html;
 }

@@ -226,7 +226,7 @@
 			if (c) {
 				each(ed.getParam('theme_advanced_styles', '', 'hash'), function(v, k) {
 					if (v)
-						c.add(t.editor.translate(k), v);
+						c.add(k, v);
 				});
 
 				c.onPostRender.add(function(ed, n) {
@@ -316,7 +316,7 @@
 			c = t.editor.controlManager.createListBox('formatselect', {title : 'advanced.block', cmd : 'FormatBlock'});
 			if (c) {
 				each(t.editor.getParam('theme_advanced_blockformats', t.settings.theme_advanced_blockformats, 'hash'), function(v, k) {
-					c.add(t.editor.translate(k != v ? k : fmts[v]), v, {'class' : 'mce_formatPreview mce_' + v});
+					c.add(k != v ? k : fmts[v], v, {'class' : 'mce_formatPreview mce_' + v});
 				});
 			}
 
@@ -695,7 +695,7 @@
 
 			n = DOM.add(tb, 'tr');
 			n = td = DOM.add(n, 'td', {'class' : 'mceStatusbar'});
-			n = DOM.add(n, 'div', {id : ed.id + '_path_row'}, s.theme_advanced_path ? ed.translate('advanced.path') + ': ' : '&nbsp;');
+			n = DOM.add(n, 'div', {id : ed.id + '_path_row'}, s.theme_advanced_path ? 'Path: ' : '&nbsp;');
 			DOM.add(n, 'a', {href : '#', accesskey : 'x'});
 
 			if (s.theme_advanced_resizing && !tinymce.isOldWebKit) {

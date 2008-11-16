@@ -66,12 +66,9 @@
 		<browser:page name="tinymce.plugins.xhtmlxtras.del" template="templates/plugins/xhtmlxtras/del.pt"/>
 		<browser:page name="tinymce.plugins.xhtmlxtras.ins" template="templates/plugins/xhtmlxtras/ins.pt"/>
 
-		<browser:page name="tinymce.themes.advanced.about" template="templates/themes/advanced/about.pt"/>
 		<browser:page name="tinymce.themes.advanced.anchor" template="templates/themes/advanced/anchor.pt"/>
 		<browser:page name="tinymce.themes.advanced.charmap" template="templates/themes/advanced/charmap.pt"/>
 		<browser:page name="tinymce.themes.advanced.color_picker" template="templates/themes/advanced/color_picker.pt"/>
-		<browser:page name="tinymce.themes.advanced.image" template="templates/themes/advanced/image.pt"/>
-		<browser:page name="tinymce.themes.advanced.link" template="templates/themes/advanced/link.pt"/>
 		<browser:page name="tinymce.themes.advanced.source_editor" template="templates/themes/advanced/source_editor.pt"/>
 	</browser:pages>
 
