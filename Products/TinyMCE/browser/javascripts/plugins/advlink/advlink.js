@@ -40,6 +40,11 @@ function init() {
 	// Set button caption
 	formButtonsObj.insert.value = formButtonsObj.update.value;
 
+	// Check if rooted
+	if (tinyMCEPopup.editor.settings.rooted) {
+		document.getElementById('home').style.display = 'none';
+	}
+
 	if (action == "update") {
 		var href = inst.dom.getAttrib(elm, 'href');
 
@@ -635,6 +640,8 @@ function getFolderListing(path) {
 	tinymce.util.XHR.send({
 	    url : path + '/@@tinymce.jsonlinkablefolderlisting',
 		type : 'POST',
+		content_type : "application/x-www-form-urlencoded",
+		data : "rooted=" + (tinyMCEPopup.editor.settings.rooted ? "True" : "False") + "&document_base_url=" + encodeURIComponent(tinyMCEPopup.editor.settings.document_base_url),
 		success : function(text) {
 			var html = "";
 			var data = eval('(' + text + ')');

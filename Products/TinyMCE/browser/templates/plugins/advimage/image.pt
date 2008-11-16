@@ -17,7 +17,7 @@
 				<fieldset class="column" style="width: 120px;">
 					<legend>Libraries</legend>
 		            <ul class="configlets">
-		                <li>
+		                <li id="home">
 							<a href="javascript:ImageDialog.displayPanel('internal_panel'); ImageDialog.getPortalFolderListing();">
 							    <img alt="" src="" tal:attributes="src string:$portal_url/logoIcon.gif"/> Home
 							</a>

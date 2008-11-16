@@ -210,6 +210,10 @@ function TinyMCEConfig(id) {
 		return this.widget_config.allow_captioned_images;
 	};
 
+	this.getRooted = function () {
+		return this.widget_config.rooted;
+	};
+
 	this.getPortalUrl = function () {
 		return this.widget_config.portal_url;
 	};
@@ -256,6 +260,7 @@ kukit.actionsGlobalRegistry.register("init-tinymce", function(oper) {
 		valid_elements : config.getValidElements(),
 		link_using_uids : config.getLinkUsingUids(),
 		allow_captioned_images : config.getAllowCaptionedImages(),
+		rooted : config.getRooted(),
 		force_span_wrappers : true,
 		fix_list_elements : false
 	});

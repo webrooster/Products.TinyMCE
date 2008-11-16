@@ -397,6 +397,12 @@ class ITinyMCEResourceTypes(Interface):
 		default=False,
 		required=False)
 
+	rooted = schema.Bool(
+		title=_(u'label_rooted', default=u"Rooted to current object"),
+		description=_(u"help_rooted", default=u"When enabled the user will be rooted to the current object and can't add links and images from other parts of the site."),
+		default=False,
+		required=False)
+
 	containsobjects = schema.Text(
 		title=_(u'label_containsobjects', default=u'Contains Objects'),
 		description=_(u'help_containsobjects', default=u"Enter a list of content types which can contain other objects. Format is one contenttype per line."),

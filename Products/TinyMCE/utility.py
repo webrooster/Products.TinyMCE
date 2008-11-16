@@ -108,6 +108,7 @@ class TinyMCE(SimpleItem):
     
     link_using_uids = FieldProperty(ITinyMCEResourceTypes['link_using_uids'])
     allow_captioned_images = FieldProperty(ITinyMCEResourceTypes['allow_captioned_images'])
+    rooted = FieldProperty(ITinyMCEResourceTypes['rooted'])
     containsobjects = FieldProperty(ITinyMCEResourceTypes['containsobjects'])
     containsanchors = FieldProperty(ITinyMCEResourceTypes['containsanchors'])
     linkable = FieldProperty(ITinyMCEResourceTypes['linkable'])
@@ -573,6 +574,7 @@ class TinyMCE(SimpleItem):
         allow_buttons = getattr(widget, 'allow_buttons', None)
         redefine_parastyles = getattr (widget, 'redefine_parastyles', None)
         parastyles = getattr (widget, 'parastyles', None)
+        rooted = getattr (widget, 'rooted', False)
 
         # Add styles to results
         results['styles'] = []
@@ -662,6 +664,11 @@ class TinyMCE(SimpleItem):
             results['allow_captioned_images'] = True
         else:
             results['allow_captioned_images'] = False
+
+        if self.rooted or rooted:
+            results['rooted'] = True
+        else:
+            results['rooted'] = False
 
         portal_url = getToolByName(self, 'portal_url')
         results['portal_url'] = portal_url()

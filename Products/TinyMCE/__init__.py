@@ -1,6 +1,7 @@
 from Products.CMFCore.DirectoryView import registerDirectory
 from Products.CMFCore import utils
 from Products.TinyMCE.utility import TinyMCE
+from Products.CMFCore.permissions import setDefaultRoles
 
 global tinymce_globals
 
@@ -19,4 +20,3 @@ def initialize(context):
                    tools=tools,
                    icon="browser/images/tinymce_icon.gif",
                    ).initialize(context)
-

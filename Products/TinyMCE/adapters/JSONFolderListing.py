@@ -21,28 +21,34 @@ class JSONFolderListing(object):
 		"""Constructor"""
 		self.context = context
 		
-	def getBreadcrums(self):
+	def getBreadcrums(self, path=None):
 		"""Get breadcrums"""
 		#TODO: getToolByName is deprecated
-		ptool = getUtilityByInterfaceName('Products.CMFCore.interfaces.IPropertiesTool');
-		utool = getToolByName(self.context, 'portal_url');
-		portal_url = utool();
-		result = [];
+		ptool = getUtilityByInterfaceName('Products.CMFCore.interfaces.IPropertiesTool')
+		utool = getToolByName(self.context, 'portal_url')
+		portal_url = utool()
+		result = []
 
-		# SiteRoot
-		result.append({'title':ptool.title(),'url':portal_url})
+		if path is None:
+			# Add siteroot
+			result.append({'title':ptool.title(),'url':portal_url})
 		
 		relative = utool.getRelativeContentPath(self.context);
-		portal = utool.getPortalObject();
+		portal = utool.getPortalObject()
+		start = 0
 
-		for i in range(len(relative)):
+		if path is not None:
+			path = path[len(portal_url)+1:-1]
+			start = len(path.split('/')) - 1
+
+		for i in range(start, len(relative)):
 			now = relative[ :i+1 ]
-			obj = aq_inner(portal.restrictedTraverse(now));
+			obj = aq_inner(portal.restrictedTraverse(now))
 
 			if IFolderish.providedBy(obj):
 				if not now[-1] == 'talkback':
 					result.append({'title':obj.Title(),'url':portal_url + '/' + '/'.join(now)})
-		return result;		
+		return result
 		
 	def getInfoFromBrain(self, brain):
 		"""Gets information from a brain id, url, portal_type, title, icon, is_folderish"""
@@ -65,34 +71,37 @@ class JSONFolderListing(object):
 		'is_folderish' : is_folderish
 		}
 
-	def getListing(self, filter_meta_types):
+	def getListing(self, filter_meta_types, rooted, document_base_url):
 		"""Returns the actual listing"""
 
-		catalog_results = [];
-		results = {};
+		catalog_results = []
+		results = {}
 
-		object = aq_inner(self.context);
+		object = aq_inner(self.context)
 
-		if IPloneSiteRoot.providedBy(object):
-			results['parent_url'] = '';
+		if IPloneSiteRoot.providedBy(object) or (rooted == "True" and document_base_url[:-1] == object.absolute_url()):
+			results['parent_url'] = ''
 		else:
-			results['parent_url'] = object.getParentNode().absolute_url();
+			results['parent_url'] = object.getParentNode().absolute_url()
 
-		# get all items from siteroot to context (title and url)
-		results['path'] = self.getBreadcrums();
+		if rooted == "True":
+			results['path'] = self.getBreadcrums(document_base_url)
+		else:
+			# get all items from siteroot to context (title and url)
+			results['path'] = self.getBreadcrums()
 		
 		
 		# check if object is a folderish object, if not, get it's parent.
 		if not IFolderish.providedBy(object):
-			object = object.getParentNode();
+			object = object.getParentNode()
 		
 		# get all meta types and get information from brains
 		for brain in object.getFolderContents({'meta_type':filter_meta_types, 'sort_on':'sortable_title'}):
-			catalog_results.append(self.getInfoFromBrain(brain));
+			catalog_results.append(self.getInfoFromBrain(brain))
 
 		# add catalog_ressults
-		results['items'] = catalog_results; 
+		results['items'] = catalog_results
 
 		# return results in JSON format
-		return json.write(results);
+		return json.write(results)
 

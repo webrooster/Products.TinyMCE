@@ -26,6 +26,11 @@ var ImageDialog = {
 			document.getElementById ('caption').parentNode.parentNode.style.display = 'none';
 		}
 
+		// Check if rooted
+		if (ed.settings.rooted) {
+			document.getElementById('home').style.display = 'none';
+		}
+
 		if (n.nodeName == 'IMG') {
 			var href = dom.getAttrib(n, 'src');
 			if (href.indexOf('/')) {
@@ -444,6 +449,8 @@ var ImageDialog = {
 		tinymce.util.XHR.send({
 		    url : path + '/@@tinymce.jsonimagefolderlisting',
 			type : 'POST',
+			content_type : "application/x-www-form-urlencoded",
+			data : "rooted=" + (tinyMCEPopup.editor.settings.rooted ? "True" : "False") + "&document_base_url=" + encodeURIComponent(tinyMCEPopup.editor.settings.document_base_url),
 			success : function(text) {
 				var html = "";
 				var data = eval('(' + text + ')');

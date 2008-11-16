@@ -28,7 +28,7 @@ class TinyMCEBrowserView(BrowserView):
 		object = ISave(self.context)
 		return object.save(text, fieldname)
 
-	def jsonLinkableFolderListing(self):
+	def jsonLinkableFolderListing(self, rooted, document_base_url):
 		"""Returns the folderlisting of linkable objects in JSON"""
 
 		utility = getUtility(ITinyMCE)
@@ -36,9 +36,9 @@ class TinyMCEBrowserView(BrowserView):
 
 		context = aq_inner(self.context)
 		object = IJSONFolderListing(self.context)
-		return object.getListing(linkable_meta_types)
+		return object.getListing(linkable_meta_types, rooted, document_base_url)
 	
-	def jsonImageFolderListing(self):
+	def jsonImageFolderListing(self, rooted, document_base_url):
 		"""Returns the folderlisting of image objects in JSON"""
 
 		utility = getUtility(ITinyMCE)
@@ -47,7 +47,7 @@ class TinyMCEBrowserView(BrowserView):
 
 		context = aq_inner(self.context)
 		object = IJSONFolderListing(self.context)
-		return object.getListing(image_meta_types)
+		return object.getListing(image_meta_types, rooted, document_base_url)
 
 	def jsonDetails(self):
 		"""Returns the details of an object in JSON"""
