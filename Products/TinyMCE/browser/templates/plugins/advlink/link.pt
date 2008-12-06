@@ -83,12 +83,13 @@
 					<div class="field">
 						<label for="externalurl" i18n:translate="tinymce_advlink_dlg_url">Link URL</label>
 						<div class="widget">
-							<select id="externalurlprefix" name="externalurlprefix" onchange="previewExternalLink();">
+							<select id="externalurlprefix" name="externalurlprefix">
 								<option value="http://">http://</option>
 								<option value="https://">https://</option>
 								<option value="ftp://">ftp://</option>
 							</select>
 							<input type="text" name="externalurl" id="externalurl" value="" size="30" onchange="previewExternalLink();"/>
+							<input type="button" id="preview" class="context" name="preview" value="Preview" onclick="previewExternalLink();" />
 						</div>
 					</div>
 
