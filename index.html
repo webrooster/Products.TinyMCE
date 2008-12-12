@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Stripped TinyMCE</title>
+
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="tiny_mce.js"></script>
+		<script type="text/javascript" src="editor_template.js"></script>
+		<script type="text/javascript">
+			tinyMCE.init({
+				mode : "textareas",
+				theme : "simple",
+				auto_resize : true
+			});
+		</script>
+	</head>
+	<body>
+		<form method="post" action="#">
+			<h1>Stripped TinyMCE</h1>
+
+			<dl>
+				<dt>Toolbar</dt>
+				<dd>
+					<a href="javascript:;" onmousedown="tinyMCE.execCommand('Bold');">[Bold]</a>
+					<a href="javascript:;" onmousedown="tinyMCE.execCommand('Italic');">[Italic]</a>
+					<a href="javascript:;" onmousedown="tinyMCE.execCommand('Undo');">[Undo]</a>
+					<a href="javascript:;" onmousedown="tinyMCE.execCommand('Redo');">[Redo]</a>
+					<a href="javascript:;" onmousedown="tinyMCE.execCommand('mceCleanup');">[Cleanup]</a>
+					<a href="javascript:;" onmousedown="tinyMCE.execCommand('InsertUnorderedList');">[UnorderedList]</a>
+					<a href="javascript:;" onmousedown="tinyMCE.execCommand('InsertOrderedList');">[OrderedList]</a>
+				</dd>
+			</dl>
+
+			<dl>
+				<dt>Content</dt>
+				<dd>
+					<textarea id="text1" name="text1" rows="15" cols="80">
+						&lt;p class="discreet"&gt;
+						If you're seeing this instead of the web site you were expecting, the owner of
+						this web site has just installed Plone. Do not contact the Plone Team 
+						or the Plone mailing lists about this.
+						&lt;/p&gt;
+
+						&lt;h2&gt;Get started&lt;/h2&gt;
+
+						&lt;p&gt;
+						Before you start exploring your newly created Plone site, please do the following:
+						&lt;/p&gt;
+
+						&lt;ol&gt;
+						&lt;li&gt;Make sure you are logged in as an admin/manager user.
+						&lt;span class="discreet"&gt;(You should see a Site Setup link in the top right corner)&lt;/span&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="@@mail-controlpanel"&gt;Set up your mail server&lt;/a&gt;. &lt;span class="discreet"&gt;(Plone needs a valid SMTP server to verify users and send out password reminders)&lt;/span&gt;&lt;/li&gt;
+						&lt;li&gt;&lt;a href="@@security-controlpanel"&gt;Decide what security level you want on your site&lt;/a&gt;. &lt;span class="discreet"&gt;(Who can join, password policies, etc)&lt;/span&gt;&lt;/li&gt;
+						&lt;/ol&gt;
+					</textarea>
+
+					<img src="logo.jpg" alt="Plone Logo"/>
+
+					<textarea id="text2" name="text2" rows="15" cols="80">
+						&lt;h2&gt;Get comfortable&lt;/h2&gt;
+
+						&lt;p&gt;After that, we suggest you do one or more of the following:&lt;/p&gt;
+
+						&lt;ul&gt;
+						&lt;li&gt;Find out &lt;a class="link-plain" href="http://plone.org/products/plone/features/3.0"&gt;What's new in Plone 3.0&lt;/a&gt;.&lt;/li&gt;
+
+						&lt;li&gt;Read the &lt;a class="link-plain" href="http://plone.org/documentation"&gt;documentation&lt;/a&gt;, especially the 
+						&lt;a class="link-plain" href="http://plone.org/documentation/how-to/read-documentation"&gt;What documentation should I read&lt;/a&gt; 
+						and 
+						&lt;a class="link-plain" href="http://plone.org/documentation/faq/server-recommendations"&gt;Server setup recommendations&lt;/a&gt;.
+						&lt;/li&gt;
+						&lt;li&gt;Explore the &lt;a class="link-plain" href="http://plone.org/products"&gt;available add-on products&lt;/a&gt; for Plone.&lt;/li&gt;
+						&lt;li&gt;Read and/or subscribe to the &lt;a class="link-plain" href="http://plone.org/support"&gt;support forums&lt;/a&gt;.&lt;/li&gt;
+
+						&lt;/ul&gt;
+					</textarea>
+				</dd>
+			</dl>
+		</form>
+	</body>
+</html>
