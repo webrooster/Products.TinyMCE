@@ -334,6 +334,16 @@
 				t.editorContainer = o.editorContainer;
 			}
 
+			// #if contentEditable
+
+			// Content editable mode ends here
+			if (s.content_editable) {
+				e = n = o = null; // Fix IE leak
+				return t.setupContentEditable();
+			}
+
+			// #endif
+
 			// Resize editor
 			DOM.setStyles(o.sizeContainer || o.editorContainer, {
 				width : w,
@@ -712,6 +722,120 @@
 			e = null;
 		},
 
+		// #if contentEditable
+
+		/**
+		 * Sets up the contentEditable mode.
+		 */
+		setupContentEditable : function() {
+			var t = this, s = t.settings, e = t.getElement();
+
+			t.contentDocument = s.content_document || document;
+			t.contentWindow = s.content_window || window;
+			t.bodyElement = e;
+
+			// Prevent leak in IE
+			s.content_document = s.content_window = null;
+
+			DOM.hide(e);
+			e.contentEditable = true;
+			DOM.show(e);
+
+			if (!s.gecko_spellcheck)
+				t.getDoc().body.spellcheck = 0;
+
+			// Setup objects
+			t.dom = new tinymce.DOM.DOMUtils(t.getDoc(), {
+				keep_values : true,
+				url_converter : t.convertURL,
+				url_converter_scope : t,
+				hex_colors : s.force_hex_style_colors,
+				class_filter : s.class_filter,
+				root_element : t.id,
+				strict_root : 1,
+				fix_ie_paragraphs : 1,
+				update_styles : 1
+			});
+
+			t.serializer = new tinymce.dom.Serializer({
+				entity_encoding : s.entity_encoding,
+				entities : s.entities,
+				valid_elements : s.verify_html === false ? '*[*]' : s.valid_elements,
+				extended_valid_elements : s.extended_valid_elements,
+				valid_child_elements : s.valid_child_elements,
+				invalid_elements : s.invalid_elements,
+				fix_table_elements : s.fix_table_elements,
+				fix_list_elements : s.fix_list_elements,
+				fix_content_duplication : s.fix_content_duplication,
+				convert_fonts_to_spans : s.convert_fonts_to_spans,
+				font_size_classes  : s.font_size_classes,
+				font_size_style_values : s.font_size_style_values,
+				apply_source_formatting : s.apply_source_formatting,
+				dom : t.dom
+			});
+
+			t.selection = new tinymce.dom.Selection(t.dom, t.getWin(), t.serializer);
+			t.forceBlocks = new tinymce.ForceBlocks(t, {
+				forced_root_block : s.forced_root_block
+			});
+			t.editorCommands = new tinymce.EditorCommands(t);
+
+			// Pass through
+			t.serializer.onPreProcess.add(function(se, o) {
+				return t.onPreProcess.dispatch(t, o, se);
+			});
+
+			t.serializer.onPostProcess.add(function(se, o) {
+				return t.onPostProcess.dispatch(t, o, se);
+			});
+
+			t.onPreInit.dispatch(t);
+			t._addEvents();
+
+			t.controlManager.onPostRender.dispatch(t, t.controlManager);
+			t.onPostRender.dispatch(t);
+
+//			if (s.convert_fonts_to_spans)
+//				t._convertFonts();
+
+//			if (s.inline_styles)
+//				t._convertInlineElements();
+
+			t.onSetContent.add(function() {
+				t.addVisual(t.getBody());
+			});
+
+			t.load({initial : true, format : (s.cleanup_on_startup ? 'html' : 'raw')});
+			t.startContent = t.getContent({format : 'raw'});
+			t.undoManager.add({initial : true});
+			t.initialized = true;
+
+			t.onInit.dispatch(t);
+			t.focus(true);
+			t.nodeChanged({initial : 1});
+
+			// Load specified content CSS last
+			if (s.content_css) {
+				each(explode(s.content_css), function(u) {
+					t.dom.loadCSS(t.documentBaseURI.toAbsolute(u));
+				});
+			}
+
+			if (isIE) {
+				t.onBeforeExecCommand.add(function(ed, cmd, ui, val, o) {
+					if (!DOM.getParent(ed.selection.getStart(), function(n) {return n == ed.getBody();}))
+						o.terminate = 1;
+
+					if (!DOM.getParent(ed.selection.getEnd(), function(n) {return n == ed.getBody();}))
+						o.terminate = 1;
+				});
+			}
+
+			e = null; // Cleanup
+		},
+
+		// #endif
+
 		/**
 		 * Focuses/activates the editor. This will set this editor as the activeEditor in the EditorManager
 		 * it will also place DOM focus inside the editor.
@@ -727,6 +851,14 @@
 				// the layer is like it's own document in IE
 				if (!ce && (!isIE || t.selection.getNode().ownerDocument != t.getDoc()))
 					t.getWin().focus();
+
+				// #if contentEditable
+
+				// Content editable mode ends here
+				if (tinymce.isIE && ce)
+					t.getElement().focus();
+
+				// #endif
 			}
 
 			if (EditorManager.activeEditor != t) {
@@ -1602,6 +1734,20 @@
 			Event.add(s.content_editable ? t.getBody() : (isGecko ? t.getDoc() : t.getWin()), 'focus', function(e) {
 				t.focus(true);
 			});
+
+			// #if contentEditable
+
+			if (s.content_editable && tinymce.isOpera) {
+				// Opera doesn't support focus event for contentEditable elements so we need to fake it
+				function doFocus(e) {
+					t.focus(true);
+				};
+
+				Event.add(t.getBody(), 'click', doFocus);
+				Event.add(t.getBody(), 'keydown', doFocus);
+			}
+
+			// #endif
 
 			// Fixes bug where a specified document_base_uri could result in broken images
 			// This will also fix drag drop of images in Gecko
