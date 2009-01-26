@@ -20,7 +20,7 @@
 
 				ed.windowManager.open({
 					file : ed.settings.portal_url + '/@@tinymce.plugins.advlink.link',
-					width : 780,
+					width : 820,
 					height : 470,
 					inline : 1
 				}, {
