@@ -614,7 +614,11 @@ class TinyMCE(SimpleItem):
     security.declareProtected('View', 'getContentType')
     def getContentType(self, object=None, fieldname=None):
         if hasattr(object, 'getContentType'):
-            return object.getContentType(fieldname)
+            try: 
+                return object.getContentType(fieldname) 
+            except TypeError: 
+                # bugfix for Ploneboard... 
+                return 'text/html' 
         return 'text/html'
 
     security.declareProtected('View', 'getConfiguration')

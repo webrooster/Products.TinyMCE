@@ -105,7 +105,7 @@
                             e = ReplaceTag(e, tag);
                         } else {
                             var n = this._getParentNode(e,["ol","ul"]);
-                            ed.dom.setAttrib(n,"type",styles[parseInt(v)].listType);
+                            ed.dom.setAttrib(n,"class", 'list-type-'+styles[parseInt(v)].listType);
                         }
                         break;
                     case "Selection":
@@ -194,7 +194,12 @@
                     var p = this._getParentNode(n, ["th","td","p","h1","h2","h3","h4","h5","h6","pre","div","span","blockquote","samp","code", "ul", "ol","dl"]);
                     var il = false;
                     if (p && (p.nodeName.toLowerCase() == "ul" || p.nodeName.toLowerCase() == "ol")) {
-                        var lt = ed.dom.getAttrib(p, "type");
+						var lt = ed.dom.getAttrib(p, "class"); 
+						lt = lt.split("-"); 
+						if (lt.length==3) 
+							lt = lt[2]; 
+						else
+							lt='';
                         if (lt == "") {
                             if (p.nodeName.toLowerCase() == "ul") {
                                 lt = "disc";
