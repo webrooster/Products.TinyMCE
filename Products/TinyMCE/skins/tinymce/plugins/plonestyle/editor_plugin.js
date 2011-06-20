@@ -79,20 +79,6 @@
                                     if (e.tagName.toLowerCase() != tag.toLowerCase()) {
                                         e = ReplaceTag (e, tag);
                                     }
-                                    if (className != "") {
-                                        var classnames = ed.dom.getAttrib(e, 'class').split(' ');
-                                        var newclassnames = new Array();
-                                        newclassnames.push(className)
-                                        for (var i = 0; i < classnames.length; i++) {
-                                            if ((classnames[i] == 'image-left') ||
-                                                (classnames[i] == 'image-right') ||
-                                                (classnames[i] == 'image-inline') ||
-                                                (classnames[i] == 'captioned')) {
-                                                newclassnames.push(classnames[i]);
-                                            }
-                                        }
-                                        e.className = newclassnames.join(' ');
-                                    }
                                 }
                             }
                         });
@@ -126,6 +112,11 @@
                             var n = this._getParentNode(e,["ol","ul"]);
 
                             n.className = className;
+                        }
+                        break;
+                    case "Images":
+                        if (tag == "img") {
+                            e.className = className;
                         }
                         break;
                     case "Selection":
@@ -203,9 +194,12 @@
             var ul = this._getParentNode (n, ["ul"]);
             var ol = this._getParentNode (n, ["ol"]);
             var dl = this._getParentNode (n, ["dl"]);
+            
+            // Check if inside img
+            var img = this._getParentNode (n, ["img"]);
 
             // Hardcoded strings translated with this.labels
-            var label_ids = ["Text", "Selection", "Tables", "Lists", "Print"];
+            var label_ids = ["Text", "Selection", "Tables", "Lists", "Images", "Print"];
 
             // Fill the listbox
             for (var i = 0; i < this._styles.length; i++) {
@@ -214,6 +208,7 @@
                 if ((((tag != "td") && (tag != "th") && (tag != "tr") && (tag != "table")) || t) &&
                     (tag != "ul" || ul) &&
                     (tag != "ol" || ol) &&
+                    (tag != "img" || img) &&
                     (((tag != "dl") && (tag != "dd") && (tag != "dt")) || dl)) {
 
                     // e.g. style_title = this.labels["label_text"]

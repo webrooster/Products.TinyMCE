@@ -65,6 +65,7 @@ class TinyMCE(SimpleItem):
     content_css = FieldProperty(ITinyMCELayout['content_css'])
     styles = FieldProperty(ITinyMCELayout['styles'])
     tablestyles = FieldProperty(ITinyMCELayout['tablestyles'])
+    imgstyles = FieldProperty(ITinyMCELayout['imgstyles'])
 
     toolbar_width = FieldProperty(ITinyMCEToolbar['toolbar_width'])
 
@@ -629,6 +630,8 @@ class TinyMCE(SimpleItem):
         labels['label_style_ldots'] = translate(_('Style...'), context=request)
         labels['label_text'] = translate(_('Text'), context=request)
         labels['label_tables'] = translate(_('Tables'), context=request)
+        labels['label_images'] = translate(_('Images'), context=request)
+        labels['label_rawimage'] = translate(_('No class'), context=request)
         labels['label_selection'] = translate(_('Selection'), context=request)
         labels['label_lists'] = translate(_('Lists'), context=request)
         labels['label_print'] = translate(_('Print'), context=request)
@@ -639,7 +642,20 @@ class TinyMCE(SimpleItem):
         # Add styles to results
         results['styles'] = []
         results['table_styles'] = []
+        results['img_styles'] = []
         if not redefine_parastyles:
+            if isinstance(self.imgstyles, StringTypes):
+                for imgstyle in self.imgstyles.split('\n'):
+                    if not imgstyle:
+                        # empty line
+                        continue
+                    imgstylefields = imgstyle.split('|')
+                    imgstyletitle = imgstylefields[0]
+                    imgstyleid = imgstylefields[1]
+                    if request is not None:
+                        imgstyletitle = translate(_(imgstylefields[0]), context=request)
+                    results['styles'].append(imgstyletitle + '|img|' + imgstyleid)
+                    results['img_styles'].append(imgstyletitle + '=' + imgstyleid)
             if isinstance(self.tablestyles, StringTypes):
                 for tablestyle in self.tablestyles.split('\n'):
                     if not tablestyle:

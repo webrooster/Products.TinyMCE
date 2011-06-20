@@ -61,6 +61,10 @@ class ITinyMCELayout(Interface):
         description=_(u"Enter a list of styles to appear in the table style pulldown. Format is title|class, one per line."),
         required=False)
 
+    imgstyles = schema.Text(
+        title=_(u"Image styles"),
+        description=_(u"Enter a list of images to appear in the images style pulldown. Format is title|class, one per line."),
+        required=False)
 
 class ITinyMCEToolbar(Interface):
     """This interface defines the toolbar properties."""

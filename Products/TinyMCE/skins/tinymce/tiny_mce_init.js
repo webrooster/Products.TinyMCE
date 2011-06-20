@@ -70,6 +70,7 @@ function TinyMCEConfig(id) {
             theme_advanced_source_editor_height : this.getEditorHeight(),
 
             table_styles : this.getTableStyles(),
+            img_styles : this.getImgStyles(),
             table_firstline_th : true,
             directionality : this.getDirectionality(),
             entity_encoding : this.getEntityEncoding(),
@@ -106,6 +107,10 @@ function TinyMCEConfig(id) {
         }
         return 23;
     };
+    
+    this.getImgStyles = function() {
+        return this.widget_config.img_styles.join (";");
+    };
 
     this.getTableStyles = function() {
         return this.widget_config.table_styles.join (";");
@@ -138,7 +143,7 @@ function TinyMCEConfig(id) {
     };
 
     this.getStyles = function() {
-        var h = {'Text': [], 'Selection': [], 'Tables': [], 'Lists': [], 'Print': []};
+        var h = {'Text': [], 'Selection': [], 'Tables': [], 'Lists': [], 'Images': [], 'Print': []};
         var styletype = "";
 
         // Push title
@@ -148,6 +153,7 @@ function TinyMCEConfig(id) {
         h['Lists'].push('{ title: "Lists", tag: "ul", className: "-", type: "Lists" }');
         h['Lists'].push('{ title: "Lists", tag: "ol", className: "-", type: "Lists" }');
         h['Lists'].push('{ title: "Lists", tag: "dl", className: "-", type: "Lists" }');
+        h['Images'].push('{ title: "Images", tag: "img", className: "-", type: "Images" }');
         h['Print'].push('{ title: "Print", tag: "", className: "-", type: "Print" }');
 
         // Add defaults
@@ -155,6 +161,7 @@ function TinyMCEConfig(id) {
         h['Selection'].push('{ title: "' + this.widget_config.labels['label_styles'] + '", tag: "", className: "", type: "Selection" }');
         h['Tables'].push('{ title: "'+this.widget_config.labels['label_plain_cell'] +'", tag: "td", className: "", type: "Tables" }');
         h['Lists'].push('{ title: "'+this.widget_config.labels['label_lists'] +'", tag: "dl", className: "", type: "Lists" }');
+        h['Images'].push('{ title: "'+this.widget_config.labels['label_rawimage'] +'", tag: "img", className: "", type: "Images" }');
 
         for (var i = 0; i < this.widget_config.styles.length; i++) {
             e = this.widget_config.styles[i].split('|');
@@ -180,6 +187,9 @@ function TinyMCEConfig(id) {
                 case 'dd':
                 case 'dl':
                     styletype = "Lists";
+                    break;
+                case 'img':
+                    styletype = "Images";
                     break;
                 default:
                     styletype = "Text";
@@ -211,6 +221,11 @@ function TinyMCEConfig(id) {
         if (h['Lists'].length > 1) {
             for (var i = 0; i < h['Lists'].length; i++) {
                 a.push(h['Lists'][i]);
+            }
+        }
+        if (h['Images'].length > 1) {
+            for (var i = 0; i < h['Images'].length; i++) {
+                a.push(h['Images'][i]);
             }
         }
         if (h['Print'].length > 1) {
