@@ -30,6 +30,7 @@
   </imageobjects>
   <customplugins>
     <element value="plonebrowser"/>
+    <element value="ploneautoresize"/>
   </customplugins>
   <entity_encoding value="raw"/>
  </resourcetypes>
