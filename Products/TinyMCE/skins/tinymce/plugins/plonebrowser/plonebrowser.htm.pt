@@ -3,6 +3,7 @@
     tal:define="portal_url context/portal_url; portal_tinymce context/portal_tinymce;">
 <head>
   <title i18n:domain="plone.tinymce" i18n:translate="">Insert/Edit</title>
+  <script type="text/javascript" src="++resource++plone.app.jquery.js"></script>
   <script type="text/javascript" src="../../tiny_mce_popup.js"></script>
   <script type="text/javascript" src="../../utils/mctabs.js"></script>
   <script type="text/javascript" src="../../utils/form_utils.js"></script>

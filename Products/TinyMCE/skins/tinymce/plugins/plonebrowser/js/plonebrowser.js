@@ -5,7 +5,7 @@
          plusplus: true,
          indent: 4,
          maxlen: 200 */
-/*global jq, tinymce, tinyMCEPopup, alert */
+/*global $, tinymce, tinyMCEPopup, alert */
 /**
  * Image selection dialog.
  *
@@ -44,11 +44,11 @@ var BrowserDialog = function (mcePopup) {
     // TODO: WTF?
     image_list_url = this.tinyMCEPopup.getParam("external_image_list_url");
     if (image_list_url) {
-        jq.getScript(this.editor.documentBaseURI.toAbsolute(image_list_url));
+        $.getScript(this.editor.documentBaseURI.toAbsolute(image_list_url));
     }
     link_list_url = tinyMCEPopup.getParam("external_link_list_url");
     if (link_list_url) {
-        jq.getScript(this.editor.documentBaseURI.toAbsolute(link_list_url));
+        $.getScript(this.editor.documentBaseURI.toAbsolute(link_list_url));
     }
 };
 
@@ -61,7 +61,7 @@ var BrowserDialog = function (mcePopup) {
  */
 BrowserDialog.prototype.init = function () {
     var self = this,
-        selected_node = jq(this.editor.selection.getNode(), document),
+        selected_node = $(this.editor.selection.getNode(), document),
         scaled_image,
         mailaddress,
         mailsubject,
@@ -77,7 +77,7 @@ BrowserDialog.prototype.init = function () {
     this.shortcuts_html = this.is_link_plugin ? self.editor.settings.link_shortcuts_html : self.editor.settings.image_shortcuts_html;
 
     // Setup events
-    jq('#insert-selection', document).click(function (e) {
+    $('#insert-selection', document).click(function (e) {
         e.preventDefault();
         if (self.is_link_plugin === true) {
             self.insertLink();
@@ -85,83 +85,83 @@ BrowserDialog.prototype.init = function () {
             self.insertImage();
         }
     });
-    jq('#cancel', document).click(function (e) {
+    $('#cancel', document).click(function (e) {
         e.preventDefault();
         self.tinyMCEPopup.close();
     });
-    jq('#upload', document).click(function (e) {
+    $('#upload', document).click(function (e) {
         e.preventDefault();
         self.displayPanel('upload');
     });
-    jq('#uploadbutton', document).click(function (e) {
+    $('#uploadbutton', document).click(function (e) {
         e.preventDefault();
-        jq('#upload_form', document).submit();
+        $('#upload_form', document).submit();
     });
-    jq('#searchtext', document).keyup(function (e) {
+    $('#searchtext', document).keyup(function (e) {
         e.preventDefault();
         // We need to stop the event from propagating so that pressing Esc will
         // only stop the search but not close the whole dialog.
         e.stopPropagation();
         self.checkSearch(e);
     });
-    jq('#clear-btn', document).click(function (e) {
+    $('#clear-btn', document).click(function (e) {
         e.preventDefault();
-        jq('#searchtext', document).val("");
+        $('#searchtext', document).val("");
         self.checkSearch(e);
     });
-    jq('#search-btn', document).click(function (e) {
+    $('#search-btn', document).click(function (e) {
         e.preventDefault();
         self.checkSearch(e);
     });
     // handle shortcuts button
-    jq("#shortcutsicon", document).click(function (e) {
+    $("#shortcutsicon", document).click(function (e) {
         e.preventDefault();
-        jq(this).toggleClass('selected');
-        jq('#shortcutsview', document).toggle();
+        $(this).toggleClass('selected');
+        $('#shortcutsview', document).toggle();
     });
     
     // handle different folder listing view types
-    jq('#general_panel .legend a', document).click(function (e) {
+    $('#general_panel .legend a', document).click(function (e) {
         self.editing_existing_image = true;
         e.preventDefault();
-        jq('#general_panel .legend a', document).removeClass('current');
-        jq(this).addClass('current');
+        $('#general_panel .legend a', document).removeClass('current');
+        $(this).addClass('current');
         // refresh listing with new view settings
         self.getFolderListing(self.folderlisting_context_url, self.folderlisting_method);
     });
 
     // setup UI based on settings
     if (!this.editor.settings.allow_captioned_images) {
-        jq('#caption', document).parent().parent().hide();
+        $('#caption', document).parent().parent().hide();
     }
     if (this.editor.settings.rooted === true) {
-        jq('#home', document).hide();
+        $('#home', document).hide();
     }
     if (!this.editor.settings.enable_external_link_preview) {
-        jq('#preview-column', document).hide();
+        $('#preview-column', document).hide();
     }
 
     // setup UI depending on plugin type
     if (this.is_link_plugin === true) {
         // we may have image selected and anchor is the wrapping node
         selected_node = selected_node.closest('a');
-        jq('#browseimage_panel h2', document).text(this.labels.label_browselink);
-        jq('#addimage_panel h2', document).text(this.labels.label_addnewfile);
-        jq('#plonebrowser', document).removeClass('image-browser').addClass('link-browser');
+        $('#browseimage_panel h2', document).text(this.labels.label_browselink);
+        $('#addimage_panel h2', document).text(this.labels.label_addnewfile);
+        $('#plonebrowser', document).removeClass('image-browser').addClass('link-browser');
 
         this.populateAnchorList();
 
         // display results as list and disable thumbs view
-        jq('.legend a', document).removeClass('current');
-        jq('#listview', document).addClass('current');
-        jq('.legend', document).hide();
+        $('.legend a', document).removeClass('current');
+        $('#listview', document).addClass('current');
+        $('.legend', document).hide();
 
         // setup link buttons acions
-        jq('#linktype a', document).click(function (e) {
+        $('#linktype a', document).click(function (e) {
             e.preventDefault();
-            jq('#linktype_panel div', document).removeClass('current');
-            jq(this, document).parent('div').addClass('current');
-            switch (jq(this).attr('href')) {
+            $('#linktype_panel div', document).removeClass('current');
+            $(this, document).parent('div').addClass('current');
+            switch ($(this).attr('href')) {
                 case "#internal":
                     self.displayPanel('browse');
                     self.getCurrentFolderListing();
@@ -177,33 +177,33 @@ BrowserDialog.prototype.init = function () {
                     break;
             }
         });
-        jq('#externalurl', document).keyup(function (e) {
+        $('#externalurl', document).keyup(function (e) {
             self.checkExternalURL(this.value);
         });
-        jq('#targetlist', document).change(this.setupPopupVisibility);
-        jq('#previewexternalurl', document).click(function (e) {
+        $('#targetlist', document).change(this.setupPopupVisibility);
+        $('#previewexternalurl', document).click(function (e) {
             e.preventDefault();
-            jq('#previewexternal', document).show();
-            jq(this).text('Refresh Preview');
+            $('#previewexternal', document).show();
+            $(this).text('Refresh Preview');
             self.previewExternalURL();
         });
 
         /* handle link plugin startup */
         if (selected_node.length > 0 && selected_node[0].nodeName.toUpperCase() === "A") {
             // element is anchor, we have a link
-            href = jq.trim(selected_node.attr('href'));
+            href = $.trim(selected_node.attr('href'));
 
             // setup form data
             if ((typeof(selected_node.attr('title')) !== "undefined")) {
-                jq('#title', document).val(selected_node.attr('title'));
+                $('#title', document).val(selected_node.attr('title'));
             }
 
             // determine link type
             if (href.indexOf('#') === 0) {
                 // anchor
-                jq('input:radio[value=' + href + ']', document).click();
-                jq('#linktype a[href=#anchor]', document).click();
-                jq('#cssstyle', document).val(selected_node.attr('style'));
+                $('input:radio[value=' + href + ']', document).click();
+                $('#linktype a[href=#anchor]', document).click();
+                $('#cssstyle', document).val(selected_node.attr('style'));
             } else if (href.indexOf('mailto:') > -1) {
                 // email
                 href = href.split('mailto:')[1].split('?subject=');
@@ -215,16 +215,16 @@ BrowserDialog.prototype.init = function () {
                     mailsubject = "";
                 }
 
-                jq('#mailaddress', document).val(mailaddress);
-                jq('#mailsubject', document).val(mailsubject);
-                jq('#cssstyle', document).val(selected_node.attr('style'));
-                jq('#linktype a[href=#email]', document).click();
+                $('#mailaddress', document).val(mailaddress);
+                $('#mailsubject', document).val(mailsubject);
+                $('#cssstyle', document).val(selected_node.attr('style'));
+                $('#linktype a[href=#email]', document).click();
             } else if ((href.indexOf(this.editor.settings.portal_url) === -1) &&
                 ((href.indexOf('http://') === 0) || (href.indexOf('https://') === 0) || (href.indexOf('ftp://') === 0))) {
                 // external
                 this.checkExternalURL(href);
-                jq('#cssstyle', document).val(selected_node.attr('style'));
-                jq('#linktype a[href=#external]', document).click();
+                $('#cssstyle', document).val(selected_node.attr('style'));
+                $('#linktype a[href=#external]', document).click();
             } else {
                 // internal
                 if (href.indexOf('#') !== -1) {
@@ -235,7 +235,7 @@ BrowserDialog.prototype.init = function () {
 
                 if (href.indexOf('resolveuid') !== -1) {
                     current_uid = href.split('resolveuid/')[1];
-                    jq.ajax({
+                    $.ajax({
                         url: this.editor.settings.portal_url + '/portal_tinymce/tinymce-getpathbyuid?uid=' + current_uid,
                         dataType: 'text',
                         type: 'GET',
@@ -249,17 +249,17 @@ BrowserDialog.prototype.init = function () {
                     this.current_link = this.getAbsoluteUrl(this.editor.settings.document_base_url, href);
                     this.getFolderListing(this.getParentUrl(this.current_link), 'tinymce-jsonlinkablefolderlisting');
                 }
-                jq('#cssstyle', document).val(selected_node.attr('style'));
+                $('#cssstyle', document).val(selected_node.attr('style'));
             }
 
-            jq('#targetlist', document).val(selected_node.attr('target'));
+            $('#targetlist', document).val(selected_node.attr('target'));
             // TODO: set the rest of the "advanced" fields that are in common for all of them
         } else {
             // plain text selection
-            href = jq.trim(this.editor.selection.getContent());
+            href = $.trim(this.editor.selection.getContent());
             if ((href.indexOf('http://') === 0) || (href.indexOf('https://') === 0) || (href.indexOf('ftp://') === 0)) {
                 this.checkExternalURL(href);
-                jq('#linktype a[href=#external]', document).click();
+                $('#linktype a[href=#external]', document).click();
             } else {
                 this.getCurrentFolderListing();
             }
@@ -267,18 +267,18 @@ BrowserDialog.prototype.init = function () {
 
     } else {
         /* handle image plugin startup */
-        // jq('#browseimage_panel h2', document).text(this.labels.label_browseimage);
-        jq('#addimage_panel h2', document).text(this.labels.label_addnewimage);
-        jq('#plonebrowser', document).removeClass('link-browser').addClass('image-browser');
-        jq('#linktarget', document).hide();
+        // $('#browseimage_panel h2', document).text(this.labels.label_browseimage);
+        $('#addimage_panel h2', document).text(this.labels.label_addnewimage);
+        $('#plonebrowser', document).removeClass('link-browser').addClass('image-browser');
+        $('#linktarget', document).hide();
 
         // setup panel buttons acions
-        jq('#email_link, #anchor_link', document).hide();
-        jq('#linktype a', document).click(function (e) {
+        $('#email_link, #anchor_link', document).hide();
+        $('#linktype a', document).click(function (e) {
             e.preventDefault();
-            jq('#linktype_panel div', document).removeClass('current');
-            jq(this, document).parent('div').addClass('current');
-            switch (jq(this).attr('href')) {
+            $('#linktype_panel div', document).removeClass('current');
+            $(this, document).parent('div').addClass('current');
+            switch ($(this).attr('href')) {
                 case "#internal":
                     self.displayPanel('browse');
                     self.getCurrentFolderListing();
@@ -289,10 +289,10 @@ BrowserDialog.prototype.init = function () {
             }
         });
 
-        jq('#previewimagebutton', document).click(function (e) {
-            var url = jq('#imageurl', document).val();
+        $('#previewimagebutton', document).click(function (e) {
+            var url = $('#imageurl', document).val();
             e.preventDefault();
-            jq('#imgpreview', document).html('<img src="' + url + '" />');
+            $('#imgpreview', document).html('<img src="' + url + '" />');
         });
 
         if (selected_node.get(0).tagName && selected_node.get(0).tagName.toUpperCase() === 'IMG') {
@@ -306,13 +306,13 @@ BrowserDialog.prototype.init = function () {
             //   - image-left
             //   - image-right
             // and pass all other classes through as-is.
-            jq.each(selected_node.attr('class').split(/\s+/), function () {
+            $.each(selected_node.attr('class').split(/\s+/), function () {
                 var classname = this.toString();
                 switch (classname) {
                     case 'captioned':
                         if (self.editor.settings.allow_captioned_images) {
                             // Check the caption checkbox
-                            jq('#caption', document).attr('checked', 'checked');
+                            $('#caption', document).attr('checked', 'checked');
                         }
                         break;
 
@@ -320,7 +320,7 @@ BrowserDialog.prototype.init = function () {
                     case 'image-left':
                     case 'image-right':
                         // Select the corresponding option in the "Alignment" <select>.
-                        jq('#classes', document).val(classname);
+                        $('#classes', document).val(classname);
                         break;
 
                     default:
@@ -333,15 +333,15 @@ BrowserDialog.prototype.init = function () {
 
             if (selected_node.get(0).classList.contains('external-image')) {
                 self.displayPanel('externalimage');
-                jq('#linktype_panel div', document).removeClass('current');
-                jq('#external_link', document).addClass('current');
-                jq('#imagetitle', document).val(selected_node.get(0).alt);
-                jq('#imageurl', document).val(selected_node.get(0).src);
+                $('#linktype_panel div', document).removeClass('current');
+                $('#external_link', document).addClass('current');
+                $('#imagetitle', document).val(selected_node.get(0).alt);
+                $('#imageurl', document).val(selected_node.get(0).src);
             } else {
                 scaled_image = this.parseImageScale(selected_node.attr("src"));
 
                 // Update the dimensions <select> with the corresponding value.
-                jq('#dimensions', document).val(scaled_image.scale);
+                $('#dimensions', document).val(scaled_image.scale);
 
                 if (scaled_image.url.indexOf('resolveuid/') > -1) {
                     /** Handle UID linked image **/
@@ -349,7 +349,7 @@ BrowserDialog.prototype.init = function () {
                     current_uid = scaled_image.url.split('resolveuid/')[1];
 
                     // Fetch the information about the UID linked image.
-                    jq.ajax({
+                    $.ajax({
                         'url': this.editor.settings.portal_url + '/portal_tinymce/tinymce-getpathbyuid?uid=' + current_uid,
                         'dataType': 'text',
                         'type': 'GET',
@@ -439,14 +439,14 @@ BrowserDialog.prototype.parseImageScale = function (url) {
  * Given DOM node and href value, setup all node attributes/properies
  */
 BrowserDialog.prototype.setLinkAttributes = function (node, link) {
-    var panelname = jq('#linktype .current a', document).attr('href');
+    var panelname = $('#linktype .current a', document).attr('href');
 
-    jq(node)
+    $(node)
         .attr('href', link)
         .attr('data-mce-href', link)
-        .attr('title', jq('#title', document).val())
-        .attr('target', jq('#targetlist', document).val())
-        .attr('style', jq('#cssstyle', document).val())
+        .attr('title', $('#title', document).val())
+        .attr('target', $('#targetlist', document).val())
+        .attr('style', $('#cssstyle', document).val())
         .removeClass('internal-link external-link anchor-link mail-link')
         .addClass(panelname.substr(1, panelname.length) + '-link');
 };
@@ -457,8 +457,8 @@ BrowserDialog.prototype.setLinkAttributes = function (node, link) {
  *
  */
 BrowserDialog.prototype.insertLink = function () {
-    var selected_node = jq(this.editor.selection.getNode(), document),
-        active_panel = jq('#linktype .current a', document).attr('href'),
+    var selected_node = $(this.editor.selection.getNode(), document),
+        active_panel = $('#linktype .current a', document).attr('href'),
         self = this,
         mailsubject,
         elementArray,
@@ -482,7 +482,7 @@ BrowserDialog.prototype.insertLink = function () {
     switch (active_panel) {
         case "#internal":
             link = this.current_link;
-            anchor = jq('#pageanchor', document).val();
+            anchor = $('#pageanchor', document).val();
             if (anchor) {
                 link += '#' + anchor;
             }
@@ -491,8 +491,8 @@ BrowserDialog.prototype.insertLink = function () {
             link = this.previewExternalURL();
             break;
         case "#email":
-            link = jq('#mailaddress', document).val();
-            mailsubject = jq('#mailsubject', document).val();
+            link = $('#mailaddress', document).val();
+            mailsubject = $('#mailsubject', document).val();
             if (mailsubject !== "") {
                 link += "?subject=" + mailsubject;
             }
@@ -501,13 +501,13 @@ BrowserDialog.prototype.insertLink = function () {
             }
             break;
         case "#anchor":
-            link = jq('#anchorlinkcontainer input:checked', document).val();
+            link = $('#anchorlinkcontainer input:checked', document).val();
             url_match = link.match(/^#mce-new-anchor-(.*)$/);
             if (url_match !== null) {
                 // create anchor link
                 nodes = this.editor.dom.select(this.editor.settings.anchor_selector);
                 for (i = 0; i < nodes.length; i++) {
-                    name = jq(nodes[i]).text().replace(/^\s+|\s+$/g, '');
+                    name = $(nodes[i]).text().replace(/^\s+|\s+$/g, '');
                     name = name.toLowerCase().substring(0, 1024).replace(/[^a-z0-9]/g, '-');
 
                     if (name === url_match[1]) {
@@ -580,34 +580,34 @@ BrowserDialog.prototype.insertImage = function () {
     var attrs = {},
         selected_node = this.editor.selection.getNode(),
         href = this.current_link,
-        active_panel = jq('#linktype .current a', document).attr('href'),
+        active_panel = $('#linktype .current a', document).attr('href'),
         dimension,
         classes;
 
     // Pass-through classes
     classes = [].concat(this.current_classes);
     // Alignment class
-    classes.push(jq.trim(jq('#classes', document).val()));
+    classes.push($.trim($('#classes', document).val()));
 
     if (active_panel === "#external") {
-        href = jq('#imageurl', document).val();
-        if (jq.inArray('external-image', classes) === -1) {
+        href = $('#imageurl', document).val();
+        if ($.inArray('external-image', classes) === -1) {
             classes.push('external-image');
         }
-        jq.extend(attrs, {
-            alt: jq('#imagetitle', document).val(),
-            title: jq('#imagetitle', document).val()
+        $.extend(attrs, {
+            alt: $('#imagetitle', document).val(),
+            title: $('#imagetitle', document).val()
         });
     } else {
         // we have internal image panel
 
         // remove external-image if present
-        if (jq.inArray('external-image', classes) > -1) {
-            classes.splice(jq.inArray('external-image', classes), 1);
+        if ($.inArray('external-image', classes) > -1) {
+            classes.splice($.inArray('external-image', classes), 1);
         }
 
         // Image captioning
-        if (this.editor.settings.allow_captioned_images && jq('#caption', document).is(':checked')) {
+        if (this.editor.settings.allow_captioned_images && $('#caption', document).is(':checked')) {
             classes.push('captioned');
         }
 
@@ -624,13 +624,13 @@ BrowserDialog.prototype.insertImage = function () {
         }
 
         // Append the image scale to the URL if a valid selection exists.
-        dimension = jq('#dimensions', document).val();
+        dimension = $('#dimensions', document).val();
         if (dimension !== "") {
             href += '/' + dimension;
         }
     }
 
-    jq.extend(attrs, {
+    $.extend(attrs, {
         'src' : href,
         'class' : classes.join(' ')
     });
@@ -648,11 +648,11 @@ BrowserDialog.prototype.insertImage = function () {
 
     // Update the Description of the image
     if (active_panel === "#internal") {
-        jq.ajax({
-            'url': jq('#description_href', document).val() + '/tinymce-setDescription',
+        $.ajax({
+            'url': $('#description_href', document).val() + '/tinymce-setDescription',
             'type': 'POST',
             'data': {
-                'description': jq('#description', document).val()
+                'description': $('#description', document).val()
             }
         });
     }
@@ -664,12 +664,12 @@ BrowserDialog.prototype.insertImage = function () {
  * Activates and disables the search feature based on user input.
  */
 BrowserDialog.prototype.checkSearch = function (e) {
-    var el = jq('#searchtext', document),
+    var el = $('#searchtext', document),
         len = el.val().length;
 
     // Show the clear button when there is text in the search field
     if (len > 0) {
-        jq('#clear-btn', document).show();
+        $('#clear-btn', document).show();
     }
     
     // Activate search when we have enough input and either livesearch is
@@ -688,7 +688,7 @@ BrowserDialog.prototype.checkSearch = function (e) {
     }
     
     if (len === 0 || e.which === 27) {
-        jq('#clear-btn', document).hide();
+        $('#clear-btn', document).hide();
     }
 };
 
@@ -714,40 +714,40 @@ BrowserDialog.prototype.setDetails = function (url) {
                 return scale.title;
             }
         };
-    if (jq.trim(url).length === 0) {
+    if ($.trim(url).length === 0) {
         return;
     }
 
-    jq.ajax({
+    $.ajax({
         'url': url + '/tinymce-jsondetails',
         'dataType': 'json',
         'success': function (data) {
-            var dimension = jq('#dimensions', document).val(),
+            var dimension = $('#dimensions', document).val(),
                 dimensions,
                 i;
 
             // Add the thumbnail image to the details pane.
             if (data.thumb !== "") {
-                jq('#previewimagecontainer', document)
+                $('#previewimagecontainer', document)
                     .empty()
-                    .append(jq('<img/>', document).attr({'src': data.thumb}));
+                    .append($('<img/>', document).attr({'src': data.thumb}));
                 // Save the thumbnail URL for later use.
                 self.thumb_url = data.thumb;
             } else {
-                jq('#previewimagecontainer', document).empty();
+                $('#previewimagecontainer', document).empty();
                 self.thumb_url = "";
             }
 
-            jq('#description', document).val(data.description);
-            jq('#description_href', document).val(data.url);
+            $('#description', document).val(data.description);
+            $('#description_href', document).val(data.url);
 
             // Repopulate the <option>s in the dimensions <select> element.
             if (data.scales) {
-                dimensions = jq('#dimensions', document).empty();
+                dimensions = $('#dimensions', document).empty();
 
-                jq.each(data.scales, function () {
+                $.each(data.scales, function () {
                     var scale = this,
-                        option = jq('<option/>', document)
+                        option = $('<option/>', document)
                             .attr({'value': scale.value})
                             .text(scale_title(scale));
 
@@ -760,10 +760,10 @@ BrowserDialog.prototype.setDetails = function (url) {
             self.displayPanel('details');
 
             // select radio button in folder listing and mark selected image
-            jq('input:radio[name=internallink][value!="' + data.uid_relative_url + '"]', document)
+            $('input:radio[name=internallink][value!="' + data.uid_relative_url + '"]', document)
                 .parent('.item')
                 .removeClass('current');
-            jq('input:radio[name=internallink][value="' + data.uid_relative_url + '"]', document)
+            $('input:radio[name=internallink][value="' + data.uid_relative_url + '"]', document)
                 .attr('checked', 'checked')
                 .parent('.item')
                 .addClass('current');
@@ -771,10 +771,10 @@ BrowserDialog.prototype.setDetails = function (url) {
             self.current_url = data.url;
             self.current_link = self.editor.settings.link_using_uids ? data.uid_relative_url : data.url;
 
-            jq('#titledetails', document).text(data.title);
+            $('#titledetails', document).text(data.title);
             if (self.is_link_plugin === true) {
-                jq('#classes', document).parents('.field').addClass('hide');
-                jq('#dimensions', document).parents('.field').addClass('hide');
+                $('#classes', document).parents('.field').addClass('hide');
+                $('#dimensions', document).parents('.field').addClass('hide');
             }
 
             if (data.anchors.length > 0) {
@@ -782,9 +782,9 @@ BrowserDialog.prototype.setDetails = function (url) {
                 for (i = 0; i < data.anchors.length; i++) {
                     html += '<option value="' + data.anchors[i] + '">' + data.anchors[i] + '</option>';
                 }
-                jq('#pageanchor', document).append(html);
+                $('#pageanchor', document).append(html);
             } else {
-                jq('#pageanchorcontainer', document).parents('.field').addClass('hide');
+                $('#pageanchorcontainer', document).parents('.field').addClass('hide');
             }
         }
     });
@@ -811,12 +811,12 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
     this.folderlisting_context_url = context_url;
     this.folderlisting_method = method;
 
-    jq.ajax({
+    $.ajax({
         'url': context_url + '/' + method,
         'type': 'POST',
         'dataType': 'json',
         'data': {
-            'searchtext': jq('#searchtext', document).val(),
+            'searchtext': $('#searchtext', document).val(),
             'rooted': this.editor.settings.rooted ? 'True' : 'False',
             'document_base_url': this.editor.settings.document_base_url
         },
@@ -835,17 +835,17 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
             if (data.items.length === 0) {
                 html.push('<div id="no-items">' + self.labels.label_no_items + '</div>');
             } else {
-                jq.each(data.items, function (i, item) {
+                $.each(data.items, function (i, item) {
                     if (item.url === self.current_link && self.editor.settings.link_using_uids) {
                         self.current_link = 'resolveuid/' + item.uid;
                     }
-                    switch (jq('#general_panel .legend .current', document).attr('id')) {
-                        // TODO: use jquery dom to be sure stuff is closed
+                    switch ($('#general_panel .legend .current', document).attr('id')) {
+                        // TODO: use $uery dom to be sure stuff is closed
                         case 'listview':
                             if (item.is_folderish) {
                                 folder_html.push('<div class="list item folderish ' + (i % 2 === 0 ? 'even' : 'odd') + '">');
                                 if (self.is_link_plugin === true) {
-                                    jq.merge(folder_html, [
+                                    $.merge(folder_html, [
                                         '<input href="' + item.url + '" ',
                                             'type="radio" class="noborder" style="margin: 0; width: 16px" name="internallink" value="',
                                             'resolveuid/' + item.uid ,
@@ -854,7 +854,7 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
                                 } else {
                                     folder_html.push('<img src="img/arrow_right.png" />');
                                 }
-                                jq.merge(folder_html, [
+                                $.merge(folder_html, [
                                         item.icon,
                                         '<a href="' + item.url + '" class="folderlink contenttype-' + item.normalized_type + '">',
                                             item.title,
@@ -862,7 +862,7 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
                                     '</div>'
                                 ]);
                             } else {
-                                jq.merge(item_html, [
+                                $.merge(item_html, [
                                     '<div class="item list ' + (i % 2 === 0 ? 'even' : 'odd') + '" title="' + item.description + '">',
                                         '<input href="' + item.url + '" ',
                                             'type="radio" class="noborder" style="margin: 0; width: 16px" name="internallink" value="',
@@ -879,7 +879,7 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
                             }
 
                             if (item.is_folderish) {
-                                jq.merge(item_html, [
+                                $.merge(item_html, [
                                     '<div class="width-1:' + col_items_number + ' cell position-' + item_number % col_items_number * (16 / col_items_number) + '">',
                                         '<div class="thumbnail item folderish" title="' + item.description +  '">',
                                             '<div style="width: ' + thumb_width + 'px; height: ' + thumb_height + 'px" class="thumb">',
@@ -892,7 +892,7 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
                                     '</div>'
                                 ]);
                             } else {
-                                jq.merge(item_html, [
+                                $.merge(item_html, [
                                     '<div class="width-1:' + col_items_number + ' cell position-' + item_number % col_items_number * (16 / col_items_number) + '">',
                                         '<div class="thumbnail item" title="' + item.description +  '">',
                                             '<div style="width: ' + thumb_width + 'px; height: ' + thumb_height + 'px" class="thumb">',
@@ -918,26 +918,26 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
 
                 });
             }
-            jq.merge(html, folder_html);
-            jq.merge(html, item_html);
-            jq('#internallinkcontainer', document).html(html.join(''));
+            $.merge(html, folder_html);
+            $.merge(html, item_html);
+            $('#internallinkcontainer', document).html(html.join(''));
 
             // display shortcuts
             if (self.is_search_activated === false && self.shortcuts_html.length) {
                 
-                jqShortcutsBtn = jq('#shortcutsicon', document);
-                jqShortcutsView = jq('#shortcutsview', document);
-                jqShortcutItem = jq('#shortcutsview #item-template', document);
+                $ShortcutsBtn = $('#shortcutsicon', document);
+                $ShortcutsView = $('#shortcutsview', document);
+                $ShortcutItem = $('#shortcutsview #item-template', document);
                 
-                jqShortcutsBtn.attr('title', self.labels.label_shortcuts);
+                $ShortcutsBtn.attr('title', self.labels.label_shortcuts);
                 
-                jq.each(self.shortcuts_html, function () {
-                    jqItem = jqShortcutItem.clone();
-                    jqItem.append(''+this);
-                    jqItem.removeAttr('id');
-                    jqItem.appendTo(jqShortcutsView);
+                $.each(self.shortcuts_html, function () {
+                    $Item = $ShortcutItem.clone();
+                    $Item.append(''+this);
+                    $Item.removeAttr('id');
+                    $Item.appendTo($ShortcutsView);
                 });
-                jqShortcutItem.remove();
+                $ShortcutItem.remove();
 
             }
 
@@ -946,10 +946,10 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
             // Namespace the events so we can unbind them easily
 
             // make rows clickable
-            jq('#internallinkcontainer div.item', document)
+            $('#internallinkcontainer div.item', document)
                 .unbind('.imagebrowser')
                 .bind('click.imagebrowser', function() {
-                    var el = jq(this),
+                    var el = $(this),
                         checkbox = el.find('input');
                     if (checkbox.length > 0) {
                         checkbox.click();
@@ -961,7 +961,7 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
             // breadcrumbs
             html = [];
             len = data.path.length;
-            jq.each(data.path, function (i, item) {
+            $.each(data.path, function (i, item) {
                 if (i > 0) {
                     html.push(" &rarr; ");
                 }
@@ -972,34 +972,34 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
                     html.push('<a href="' + item.url + '">' + item.title + '</a>');
                 }
             });
-            jq('#internalpath', document).html(html.join(''));
+            $('#internalpath', document).html(html.join(''));
 
             // folder link action
-            jq('#internallinkcontainer a, #internalpath a, #shortcutsview a', document)
+            $('#internallinkcontainer a, #internalpath a, #shortcutsview a', document)
                 .unbind('.imagebrowser')
                 .bind('click.imagebrowser', function(e) {
                     e.preventDefault();
                     e.stopPropagation();
-                    self.getFolderListing(jq(this).attr('href'), self.method_folderlisting);
+                    self.getFolderListing($(this).attr('href'), self.method_folderlisting);
                 });
             // item link action
-            jq('#internallinkcontainer input:radio', document)
+            $('#internallinkcontainer input:radio', document)
                 .unbind('.imagebrowser')
                 .bind('click.imagebrowser', function (e) {
                     e.preventDefault();
                     e.stopPropagation();
-                    self.setDetails(jq(this).attr('href'));
+                    self.setDetails($(this).attr('href'));
                 });
 
             // Make the image upload form upload the image into the current container.
-            jq('#upload_form', document).attr('action', context_url + '/tinymce-upload');
+            $('#upload_form', document).attr('action', context_url + '/tinymce-upload');
 
             // Select image if we are updating existing one
             if (self.editing_existing_image === true) {
                 self.editing_existing_image = false;
                 if (self.current_link.indexOf('resolveuid/') > -1) {
                     current_uid = self.current_link.split('resolveuid/')[1];
-                    jq.ajax({
+                    $.ajax({
                         'url': self.editor.settings.portal_url + '/portal_tinymce/tinymce-getpathbyuid?uid=' + current_uid,
                         'dataType': 'text',
                         'success': function(text) {
@@ -1015,9 +1015,9 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
 
             // Handle search
             if (self.is_search_activated === true) {
-                jq('#internalpath', document).prev().text(self.labels.label_search_results);
+                $('#internalpath', document).prev().text(self.labels.label_search_results);
             } else {
-                jq('#internalpath', document).prev().text(self.labels.label_internal_path);
+                $('#internalpath', document).prev().text(self.labels.label_internal_path);
             }
         }
     });
@@ -1063,7 +1063,7 @@ BrowserDialog.prototype.getAbsoluteUrl = function (base, link) {
         item = link_array.shift();
         if (item === ".") {
             // Do nothing
-            jq.noop();
+            $.noop();
         } else if (item === "..") {
             // Remove leave node from base
             base_array.pop();
@@ -1087,86 +1087,86 @@ BrowserDialog.prototype.displayPanel = function(panel, upload_allowed) {
 
     // handle upload button
     if ((upload_allowed === true || upload_allowed === undefined) && ((panel === "browse" || panel === "details") && this.is_search_activated === false)) {
-        jq('#upload', document).attr('disabled', false).fadeTo(1, 1);
+        $('#upload', document).attr('disabled', false).fadeTo(1, 1);
     } else {
-        jq('#upload', document).attr('disabled', true).fadeTo(1, 0.5);
+        $('#upload', document).attr('disabled', true).fadeTo(1, 0.5);
     }
 
     // handle email panel
     if (panel === "email") {
-        jq('#email_panel', document).removeClass('hide');
+        $('#email_panel', document).removeClass('hide');
         // move the common link fileds to appropriate location
-        jq('#email_panel', document).append(jq('#common-link-fields', document).removeClass('hide'));
-        jq('#insert-selection', document).removeAttr('disabled');
+        $('#email_panel', document).append($('#common-link-fields', document).removeClass('hide'));
+        $('#insert-selection', document).removeAttr('disabled');
     } else {
-        jq('#email_panel', document).addClass('hide');
+        $('#email_panel', document).addClass('hide');
     }
     // handle anchor panel
     if (panel === "anchor") {
-        jq('#anchor_panel', document).removeClass('hide');
+        $('#anchor_panel', document).removeClass('hide');
         // move the common link fileds to appropriate location
-        jq('#anchorlinkcontainer', document).append(jq('#common-link-fields', document).removeClass('hide'));
-        jq('#insert-selection', document).removeAttr('disabled');
+        $('#anchorlinkcontainer', document).append($('#common-link-fields', document).removeClass('hide'));
+        $('#insert-selection', document).removeAttr('disabled');
     } else {
-        jq('#anchor_panel', document).addClass('hide');
+        $('#anchor_panel', document).addClass('hide');
     }
     // handle external panel
     if (panel === "external") {
-        jq('#external_panel', document).removeClass('hide');
+        $('#external_panel', document).removeClass('hide');
         // move the common link fileds to appropriate location
-        jq('#external-column', document).append(jq('#common-link-fields', document).removeClass('hide'));
-        jq('#insert-selection', document).removeAttr('disabled');
+        $('#external-column', document).append($('#common-link-fields', document).removeClass('hide'));
+        $('#insert-selection', document).removeAttr('disabled');
     } else {
-        jq('#external_panel', document).addClass('hide');
+        $('#external_panel', document).addClass('hide');
     }
     // show details panel, if an entry is selected
-    checkedlink = jq("input:radio[name=internallink]:checked", document);
+    checkedlink = $("input:radio[name=internallink]:checked", document);
     if ((checkedlink.length === 1) && (panel === "browse")) {
-      this.setDetails(jq(checkedlink).attr('value'));
+      this.setDetails($(checkedlink).attr('value'));
     }
     
     // handle browse panel
-    if (jq.inArray(panel, ["search", "details", "browse", "upload"]) > -1) {
-        if (jq.inArray(panel, ["upload", "details"]) > -1) {
-            jq('#browseimage_panel #general_panel', document).removeClass('width-full').addClass('width-3:4');
+    if ($.inArray(panel, ["search", "details", "browse", "upload"]) > -1) {
+        if ($.inArray(panel, ["upload", "details"]) > -1) {
+            $('#browseimage_panel #general_panel', document).removeClass('width-full').addClass('width-3:4');
         } else {
-            jq('#browseimage_panel #general_panel', document).removeClass('width-3:4').addClass('width-full');;
+            $('#browseimage_panel #general_panel', document).removeClass('width-3:4').addClass('width-full');;
         }
-        jq('#browseimage_panel', document).removeClass('hide').addClass('row');
-        jq('#insert-selection', document).attr('disabled','disabled');
-        jq('#upload-button', document).removeClass('hide');
+        $('#browseimage_panel', document).removeClass('hide').addClass('row');
+        $('#insert-selection', document).attr('disabled','disabled');
+        $('#upload-button', document).removeClass('hide');
     } else {
-        jq('#browseimage_panel', document).removeClass('row').addClass('hide');
-        jq('#upload-button', document).addClass('hide');
+        $('#browseimage_panel', document).removeClass('row').addClass('hide');
+        $('#upload-button', document).addClass('hide');
     }
     
     // handle details/preview panel
     if (panel === 'details') {
-        jq('#details_panel', document).removeClass('hide');
+        $('#details_panel', document).removeClass('hide');
         // move the common link fileds to appropriate location but only for the
         // internal link panel
-        if( jq('#internal_link:visible', document).length > 0) {
-            jq('#details-fields', document).append(jq('#common-link-fields', document).removeClass('hide'));            
+        if( $('#internal_link:visible', document).length > 0) {
+            $('#details-fields', document).append($('#common-link-fields', document).removeClass('hide'));            
         }
-        jq('#insert-selection', document).removeAttr('disabled');
+        $('#insert-selection', document).removeAttr('disabled');
     } else {
-        jq('#details_panel', document).addClass('hide');
+        $('#details_panel', document).addClass('hide');
     }
     // handle upload panel
     if (panel === "upload") {
-        jq('#addimage_panel', document).removeClass('hide');
+        $('#addimage_panel', document).removeClass('hide');
     } else {
-        jq('#addimage_panel', document).addClass('hide');
+        $('#addimage_panel', document).addClass('hide');
     }
 
     // handle external image
     if (panel === "externalimage") {
-        jq('#externalimage_panel', document).removeClass('hide');
-        jq('#insert-selection', document).removeAttr('disabled');
-        jq('#imagetitle', document).parents('.field').after(jq('#classes', document).parents('.field'));
+        $('#externalimage_panel', document).removeClass('hide');
+        $('#insert-selection', document).removeAttr('disabled');
+        $('#imagetitle', document).parents('.field').after($('#classes', document).parents('.field'));
     } else {
-        jq('#externalimage_panel', document).addClass('hide');
-        jq('#caption', document).parents('.field').after(jq('#classes', document).parents('.field'));
+        $('#externalimage_panel', document).addClass('hide');
+        $('#caption', document).parents('.field').after($('#classes', document).parents('.field'));
     }
 };
 
@@ -1198,7 +1198,7 @@ BrowserDialog.prototype.populateAnchorList = function () {
     nodes_length = nodes.length;
     if (nodes.length > 0) {
         for (i = 0; i < nodes_length; i++) {
-            title = jq(nodes[i]).text().replace(/^\s+|\s+$/g, '');
+            title = $(nodes[i]).text().replace(/^\s+|\s+$/g, '');
             if (title==='') {
               continue;
             }
@@ -1216,23 +1216,23 @@ BrowserDialog.prototype.populateAnchorList = function () {
         html = '<div class="odd">'+ this.labels.label_no_anchors +'</div>';
     }
 
-    jq('#anchorlinkcontainer', document).html(html);
+    $('#anchorlinkcontainer', document).html(html);
 };
 
 /**
  * Strip HTTP scheme from URL and set prefix accordingly
  */
 BrowserDialog.prototype.checkExternalURL = function (href) {
-    var el = jq('#externalurl', document),
+    var el = $('#externalurl', document),
         scheme = href.split('://')[0];
 
     if (href === undefined) {
-        href = jq.trim(el.val());
+        href = $.trim(el.val());
     }
 
-    if (jq.inArray(scheme, ['http', 'ftp', 'https']) > -1) {
-        jq(el).val(href.substr(scheme.length + 3, href.length));
-        jq('#externalurlprefix', document).val(scheme + '://');
+    if ($.inArray(scheme, ['http', 'ftp', 'https']) > -1) {
+        $(el).val(href.substr(scheme.length + 3, href.length));
+        $('#externalurlprefix', document).val(scheme + '://');
     }
 };
 
@@ -1240,14 +1240,14 @@ BrowserDialog.prototype.checkExternalURL = function (href) {
  * Preview webpage if url is set
  */
 BrowserDialog.prototype.previewExternalURL = function () {
-    var url = jq('#externalurl', document).val(),
-        urlprefix = jq('#externalurlprefix', document).val();
+    var url = $('#externalurl', document).val(),
+        urlprefix = $('#externalurlprefix', document).val();
 
     if (url === "") {
-        jq('#previewexternal', document).attr('src', "about:blank");
+        $('#previewexternal', document).attr('src', "about:blank");
         return "";
     } else {
-        jq('#previewexternal', document).attr('src', urlprefix + url);
+        $('#previewexternal', document).attr('src', urlprefix + url);
         return urlprefix + url;
     }
 };
@@ -1259,7 +1259,7 @@ tinyMCEPopup.onInit.add(bwrdialog.init, bwrdialog);
  * after uploadbutton was pressed
  */
 var uploadOk = function uploadOk(current_link, folder) {
-    var filefield = jq('#uploadfile', document).parent();
+    var filefield = $('#uploadfile', document).parent();
 
     // redraw input selection for better UX feeling after successful upload
     filefield.html(filefield.html());
