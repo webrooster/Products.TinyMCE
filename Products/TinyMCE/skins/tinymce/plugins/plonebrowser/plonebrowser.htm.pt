@@ -13,23 +13,22 @@
 <body id="plonebrowser">
   <div class="dialog-wrapper icons-on" id="content">
 
-        <div id="linktype_panel">
+        <div id="linktype_panel" class="hide">
             <div id="linktype">
                 <div id="internal_link" class="current">
-                    <img src="img/internal_link.png" />
                     <a href="#internal" i18n:translate="" i18n:domain="plone.tinymce">Internal</a>
                 </div>
                 <div id="external_link">
-                    <img src="img/external_link.png" />
                     <a href="#external" i18n:translate="" i18n:domain="plone.tinymce">External</a>
                 </div>
                 <div id="email_link">
-                    <img src="img/email_link.png" />
                     <a href="#email" i18n:translate="" i18n:domain="plone.tinymce">Email</a>
                 </div>
                 <div id="anchor_link">
-                    <img src="img/anchor_link.png" />
                     <a href="#anchor" i18n:translate="" i18n:domain="plone.tinymce">Anchor</a>
+                </div>
+                <div id="analytics">
+                    <a href="#analytics" i18n:translate="" i18n:domain="plone.tinymce">Google Analytics</a>
                 </div>
             </div>
         </div>
@@ -47,9 +46,6 @@
                 <div class="legend">
                     <a id="listview" href="" title="List view" i18n:attributes="title" i18n:domain="plone.tinymce"><img src="img/display_list.png" /></a>
                     <a id="thumbview" href="" title="Thumbnail view" class="current" i18n:attributes="title" i18n:domain="plone"><img src="img/display_thumbs.png" /></a>
-                </div>
-                <div class="action-icons">
-                    <a id="shortcutsicon" href="" title="Shortcuts" i18n:translate=""><img src="img/star.png" /></a>
                 </div>
                 <div id="shortcutsview">
                     <div id="item-template" class="shortcut"></div>
@@ -253,6 +249,32 @@
                 </div>
             </div>
 
+        </div>
+        <div id="analytics_panel" class="hide">
+            <h2 i18n:domain="plone.tinymce" i18n:translate="">Tracking Code Information</h2>
+            <div class="field">
+                <label for="analyticscategory" i18n:translate="plonebrowser_analytics_category">Category</label>
+                <div class="widget">
+                  <input type="text" id="analyticscategory" name="analyticscategory" value="" size="40" />
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="analyticsactions" i18n:translate="plonebrowser_analytics_action">Action</label>
+                <div class="widget">
+                  <input type="text" id="analyticsactions" name="analyticsactions" value="" size="40" />
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="analyticslabel" i18n:domain="plone.tinymce" i18n:translate="">Label</label>
+                <div class="widget">
+                    <input type="text" name="analyticslabel" id="analyticslabel" value="" size="40" />
+                </div>
+            </div>
+            <p id="ga_helptext">
+            </p>
+            <a href="#" class="hide" id="camefrom"></a>
         </div>
 
         <div class="visualClear"><!-- --></div>
