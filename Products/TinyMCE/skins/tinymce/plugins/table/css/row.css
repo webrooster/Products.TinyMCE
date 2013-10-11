@@ -1,11 +1,7 @@
 /* CSS file for row dialog in the table plugin */
 
-#content.dialog-wrapper {
-    font-size: 80%;
-}
-
 .panel_wrapper div.current {
-	height: 115px;
+	height: 150px;
 }
 
 .advfield {

@@ -349,7 +349,8 @@ function init() {
 	TinyMCE_EditableSelects.init();
 
 	if (action == "insert") {
-		className = "plain";
+                // FHNW patch: use "fhnw_standard" instead of plain
+		className = "fhnw_standard";
 	}
 
 	// Update form

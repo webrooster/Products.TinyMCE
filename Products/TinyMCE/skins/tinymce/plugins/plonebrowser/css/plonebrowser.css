@@ -44,7 +44,7 @@
 .action-icons #shortcutsicon { border: none!important; }
 .action-icons #shortcutsicon img { padding: 1px 3px 3px; border: 1px solid #FFF; }
 .action-icons #shortcutsicon.selected img { border: 1px solid #CCC; }
-#shortcutsview { display: none; clear: both; margin-bottom: 8px; }
+#shortcutsview { clear: both; margin-bottom: 8px; }
 #shortcutsview .shortcut { display: inline; margin-right: 10px; }
 .input-border { border: none!important; }
 .browser-separator { background-color: #F6F6F6; margin-bottom: 0.5em; }

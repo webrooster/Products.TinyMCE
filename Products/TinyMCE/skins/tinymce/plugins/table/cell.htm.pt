@@ -13,14 +13,6 @@
 <body id="tablecell" role="application">
 	<div class="dialog-wrapper" id="content">
 		<form onsubmit="updateAction();return false;" action="#">
-			<div class="tabs">
-            <ul class="formTabs">
-							<li id="general_tab" class="current formTab firstFormTab" aria-controls="general_panel">
-								<span><a href="javascript:mcTabs.displayTab('general_tab','general_panel');" onmousedown="return false;" class="selected" i18n:translate="table_dlg_general_tab"></a></span></li>
-							<li id="advanced_tab" class="formTab lastFormTab" aria-controls="advanced_panel">
-								<span><a href="javascript:mcTabs.displayTab('advanced_tab','advanced_panel');" onmousedown="return false;" i18n:translate="table_dlg_advanced_tab"></a></span></li>
-            </ul>
-			</div>
 
 			<div class="panel_wrapper">
 				<div id="general_panel" class="panel current">
@@ -41,7 +33,7 @@
     						</div>
 						</div>
 
-						<!-- comment out due to Plone bug, fix by setting class tag -->
+                                               <!-- comment out due to Plone bug, fix by setting class tag -->
 						<div class="field" style="display: none">
                                                         <!-- align is not used in form but the JS depends on it -->
                               				<input id="align" name="align" type="hidden" value="" />
@@ -55,22 +47,6 @@
 								</select>
 							</div>
 						</div>
-
-						<div class="field">
-							<label for="scope" i18n:translate="table_dlg_scope"></label>
-							<div class="widget">
-								<select id="scope" name="scope">
-									<option value="" i18n:translate="common_not_set"></option>
-									<option value="col" i18n:translate="table_col">Column</option>
-									<option value="row" i18n:translate="table_row">Row</option>
-								</select>
-							</div>
-						</div>
-					</fieldset>
-				</div>
-
-				<div id="advanced_panel" class="panel">
-					<fieldset class="formPanel">
 						<div class="field" role="presentation">
 							<label for="action" i18n:translate="table_dlg_cell_title"></label>
 							<div class="widget">
@@ -96,6 +72,10 @@
 				<div id="bordercolor_pickcontainer"></div>
 				<input id="bgcolor" name="bgcolor" type="text" value="" />
 				<div id="bgcolor_pickcontainer"></div>
+
+                               <!-- not used by FHNW but necessary for plugin JS -->
+                               <input id="scope" name="scope" type="hidden" value="" />
+
 			</div>
 
 			<div class="visualClear"><!-- --></div>
