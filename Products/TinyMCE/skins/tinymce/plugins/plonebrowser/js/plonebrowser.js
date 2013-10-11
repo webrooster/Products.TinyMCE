@@ -11,6 +11,10 @@
  *
  * @param mcePopup Reference to a corresponding TinyMCE popup object.
  */
+
+//TODO: change for g_analytics
+var G_ANALYTICS_ATTR = 'rel';
+
 var BrowserDialog = function (mcePopup) {
     var image_list_url, link_list_url;
 
@@ -76,6 +80,23 @@ BrowserDialog.prototype.init = function () {
     this.method_search = this.is_link_plugin ? 'tinymce-jsonlinkablesearch' : 'tinymce-jsonimagesearch';
     this.shortcuts_html = this.is_link_plugin ? self.editor.settings.link_shortcuts_html : self.editor.settings.image_shortcuts_html;
 
+    // display shortcuts
+    if (self.is_search_activated === false && self.shortcuts_html.length) {
+        
+        jqShortcutsView = jq('#shortcutsview', document);
+        jqShortcutItem = jq('#shortcutsview #item-template', document);
+        
+        jq.each(self.shortcuts_html, function () {
+            jqItem = jqShortcutItem.clone();
+            jqItem.append(''+this);
+            jqItem.removeAttr('id');
+            jqItem.appendTo(jqShortcutsView);
+        });
+        jqShortcutItem.remove();
+
+        jqShortcutsView.show();
+    }
+    
     // Setup events
     jq('#insert-selection', document).click(function (e) {
         e.preventDefault();
@@ -92,6 +113,11 @@ BrowserDialog.prototype.init = function () {
     jq('#upload', document).click(function (e) {
         e.preventDefault();
         self.displayPanel('upload');
+    });
+    jq('#analytics', document).click(function (e) {
+        e.preventDefault();
+        jq('#ga_helptext', document).text(self.editor.settings.ga_helptext);
+        self.displayPanel('analytics');
     });
     jq('#uploadbutton', document).click(function (e) {
         e.preventDefault();
@@ -112,12 +138,6 @@ BrowserDialog.prototype.init = function () {
     jq('#search-btn', document).click(function (e) {
         e.preventDefault();
         self.checkSearch(e);
-    });
-    // handle shortcuts button
-    jq("#shortcutsicon", document).click(function (e) {
-        e.preventDefault();
-        jq(this).toggleClass('selected');
-        jq('#shortcutsview', document).toggle();
     });
 
     // handle different folder listing view types
@@ -196,6 +216,25 @@ BrowserDialog.prototype.init = function () {
             // setup form data
             if ((typeof(selected_node.attr('title')) !== "undefined")) {
                 jq('#title', document).val(selected_node.attr('title'));
+            }
+
+            if ((typeof(selected_node.attr(G_ANALYTICS_ATTR)) !== "undefined")) {
+                var g_analytics = selected_node.attr(G_ANALYTICS_ATTR).split("|");
+
+                if (g_analytics[0] == '_trackEvent') {
+                    // category
+                    if (typeof(g_analytics[1]) !== 'undefined') {
+                      jq('#analyticscategory', document).val(g_analytics[1]);
+                    }
+                    // action
+                    if (typeof(g_analytics[2]) !== 'undefined') {
+                      jq('#analyticsactions', document).val(g_analytics[2]);
+                    }
+                    // label
+                    if (typeof(g_analytics[3]) !== 'undefined') {
+                      jq('#analyticslabel', document).val(g_analytics[3]);
+                    }
+                }
             }
 
             // determine link type
@@ -445,7 +484,7 @@ BrowserDialog.prototype.parseImageScale = function (url) {
 /**
  * Given DOM node and href value, setup all node attributes/properies
  */
-BrowserDialog.prototype.setLinkAttributes = function (node, link) {
+BrowserDialog.prototype.setLinkAttributes = function (node, link, analytics_extra) {
     var panelname = jq('#linktype .current a', document).attr('href');
 
     jq(node)
@@ -456,6 +495,12 @@ BrowserDialog.prototype.setLinkAttributes = function (node, link) {
         .attr('style', jq('#cssstyle', document).val())
         .removeClass('internal-link external-link anchor-link mail-link')
         .addClass(panelname.substr(1, panelname.length) + '-link');
+    if (analytics_extra[0] != "") {
+        jq(node).attr(G_ANALYTICS_ATTR,"_trackEvent|"+ analytics_extra[0] +
+            "|" + analytics_extra[1] + "|" + analytics_extra[2] + "|");
+    } else {
+        jq(node).removeAttr(G_ANALYTICS_ATTR);
+    }
 };
 
 
@@ -537,6 +582,10 @@ BrowserDialog.prototype.insertLink = function () {
         return;
     }
 
+    analytics_extra = [jq("#analyticscategory", document).val(), 
+                       jq("#analyticsactions", document).val(), 
+                       jq("#analyticslabel", document).val()];
+
     this.tinyMCEPopup.execCommand("mceBeginUndoLevel");
 
     if (selected_node === null) {
@@ -560,11 +609,11 @@ BrowserDialog.prototype.insertLink = function () {
             return self.editor.dom.getAttrib(n, 'href') === '#mce_temp_url#';
         });
         for (i = 0; i < elementArray.length; i++) {
-            this.setLinkAttributes(selected_node = elementArray[i], link);
+            this.setLinkAttributes(selected_node = elementArray[i], link, analytics_extra);
         }
     } else {
         // Update attributes
-        this.setLinkAttributes(selected_node, link);
+        this.setLinkAttributes(selected_node, link, analytics_extra);
     }
 
     // Don't move caret if selection was image
@@ -931,26 +980,7 @@ BrowserDialog.prototype.getFolderListing = function (context_url, method) {
             jq.merge(html, item_html);
             jq('#internallinkcontainer', document).html(html.join(''));
 
-            // display shortcuts
-            if (self.is_search_activated === false && self.shortcuts_html.length) {
-
-                jqShortcutsBtn = jq('#shortcutsicon', document);
-                jqShortcutsView = jq('#shortcutsview', document);
-                jqShortcutItem = jq('#shortcutsview #item-template', document);
-
-                jqShortcutsBtn.attr('title', self.labels.label_shortcuts);
-
-                jq.each(self.shortcuts_html, function () {
-                    jqItem = jqShortcutItem.clone();
-                    jqItem.append(''+this);
-                    jqItem.removeAttr('id');
-                    jqItem.appendTo(jqShortcutsView);
-                });
-                jqShortcutItem.remove();
-
-            }
-
-            // Each time this function is called, a new event handler is created,
+           // Each time this function is called, a new event handler is created,
             // so we need to unbind all of them before continueing.
             // Namespace the events so we can unbind them easily
 
@@ -1128,6 +1158,14 @@ BrowserDialog.prototype.displayPanel = function(panel, upload_allowed) {
     } else {
         jq('#external_panel', document).addClass('hide');
     }
+    // handle analytics panel
+    if (panel === "analytics") {
+        jq('#analytics_panel', document).removeClass('hide');
+        jq('#insert-selection', document).attr('disabled', 'disabled');
+    } else {
+        jq('#analytics_panel', document).addClass('hide');
+    }
+
     // show details panel, if an entry is selected
     checkedlink = jq("input:radio[name=internallink]:checked", document);
     if ((checkedlink.length === 1) && (panel === "browse")) {
