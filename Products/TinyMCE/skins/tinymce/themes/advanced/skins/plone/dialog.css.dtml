@@ -8,7 +8,7 @@ background: transparent;
 
 /* Override #content styles (dialog body padding) from plone.css with more accurate selector */
 .dialog-wrapper#content {
-font-size: 110%;
+font-size: 80%;
 padding: 1em 1em 0em 1em;
 background: white;
 margin: 0!important;
@@ -106,7 +106,6 @@ margin-left: 0.5em;
 #internallinkcontainer .list.item span,
 #internallinkcontainer .list.item a {
 position: absolute;
-white-space: nowrap;
 }
 
 /* InputPanel */
@@ -143,3 +142,19 @@ font-weight: normal;
 }
 
 .verticalborder { height: 330px; width: 0px; border-right: 0.1em solid #329FD7; margin: 10px 20px 10px 20px }
+
+#internal_link img {
+    display: none;
+}
+
+#external_link img {
+    display: none;
+}
+
+#email_link img {
+    display: none;
+}
+
+#anchor_link img {
+    display: none;
+}
