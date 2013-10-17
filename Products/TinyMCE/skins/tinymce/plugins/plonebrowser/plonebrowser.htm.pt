@@ -11,9 +11,9 @@
   <link rel="stylesheet" type="text/css" tal:attributes="href string:${portal_url}/portal_css/columns.css" />
 </head>
 <body id="plonebrowser">
-  <div class="dialog-wrapper icons-on" id="content">
+  <div class="dialog-wrapper" id="content">
 
-        <div id="linktype_panel" class="hide">
+        <div id="linktype_panel">
             <div id="linktype">
                 <div id="internal_link" class="current">
                     <a href="#internal" i18n:translate="" i18n:domain="plone.tinymce">Internal</a>
@@ -319,7 +319,6 @@
                     <input type="text" name="cssstyle" id="cssstyle" value="" size="40" />
                 </div>
             </div>
-         
             <form name="replacefile_form" id="replacefile_form" method="post" target="upload_iframe" enctype="multipart/form-data">
             <div id="link-replace">
                 <label for="replacefile" i18n:domain="plone.tinymce" i18n:translate="">Replace with another file</label>
@@ -330,6 +329,8 @@
                             i18n:attributes="value" i18n:domain="plone.tinymce" />
             </div>
         </form>
+
+         
 
         </div>
 
