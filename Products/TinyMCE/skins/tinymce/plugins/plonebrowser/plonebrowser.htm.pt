@@ -116,6 +116,17 @@
                             </select>
                         </div>
                     </div>
+            <form name="replacefile_form" id="replacefile_form" method="post" target="upload_iframe" enctype="multipart/form-data">
+            <div id="link-replace">
+                <label for="replacefile" i18n:domain="plone.tinymce" i18n:translate="">Replace with another file</label>
+                <div class="widget">
+                  <input type="file" name="uploadfile" id="replacefile" size="14" />
+                </div>
+                <input type="button" id="replacebutton" class="context plonebutton" name="replacebutton" value="Replace"
+                            i18n:attributes="value" i18n:domain="plone.tinymce" />
+            </div>
+        </form>
+
 
                 </div>
             </div>
@@ -272,8 +283,6 @@
                     <input type="text" name="analyticslabel" id="analyticslabel" value="" size="40" />
                 </div>
             </div>
-            <p id="ga_helptext">
-            </p>
             <a href="#" class="hide" id="camefrom"></a>
         </div>
 
@@ -319,17 +328,6 @@
                     <input type="text" name="cssstyle" id="cssstyle" value="" size="40" />
                 </div>
             </div>
-            <form name="replacefile_form" id="replacefile_form" method="post" target="upload_iframe" enctype="multipart/form-data">
-            <div id="link-replace">
-                <label for="replacefile" i18n:domain="plone.tinymce" i18n:translate="">Replace with another file</label>
-                <div class="widget">
-                  <input type="file" name="uploadfile" id="replacefile" size="14" />
-                </div>
-                <input type="button" id="replacebutton" class="context plonebutton" name="replacebutton" value="Replace"
-                            i18n:attributes="value" i18n:domain="plone.tinymce" />
-            </div>
-        </form>
-
          
 
         </div>

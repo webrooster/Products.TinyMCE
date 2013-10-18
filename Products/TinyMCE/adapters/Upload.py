@@ -27,7 +27,7 @@ else:
 TEMPLATE = """
 <html>
 <head></head>
-<body onload="%s"></body>
+<body onload="window.parent.%s(%s)"></body>
 </html>
 """
 
@@ -45,17 +45,20 @@ class Upload(object):
 
     def errorMessage(self, msg):
         """Returns an error message"""
-        script = TEMPLATE % (
-            "window.parent.uploadError('" + msg.replace("'", "\\'") + "');")
-        return script
+        return self.jsMessage('uploadError')
+
+    def jsMessage(self, meth, *args):
+        """Returns an ok message"""
+        if args:
+            args = "', '".join([arg.replace("'", "\\'") for arg in args])
+            args = "'%s'" % args
+        else:
+            args = ''
+        return TEMPLATE % (meth, args)
 
     def okMessage(self, path, folder):
         """Returns an ok message"""
-        script = TEMPLATE % (
-            "window.parent.uploadOk('" + \
-            path.replace("'", "\\'") + "', '" + \
-            folder.replace("'", "\\'") + "');")
-        return script
+        return self.jsMessage('uploadOk', path, folder)
 
     def cleanupFilename(self, name):
         """Generate a unique id which doesn't match	the system generated ids"""
@@ -91,9 +94,12 @@ class Upload(object):
                 return self.errorMessage(
                     _("The content-type '%s' has no image-field!" % metatype))
         else:
+            form = self.context.REQUEST
+            if not 'uploadfile' in form:
+                return self.errorMessage("Could not find file in request")
             # set primary field
             pf = obj.getPrimaryField()
-            pf.set(obj, self.context.REQUEST['uploadfile'])
+            pf.set(obj, form['uploadfile'])
 
         if not obj:
             return self.errorMessage("Could not upload the file")
@@ -109,6 +115,7 @@ class Upload(object):
     def replacefile(self):
         context = aq_inner(self.context)
         self._setfile(context)
+        return self.jsMessage('replaceOk')
 
     def upload(self):
         """Adds uploaded file.

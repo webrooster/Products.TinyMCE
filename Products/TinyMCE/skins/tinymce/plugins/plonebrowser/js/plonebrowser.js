@@ -116,7 +116,6 @@ BrowserDialog.prototype.init = function () {
     });
     jq('#analytics', document).click(function (e) {
         e.preventDefault();
-        jq('#ga_helptext', document).text(self.editor.settings.ga_helptext);
         self.displayPanel('analytics');
     });
     jq('#uploadbutton', document).click(function (e) {
@@ -1334,4 +1333,9 @@ var uploadOk = function uploadOk(current_link, folder) {
 var uploadError = function uploadError(current_link) {
     alert(current_link);
     // TODO: display ajax panel instead of alert
+};
+
+var replaceOk = function replaceOk() {
+    // TODO: clean file field
+    alert('Datei erfolgreich ausgetauscht!');
 };
