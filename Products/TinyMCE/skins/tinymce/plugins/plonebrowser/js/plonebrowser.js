@@ -1228,6 +1228,10 @@ BrowserDialog.prototype.displayPanel = function(panel, upload_allowed) {
         jq('#externalimage_panel', document).addClass('hide');
         jq('#caption', document).parents('.field').after(jq('#classes', document).parents('.field'));
     }
+    jq('#replacebutton', document).prop("disabled", true);
+    jq('#replacefile', document).change(function(){
+        jq('#replacebutton', document).prop("disabled", false);
+    });
 };
 
 // Link type methods
