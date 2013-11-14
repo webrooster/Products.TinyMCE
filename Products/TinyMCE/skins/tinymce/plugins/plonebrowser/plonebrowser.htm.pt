@@ -11,7 +11,7 @@
   <link rel="stylesheet" type="text/css" tal:attributes="href string:${portal_url}/portal_css/columns.css" />
 </head>
 <body id="plonebrowser">
-  <div class="dialog-wrapper" id="content">
+  <div class="dialog-wrapper icons-on" id="content">
 
         <div id="linktype_panel">
             <div id="linktype">
